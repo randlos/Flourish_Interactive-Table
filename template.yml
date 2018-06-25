@@ -1,0 +1,114 @@
+id: Oneliner
+name: BILD Simple Chart Template
+description: A Flourish/BILD Simple Chart Template
+author: Mario Stauber
+sdk_version: 3
+setHeight: 705
+build:
+  src:
+    script: npm run build
+    directory: src
+    files:
+      - rollup.config.js
+  less:
+    script: npm run less
+    directory: less
+settings: 
+  - Allgemeine Optionen Line-Chart # Headings can be used to break up the settings into collapsible sections
+  - property: Label_Beschriftung
+    name: Legenden-Name
+    description: Beschriftung der Legende
+    type: string
+  - property: Haupt_Farbe 
+    name: Haupt-Farbe
+    description: Die Farbe kann frei gewählt werden (in rgba(0,0,0,0) oder Hex-Code)
+    type: string
+    choices:
+      -
+        - Bild-Rot
+        - rgba(211, 45, 32, 1)
+      -
+        - Grün dunkel
+        - darkGreen
+      - 
+        - Blau
+        - Blue
+      - 
+        - Blau dunkel
+        - darkBlue
+    choices_other: true
+  - property: filled_chart
+    name: Fläche unterhalb des Line-Charts füllen
+    description: Die Farbe kann frei gewählt werden (in rgba(0,0,0,0) oder Hex-Code)
+    type: string
+    choices:
+      -
+        - Transparent
+        - transparent
+      - 
+        - BILD-Rot - transparent
+        - rgba(211, 45, 32, 0.8)
+      -
+        - Bild-Rot - vollfarbe
+        - Haupt_Farbe
+      -
+        - Blau
+        - "#42A8CC"
+    choices_other: true
+  - property: Tooltips_On
+    name: Tooltips/Pop-Ups der Datenpunkte aktivieren
+    type: boolean
+  - property: Punkt_Radius
+    name: Radius Daten-Punkte
+    type: number
+  - property:  weiche_kurve
+    name: Weiche Kurve
+    type: boolean
+  - Optionen Highlights / Ereignisse
+  - property: position_highlight_kasten
+    name: Position Highlight Kasten
+    description: top, bottom, left, right, center
+    type: string
+    choices:
+      - top 
+      - bottom
+      - left
+      - right
+  - property: align_textbox_text
+    name: Text Align Text im Highlight-Kasten
+    type: string
+    choices:
+      - left
+      - right
+      - center
+  - property: Punkt_Highlight_Radius
+    name: Radius Highlight-Punkte
+    type: number
+  - property: offset_textbox
+    name: Abstand zwischen Punkt und Textkasten
+    type: number
+  - property: farbe_highlight_punkte
+    name: Farbe Highlight Daten-Punkte
+    type: color
+  
+data:
+  - Data
+  - name: datum_schlusskurs
+    description: Datum des Schlusskurses
+    dataset: kurs
+    key: datum_schlusskurs
+    type: column
+    column: 'Data::A'
+    datatype: number
+  - name: schlusskurs
+    dataset: kurs
+    key: schlusskurs
+    type: column
+    column: 'Data::B'
+    datatype: number
+  - name: highlights
+    dataset: kurs
+    key: highlights
+    type: column
+    column: 'Data::C'
+    datatype: string
