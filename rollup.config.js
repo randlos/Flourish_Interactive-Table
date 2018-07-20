@@ -8,8 +8,8 @@ export default {
     format: "iife",
     name: "template",
     file: "template.js",
-    sourcemap: true,
-  },
+    sourcemap: true
+    },
   plugins: [
     nodeResolve(),
     uglify(),
@@ -26,14 +26,15 @@ export default {
       //extensions: [ '.js', '.coffee' ],  // Default: [ '.js' ]
 
       // if true then uses of `global` won't be dealt with by this plugin
-      ignoreGlobal: false,  // Default: false
+      ignoreGlobal: true,  // Default: false
 
       // if false then skip sourceMap generation for CommonJS modules
-      sourceMap: false,  // Default: true
+      sourceMap: true,  // Default: true
 
       // explicitly specify unresolvable named exports
       // (see below for more details)
-      namedExports: { './module.js': ['foo', 'bar' ] },  // Default: undefined
+      
+      //namedExports: { './module.js': ['foo', 'bar' ] },  // Default: undefined
 
       // sometimes you have to leave require statements
       // unconverted. Pass an array containing the IDs

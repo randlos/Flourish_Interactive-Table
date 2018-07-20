@@ -1,7 +1,7 @@
 {
-  "name": "derschnelledax",
-  "version": "0.0.9",
-  "description": "A template for simple linecharts built with chart.js for use on flourish.studio",
+  "name": "tabletom",
+  "version": "0.0.1",
+  "description": "A template for interactive tables",
   "main": "template.js",
   "author": "Mario Stauber",
   "license": "ISC",
@@ -14,15 +14,15 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "chart.js": "^2.7.2",
-    "chartjs-plugin-datalabels": "^0.3.0",
     "commonjs": "0.0.1",
     "less": "^3.0.1",
     "less-plugin-clean-css": "^1.5.1",
+    "require": "^2.4.20",
     "requirejs": "^2.3.5",
     "rollup": "^0.58.2",
     "rollup-plugin-commonjs": "^9.1.3",
     "rollup-plugin-node-resolve": "^3.3.0",
-    "rollup-plugin-uglify": "^3.0.0"
+    "rollup-plugin-uglify": "^3.0.0",
+    "datatables": "^1.10.19"
   }
 }

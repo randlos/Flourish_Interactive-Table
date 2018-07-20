@@ -3,6 +3,7 @@
     "node": true
   },
   "globals": {},
+
   "rules": {
     "no-eval": 2,
     "no-use-before-define": [
