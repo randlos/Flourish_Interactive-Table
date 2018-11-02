@@ -13,26 +13,65 @@ build:
   less:
     script: npm run less
     directory: less
+
 settings: 
-  - Allgemeine Optionen Line-Chart # Headings can be used to break up the settings into collapsible sections
+  - BEI JEDER ÄNDERUNG BESTÄTIGEN UND BROWSER MIT CMD+R NEU LADEN
+
+  - property: sortingColumn
+    name: Spalte zur initialen Sortierung
+    description: Nach welcher Spalte soll initial sortiert werden
+    type: string
+
+  - property: sortingOrder
+    name: Sortierungs-Reihenfolge
+    description: Wie soll sortiert werden? Ab- oder Aufsteigend?
+    type: string
+    choices:
+      - 
+        - Aufsteigend
+        - asc
+      -
+        - Absteigend
+        - desc
+
+  - property: numberOfEntries
+    name: Zahl der angezeigten Einträge
+    description: 10, 20, 30? Wie viele Einträge sollen auf der ersten Tabellen-Seite angezeigt werden?
+    type: number
+
+  - property: layout
+    name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
+    type: string
+    choices:
+      -
+        - Standart-Layout für Interaktiv
+        - fptir
+      - 
+        - Layout ohne Pagination
+        - ftir
+      - 
+        - Layout ohne Pagination und ohne Zusatzinfos
+        - ftr
+      -
+        - Layout ohne Zusatzinfos
+        - fptr
+      -
+        - Layout für statischen Grafik-Export (nur Tabelle, ohne Suche)
+        - tr
   
+  # - Tabelle neu laden
+  # - property: reload
+  #   name: Neu laden
+  #   type: number
+  #   choices:
+  #     -
+  #       - Speichern
+  #       - 1
+
 data:
    - Data
-   - name: Daten für interaktive Tabelle
+   - name: Daten
      dataset: Data
      key: values
      type: columns
      columns: Data::A-F
-
-#   - name: schlusskurs
-#     dataset: kurs
-#     key: schlusskurs
-#     type: column
-#     column: 'Data::B'
-#     datatype: number
-#   - name: highlights
-#     dataset: kurs
-#     key: highlights
-#     type: column
-#     column: 'Data::C'
-#     datatype: string
