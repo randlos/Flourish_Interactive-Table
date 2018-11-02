@@ -1,0 +1,2 @@
+"less": "lessc --plugin=less-plugin-clean-css --source-map less/style.less static/style.css",
+"scss-compile": "node-sass -rw scss/style.scss -o static/style.css",

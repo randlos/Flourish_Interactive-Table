@@ -1,0 +1,29 @@
+/* Styles go in this file. */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Gotham XNarrow","Avenir Next Condensed",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;
+    transition: background-color .5s ease;
+    overflow: hidden;
+    background: black;
+}
+
+#vue-tables-options {
+    text-align: center;
+  }
+  
+  table {
+    text-align: left;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  thead tr:nth-child(2) th {
+    font-weight: normal;
+  }
+  
+
+
