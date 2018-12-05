@@ -19,41 +19,32 @@ body, html {
   border:0;
 }
 
-#myTable th {
-  text-align: left;
-  border-bottom: 0;
-}
-
-#myTable th.sorting {
-  background: @grey;
-}
-
-#myTable th.sorting_asc {
+.dataTables_scrollHead {
   background: @red;
   color: @basic;
 }
 
-#myTable th.sorting_asc:after {
-  display: inline;
-  float: right;
-  content: "";
-  //font-size: 10px;
-  bottom: 0;
-  right: 0;
-  margin: 5px 5px 0 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 6px 7px;
-  border-color: transparent transparent #fff transparent;
+th.sorting {
+  text-align: left;
+}
+
+th.sorting_asc {
+  background: green;
+}
+
+th.sorting_desc {
+  background: black;
+}
+
+th.sorting_asc {
 
 }
 
-#myTable th.sorting_desc:after {
-  display: inline;
-  float: right;
+.dataTables_scrollHead th.sorting.sorting_asc::after {
+  //display: inline;
+  // float: right;
   content: "";
-  //font-size: 10px;
+  //color: @basic;
   bottom: 0;
   right: 0;
   margin: 5px 5px 0 0;
@@ -62,12 +53,93 @@ body, html {
   border-style: solid;
   border-width: 0 6px 7px;
   border-color: transparent transparent #fff transparent;
+  
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+
+th.sorting.sorting_desc::after {
+  //display: inline;
+  // float: right;
+  content: "";
+  color: @basic;
+  bottom: 0;
+  right: 0;
+  margin: 5px 5px 0 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 7px;
+  border-color: transparent transparent #fff transparent;
+}
+
+
+th {
+  border: none;
+}
+
+#myTable tr {
+  text-align:left;
+}
+
+#myTable th {
+  text-align: left;
+  border-bottom: 0;
+}
+
+#myTable td:first-child {
+  text-align: center;
+}
+
+// #myTable th.sorting {
+//   background: @grey;
+//   height: 50px !important;
+// }
+
+// #myTable th.sorting_asc {
+//   background: @red;
+//   color: @basic;
+//   opacity: 0.5%;
+// }
+
+// #myTable th.sorting_asc:after {
+//   display: inline;
+//   float: right;
+//   content: "";
+//   //font-size: 10px;
+//   bottom: 0;
+//   right: 0;
+//   margin: 5px 5px 0 0;
+//   width: 0;
+//   height: 0;
+//   border-style: solid;
+//   border-width: 0 6px 7px;
+//   border-color: transparent transparent #fff transparent;
+
+// }
+
+// #myTable th.sorting_desc:after {
+//   display: inline;
+//   float: right;
+//   content: "";
+//   //font-size: 10px;
+//   bottom: 0;
+//   right: 0;
+//   margin: 5px 5px 0 0;
+//   width: 0;
+//   height: 0;
+//   border-style: solid;
+//   border-width: 0 6px 7px;
+//   border-color: transparent transparent #fff transparent;
+//   -webkit-transform: rotate(180deg);
+//   -moz-transform: rotate(180deg);
+//   -ms-transform: rotate(180deg);
+//   -o-transform: rotate(180deg);
+//   transform: rotate(180deg);
+// }
 
 
 #myTable th.sorting_desc {
@@ -133,33 +205,40 @@ body, html {
 // Pagination
 
 #myTable_paginate {
-  float:right;
+  //float:left;
+  //display: block;
+  //position: relative;
+  clear: left;
 }
 
 #myTable_paginate a {
-  border-right: 1px solid black;
-  padding:1rem;
-  margin:0;
-  line-height: 19px;
+  // padding:1rem;
+  // margin:0;
+  text-align: left;
 }
 
 #myTable_paginate a:hover {
-  border: 0;
-  border-right: 1px solid black;
-  background: none;
+
   color: @basic;
   background: black;
 }
 
+#myTable_paginate .paginate_button {
+  //border:none;
+  // border: 1px solid black;
+  // border-radius: 5px;
+  // border-width: 1px;
+  // border-color: @grey;
+}
+
 #myTable_paginate .paginate_button.current {
-  border: 0;
-  border-right: 1px solid black;
   background: @red;
   color: @basic !important;
+  // margin: 5px;
 }
 
 #myTable_paginate .paginate_button.next {
-  border: 0;
+
 }
 
 
@@ -186,46 +265,14 @@ body, html {
 
 // Responsive
 
-// #myTable_info td.sorting_1:before {
-//   top: 9px;
-//     left: 4px;
-//     height: 14px;
-//     width: 14px;
-//     display: block;
-//     position: absolute;
-//     color: white;
-//     border: 2px solid white;
-//     border-radius: 25x;
-//     box-shadow: 0 0 3px #444;
-//     box-sizing: content-box;
-//     text-align: center;
-//     text-indent: 0 !important;
-//     font-family: 'Courier New', Courier, monospace;
-//     line-height: 14px;
-//     content: '+';
-//     background-color: black;
-// }
-
-
-
-// table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
-//   background-color: @red !important;
-//   border-radius: 25x !important;
-//   height: 18px !important;
-//   width: 18px !important;
-//   content: "+" !important;
-//   border-radius: 0 !important;
-//   line-height: 18px !important;
-// }
-
 #myTable td.sorting_1::before {
   background: @red;
   border: 0;
   box-shadow: none;
 
-  height: 25px;
-  width: 25px;
-  line-height: 25px;
+  height: 20px;
+  width: 20px;
+  line-height: 22px;
   left: 2px;
 
   font-size: 1.7em;
@@ -236,9 +283,9 @@ body, html {
   border: 0;
   box-shadow: none;
 
-  height: 25px;
-  width: 25px;
-  line-height: 25px;
+  height: 20px;
+  width: 20px;
+  line-height: 22px;
   left: 2px;
 
   font-size: 1.7em;
@@ -246,3 +293,11 @@ body, html {
 
 
 // table.dataTable.dtr-inline.collapsed 
+
+
+// Buttons for Column-Comparsion
+
+div.dt-buttons {
+  padding: 5px;
+
+}

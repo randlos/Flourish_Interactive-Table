@@ -36,8 +36,6 @@ let state = {
     dielinke_farbe: '#a00163',
     sonstige_parteien_farbe: '#c5cad0',
     nichtwahler_farbe: '#dce1e0',
-
-
     
   
    };

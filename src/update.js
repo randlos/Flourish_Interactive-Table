@@ -80,9 +80,32 @@ function update() {
     }
     
     
-    var table = $('#myTable').dataTable( {
+    
+    let table = $('#myTable').dataTable( {
         data: data.Data.map(e => e.values),
+        // colReorder: {
+        //     enable: true,
+        //     order: [ 5, 4, 3, 2, 1, 0 ],
+        //     realtime: false,
+
+        // },
+        "drawCallback": function( settings ) {
+            var api = new $.fn.dataTable.Api( settings );
+ 
+            // Output the data for the visible rows to the browser's console
+            // You might do something more useful with it!
+            console.log( api.rows( {page:'current'} ).data().table );
+            
+            // $('#mySearch').on( 'keyup', function () {
+            //     table.search( this.value );
+            // } );
+        },
         "dom": state.layout,
+        // buttons: [
+        //     {
+        //         extend: 'columnsToggle',
+        //     }
+        // ],
         responsive: true,
         "columnDefs" : [{
             "targets": 0,
@@ -97,6 +120,9 @@ function update() {
                 }
               },
         }],
+        "paging": false,
+        "scrollY": "500px",
+        //"scrollCollapse": true,
         "pageLength":state.numberOfEntries,
         "order": [tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder], 
         columns: c_names(),
@@ -105,11 +131,13 @@ function update() {
         }
     });
 
-    
 
-    $(document).ready( function () {
-        //table.draw();
-    } );
+
+
+
+    // $(document).ready( function () {
+    //     // table.draw();
+    // } );
     
     
     // .map(function(d) { return comma_to_point(d.schlusskurs) })
