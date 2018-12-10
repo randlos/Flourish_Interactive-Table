@@ -71,7 +71,7 @@ function update() {
 
 
     function c_names() {
-        var column_data = [];
+        let column_data = [];
         for(var i=0; i<data.Data.column_names.values.length; i++){
             column_data.push({"title": data.Data.column_names.values[i]});     
         };
@@ -90,11 +90,16 @@ function update() {
 
         // },
         "drawCallback": function( settings ) {
-            var api = new $.fn.dataTable.Api( settings );
+            let api = this.api();
+            // console.log( api.rows( {page:'current'} ).data() );
+            console.log(api.columns( {page:'current'}).data());
+            //var api = new $.fn.dataTable.Api( settings );
  
+            
             // Output the data for the visible rows to the browser's console
             // You might do something more useful with it!
-            console.log( api.rows( {page:'current'} ).data().table );
+            //console.log(api.search);
+            //console.log( api.rows( {page:'current'} ).data().table );
             
             // $('#mySearch').on( 'keyup', function () {
             //     table.search( this.value );
@@ -132,13 +137,11 @@ function update() {
     });
 
 
+    $('#mySearch').on( 'keyup', function() {
+        $('#myTable').DataTable().search( this.value ).draw();
+    } );
 
 
-
-    // $(document).ready( function () {
-    //     // table.draw();
-    // } );
-    
     
     // .map(function(d) { return comma_to_point(d.schlusskurs) })
 }
