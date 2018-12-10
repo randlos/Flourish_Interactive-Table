@@ -6,3 +6,8 @@ Source Data:
 https://fddb.info/
 
 ![](./dynatable_intro.gif)
+
+To publish the template on https://flourish.app install the SDK 
+and just type
+
+` flourish publish `
