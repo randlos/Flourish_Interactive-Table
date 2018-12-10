@@ -45,16 +45,10 @@ settings:
     choices:
       -
         - Standart-Layout für Interaktiv
-        - fptir
+        - pitr
       - 
-        - Layout ohne Pagination
-        - ftir
-      - 
-        - Layout ohne Pagination und ohne Zusatzinfos
-        - ftr
-      -
         - Layout ohne Zusatzinfos
-        - fptr
+        - ptr
       -
         - Layout für statischen Grafik-Export (nur Tabelle, ohne Suche)
         - tr

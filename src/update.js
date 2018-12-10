@@ -83,28 +83,28 @@ function update() {
     
     let table = $('#myTable').dataTable( {
         data: data.Data.map(e => e.values),
-        // colReorder: {
-        //     enable: true,
+        colReorder: {
+            enable: true,
         //     order: [ 5, 4, 3, 2, 1, 0 ],
         //     realtime: false,
 
-        // },
-        "drawCallback": function( settings ) {
-            let api = this.api();
-            // console.log( api.rows( {page:'current'} ).data() );
-            console.log(api.columns( {page:'current'}).data());
-            //var api = new $.fn.dataTable.Api( settings );
+        },
+        // "drawCallback": function( settings ) {
+        //     let api = this.api();
+        //     // console.log( api.rows( {page:'current'} ).data() );
+        //     //console.log(api.columns( {page:'current'}).data());
+        //     //var api = new $.fn.dataTable.Api( settings );
  
             
-            // Output the data for the visible rows to the browser's console
-            // You might do something more useful with it!
-            //console.log(api.search);
-            //console.log( api.rows( {page:'current'} ).data().table );
+        //     // Output the data for the visible rows to the browser's console
+        //     // You might do something more useful with it!
+        //     //console.log(api.search);
+        //     //console.log( api.rows( {page:'current'} ).data().table );
             
-            // $('#mySearch').on( 'keyup', function () {
-            //     table.search( this.value );
-            // } );
-        },
+        //     // $('#mySearch').on( 'keyup', function () {
+        //     //     table.search( this.value );
+        //     // } );
+        // },
         "dom": state.layout,
         // buttons: [
         //     {
