@@ -2,8 +2,8 @@
 let state = {
   
     // Tabellen-Optionen:
-    sortingColumn: "A",
-    sortingOrder: "asc",
+    sortingColumn: "C",
+    sortingOrder: "desc",
     numberOfEntries: 10,
   
 

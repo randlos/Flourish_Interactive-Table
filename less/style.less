@@ -16,31 +16,85 @@ body, html {
 
 #myTable {
   padding: 5px 0 0 0;
-  border:0;
+  border: none;
 }
+
 
 .dataTables_scrollHead {
   background: @red;
   color: @basic;
+  width: 100%;
+}
+
+.dataTables_scrollHeadInner th {
+  padding: 8px 5px;
+  border-left: 2px solid white;
+  border-bottom: none;
+}
+
+.dataTables_scrollHeadInner thead .sorting {
+  padding: 8px auto;
+  border-left: 2px solid white !important;
+  text-align: left;
+}
+
+.dataTables_scrollHeadInner thead .sorting_asc {
+  padding: 8px auto;
+  border-left: 2px solid white !important;
+  text-align: left;
+}
+
+.dataTables_scrollHeadInner thead .sorting_desc {
+  padding: 8px auto;
+  border-left: 2px solid white !important;
+  text-align: left;
+}
+
+
+
+// .dataTables_scrollHeadInner thead .sorting_asc {
+//   padding: 8px auto;
+// }
+
+.dataTable thead th {
+  border: none !important;
+}
+
+.dataTable thead td {
+  border: none !important;
+}
+
+
+
+table.dataTable tbody th {
+  padding: 8px 10px;
+  border-left: 4px solid white;
+}
+
+table.dataTable tbody td {
+  padding: 8px 10px;
+  border-left: 2px solid white;
 }
 
 th.sorting {
   text-align: left;
 }
 
-th.sorting_asc {
-  background: green;
-}
-
 th.sorting_desc {
   background: black;
-}
-
-th.sorting_asc {
 
 }
 
-.dataTables_scrollHead th.sorting.sorting_asc::after {
+
+// ScrollBody
+
+.dataTables_scrollBody {
+  border: none;
+}
+
+// Sorting Asc/Desc Dreieck !!!!
+
+.sorting_asc::after {
   //display: inline;
   // float: right;
   content: "";
@@ -54,11 +108,11 @@ th.sorting_asc {
   border-width: 0 6px 7px;
   border-color: transparent transparent #fff transparent;
   
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
+//   -webkit-transform: rotate(180deg);
+//   -moz-transform: rotate(180deg);
+//   -ms-transform: rotate(180deg);
+//   -o-transform: rotate(180deg);
+//   transform: rotate(180deg);
 }
 
 th.sorting.sorting_desc::after {
@@ -90,9 +144,9 @@ th {
   border-bottom: 0;
 }
 
-#myTable td:first-child {
-  text-align: center;
-}
+// #myTable td:first-child {
+//   text-align: center;
+// }
 
 // #myTable th.sorting {
 //   background: @grey;
@@ -142,10 +196,10 @@ th {
 // }
 
 
-#myTable th.sorting_desc {
-  background: @red;
-  color: @basic;
-}
+// #myTable th.sorting_desc {
+//   background: @red;
+//   color: @basic;
+// }
 
 /* #myTable th.sorting_asc::before {
   z-index: 999;
@@ -218,7 +272,6 @@ th {
 }
 
 #myTable_paginate a:hover {
-
   color: @basic;
   background: black;
 }
@@ -265,30 +318,26 @@ th {
 
 // Responsive
 
-#myTable td.sorting_1::before {
-  background: @red;
-  border: 0;
-  box-shadow: none;
-
-  height: 20px;
-  width: 20px;
-  line-height: 22px;
-  left: 2px;
-
-  font-size: 1.7em;
+td:before {
+  background-color: #D82217!important;
+  background: #D82217;
+  height: 15px !important;
+  width: 15px !important;
+  line-height: 17px !important;
+  left: 3px !important;
+  font-size: 1.6em;
+  text-align: center !important;
 }
 
-#myTable td.sorting_1::after {
-  background: @red;
-  border: 0;
-  box-shadow: none;
-
-  height: 20px;
-  width: 20px;
-  line-height: 22px;
-  left: 2px;
-
-  font-size: 1.7em;
+td::after {
+  background-color: #D82217!important;
+  background: #D82217;
+  height: 15px !important;
+  width: 15px !important;
+  line-height: 17px !important;
+  left: 3px !important;
+  font-size: 1.6em;
+  text-align: center !important;
 }
 
 
