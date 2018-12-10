@@ -92,7 +92,7 @@ function update() {
         "drawCallback": function( settings ) {
             let api = this.api();
             // console.log( api.rows( {page:'current'} ).data() );
-            console.log(api.columns( {page:'current'}).data());
+            //console.log(api.columns( {page:'current'}).data());
             //var api = new $.fn.dataTable.Api( settings );
  
             
