@@ -11,7 +11,7 @@ let state = {
     reload: 1,
 
     // DOM-Layout Tabelle
-    layout: 'fptir',
+    layout: 'fpitr',
 
     // Haupt-Farben
     Haupt_Farbe: "rgba(211, 45, 32, 1)",
