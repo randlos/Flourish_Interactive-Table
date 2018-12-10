@@ -5,4 +5,4 @@ Dynamic HTML-Table Template. Build with datatables (https://github.com/DataTable
 Source Data:
 https://fddb.info/
 
-![]("./thumbnail.png")
+![](./thumbnail.png)
