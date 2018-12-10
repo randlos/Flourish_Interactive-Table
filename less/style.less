@@ -80,11 +80,15 @@ th.sorting {
   text-align: left;
 }
 
-th.sorting_desc {
-  background: black;
-
+th.sorting_asc {
+  background-image: url(down.png) !important;
+  background-position: center -10px !important;
 }
 
+th.sorting_desc {
+  background-image: url(up.png) !important;
+  background-position: center 28px !important;
+}
 
 // ScrollBody
 
@@ -94,41 +98,31 @@ th.sorting_desc {
 
 // Sorting Asc/Desc Dreieck !!!!
 
-.sorting_asc::after {
-  //display: inline;
-  // float: right;
-  content: "";
-  //color: @basic;
-  bottom: 0;
-  right: 0;
-  margin: 5px 5px 0 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 6px 7px;
-  border-color: transparent transparent #fff transparent;
+// .sorting_asc::after {
+//   background-image: url(down.png);
+//   width: 20px;
+//   height: 20px;
+//   display: block;
+//   content: "";
+//   margin: 0 auto;
+//   padding: 0;
   
-//   -webkit-transform: rotate(180deg);
-//   -moz-transform: rotate(180deg);
-//   -ms-transform: rotate(180deg);
-//   -o-transform: rotate(180deg);
-//   transform: rotate(180deg);
-}
+//   // -webkit-transform: rotate(180deg);
+//   // -moz-transform: rotate(180deg);
+//   // -ms-transform: rotate(180deg);
+//   // -o-transform: rotate(180deg);
+//   // transform: rotate(180deg);
+// }
 
-th.sorting.sorting_desc::after {
-  //display: inline;
-  // float: right;
-  content: "";
-  color: @basic;
-  bottom: 0;
-  right: 0;
-  margin: 5px 5px 0 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 6px 7px;
-  border-color: transparent transparent #fff transparent;
-}
+// th.sorting.sorting_desc::after {
+//   background-image: url(up.png);
+//   width: 20px;
+//   height: 20px;
+//   display: block;
+//   content: "";
+//   margin: 0px auto;
+//   padding: 0;
+// }
 
 
 th {
@@ -237,12 +231,12 @@ th {
 
 #myTable_filter {
   float: left;
-  margin: 10px 7px 0 10px;
+  margin: 10px 7px 7px 10px;
 }
 
 #myTable_filter input[type=search] {
-  padding: 1px;
-  border: 1px solid @grey;
+  padding: 3px;
+  border: 1px solid #999;
   font-size: 1.1rem;
 }
 
@@ -311,8 +305,9 @@ th {
 // Info-Element Styling
 
 #myTable_info {
-  margin: 5px 10px 10px 0;
-  float: right;
+  width: 100%;
+  margin: 0px auto 7px auto;
+  text-align: center;
 }
 
 
