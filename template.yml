@@ -33,7 +33,6 @@ settings:
       -
         - Absteigend
         - desc
-
   # - property: layout
   #   name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
   #   type: string
@@ -48,6 +47,7 @@ settings:
   #       - Layout für statischen Grafik-Export (nur Tabelle, ohne Suche)
   #       - tr
   
+
   # - Tabelle neu laden
   # - property: reload
   #   name: Neu laden
