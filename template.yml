@@ -34,24 +34,19 @@ settings:
         - Absteigend
         - desc
 
-  - property: numberOfEntries
-    name: Zahl der angezeigten Einträge
-    description: 10, 20, 30? Wie viele Einträge sollen auf der ersten Tabellen-Seite angezeigt werden?
-    type: number
-
-  - property: layout
-    name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
-    type: string
-    choices:
-      -
-        - Standart-Layout für Interaktiv
-        - pitr
-      - 
-        - Layout ohne Zusatzinfos
-        - ptr
-      -
-        - Layout für statischen Grafik-Export (nur Tabelle, ohne Suche)
-        - tr
+  # - property: layout
+  #   name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
+  #   type: string
+  #   choices:
+  #     -
+  #       - Standart-Layout für Interaktiv
+  #       - pitr
+  #     - 
+  #       - Layout ohne Zusatzinfos
+  #       - ptr
+  #     -
+  #       - Layout für statischen Grafik-Export (nur Tabelle, ohne Suche)
+  #       - tr
   
   # - Tabelle neu laden
   # - property: reload
