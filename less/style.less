@@ -4,22 +4,16 @@
 @grey: #ededed;
 @red: #D82217;
 
-
-
 body, html {
-    height: 100%;
     margin: 0;
     font-family: "Gotham XNarrow","Avenir Next Condensed",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;
     font-size: 17px;
     transition: background-color .5s ease;
 }
 
-
 #myTable {
-  padding: 5px 0 0 0;
-  border: none;
+  border: none !important;
 }
-
 
 .dataTables_scrollHead {
   background: @red;
@@ -51,7 +45,13 @@ body, html {
   text-align: left;
 }
 
+table.dataTable.no-footer {
+  border-bottom: none !important;
+}
 
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+  border-bottom: none !important;
+}
 
 // .dataTables_scrollHeadInner thead .sorting_asc {
 //   padding: 8px auto;
@@ -308,7 +308,6 @@ input#mySearch  {
 }
 
 
-
 // Odd Row Colors
 
 #myTable tr.odd {
@@ -319,6 +318,10 @@ input#mySearch  {
   background:#ededed;
 }
 
+
+#myTable tr.child td.child {
+  border-top: 4px solid #d3d3d3;
+}
 
 
 // Info-Element Styling
@@ -336,22 +339,20 @@ input#mySearch  {
 td:before {
   background-color: #D82217!important;
   background: #D82217;
-  height: 15px !important;
-  width: 15px !important;
-  line-height: 17px !important;
-  left: 3px !important;
-  font-size: 1.6em;
-  text-align: center !important;
+  line-height: 19px!important;
+  left: 3px!important;
+  font-size: 27px;
+  text-align: center!important;
+  border: none!important;
+  box-shadow: none!important;
+  width: 17px !important;
+  height: 17px !important;
 }
 
 td::after {
   background-color: #D82217!important;
   background: #D82217;
-  height: 15px !important;
-  width: 15px !important;
-  line-height: 17px !important;
-  left: 3px !important;
-  font-size: 1.6em;
+  font-size: 19px !important;
   text-align: center !important;
 }
 
