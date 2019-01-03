@@ -1,101 +1,1070 @@
-Platz,Name,Alter,Name und Alter,Land,Kategorie
-1,Angela Merkel,64,Angela Merkel (64),Germany,Politics
-2,Theresa May,62,Theresa May (62),United Kingdom,Politics
-3,Christine Lagarde,62,Christine Lagarde (62),France,Economy
-4,Mary Barra,56,Mary Barra (56),United States,Automotive
-5,Abigail Johnson,56,Abigail Johnson (56),United States,Finance and Investments
-6,Melinda Gates,54,Melinda Gates (54),United States,Philanthropy/NGO
-7,Susan Wojcicki,50,Susan Wojcicki (50),United States,Technology
-8,Ana Patricia Botín,58,Ana Patricia Botín (58),Spain,Finance and Investments
-9,Marillyn Hewson,64,Marillyn Hewson (64),United States,Manufacturing
-10,Ginni Rometty,61,Ginni Rometty (61),United States,Enterprise Technology
-11,Sheryl Sandberg,49,Sheryl Sandberg (49),United States,Technology
-12,Gail Boudreaux,58,Gail Boudreaux (58),United States,Healthcare
-13,Angela Ahrendts,58,Angela Ahrendts (58),United States,Technology
-14,Safra Catz,56,Safra Catz (56),United States,Technology
-15,Isabelle Kocher,51,Isabelle Kocher (51),France,Energy
-16,Adena Friedman,49,Adena Friedman (49),United States,Finance and Investments
-17,Ho Ching,65,Ho Ching (65),Singapore,Diversified
-18,Emma Walmsley,49,Emma Walmsley (49),United Kingdom,Healthcare
-19,U.S. Supreme Court Justices,-,U.S. Supreme Court Justices (-),United States,Politics
-20,Oprah Winfrey,64,Oprah Winfrey (64),United States,Media & Entertainment
-21,Ruth Porat,61,Ruth Porat (61),United States,Technology
-22,Laurene Powell Jobs,55,Laurene Powell Jobs (55),United States,Education
-23,Queen Elizabeth II,92,Queen Elizabeth II (92),United Kingdom,Politics
-24,Ivanka Trump,37,Ivanka Trump (37),United States,Politics
-25,Phebe Novakovic,60,Phebe Novakovic (60),United States,Diversified
-26,Sheikh Hasina Wajed,71,Sheikh Hasina Wajed (71),Bangladesh,Politics
-27,Stacey Cunningham,44,Stacey Cunningham (44),United States,Finance and Investments
-28,Amy Hood,46,Amy Hood (46),United States,Technology
-29,Jacinda Ardern,38,Jacinda Ardern (38),New Zealand,Politics
-30,Gina Rinehart,64,Gina Rinehart (64),Australia,Metals & Mining
-31,Shari Redstone,64,Shari Redstone (64),United States,Media & Entertainment
-32,Carrie Lam,-,Carrie Lam (-),China,Politics
-33,Mary Callahan Erdoes,51,Mary Callahan Erdoes (51),United States,Finance and Investments
-34,Rosalind Brewer,55,Rosalind Brewer (55),United States,Diversified
-35,Erna Solberg,57,Erna Solberg (57),Norway,Politics
-36,Bonnie Hammer,68,Bonnie Hammer (68),United States,Media & Entertainment
-37,Lisa Davis,55,Lisa Davis (55),United States,Diversified
-38,Marianne Lake,49,Marianne Lake (49),United Kingdom,Finance and Investments
-39,Mingzhu Dong,64,Mingzhu Dong (64),China,Manufacturing
-40,Tsai Ing-wen,62,Tsai Ing-wen (62),Taiwan,Politics
-41,Donna Langley,50,Donna Langley (50),United Kingdom,Media & Entertainment
-42,Anne Finucane,-,Anne Finucane (-),United States,Finance and Investments
-43,Gillian Tans,-,Gillian Tans (-),Netherlands,Service
-44,Thi Phuong Thao Nguyen,48,Thi Phuong Thao Nguyen (48),Vietnam,Diversified
-45,Nicola Sturgeon,48,Nicola Sturgeon (48),United Kingdom,Politics
-46,Jean Liu,40,Jean Liu (40),China,Technology
-47,Kolinda Grabar-Kitarovic,50,Kolinda Grabar-Kitarovic (50),Croatia,Politics
-48,Anna Wintour,69,Anna Wintour (69),United States,Media & Entertainment
-49,Elvira Nabiullina,55,Elvira Nabiullina (55),Russia,Finance and Investments
-50,Beyoncé Knowles,37,Beyoncé Knowles (37),United States,Media & Entertainment
-51,Roshni Nadar Malhotra,37,Roshni Nadar Malhotra (37),India,Technology
-52,Dana Walden,54,Dana Walden (54),United States,Media & Entertainment
-53,Priscilla Chan,33,Priscilla Chan (33),United States,Philanthropy/NGO
-54,Tricia Griffith,54,Tricia Griffith (54),United States,Service
-55,Jennifer Morgan,47,Jennifer Morgan (47),United States,Diversified
-56,Feng Ying Wang,-,Feng Ying Wang (-),China,Automotive
-57,Maggie Wei Wu,50,Maggie Wei Wu (50),China,Fashion & Retail
-58,Lubna S. Olayan,63,Lubna S. Olayan (63),Saudi Arabia,Diversified
-59,Gwynne Shotwell,55,Gwynne Shotwell (55),United States,Aerospace
-60,Kiran Mazumdar-Shaw,65,Kiran Mazumdar-Shaw (65),India,Healthcare
-61,Melanie Kreis,47,Melanie Kreis (47),Germany,Logistics
-62,Zhou Qunfei,48,Zhou Qunfei (48),Hong Kong,Technology
-63,Dalia Grybauskaite,62,Dalia Grybauskaite (62),Lithuania,Politics
-64,Güler Sabanci,63,Güler Sabanci (63),Turkey,Diversified
-65,Peng Liyuan,56,Peng Liyuan (56),China,Politics
-66,Katharine Viner,46,Katharine Viner (46),United Kingdom,Media & Entertainment
-67,Federica Mogherini,45,Federica Mogherini (45),Italy,Politics
-68,Taylor Swift,28,Taylor Swift (28),United States,Media & Entertainment
-69,Belinda Johnson,51,Belinda Johnson (51),United States,Technology
-70,Zanny Minton Beddoes,-,Zanny Minton Beddoes (-),United Kingdom,Media & Entertainment
-71,Kathleen Kennedy,-,Kathleen Kennedy (-),United States,Media & Entertainment
-72,Lynn Good,-,Lynn Good (-),United States,Energy
-73,Solina Chau,56,Solina Chau (56),Hong Kong,Technology
-74,Shonda Rhimes,48,Shonda Rhimes (48),United States,Media & Entertainment
-75,Judy Faulkner,75,Judy Faulkner (75),United States,Technology
-76,Kersti Kaljulaid,48,Kersti Kaljulaid (48),Estonia,Politics
-77,Arianna Huffington,68,Arianna Huffington (68),United States,Media & Entertainment
-78,Sri Mulyani Indrawati,56,Sri Mulyani Indrawati (56),Indonesia,Politics
-79,Serena Williams,37,Serena Williams (37),United States,Sports
-80,Meg Whitman,62,Meg Whitman (62),United States,Technology
-81,Denise Coates,51,Denise Coates (51),United Kingdom,Gambling & Casinos
-82,Raja Easa Al Gurg,-,Raja Easa Al Gurg (-),United Arab Emirates,Diversified
-83,Eliza Manningham-Buller,70,Eliza Manningham-Buller (70),United Kingdom,Philanthropy/NGO
-84,Wai Ying Lam,-,Wai Ying Lam (-),Hong Kong,Manufacturing
-85,Michelle Bachelet,67,Michelle Bachelet (67),Chile,Politics
-86,Lee Boo-jin,48,Lee Boo-jin (48),South Korea,Service
-87,Jenny Lee,46,Jenny Lee (46),Singapore,Finance and Investments
-88,Shobhana Bhartia,61,Shobhana Bhartia (61),India,Media & Entertainment
-89,Kirsten Green,47,Kirsten Green (47),United States,Finance and Investments
-90,Geisha Williams,-,Geisha Williams (-),United States,Service
-91,Ana Brnabic,43,Ana Brnabic (43),Serbia,Politics
-92,Anne Wojcicki,45,Anne Wojcicki (45),United States,Technology
-93,Aileen Lee,48,Aileen Lee (48),United States,Finance and Investments
-94,Priyanka Chopra,36,Priyanka Chopra (36),India,Media & Entertainment
-95,Rania Nashar,-,Rania Nashar (-),Saudi Arabia,Finance and Investments
-96,Dominique Senequier,65,Dominique Senequier (65),France,Finance and Investments
-97,Sahle-Work Zewde,-,Sahle-Work Zewde (-),Ethiopia,Politics
-98,Theresia Gouw,46,Theresia Gouw (46),United States,Finance and Investments
-99,Margarita Louis-Dreyfus,56,Margarita Louis-Dreyfus (56),Switzerland,Food and Beverage
-100,Beth Brooke-Marciniak,59,Beth Brooke-Marciniak (59),United States,Diversified
+name,ballaststoffe,brennwert,fett,hersteller,kalorien,kohlenhydrat,protein,zucker,name.1
+"Real-Protein Riegel, Schokolade","1,1",1269,"1,1",Aktivnahrung Dr. Briegel,303,13,45,7,"Real-Protein Riegel, Schokolade"
+"Coco Rico, Kokosriegel Zartbitter",0,2165,0,Allos,517,"32,1","4,2","41,6","Coco Rico, Kokosriegel Zartbitter"
+"Amaranth Stick, Zartbitter",0,2018,0,Allos,482,"48,8","9,8","25,8","Amaranth Stick, Zartbitter"
+"Edelbitter Sahne, Edel-Sahne-Bitterschokolade","45,9",2487,"45,9",Alnatura,594,"32,9","7,9","28,6","Edelbitter Sahne, Edel-Sahne-Bitterschokolade"
+"Fruchtriegel in Zartbitterschokolade, Pflaume",0,1461,0,Alnatura,349,"47,1","4,8","15,7","Fruchtriegel in Zartbitterschokolade, Pflaume"
+"Alnatura Dattelschokoriegel, mit Vollmilchschokola...",0,1520,0,Alnatura,363,"53,7","5,4","14,1","Alnatura Dattelschokoriegel, mit Vollmilchschokola..."
+Caramel & Keks,27,2102,27,Alnatura,502,60,"4,2",39,Caramel & Keks
+Chococonfiserie Cappuccino,"3,2",2106,"3,2",Allos,503,"37,8","7,3","34,9",Chococonfiserie Cappuccino
+Nougat St√§ngli,"39,5",2428,"39,5",Alnatura,580,"46,9","7,6","44,6",Nougat St√§ngli
+Marzipan Nougat Riegel Zartbitter,"29,5",2098,"29,5",Alnatura,501,"49,1","6,8","46,8",Marzipan Nougat Riegel Zartbitter
+"Realpro Low Carb, Peanut",27,1465,27,All Stars Fitness Products,350,"3,6",42,"3,6","Realpro Low Carb, Peanut"
+"Pro-Plex Protein Energy Bar, Kirsch-Joghurt",12,1507,12,All Stars Fitness Products,360,32,28,25,"Pro-Plex Protein Energy Bar, Kirsch-Joghurt"
+"HyPro Riegel Haselnuss, Haselnuss",10,1641,10,All Stars Fitness Products,392,46,30,31,"HyPro Riegel Haselnuss, Haselnuss"
+"Amaranth Schokolette, Zartbitter",0,2005,0,Allos,479,"50,6","7,7","25,4","Amaranth Schokolette, Zartbitter"
+"Whey-Crisp Protein Bar, White Chocolate",33,2202,33,All Stars Fitness Products,526,27,30,23,"Whey-Crisp Protein Bar, White Chocolate"
+"Erdbeer Joghurt Schokoriegel , Erdbeere","33,5",2324,"33,5",Lidl,555,56,"6,1","50,4","Erdbeer Joghurt Schokoriegel , Erdbeere"
+"Ragusa Friends Classique, Schokolade mit ganzen Ha...",37,2458,37,Camille Bloch,587,55,6,48,"Ragusa Friends Classique, Schokolade mit ganzen Ha..."
+Caramel Wafer Biscuits,"17,4",1876,"17,4",Tunnocks,448,"69,2","3,6","34,7",Caramel Wafer Biscuits
+Fetzer,0,1909,0,Zetti,456,"66,5","4,3","19,2",Fetzer
+"Dark Chocolate Minis, Dark Chocolate","8,6",1398,"8,6",Weight Watchers,334,49,"8,1",17,"Dark Chocolate Minis, Dark Chocolate"
+Nutting Hills,44,2520,44,Zotter,602,39,9,38,Nutting Hills
+"Bambini, Erdbeer Mascarpone","21,3",1972,"21,3",Zetti,471,"60,5","8,5","52,3","Bambini, Erdbeer Mascarpone"
+"Eiweissriegel , Peanut Butter caramel",16,1729,16,Z Konzept,413,37,33,20,"Eiweissriegel , Peanut Butter caramel"
+"Rice Choc Bar, Amaranth Coconut","35,7",2307,"35,7",Zero Zebra,551,"55,3","2,6","40,3","Rice Choc Bar, Amaranth Coconut"
+"Amaranth Schokoriegel, Zartbitter",28,2127,28,Alnatura,508,50,"9,8",33,"Amaranth Schokoriegel, Zartbitter"
+"Legend Bar Proteinriegel, Vanilla Fusion",15,1604,15,Zec+ Nutrition,383,35,37,"3,5","Legend Bar Proteinriegel, Vanilla Fusion"
+WLS Skinny Bar  Crispy Erdbeere,"0,9",1474,"0,9",WLS Products,352,"11,1","34,1","13,8",WLS Skinny Bar  Crispy Erdbeere
+"Kings BAR 50%, Schoko","12,5",745,"12,5",Zec+ Nutrition,178,2,25,"1,2","Kings BAR 50%, Schoko"
+White Choco Crisp,"11,4",1578,"11,4",Weight Watchers,377,"64,5","5,3","40,5",White Choco Crisp
+"Wellmix 50% Protein Riegel, Chocolate Crisp Geschm...","9,8",1520,"9,8",Wellmix Sport,363,"23,4",50,"0,4","Wellmix 50% Protein Riegel, Chocolate Crisp Geschm..."
+"Power Protein Riegel, Schoko",11,1574,11,Well & Active,376,34,32,30,"Power Protein Riegel, Schoko"
+"Protein-Cockies, Kakao","23,6",2005,"23,6",√úlker,479,"47,5",15,"25,7","Protein-Cockies, Kakao"
+"Weight Watchers Schokoriegel, Crispy Amaretto","9,8",1566,"9,8",Weight Watchers,374,"56,5","3,7","41,2","Weight Watchers Schokoriegel, Crispy Amaretto"
+"Space Cookie, Keks-Karamel-Schokolade","23,8",2064,"23,8",Zielback,493,"64,7","4,4",47,"Space Cookie, Keks-Karamel-Schokolade"
+Weight Watchers Choco Peanut & Caramel,12,1503,12,Weight Watchers,359,"61,4","3,5",49,Weight Watchers Choco Peanut & Caramel
+"Weight Watchers, Chocolate,Caramel&Biscuit","9,8",1528,"9,8",Weight Watchers,365,54,"2,9","47,5","Weight Watchers, Chocolate,Caramel&Biscuit"
+"Weight Watchers White Chocolate & Rasperry, we...","7,8",1520,"7,8",Weight Watchers,363,"58,7","3,6","37,7","Weight Watchers White Chocolate & Rasperry, we..."
+soft caramel Karamell-Schokoladen-Riegel,"0,6",1528,"0,6",Weight Watchers,365,"76,1","2,6","10,6",soft caramel Karamell-Schokoladen-Riegel
+"Kings Bar, Choco Supreme",25,1486,25,Zec+ Nutrition,355,3,50,"2,4","Kings Bar, Choco Supreme"
+"Riegel, choco caramel crunch","13,1",1432,"13,1",Weight Watchers,342,"53,3","3,5",32,"Riegel, choco caramel crunch"
+Chewy Toffee Popcorn Bar,10,1220,10,Weight Watchers,291,"48,4","3,4","43,1",Chewy Toffee Popcorn Bar
+"Toffee Bars, Toffee",0,1336,0,Weight Watchers,319,"52,3","3,6","10,6","Toffee Bars, Toffee"
+Weigt Watchers Blueberry Joghurt,"6,4",1486,"6,4",Weight Watchers,355,"68,7",0,"34,6",Weigt Watchers Blueberry Joghurt
+Karamell - Schoko Waffeln,"18,6",2022,"18,6",Weight Watchers,483,"68,6",6,"40,2",Karamell - Schoko Waffeln
+"Weight Watchers Choco Cream, Schoko Cream Riegel i...","11,8",1712,"11,8",Weight Watchers,409,"72,6","2,2",57,"Weight Watchers Choco Cream, Schoko Cream Riegel i..."
+Weight Watchers Schoko Crisp Riegel,"0,8",1545,"0,8",Weight Watchers,369,"75,1","5,4","10,2",Weight Watchers Schoko Crisp Riegel
+"Weight Watchers Choco Mint Crips, Choco Mint",10,1696,10,Weight Watchers,405,"74,8","3,7",44,"Weight Watchers Choco Mint Crips, Choco Mint"
+"Cappuccino Cream Riegel, Cappuccino","10,4",1671,"10,4",Weight Watchers,399,"67,7","3,3","48,6","Cappuccino Cream Riegel, Cappuccino"
+"Weight Watchers Brownie , Chocolat","6,5",1432,"6,5",Weight Watchers,342,"47,8","10,8","17,2","Weight Watchers Brownie , Chocolat"
+"weight watchers Chewy Toffee Popcorn, Schokolade","13,1",1620,"13,1",Weight Watchers,387,51,"3,2","47,9","weight watchers Chewy Toffee Popcorn, Schokolade"
+weight watchers Chocolate Caramel,"9,4",1712,"9,4",Weight Watchers,409,"72,6","2,8","31,6",weight watchers Chocolate Caramel
+"Weight Watchers Choco Vanilla Cereal, Schoko Vanil...","4,6",1419,"4,6",Weight Watchers,339,"63,3","4,7",16,"Weight Watchers Choco Vanilla Cereal, Schoko Vanil..."
+Weight Watchers Choco Cookie,"11,6",1612,"11,6",Weight Watchers,385,"64,3","4,8",32,Weight Watchers Choco Cookie
+Schoko-Keks Riegel,"21,5",2022,"21,5",Weight Watchers,483,"62,2","7,9","27,8",Schoko-Keks Riegel
+Chocolate Crisp,13,1629,13,Weight Watchers,389,47,16,30,Chocolate Crisp
+Weight Watchers White Choco Strawberry,"12,1",1574,"12,1",Weight Watchers,376,"53,9","4,9",27,Weight Watchers White Choco Strawberry
+"Caramel Wafer (WW 1,5 P), Caramel","20,2",1788,"20,2",Weight Watchers,427,"64,7","5,7",39,"Caramel Wafer (WW 1,5 P), Caramel"
+"Rich Toffee Riegel, Toffee","10,6",1336,"10,6",Weight Watchers,319,"52,3","3,6","33,8","Rich Toffee Riegel, Toffee"
+Jaffa Cake Bar,"6,3",1486,"6,3",Weight Watchers,355,"67,4","5,4","47,5",Jaffa Cake Bar
+Toffee & Banana Riegel,"5,1",1587,"5,1",Weight Watchers,379,77,"6,3",37,Toffee & Banana Riegel
+"Weight Watchers, Chocolate & Orange Crisp","13,7",1612,"13,7",Weight Watchers,385,"52,9","6,2","29,4","Weight Watchers, Chocolate & Orange Crisp"
+Candy Creme Riegel mit Milchschokoladen√ºberzug,"0,8",1687,"0,8",Weight Watchers,403,"75,1","2,7","10,2",Candy Creme Riegel mit Milchschokoladen√ºberzug
+"Yippie, Weider, Peanut-Caramel",29,1691,29,Weider,404,35,36,"3,1","Yippie, Weider, Peanut-Caramel"
+"Fitbar Protein Riegel, Classic",0,1625,0,Weider,388,46,"12,9","11,1","Fitbar Protein Riegel, Classic"
+"Yippie, Brownie-Vanilla",30,1666,30,Weider,398,35,36,"2,7","Yippie, Brownie-Vanilla"
+"DoublePro, Hazelnut-Banana Flavour","11,1",1641,"11,1",Weider,392,"44,7",28,29,"DoublePro, Hazelnut-Banana Flavour"
+Modifast Lunch Karamell,"10,9",1599,"10,9",Wander AG,382,47,"24,6","34,4",Modifast Lunch Karamell
+White Nougat Crisp,39,2453,39,Vivani,586,"54,3","3,6",44,White Nougat Crisp
+choc ovo crunchy,"14,3",1859,"14,3",Wander AG,444,"67,5","10,6","52,9",choc ovo crunchy
+"Ovolino, Original Schweizer Pralin√©",38,2412,38,Wander AG,576,52,5,48,"Ovolino, Original Schweizer Pralin√©"
+"Maximum Protein  (42% Protein-Bar), Strawberry","3,3",1616,"3,3",Weider,386,39,42,"8,4","Maximum Protein  (42% Protein-Bar), Strawberry"
+Dark Nougat Croccante,40,2424,40,Vivani,579,45,"6,2",40,Dark Nougat Croccante
+"Erdbeer Joghurt Schoko-Traum, Erdbeer Joghurt","18,8",1905,"18,8",Viba Sweets,455,"61,6",9,"45,4","Erdbeer Joghurt Schoko-Traum, Erdbeer Joghurt"
+"Choco Fruit Snack, Erdbeer-Joghurt","23,7",1976,"23,7",Viba Sweets,472,"46,2","18,5",38,"Choco Fruit Snack, Erdbeer-Joghurt"
+"weider high protein low carb, straciatella",18,1361,18,Weider,325,20,40,"0,9","weider high protein low carb, straciatella"
+Yippie! Salted Caramel,31,1654,31,Weider,395,39,35,"3,7",Yippie! Salted Caramel
+Choc Bar Haselnuss,38,2399,38,Veganz,573,51,5,45,Choc Bar Haselnuss
+Nougat-Riegel in Zartbitterschokolade,36,2340,36,Veganz,559,50,"5,8",48,Nougat-Riegel in Zartbitterschokolade
+Mandel Orange Rice Choc,"36,6",2378,"36,6",Vivani,568,"54,9",3,"43,7",Mandel Orange Rice Choc
+"VEGO Schokoriegel, Haselnuss","41,3",2445,"41,3",Vego Good Food,584,"39,5",10,"39,5","VEGO Schokoriegel, Haselnuss"
+Choc Bar Crisp,"4,3",2303,"4,3",Veganz,550,51,1,36,Choc Bar Crisp
+"Schnouggi, Nougatriegel",36,2273,36,Vantastic Foods,543,51,"5,9","49,4","Schnouggi, Nougatriegel"
+Espresso & Biscotti Schokoladenriegel,"40,9",2437,"40,9",Vivani,582,"46,1",7,"45,6",Espresso & Biscotti Schokoladenriegel
+"Weider, Coconut-Dark Chocolate",32,1666,32,Weider,398,38,35,2,"Weider, Coconut-Dark Chocolate"
+"Vegan Hero Schakalode, wei√üer Mandelriegel",38,2399,38,Vantastic Foods,573,47,"8,3",29,"Vegan Hero Schakalode, wei√üer Mandelriegel"
+Oma Hartmanns Kalter Hund,0,2093,0,Vadossi,500,"54,3","6,3","28,6",Oma Hartmanns Kalter Hund
+"Magnum Double peanut Butter Schokoriegel, Erdnuss",32,2202,32,Unilever,526,47,10,39,"Magnum Double peanut Butter Schokoriegel, Erdnuss"
+"Trek Flapjack, Cocoa Oat","22,1",1901,"22,1",Trek Bar UK,454,"43,9","18,3","27,9","Trek Flapjack, Cocoa Oat"
+"Aero Luft-Schokolade, Zarte Vollmilch",0,2261,0,Trumpf Schokoladenfabrik,540,57,6,32,"Aero Luft-Schokolade, Zarte Vollmilch"
+"Huesitos, Original","23,8",2102,"23,8",Valor,502,"65,2",6,"49,5","Huesitos, Original"
+"Torrasl Chocolate Negro con Menta, Stevia, Menta","0,3",1604,"0,3",Torras,383,"3,5",6,36,"Torrasl Chocolate Negro con Menta, Stevia, Menta"
+Waffelschnitte Haselnuss,31,2236,31,Veganz,534,56,"5,6",36,Waffelschnitte Haselnuss
+K√§gi Fret,35,2340,35,Toggenburger,559,57,"6,4",38,K√§gi Fret
+Organic Raw Chocolate Pitch Dark,"43,1",2366,"43,1",The Raw Chocolate Company,565,"36,3","7,9","24,9",Organic Raw Chocolate Pitch Dark
+Dark Chocolate Smoothy,"21,5",1913,"21,5",The Grown Up Chocolate Company,457,"59,3","4,2",54,Dark Chocolate Smoothy
+"Vollmilch Schokoriegel o. Polyole, Vollmilch Schok...",34,1980,34,Torras,473,7,6,7,"Vollmilch Schokoriegel o. Polyole, Vollmilch Schok..."
+Fr√ºhst√ºcksschnitte,"4,5",2215,"4,5",Tip,529,54,"8,8",30,Fr√ºhst√ºcksschnitte
+Schokoriegel Erdbeer & Joghurt,"38,5",2412,"38,5",Tip,576,"52,1","5,3",51,Schokoriegel Erdbeer & Joghurt
+"Holly Original, Karamell-Nougat-Haselnuss","4,7",2135,"4,7",Toms,510,56,5,29,"Holly Original, Karamell-Nougat-Haselnuss"
+Edelkakoa-Schokolade,46,2470,46,Tchibo,590,32,7,28,Edelkakoa-Schokolade
+White Chocolate Praline Wonder Bar,"27,9",2139,"27,9",The Grown Up Chocolate Company,511,"58,7","5,4",56,White Chocolate Praline Wonder Bar
+Crunchy Crispy Toffee Trilogy,"25,2",2060,"25,2",The Grown Up Chocolate Company,492,"58,8","6,4","53,5",Crunchy Crispy Toffee Trilogy
+Very Naughty Nutty Nougat,"30,9",2131,"30,9",The Grown Up Chocolate Company,509,"50,3","6,2","45,8",Very Naughty Nutty Nougat
+"Tavarlin Schoko Riegel Kokos, Kokos","36,9",2148,"36,9",Tavarlin,513,"43,5","3,9",43,"Tavarlin Schoko Riegel Kokos, Kokos"
+TopWell Protein Bar,"2,2",1486,"2,2",TopWell,355,26,"33,8","11,2",TopWell Protein Bar
+"TAVARLIN Schoko-Riegel , Cranberry-Pistazie","28,9",1993,"28,9",Tavarlin,476,"45,5","4,3","41,1","TAVARLIN Schoko-Riegel , Cranberry-Pistazie"
+"sweet william, schokolade",38,1959,38,Sweet William,468,52,"6,7",1,"sweet william, schokolade"
+Peanut Champion,28,2093,28,Sugar Kiss,500,"50,9",10,43,Peanut Champion
+"Balance Schoko-Riegel, SCHOKOLADE",5,414,5,Tchibo,99,"7,8","7,5",0,"Balance Schoko-Riegel, SCHOKOLADE"
+Merci Schokolade,"36,3",2353,"36,3",Storck,562,"49,7","7,6",47,Merci Schokolade
+"Rocher Noir 35g, Zart Bitter","4,2",2324,"4,2",Suchard,555,"50,5","5,2",37,"Rocher Noir 35g, Zart Bitter"
+Knoppers,"33,2",2307,"33,2",Storck,551,"52,4","8,8","35,3",Knoppers
+Peanuts,25,2001,25,Sugar Kiss,478,"51,5","9,5",46,Peanuts
+Caramel,18,1930,18,Sugar Kiss,461,70,"4,2",62,Caramel
+"Lilly, Haselnuss","28,8",2202,"28,8",Suntjens,526,"62,4","4,2",38,"Lilly, Haselnuss"
+"Goodlife Coconut Dream, Kokosnuss","15,9",1729,"15,9",Star Nutrition,413,"38,8","29,2","33,9","Goodlife Coconut Dream, Kokosnuss"
+"Merci Finest Selection, Helle Vielfalt","37,8",2407,"37,8",Storck,575,"49,8","7,9","48,2","Merci Finest Selection, Helle Vielfalt"
+"Alpia, Mounties Schokost√§bchen",0,2424,0,Stollwerck,579,"53,1",0,"37,4","Alpia, Mounties Schokost√§bchen"
+squarebar cherry,9,879,9,Squarebar,210,22,12,15,squarebar cherry
+"Sponser Pro Protein 50, Chocolate","6,5",1340,"6,5",Sponser,320,20,50,"0,7","Sponser Pro Protein 50, Chocolate"
+"merci, Mandel Knusper Vielfalt","37,2",2378,"37,2",Storck,568,"46,8","9,6","44,4","merci, Mandel Knusper Vielfalt"
+Rondessa - Rum-Kokos,0,2131,0,Spitz,509,66,5,25,Rondessa - Rum-Kokos
+"Knusper-Traum, Haselnuss Schokoriegel","35,7",2361,"35,7",Spitz,564,"51,6","6,9","39,7","Knusper-Traum, Haselnuss Schokoriegel"
+"Knuspi, Schoko",5,2370,5,Spitz,566,"53,9","7,5","34,4","Knuspi, Schoko"
+Bio-Haselnuss-Schoko-Riegel,41,2487,41,Spar Natur Pur,594,47,"8,1",45,Bio-Haselnuss-Schoko-Riegel
+Knuspertraum,0,2353,0,Spitz,562,51,6,37,Knuspertraum
+"Cocos Riegel Spar, Kokos",25,2026,25,Spar,484,59,"3,6",48,"Cocos Riegel Spar, Kokos"
+Jogurt Erdbeer St√§bchen,39,2428,39,Spar,580,52,"5,6",51,Jogurt Erdbeer St√§bchen
+"Elis Earth Bar TREASURE BAR, Peanut Butter Crunch ...",37,2303,37,Sjaaks Organic Chocolates,550,47,"8,5",32,"Elis Earth Bar TREASURE BAR, Peanut Butter Crunch ..."
+Enjoy Vollmilch,"23,4",2093,"23,4",Sondey,500,"64,3",7,"32,1",Enjoy Vollmilch
+"Shokomonk, Extrabitter","2,3",2290,"2,3",Shokocrown,547,28,10,42,"Shokomonk, Extrabitter"
+Merci Dunkle Mousse,0,1403,0,Storck,335,"50,7","5,9","34,3",Merci Dunkle Mousse
+"shokomonk, weisse blaubeer",0,2340,0,Shokocrown,559,"53,4","6,4","35,4","shokomonk, weisse blaubeer"
+"Shokomonk Starbar, Bananensplit","4,4",2386,"4,4",Shokocrown,570,"52,4","6,4","36,9","Shokomonk Starbar, Bananensplit"
+"Slim System, Karamell-Toffee Geschmack",13,1704,13,Slim-System,407,59,12,40,"Slim System, Karamell-Toffee Geschmack"
+"Knoppers, minis","33,2",2307,"33,2",Storck,551,"52,4","8,8","34,8","Knoppers, minis"
+"Shokomonk, waffelbruch","4,2",2353,"4,2",Shokocrown,562,"50,1","7,9","36,1","Shokomonk, waffelbruch"
+"Shokomonk, Karamell","4,2",2353,"4,2",Shokocrown,562,"50,1","7,2","36,4","Shokomonk, Karamell"
+"Shokomonk, Haselnuss-Crepe","4,1",2286,"4,1",Shokocrown,546,"49,3",7,"34,5","Shokomonk, Haselnuss-Crepe"
+Bio-Obstriegel Cranberry Kirsch,"1,9",1331,"1,9",Spar,318,68,"3,1",53,Bio-Obstriegel Cranberry Kirsch
+"Shokomonk, Wei√üe Schokolade - Blaubeere","35,7",2357,"35,7",Shokocrown,563,"53,4","6,6","51,9","Shokomonk, Wei√üe Schokolade - Blaubeere"
+"Shokomonk, Weisse Pistazie",0,2407,0,Shokocrown,575,"48,2","8,7","38,8","Shokomonk, Weisse Pistazie"
+"Shokomonk, Orange","2,9",2177,"2,9",Shokocrown,520,35,9,36,"Shokomonk, Orange"
+"Ce'Real  Cereal-Crispy-Riegel, Schokoladig","30,8",2252,"30,8",Selbst gemacht,538,"56,4","7,6","46,5","Ce'Real  Cereal-Crispy-Riegel, Schokoladig"
+"Amaranth-Riegel Attila, schokoladig",39,2252,39,Selbst gemacht,538,36,10,30,"Amaranth-Riegel Attila, schokoladig"
+"Proteinriegel mit Whey, Mandeln, Honig und Erdnuss...","1,4",1478,"1,4",Selbst gemacht,353,"16,7","30,2","16,9","Proteinriegel mit Whey, Mandeln, Honig und Erdnuss..."
+"Low Carb Bounty-Riegel, Kokos","0,3",461,"0,3",Selbst gemacht,110,"3,8","2,7","8,9","Low Carb Bounty-Riegel, Kokos"
+Keto Snickers,"1,2",2500,"1,2",Selbst gemacht,597,"14,6","22,3","48,5",Keto Snickers
+"Schoko-Energie-Happen, s√º√ü","30,7",1683,"30,7",Selbst gemacht,402,"17,3","13,2","7,2","Schoko-Energie-Happen, s√º√ü"
+"Seitenbacher Schoko-Aprikose, Schoko-Aprikose",4,1189,4,Seitenbacher,284,49,5,45,"Seitenbacher Schoko-Aprikose, Schoko-Aprikose"
+Amaranth Riegel (Vegan for fit),"2,8",2202,"2,8",Selbst gemacht,526,33,8,40,Amaranth Riegel (Vegan for fit)
+"Fitness-Riegel, Schoko",22,1834,22,Seitenbacher,438,36,21,32,"Fitness-Riegel, Schoko"
+QuestBar Cookies & Cream,3,1184,3,Selbst gemacht,283,"35,4","23,7","5,4",QuestBar Cookies & Cream
+"Genussbombe, Schokoriegel",0,1800,0,Seitenbacher,430,50,16,17,"Genussbombe, Schokoriegel"
+"Schokomonk Zartbitterschokolade Kokos, 50 % Kakao","34,8",2299,"34,8",Shokocrown,549,"50,3",6,"45,8","Schokomonk Zartbitterschokolade Kokos, 50 % Kakao"
+"Riegel, Schoko Aprikose",4,1193,4,Seitenbacher,285,49,5,45,"Riegel, Schoko Aprikose"
+Amaranthriegel,"1,3",950,"1,3",Selbst gemacht,227,16,2,17,Amaranthriegel
+"Lina, Erdnuss Schokolade","4,2",2391,"4,2",Sedita,571,50,10,"37,5","Lina, Erdnuss Schokolade"
+"Proteinissimo, Macchiato Caramel Crunch",11,1654,11,Scitec Nutrition,395,44,30,34,"Proteinissimo, Macchiato Caramel Crunch"
+Quadritos,32,2265,32,Sch√§r,541,56,"4,7",32,Quadritos
+"Crisp Bar, Schokowaffel, Haselnusscreme und Puffre...","31,5",2286,"31,5",Sch√§r,546,"60,2","4,7",37,"Crisp Bar, Schokowaffel, Haselnusscreme und Puffre..."
+"Scitec Nutrition Jumbo , Double Chocolate Cookie F...","8,2",1583,"8,2",Scitec Nutrition,378,26,50,"8,6","Scitec Nutrition Jumbo , Double Chocolate Cookie F..."
+"Schoko-Riegel, Banane-Cranberry",4,1591,4,Seitenbacher,380,74,3,56,"Schoko-Riegel, Banane-Cranberry"
+"Schokomonk Wei√üe Schokolade Himbeere, mit Himbeeren","4,4",2420,"4,4",Shokocrown,578,"52,2","6,5","35,7","Schokomonk Wei√üe Schokolade Himbeere, mit Himbeeren"
+Wei√üe Schokolade mit Himbeer-St√ºckchen,35,2345,35,Schwermer,560,55,"6,3",54,Wei√üe Schokolade mit Himbeer-St√ºckchen
+"Eiwei√üriegel, Fitness- Riegel",19,1687,19,Seitenbacher,403,36,22,34,"Eiwei√üriegel, Fitness- Riegel"
+"Corny Big , Kokos","4,9",1972,"4,9",Schwartauer Werke,471,59,"3,8","23,8","Corny Big , Kokos"
+"Twin Bar, Schokoriegel",35,2311,35,Sch√§r,552,53,"5,8","46,4","Twin Bar, Schokoriegel"
+"Corny A la Tartelette au citron, Zitrone","15,2",1805,"15,2",Schwartauer Werke,431,"66,7","5,7","30,4","Corny A la Tartelette au citron, Zitrone"
+"Pausa, ciok",22,1913,22,Sch√§r,457,58,"5,8",39,"Pausa, ciok"
+"Schokolade, Macadamia",40,2462,40,Schwermer,588,49,"6,3",48,"Schokolade, Macadamia"
+"Corny Nussvoll, Nuss-Schokolade","35,8",2315,"35,8",Schwartauer Werke,553,"38,4",17,"18,9","Corny Nussvoll, Nuss-Schokolade"
+"Mini-Pralinen, crunchy Peanutbutter",35,2315,35,Scholetta,553,52,"6,6",50,"Mini-Pralinen, crunchy Peanutbutter"
+"Schokomonk, Wei√üe Schokolade Erdbeere & Bourbo...","36,5",2353,"36,5",Schokomonk,562,"51,7","6,7","51,6","Schokomonk, Wei√üe Schokolade Erdbeere & Bourbo..."
+"Knusperriegel, Joghurt",33,2018,33,Schneekoppe,482,48,"8,4","8,8","Knusperriegel, Joghurt"
+"Deluxe Chocolate Sticks, Milch-Creme","29,5",2232,"29,5",Scholetta,533,"59,9","6,2",59,"Deluxe Chocolate Sticks, Milch-Creme"
+"Schokomonk, Wei√üe Schokolade Raspberry Cheesecake","35,2",2349,"35,2",Schokomonk,561,54,"6,7","49,7","Schokomonk, Wei√üe Schokolade Raspberry Cheesecake"
+Schoko Milch Riegel,"36,1",2378,"36,1",Schokoliebe,568,"53,2","6,6","52,7",Schoko Milch Riegel
+"Mini-Pralinen, Salted Caramel",28,2077,28,Scholetta,496,58,"4,3",53,"Mini-Pralinen, Salted Caramel"
+"Chocolix, Glutenfreier Riegel mit Karamellf√ºllung",18,1938,18,Sch√§r,463,70,"3,6",34,"Chocolix, Glutenfreier Riegel mit Karamellf√ºllung"
+"No.1,75% Sao Thom√©, Edelbitter",42,2328,42,Sarotti,556,"28,3","8,9","22,8","No.1,75% Sao Thom√©, Edelbitter"
+"Schoko Lolly, aus Vollmilchschokolade",30,2240,30,Santa Claus in Town,535,"58,9","6,4","57,7","Schoko Lolly, aus Vollmilchschokolade"
+Sch√∂nenberger Amaretti Riegel,"37,3",2227,"37,3",Schoenenberger,532,"50,5","5,9","38,9",Sch√∂nenberger Amaretti Riegel
+"Baumstamm, Edelnougat & Edelmarzipan umh√ºllt m...","29,9",2202,"29,9",Santa Claus in Town,526,"56,1","6,4","53,9","Baumstamm, Edelnougat & Edelmarzipan umh√ºllt m..."
+"Schoko Lolly, aus Vollmilchschokolade und wei√üer S...","32,1",2307,"32,1",Santa Claus in Town,551,"58,7","6,2","56,7","Schoko Lolly, aus Vollmilchschokolade und wei√üer S..."
+"Salmix-Schoko-Riegel, Vollmilch","16,8",1892,"16,8",Salmix,452,74,"3,5","68,2","Salmix-Schoko-Riegel, Vollmilch"
+Nugat Edelmarzipan in Vollmilchschokolade,"28,4",2152,"28,4",Schluckwerder,514,"55,9","6,9",55,Nugat Edelmarzipan in Vollmilchschokolade
+"Sana-Pro Premium Schokoriegel, Schoko","8,2",1340,"8,2",Sana-Pro,320,18,40,"8,2","Sana-Pro Premium Schokoriegel, Schoko"
+"Nussschnitten, S Budget, Haselnuss","35,7",2332,"35,7",S-Budget,557,"49,9","6,9","39,7","Nussschnitten, S Budget, Haselnuss"
+"Sun Rice, Kid Crunchy","32,6",2269,"32,6",R√ºbezahl,542,"53,4","7,1","44,7","Sun Rice, Kid Crunchy"
+Crispy Knusper-Riegel,23,1947,23,Salzburg Schokolade,465,64,"6,3",45,Crispy Knusper-Riegel
+"Sun Rice Crunchy Nuss Happen, Puffreis + Cerealien...",33,2294,33,R√ºbezahl,548,54,"7,7",43,"Sun Rice Crunchy Nuss Happen, Puffreis + Cerealien..."
+Feinster Vollmilch Nougat Barren,"37,5",2403,"37,5",Rosengarten,574,"50,9",6,"47,2",Feinster Vollmilch Nougat Barren
+"Vollmilch Schokolade, Nougatcreme Crisp",0,2345,0,Riegelein,560,"54,4","5,1","35,1","Vollmilch Schokolade, Nougatcreme Crisp"
+Schokor√∂llchen mit feiner schokolade,"2,7",2223,"2,7",Rewe,531,59,"6,3",30,Schokor√∂llchen mit feiner schokolade
+"Get Up, Schokoladenriegel mit Karamellf√ºllung",21,1968,21,Rewe,470,65,"4,8",57,"Get Up, Schokoladenriegel mit Karamellf√ºllung"
+"Schoko-Marzipan, Edelmarzipan","24,5",2018,"24,5",Salzburg Schokolade,482,57,"5,6","49,5","Schoko-Marzipan, Edelmarzipan"
+"Osterhasen Schockolade, Vollmilch","33,2",2286,"33,2",Rewe,546,"52,8","7,1","52,6","Osterhasen Schockolade, Vollmilch"
+Osterhasenriegel Vollmilch Schokolade mit Nougat C...,"4,7",2273,"4,7",Riegelein,543,"56,4","6,1",32,Osterhasenriegel Vollmilch Schokolade mit Nougat C...
+"Herbes Madagaskar, Zartbitter",36,2249,36,Rewe,537,46,7,45,"Herbes Madagaskar, Zartbitter"
+Milk Minis,16,1888,16,S-Budget,451,"72,4",4,"67,4",Milk Minis
+"Balisto, Joghurt-Beeren.Mix","26,6",2119,"26,6",Real,506,59,"7,3",43,"Balisto, Joghurt-Beeren.Mix"
+"Cremiges Venezuela, Nougat Vollmilch-Schokolade",38,2336,38,Rewe,558,46,7,45,"Cremiges Venezuela, Nougat Vollmilch-Schokolade"
+Tunnock's Caramel Wafer Biscuits,"17,4",1876,"17,4",Real,448,"69,2","3,6","34,7",Tunnock's Caramel Wafer Biscuits
+Latte-Macchiato Stick,"36,1",2366,"36,1",Rapunzel Naturkost,565,"52,4","6,4",51,Latte-Macchiato Stick
+"Marzipan Happen, Vollmilch Marzipan",31,2018,31,Rapunzel Naturkost,482,38,9,37,"Marzipan Happen, Vollmilch Marzipan"
+"Samba Snack, Haselnuss-Schoko Schnitte","39,5",2428,"39,5",Rapunzel Naturkost,580,"46,9","7,6","44,6","Samba Snack, Haselnuss-Schoko Schnitte"
+"Gourmet-Riegel, Mandel-Nuss",0,2223,0,Rewe,531,"35,9","10,8","38,2","Gourmet-Riegel, Mandel-Nuss"
+Ecuador,"41,9",2227,"41,9",Rausch,532,"30,7","7,9",26,Ecuador
+Tiger Stick,"3,5",2548,"3,5",Rapunzel Naturkost,609,42,"8,4",45,Tiger Stick
+QuestBar Cookies & Cream,15,1461,15,Quest Nutrition,349,12,35,"1,7",QuestBar Cookies & Cream
+QuestBar Peanut Butter Supreme,"16,7",1535,"16,7",Quest Nutrition,367,"6,7","33,3","3,3",QuestBar Peanut Butter Supreme
+QuestBar White Chocolate Raspberry (net carbs),16,1499,16,Quest Nutrition,358,13,33,2,QuestBar White Chocolate Raspberry (net carbs)
+"Haselnuss Waffelriegel, Haselnuss",39,2311,39,Rosengarten,552,"42,3","6,7","30,4","Haselnuss Waffelriegel, Haselnuss"
+Schoko-Stick gef√ºllt mit feiner Himbeer-Joghurt-Cr...,40,2453,40,Rapunzel Naturkost,586,"50,9","6,1","48,8",Schoko-Stick gef√ºllt mit feiner Himbeer-Joghurt-Cr...
+QuestBar Chocolate Peanut Butter,11,1294,11,Quest Nutrition,309,17,33,2,QuestBar Chocolate Peanut Butter
+"Questbar Oatmeal, Chocolate Chip","13,3",1326,"13,3",Quest Nutrition,317,"36,7","33,3","1,7","Questbar Oatmeal, Chocolate Chip"
+"QNT 50% Full Protein , Strawberry Flavour","7,9",1470,"7,9",QNT,351,"24,8",50,"6,9","QNT 50% Full Protein , Strawberry Flavour"
+QuestBar Mixed Berry Bliss,15,1465,15,Quest Nutrition,350,"6,7","33,3","3,3",QuestBar Mixed Berry Bliss
+"Basic 30% Protein Bar, Vanille","9,8",1574,"9,8",Qi2 Sports Nutrition,376,40,30,38,"Basic 30% Protein Bar, Vanille"
+"Basic 30% Protein Bar, Cookies & Cream","12,2",1637,"12,2",Qi2 Sports Nutrition,391,39,30,34,"Basic 30% Protein Bar, Cookies & Cream"
+"Basic 30% Protein Bar, Erdbeere","10,6",1591,"10,6",Qi2 Sports Nutrition,380,39,30,35,"Basic 30% Protein Bar, Erdbeere"
+"√ìri√°s P√∂tty√∂s T√∫r√≥ Rudi, Nat√∫r, mit Milchschokolade","18,8",1524,"18,8",P√∂tty√∂s,364,"39,3","9,5","38,2","√ìri√°s P√∂tty√∂s T√∫r√≥ Rudi, Nat√∫r, mit Milchschokolade"
+"Basic 30% Protein Bar, Schokolade","10,5",1557,"10,5",Qi2 Sports Nutrition,372,36,30,32,"Basic 30% Protein Bar, Schokolade"
+Espresso Stick,"9,3",2336,"9,3",Rapunzel Naturkost,558,"43,4",6,38,Espresso Stick
+"Pure Protein riegel, Chewy Chocolate Chip","10,2",1683,"10,2",Pure Protein,402,"36,3",40,5,"Pure Protein riegel, Chewy Chocolate Chip"
+"Turo Rudi - Schokorolle, Erdbeere","3,8",1529,"3,8",P√∂tty√∂s,365,"45,2","7,7","17,1","Turo Rudi - Schokorolle, Erdbeere"
+"Pulsin Raw Choc Brownie Peanut Choc Chip, Peanut C...","25,1",1758,"25,1",Pulsin,420,"34,4","12,1","23,3","Pulsin Raw Choc Brownie Peanut Choc Chip, Peanut C..."
+"veePRO Veganer Proteinriegel, Schokolade Kokos","14,5",1578,"14,5",Profuel,377,"23,4","28,5","15,7","veePRO Veganer Proteinriegel, Schokolade Kokos"
+"High Protein SO GOOD, White Chocolate","14,9",1754,"14,9",QNT,419,"42,7","27,1","34,1","High Protein SO GOOD, White Chocolate"
+"Raw choc brownie, Mandel Rosinen rohe schokolade","21,2",1717,"21,2",Pulsin,410,"46,8","9,9","35,9","Raw choc brownie, Mandel Rosinen rohe schokolade"
+"precon BCM Di√§t ChocoBar, Choco","11,1",1541,"11,1",Precon,368,"36,2","26,3","34,5","precon BCM Di√§t ChocoBar, Choco"
+Schokoladenwaffel Prestige,"35,6",2353,"35,6",Prestige,562,"53,9","6,5",38,Schokoladenwaffel Prestige
+"Powerbar Proteinplus, Vanilla Low Carb",10,1348,10,Powerbar,322,34,29,"4,5","Powerbar Proteinplus, Vanilla Low Carb"
+"Protein Bar, Joghurt Geschmack",11,1645,11,Power System,393,40,35,23,"Protein Bar, Joghurt Geschmack"
+"veePro Veganer Proteinriegel, Banane","10,2",1480,"10,2",Profuel,353,"27,1","28,8","18,9","veePro Veganer Proteinriegel, Banane"
+"Protein Bar Joghurt Geschmack 35% -Eiweiss, Joghurt",11,1645,11,Power System,393,40,35,23,"Protein Bar Joghurt Geschmack 35% -Eiweiss, Joghurt"
+"plamil, zartbitter",25,2324,25,Plamil,555,"27,1","9,2","1,5","plamil, zartbitter"
+"Powerbar protein Plus Reduced in Carbs, Erdbeer","10,5",1563,"10,5",Powerbar,373,"23,9",16,"9,5","Powerbar protein Plus Reduced in Carbs, Erdbeer"
+Kesten Desert,"3,9",1796,"3,9",Pionir,429,47,"6,9",29,Kesten Desert
+Erdnussriegel Minis,24,2014,24,Prix Garantie,481,55,9,49,Erdnussriegel Minis
+"Schoko-Milch-Riegel Derby Penny, Milch","36,4",2374,"36,4",Penny Markt,567,"51,8","7,6",51,"Schoko-Milch-Riegel Derby Penny, Milch"
+"Galeb, Coko Banana","8,3",1507,"8,3",Pionir,360,74,"1,9",57,"Galeb, Coko Banana"
+"Peanuts, Erdn√ºsse in Karamell & Soft Nougat","28,1",2127,"28,1",Penny Markt,508,"52,4","9,9","43,1","Peanuts, Erdn√ºsse in Karamell & Soft Nougat"
+"Pria Balanced, Schokocrisp",0,1662,0,Powerbar,397,61,16,10,"Pria Balanced, Schokocrisp"
+Haselnussriegel,34,2269,34,Pischinger,542,52,"6,3",43,Haselnussriegel
+SchokoNuss,0,2332,0,Penny Markt,557,54,7,35,SchokoNuss
+Nelly's Caramello Minis,0,1959,0,Penny Markt,468,60,5,23,Nelly's Caramello Minis
+"Minus Z Puffreis Riegel, Joghurt",33,2018,33,Pea,482,48,"8,4","8,8","Minus Z Puffreis Riegel, Joghurt"
+Dark chocolate,30,2123,30,Oxfam Fair Trade,507,54,5,51,Dark chocolate
+ChocRice,25,2098,25,Penny Markt,501,62,7,34,ChocRice
+Peanuts Minis,27,2144,27,Penny Markt,512,58,"9,3",50,Peanuts Minis
+Cereal-Mix,"27,5",2123,"27,5",Penny Markt,507,58,"6,8",41,Cereal-Mix
+"So Free , Cool Mint dark Chocolate",46,1971,46,Plamil,471,5,"9,2",1,"So Free , Cool Mint dark Chocolate"
+Ovomaltine Knusperschnitte,0,2353,0,Ovomaltine,562,"41,6","6,3","38,5",Ovomaltine Knusperschnitte
+"Coconut Dark Chocolate Bar, Schoko Kokosnuss",32,2303,32,Oskri,550,57,"3,8",23,"Coconut Dark Chocolate Bar, Schoko Kokosnuss"
+Whippes Bites Chocolate,32,1336,32,Optimum Nutrition,319,37,27,"2,5",Whippes Bites Chocolate
+"Margot, Kokos","4,7",1871,"4,7",Orion,447,"56,9",0,20,"Margot, Kokos"
+"Complete Protein Bar, schokolade",14,1394,14,Optimum Nutrition,333,24,40,"8,7","Complete Protein Bar, schokolade"
+"Kofila, Schokolade","25,5",2039,"25,5",Orion,487,60,"3,8","40,4","Kofila, Schokolade"
+"Matrix pro 32, Vanille",19,1348,19,Olimp,322,"25,6","32,7","2,3","Matrix pro 32, Vanille"
+"Ovolino, original Schweizer Praline",0,2315,0,Ovomaltine,553,53,"5,4","35,4","Ovolino, original Schweizer Praline"
+OhYeah! Low Carb Bar Cookie & Creme,12,1537,12,Oh Yeah!,367,38,37,2,OhYeah! Low Carb Bar Cookie & Creme
+Bio strawberrys & cream,"47,2",2504,"47,2",Ombar,598,"42,1","6,2","28,4",Bio strawberrys & cream
+"Oh Yeah Chocolate Brownie, Schoko",8,921,8,Oh Yeah!,220,4,22,1,"Oh Yeah Chocolate Brownie, Schoko"
+"Oats & Whey Flapjack, Double Chocolate",14,1449,14,Optimum Nutrition,346,38,33,5,"Oats & Whey Flapjack, Double Chocolate"
+"Delicia Waffel, Cappuccino","3,2",2240,"3,2",Norma,535,56,"5,2",32,"Delicia Waffel, Cappuccino"
+Vanilla Toffee Fudge,"2,9",1821,"2,9",Oh Yeah!,435,35,32,21,Vanilla Toffee Fudge
+"Nutramino protein bar soft, Chocolate coconut",12,1675,12,Nutramino,400,40,33,22,"Nutramino protein bar soft, Chocolate coconut"
+"Oh Yeah! One Bar, Chocolate Birthday Cake","11,6",1465,"11,6",Oh Yeah!,350,"41,6","36,6","1,6","Oh Yeah! One Bar, Chocolate Birthday Cake"
+Niederegger Marzipan mit karamellisierten Mandeln,"36,2",2156,"36,2",Niederegger,515,"34,6",11,"32,5",Niederegger Marzipan mit karamellisierten Mandeln
+"Low Carb Protein Bar (Nutrend), Nougat","13,3",1595,"13,3",Nutrend,381,"41,2","29,6","4,9","Low Carb Protein Bar (Nutrend), Nougat"
+"Tr√ºffel Stick Smoothie, Very Berry","35,2",2131,"35,2",Niederegger,509,"38,9","5,4","36,5","Tr√ºffel Stick Smoothie, Very Berry"
+"Marzipan stick zartbitter, Marzipan","3,1",2139,"3,1",Niederegger,511,"36,9",12,34,"Marzipan stick zartbitter, Marzipan"
+"Sugar Kiss, Caramel Riegel",0,2005,0,Netto,479,64,"3,9",23,"Sugar Kiss, Caramel Riegel"
+Discobits,"18,5",1876,"18,5",Nora,448,"64,7","4,9",43,Discobits
+"Low Carb Bar Oh Yeah, Mint Chocolate Chip",7,921,7,Oh Yeah!,220,24,21,1,"Low Carb Bar Oh Yeah, Mint Chocolate Chip"
+Peanuts (sugar kiss),25,2001,25,Netto,478,"51,5","9,5",46,Peanuts (sugar kiss)
+"Balconi Mix Max, Vollmilch Schokolade","23,4",1867,"23,4",Netto,446,"52,8","5,9",37,"Balconi Mix Max, Vollmilch Schokolade"
+Bl√§tterkrokant (Netto),23,2105,23,Netto,503,67,"5,7",59,Bl√§tterkrokant (Netto)
+"Choco Edition, Erdbeer - Joghurt Riegel","37,9",2403,"37,9",Netto,574,"52,1","5,6",51,"Choco Edition, Erdbeer - Joghurt Riegel"
+Snack,"32,3",2240,"32,3",Nestl√©,535,"52,2","8,1","30,5",Snack
+"Schokoriegel, Vanilla Choc","30,8",2273,"30,8",Nestl√©,543,"59,2","6,9","50,1","Schokoriegel, Vanilla Choc"
+Erdbeer-Joghurt Riegel,"37,9",2420,"37,9",Netto,578,"52,6","5,5","51,6",Erdbeer-Joghurt Riegel
+Princessa Milchgeschmack- Riegel,"32,5",2307,"32,5",Nestl√©,551,"57,6","5,8","41,9",Princessa Milchgeschmack- Riegel
+"Princessa, Kokos","32,1",2240,"32,1",Nestl√©,535,"53,6","7,1","33,3","Princessa, Kokos"
+"Yorkie, Raisin & Biscuit","25,4",2127,"25,4",Nestl√©,508,"61,9","5,3","58,3","Yorkie, Raisin & Biscuit"
+Nuts Riegel,"24,7",2060,"24,7",Nestl√©,492,"62,2","4,6","55,8",Nuts Riegel
+Snack Vollmilch,"30,3",2240,"30,3",Nestl√©,535,"58,2","6,2","39,2",Snack Vollmilch
+Nuts King Size,0,2035,0,Nestl√©,486,62,"4,6","24,8",Nuts King Size
+Lion Snack Size,"22,1",2022,"22,1",Nestl√©,483,"64,7","5,5","43,8",Lion Snack Size
+Lion Mini White,"20,8",1989,"20,8",Nestl√©,475,"65,5","6,1","42,5",Lion Mini White
+"Yes, Caramel",28,2010,28,Nestl√©,480,52,"4,6",40,"Yes, Caramel"
+"KitKat Mini / Selgross, extra creamy, extra crispy",5,2186,5,Nestl√©,522,"60,2",7,"27,7","KitKat Mini / Selgross, extra creamy, extra crispy"
+"Nestle Aero Bubbly Bar Milk, Milk","30,9",2269,"30,9",Nestl√©,542,"57,8","6,5","56,2","Nestle Aero Bubbly Bar Milk, Milk"
+"KitKat Finger, Cookies&Cream",25,2135,25,Nestl√©,510,64,"6,3","50,7","KitKat Finger, Cookies&Cream"
+KitKat Chunky Coconut,"5,3",2156,"5,3",Nestl√©,515,64,7,25,KitKat Chunky Coconut
+"KitKat Chunky Original, Schokolade","28,6",2215,"28,6",Nestl√©,529,"59,5","7,7","49,7","KitKat Chunky Original, Schokolade"
+Twix top,"25,5",2127,"25,5",Nestl√©,508,"62,5","5,3","37,1",Twix top
+Lion,"22,2",2022,"22,2",Nestl√©,483,"64,6","5,4","44,8",Lion
+Knackiger Mousse Riegel,"28,5",1984,"28,5",Nestl√©,474,"47,6","5,8","37,8",Knackiger Mousse Riegel
+KitKat 5er-Pack,5,2186,5,Nestl√©,522,"60,2",7,"27,6",KitKat 5er-Pack
+"Kitkat, Schoko",0,2123,0,Nestl√©,507,61,"7,2",26,"Kitkat, Schoko"
+KitKat Chunky Snack Size,"28,1",2186,"28,1",Nestl√©,522,"59,6","6,7",50,KitKat Chunky Snack Size
+"KitKat Chunky, White","30,6",2265,"30,6",Nestl√©,541,"59,4","6,9","50,3","KitKat Chunky, White"
+"KitKat Chunky, Creamy Cocoa","4,9",2232,"4,9",Nestl√©,533,"58,3",5,"30,8","KitKat Chunky, Creamy Cocoa"
+Deli Schokoriegel,"13,1",1796,"13,1",Nestl√©,429,"73,8",3,"56,2",Deli Schokoriegel
+"KitKat, White Strawberry & Joghurt Mini",0,2156,0,Nestl√©,515,"60,3","8,3","26,2","KitKat, White Strawberry & Joghurt Mini"
+Kit Kat Chunky White,0,2219,0,Nestl√©,530,"59,3",8,"29,1",Kit Kat Chunky White
+"Chokito Mini, Caramel und Knusperreis","5,6",1968,"5,6",Nestl√©,470,"66,7","4,4","20,3","Chokito Mini, Caramel und Knusperreis"
+After Eight Munchies,"5,6",1922,"5,6",Nestl√©,459,67,"2,9","15,4",After Eight Munchies
+KitKat,"27,6",2181,"27,6",Nestl√©,521,"58,8","8,5","46,6",KitKat
+Bros,0,2265,0,Nestl√©,541,"56,3","6,6","32,1",Bros
+"KitKat, FINE DARK",0,2169,0,Nestl√©,518,55,"5,8","29,2","KitKat, FINE DARK"
+Violet Crumble,"17,1",1970,"17,1",Nestl√©,471,"75,9","2,3","65,9",Violet Crumble
+"Yes, Cacao",33,2131,33,Nestl√©,509,46,"5,5",34,"Yes, Cacao"
+Toffee Crisp,"26,8",2148,"26,8",Nestl√©,513,"63,5","3,6","49,7",Toffee Crisp
+"Snack Riegel, Dark Cherry","31,9",2240,"31,9",Nestl√©,535,"54,4","4,8",44,"Snack Riegel, Dark Cherry"
+"Snack, Erdnuss","29,9",2227,"29,9",Nestl√©,532,"54,3","9,7","40,5","Snack, Erdnuss"
+Balaton,"28,2",2144,"28,2",Nestl√©,512,"57,4","5,8","43,5",Balaton
+"Nuts Peanut, Erdnuss","5,4",1972,"5,4",Nestl√©,471,"65,3","6,9","19,9","Nuts Peanut, Erdnuss"
+"Princessa (Nestle), mleczna","31,4",2257,"31,4",Nestl√©,539,"57,7",6,13,"Princessa (Nestle), mleczna"
+Oh Henry!,"21,6",1888,"21,6",Nestl√©,451,"64,7","5,9","47,1",Oh Henry!
+Nuts,"25,1",2026,"25,1",Nestl√©,484,"59,2","4,7","52,7",Nuts
+"Rolo Kingsize, Schoko-Toffee","19,5",1955,"19,5",Nestl√©,467,"68,5","4,1",62,"Rolo Kingsize, Schoko-Toffee"
+Yorkie,5,2148,5,Nestl√©,513,"60,4","5,7","26,2",Yorkie
+Butterfinger Minis,20,1884,20,Nestl√©,450,"72,5",5,45,Butterfinger Minis
+Lion Riegel EXTRA CRISPY,"22,9",2064,"22,9",Nestl√©,493,"65,5","5,5","53,1",Lion Riegel EXTRA CRISPY
+KitKat Mini,"27,9",2190,"27,9",Nestl√©,523,60,"6,8","47,9",KitKat Mini
+Lion King Size,0,2077,0,Nestl√©,496,"65,3","4,5",24,Lion King Size
+"Lion, Peanut","25,4",2093,"25,4",Nestl√©,500,"58,7","7,8","44,7","Lion, Peanut"
+"Lion White, Wei√üe Schokolade","22,1",2026,"22,1",Nestl√©,484,"65,2","5,7","50,1","Lion White, Wei√üe Schokolade"
+"KitKat Dark Noir, Schokolade dunkel","25,8",2142,"25,8",Nestl√©,512,"61,1","5,7","45,9","KitKat Dark Noir, Schokolade dunkel"
+Kitkat Chunky Peanut Butter,"31,2",2252,"31,2",Nestl√©,538,"52,8","10,4","45,3",Kitkat Chunky Peanut Butter
+"KitKat, Singles","27,2",2186,"27,2",Nestl√©,522,"61,9","6,9","49,3","KitKat, Singles"
+"KitKat Chunky, Caramel",0,2273,0,Nestl√©,543,"58,6","5,2","31,8","KitKat Chunky, Caramel"
+"Kitkat, Erdbeere",0,2177,0,Nestl√©,520,64,8,24,"Kitkat, Erdbeere"
+KitKat Chunky Mini,0,2114,0,Nestl√©,505,"62,5","6,8","25,2",KitKat Chunky Mini
+KitKat Chunky,"28,2",2206,"28,2",Nestl√©,527,"61,1","6,7","51,3",KitKat Chunky
+KitKat White,0,2173,0,Nestl√©,519,"60,8","8,3","26,6",KitKat White
+"KitKat, Extra Creamy, Extra Crispy","27,7",2179,"27,7",Nestl√©,520,60,"6,8","49,2","KitKat, Extra Creamy, Extra Crispy"
+"KitKat Chunky, Hazelnut",0,2265,0,Nestl√©,541,"60,1","4,2","31,4","KitKat Chunky, Hazelnut"
+"Chrunch, Schokolade","5,7",2098,"5,7",Nestl√©,501,"68,3","4,6","25,1","Chrunch, Schokolade"
+"KitKat, Hazelnut Cream",0,2261,0,Nestl√©,540,"59,2","5,4","31,3","KitKat, Hazelnut Cream"
+100 Grand,"18,8",1871,"18,8",Nestl√©,447,"70,6","2,4","51,8",100 Grand
+"KitKat, Ruby cocoa beans","31,5",2265,"31,5",Nestl√©,541,"56,8","6,5","44,5","KitKat, Ruby cocoa beans"
+"Butterfinger Crisp, Erdnussbutter/Schokolade",26,2093,26,Nestl√©,500,66,6,48,"Butterfinger Crisp, Erdnussbutter/Schokolade"
+"protein bar, peanut & chocolate","22,9",1951,"22,9",Nature Valley,466,"33,9","28,3","19,9","protein bar, peanut & chocolate"
+"Baby Ruth, Peanut","23,5",1972,"23,5",Nestl√©,471,66,"6,7",55,"Baby Ruth, Peanut"
+Amaranth-Riegel,0,1771,0,NaturGut,423,"59,8",9,"16,4",Amaranth-Riegel
+Chokito,0,2010,0,Nestl√©,480,"65,3","4,6",22,Chokito
+"Balatonszelet, schokoriegel",0,2123,0,Nestl√©,507,"59,3","6,3","27,4","Balatonszelet, schokoriegel"
+"max Elle Virtue Bar, Extra Schokoladig",9,1290,9,Myprotein,308,"45,5","15,9","8,8","max Elle Virtue Bar, Extra Schokoladig"
+"High Protein Bar, Chocolate Coconut",9,1407,9,Myprotein,336,29,38,"3,6","High Protein Bar, Chocolate Coconut"
+Bisco Haselnuss-Creme-Riegel,29,2177,29,Natra,520,56,"7,2",44,Bisco Haselnuss-Creme-Riegel
+"Eiwei√üriegel, Vanille-Karamell",17,1796,17,My Line,429,40,29,22,"Eiwei√üriegel, Vanille-Karamell"
+"HighPro Bar, Chocolate Orange Flavour","8,6",1172,"8,6",Myprotein,280,"19,7","36,6","3,2","HighPro Bar, Chocolate Orange Flavour"
+"Munz Banana, Choco-Chew",0,1842,0,Munz,440,78,"3,1",12,"Munz Banana, Choco-Chew"
+"Kastany, Schokolade","36,5",2374,"36,5",Nestl√©,567,"51,2","7,8","49,2","Kastany, Schokolade"
+"Energate Bar, Hazelnut / Haselnuss","3,5",1750,"3,5",Multipower,418,42,25,16,"Energate Bar, Hazelnut / Haselnuss"
+"50% Protein Bar, Chocolate & Banana Crisp","9,1",1428,"9,1",Multipower,341,26,50,"1,9","50% Protein Bar, Chocolate & Banana Crisp"
+"Energate Riegel, Cocos",0,1905,0,Multipower,455,42,20,22,"Energate Riegel, Cocos"
+"Power Eiwei√ü Riegel, Himbeere","11,3",1595,"11,3",Multinorm,381,40,32,"27,2","Power Eiwei√ü Riegel, Himbeere"
+"Mahlzeitenersatz-Riegel , Schokolade",10,1465,10,Myprotein,350,40,31,12,"Mahlzeitenersatz-Riegel , Schokolade"
+"Meal Replacement Bar, Salted Caramel Flavour",10,1465,10,Myprotein,350,40,31,12,"Meal Replacement Bar, Salted Caramel Flavour"
+"Figur-Riegel, Vanille-Joghurt","11,8",1495,"11,8",Multaben,357,36,25,28,"Figur-Riegel, Vanille-Joghurt"
+"Di√§triegel, S√ºss",12,1587,12,Multaben,379,"31,2",35,"29,5","Di√§triegel, S√ºss"
+"Molke Riegel, Vanillie",10,1671,10,Multaben,399,59,16,52,"Molke Riegel, Vanillie"
+"Modifast Riegel Schokolade, Schokolade",11,1578,11,Modifast,377,47,24,31,"Modifast Riegel Schokolade, Schokolade"
+"Pr√ºgeli, weiss",39,2403,39,Munz,574,47,8,45,"Pr√ºgeli, weiss"
+"Modifast Lunch, Schoko",0,1599,0,Modifast,382,"46,5",25,"11,1","Modifast Lunch, Schoko"
+Toblerone Mini with white chocolate filling (ltd. ...,"30,5",2261,"30,5",Mondelez,540,"59,5","5,8","59,5",Toblerone Mini with white chocolate filling (ltd. ...
+LU Cha-Cha maxx,21,1989,21,Mondelez,475,66,"4,1",44,LU Cha-Cha maxx
+"Mister Choc Sweet Mix, Schokolade",22,1989,22,Mister Choc,475,"63,5","5,4",54,"Mister Choc Sweet Mix, Schokolade"
+Mister Choc Milch + Schokolade,"37,1",2382,"37,1",Mister Choc,569,"50,9","7,4","49,9",Mister Choc Milch + Schokolade
+"Power Eiwei√ü Riegel, Schokolade","11,1",1591,"11,1",Multinorm,380,"34,5","32,3","29,5","Power Eiwei√ü Riegel, Schokolade"
+Peanut & Choco minis,"27,9",2089,"27,9",Mister Choc,499,"50,9",10,"42,5",Peanut & Choco minis
+"Mister choc , Joghurt pflaume crisp","38,8",2437,"38,8",Mister Choc,582,"51,3","6,7","49,5","Mister choc , Joghurt pflaume crisp"
+"Mister Choc, Joghurt-Beeren-Mix",28,2141,28,Mister Choc,511,57,"6,7",41,"Mister Choc, Joghurt-Beeren-Mix"
+Mandel Karamell,"39,2",2424,"39,2",Mister Choc,579,"48,9","7,4","48,2",Mandel Karamell
+"Mister Choc, Wafer Duo",29,2219,29,Mister Choc,530,59,"6,7",52,"Mister Choc, Wafer Duo"
+"Figur 2 Schoko-Karamell Riegel, Di√§t % Eiweiss",11,1578,11,Multaben,377,33,35,25,"Figur 2 Schoko-Karamell Riegel, Di√§t % Eiweiss"
+"Hazelnut & Choco, Mini","24,5",2026,"24,5",Mister Choc,484,60,5,"52,6","Hazelnut & Choco, Mini"
+"MISTER CHOC Gef√ºllte Schokoladenst√§bchen, Erdbeer ...","4,4",2366,"4,4",Mister Choc,565,"52,6",6,"36,2","MISTER CHOC Gef√ºllte Schokoladenst√§bchen, Erdbeer ..."
+"Schokoriegel, Lebkuchen",39,2412,39,Mister Choc,576,"47,6",8,"45,9","Schokoriegel, Lebkuchen"
+Schoko Sticks Minze & Gr√ºner Tee,"27,9",2198,"27,9",Mister Choc,525,"65,2",2,"63,8",Schoko Sticks Minze & Gr√ºner Tee
+Mister Choc Bratapfel-Riegel,"40,3",2445,"40,3",Mister Choc,584,"47,1","7,8","46,1",Mister Choc Bratapfel-Riegel
+"Powerpack, Vanille",0,1629,0,Multipower,389,45,28,11,"Powerpack, Vanille"
+"Mister Choc, Candy minis",16,1871,16,Mister Choc,447,72,"3,7",66,"Mister Choc, Candy minis"
+"Mister Choc, M√ºsli-Mix",27,2102,27,Mister Choc,502,57,"6,6",41,"Mister Choc, M√ºsli-Mix"
+Mister Choc Candy mini,"0,8",1997,"0,8",Mister Choc,477,72,"3,7",16,Mister Choc Candy mini
+"mister choc, choco&caramel","19,7",1909,"19,7",Mister Choc,456,"64,9","4,1","56,8","mister choc, choco&caramel"
+"Mister Choc, Choco Caramel","19,7",1911,"19,7",Mister Choc,456,"64,9","4,1","56,8","Mister Choc, Choco Caramel"
+Mister Choc Knuspo,33,2286,33,Mister Choc,546,53,"7,8","46,5",Mister Choc Knuspo
+"Bellona, Haselnuss","35,5",2319,"35,5",Mister Choc,554,"48,3","9,3","38,6","Bellona, Haselnuss"
+Mister Choc Milch und Schokolade Riegel,38,2424,38,Mister Choc,579,"51,7","6,2","50,4",Mister Choc Milch und Schokolade Riegel
+"Zack, Ganze Haseln√ºsse",38,2366,38,Milka,565,"44,5",9,"42,5","Zack, Ganze Haseln√ºsse"
+"Kuchenriegel, Karamell",31,2123,31,Mister Choc,507,51,"4,4",38,"Kuchenriegel, Karamell"
+Candy & Choco,16,1888,16,Mister Choc,451,"72,4",4,"67,4",Candy & Choco
+Milch+Schokolade,"38,4",2424,"38,4",Mister Choc,579,"51,7","6,2","50,4",Milch+Schokolade
+"Tender, Milch",20,1775,20,Milka,424,"55,5","5,9","37,5","Tender, Milch"
+Peanut Caramel Riegel,33,2261,33,Milka,540,51,"9,2",48,Peanut Caramel Riegel
+"Milka Riegel, ganze Haseln√ºsse",38,2366,38,Milka,565,"44,5","8,9","42,5","Milka Riegel, ganze Haseln√ºsse"
+"Cocos Choco, Cocos","24,7",2014,"24,7",Mister Choc,481,59,"3,6","48,1","Cocos Choco, Cocos"
+"Nussini, Haselnuss",33,2286,33,Milka,546,54,"6,8",39,"Nussini, Haselnuss"
+"Schokolade, Toffee Ganznuss",35,2324,35,Milka,555,"52,5","5,9",51,"Schokolade, Toffee Ganznuss"
+"Leo, Schokoriegel",0,2219,0,Milka,530,59,"6,7","29,5","Leo, Schokoriegel"
+"Milka, Crunchy Break",27,2152,27,Milka,514,62,"4,4",39,"Milka, Crunchy Break"
+Pfefferminz Praline,41,2466,41,Mister Choc,589,"45,4","6,2","43,7",Pfefferminz Praline
+Milka Choco Supreme,31,2240,31,Milka,535,56,"6,8",43,Milka Choco Supreme
+Milka & Daim Zack,"29,5",2219,"29,5",Milka,530,"58,5","5,7",58,Milka & Daim Zack
+Tender √° la Tiramisu,20,1780,20,Milka,425,"56,5","5,7",40,Tender √° la Tiramisu
+"Riegel, Choco & Rice","26,5",2114,"26,5",Milka,505,60,"6,6",51,"Riegel, Choco & Rice"
+"Nussini, Kokos","28,5",2156,"28,5",Milka,515,"59,5","4,7",39,"Nussini, Kokos"
+"Lila Pause, Erdbeer","33,5",2303,"33,5",Milka,550,56,"5,3","51,5","Lila Pause, Erdbeer"
+Choco Break mit Haferflocken,24,2093,24,Milka,500,63,7,43,Choco Break mit Haferflocken
+"Milka Snowman Mousse, Schokolade",34,2324,34,Milka,555,56,"5,9","55,5","Milka Snowman Mousse, Schokolade"
+"Milka Leo Zack, Schokolade mit Waffel","29,5",2240,"29,5",Milka,535,"59,5","6,3",44,"Milka Leo Zack, Schokolade mit Waffel"
+"Milka, Crunchy Choco Break",28,2156,28,Milka,515,61,"4,6",39,"Milka, Crunchy Choco Break"
+"Schokoladenriegel mit Puffreis, Puffreis",5,2114,5,Milka,505,60,"6,6","26,5","Schokoladenriegel mit Puffreis, Puffreis"
+Leo Go!,"29,5",2219,"29,5",Milka,530,59,"6,5","43,5",Leo Go!
+"Lila Pause, Nougat-Creme",33,2282,33,Milka,545,"55,5",6,"51,5","Lila Pause, Nougat-Creme"
+"SportVit, Malzw√ºrfel",0,1792,0,Migros,428,63,12,14,"SportVit, Malzw√ºrfel"
+"Milka & Daim, Riegel",30,2315,30,Milka,553,59,"5,9","58,5","Milka & Daim, Riegel"
+Einmalzin Branches,29,2211,29,Migros,528,57,8,50,Einmalzin Branches
+Marzipan (Marzipanriegel mit Schokolade),27,2052,27,Migros,490,53,7,44,Marzipan (Marzipanriegel mit Schokolade)
+"Lila Pause, √† la Caramel",0,2366,0,Milka,565,54,"5,5",36,"Lila Pause, √† la Caramel"
+"Eimalzin Branche, Kakao",29,2211,29,Migros,528,57,8,50,"Eimalzin Branche, Kakao"
+Risoletto,18,1880,18,Migros,449,68,"3,5",62,Risoletto
+"Hazelnoten, Noisettes, Schockolade","3,7",2366,"3,7",Milka,565,"44,5","9,1","38,5","Hazelnoten, Noisettes, Schockolade"
+"Lila Pause, Nuss","4,4",2290,"4,4",Milka,547,"52,5","6,8","34,5","Lila Pause, Nuss"
+"Protein Cake, Milky",35,2232,35,MaxSport,533,24,28,10,"Protein Cake, Milky"
+"Penguin, Original","27,1",2181,"27,1",McVitie's,521,"62,5","5,3",40,"Penguin, Original"
+Milky Way Riegel,0,1876,0,Masterfoods,448,"72,4","3,7","15,9",Milky Way Riegel
+Choco & Rice,"26,6",2114,"26,6",Milka,505,60,"6,6",51,Choco & Rice
+"Balisto, Erdbeer-Joghurt-Mix",0,2144,0,Masterfoods,512,"58,4","7,2","26,7","Balisto, Erdbeer-Joghurt-Mix"
+"Farmer Soft, Marroni",0,2215,0,Migros,529,56,7,30,"Farmer Soft, Marroni"
+"Mein Gewicht und ich Meine Schokolade, Schoko","23,8",1566,"23,8",Mein Gewicht und Ich,374,"33,1","48,5",8,"Mein Gewicht und ich Meine Schokolade, Schoko"
+Milky Way Minis,"16,3",1884,"16,3",Masterfoods,450,"71,6","3,9",66,Milky Way Minis
+"Balisto, Honey-Almond-Mix",0,2165,0,Masterfoods,517,"54,6","7,4","29,9","Balisto, Honey-Almond-Mix"
+"Mars, Mandel",0,2056,0,Masterfoods,491,"61,6","6,3","24,2","Mars, Mandel"
+"Cyclone Proteinriegel, Schoko-Orange","9,2",1537,"9,2",Maxinutrition,367,"28,2","38,6","16,7","Cyclone Proteinriegel, Schoko-Orange"
+"Mars, Mini","15,7",1855,"15,7",Masterfoods,443,"70,9","3,9","61,9","Mars, Mini"
+"Mars, Hazelnut","23,8",2043,"23,8",Masterfoods,488,"60,9","6,7",53,"Mars, Hazelnut"
+Twix Sticks,"23,7",2064,"23,7",Mars,493,"64,9","4,4","49,1",Twix Sticks
+Snickers Miniatures,"26,5",2114,"26,5",Mars,505,"57,3","8,6","50,1",Snickers Miniatures
+"Twix, Xtra",0,2072,0,Mars,495,"64,6","4,4",24,"Twix, Xtra"
+Snickers INTENSE CHOC,"24,2",2039,"24,2",Mars,487,"57,6","8,4","48,5",Snickers INTENSE CHOC
+"Snickers, Mini","22,5",2018,"22,5",Mars,482,"60,5","8,6","51,8","Snickers, Mini"
+Raider,24,2072,24,Mars,495,"64,6","4,5","48,8",Raider
+Twix White,25,2102,25,Mars,502,64,"4,9","48,1",Twix White
+"Snickers, Rockin' nut Road",20,1930,20,Mars,461,"66,1",6,"52,1","Snickers, Rockin' nut Road"
+"Mars, Mars","16,6",1880,"16,6",Mars,449,"70,2","4,1","61,7","Mars, Mars"
+Mars Protein,"8,1",1469,"8,1",Mars,351,39,33,23,Mars Protein
+Mars,"16,6",1880,"16,6",Masterfoods,449,"70,2","4,1","61,7",Mars
+Mars Caramel Limited Edition,18,1901,18,Mars,454,68,"4,4",58,Mars Caramel Limited Edition
+"Galaxy Duet, Caramel & Shortcake",29,2177,29,Mars,520,58,"6,1",53,"Galaxy Duet, Caramel & Shortcake"
+Milky Way,15,1855,15,Mars,443,"73,4","3,3","66,2",Milky Way
+Twix Mini,"23,7",2068,"23,7",Mars,494,"64,9","4,5","49,9",Twix Mini
+Banjo,"2,6",2349,"2,6",Mars,561,"51,2","6,9","34,5",Banjo
+Balisto Choco Orange,"18,9",1870,"18,9",Mars,447,"58,7","8,5","37,1",Balisto Choco Orange
+"Balisto, Korn-Mix","23,7",2093,"23,7",Mars,500,"62,5","6,5","42,6","Balisto, Korn-Mix"
+"Dove , Peanut Butter & Milk Chocolate","35,9",2361,"35,9",Mars,564,"51,3","10,3","46,2","Dove , Peanut Butter & Milk Chocolate"
+"Balisto, M√ºsli-Mix",25,2102,25,Mars,502,"61,1","6,2","43,9","Balisto, M√ºsli-Mix"
+"Bounty, Zartherb","27,5",2060,"27,5",Mars,492,"55,6","3,6","44,7","Bounty, Zartherb"
+"Balisto, Honig-Mandel Mix","29,1",2202,"29,1",Mars,526,"56,8","7,4","40,4","Balisto, Honig-Mandel Mix"
+"Twix Topix, Macciato",0,2219,0,Mars,530,61,"5,2","29,4","Twix Topix, Macciato"
+Twix,24,2060,24,Mars,492,65,"4,4",49,Twix
+Twix Snack Size,"24,1",2060,"24,1",Mars,492,64,0,48,Twix Snack Size
+Snickers Protein,"13,9",1636,"13,9",Mars,391,"36,1","35,6","18,6",Snickers Protein
+"Balisto, Erdbeer-Joghurt-Mix","25,1",2110,"25,1",Mars,504,"59,6","7,3","42,4","Balisto, Erdbeer-Joghurt-Mix"
+"Snickers Maximus, Erdn√ºsse & Karamell",29,2160,29,Mars,516,"53,2",10,"44,5","Snickers Maximus, Erdn√ºsse & Karamell"
+"Snickers, Cruncher",0,2155,0,Mars,515,"54,1","8,7","28,4","Snickers, Cruncher"
+"Balisto, korn cereal","23,7",2081,"23,7",Mars,497,"62,5","6,5","42,6","Balisto, korn cereal"
+"Mars Delight Minis, Schokolade-Karamell","1,4",2294,"1,4",Mars,548,58,"5,3","32,7","Mars Delight Minis, Schokolade-Karamell"
+Twix White minis,"25,2",2106,"25,2",Mars,503,"63,7","4,9","48,1",Twix White minis
+Mars Xtra Choc,"17,7",1892,"17,7",Mars,452,"67,8","4,2","59,4",Mars Xtra Choc
+"Milky Way Midnight Dark, Midnight Dark",16,1846,16,Mars,441,73,2,58,"Milky Way Midnight Dark, Midnight Dark"
+"Galaxy Duet, Cookies & Cream","33,2",2303,"33,2",Mars,550,"55,1","6,8","53,7","Galaxy Duet, Cookies & Cream"
+"Jokerz Candy Bar, ""Snickers""",0,1955,0,Mars,467,55,8,25,"Jokerz Candy Bar, ""Snickers"""
+Snickers & Hazelnut,"23,9",2047,"23,9",Mars,489,"59,5","8,1","50,4",Snickers & Hazelnut
+Bounty Miniatures,"26,1",2060,"26,1",Mars,492,"58,8",4,"49,5",Bounty Miniatures
+Bounty,"25,7",2043,"25,7",Mars,488,"58,9","3,7","48,2",Bounty
+Snickers,"22,5",2014,"22,5",Mars,481,"60,5","8,6","51,8",Snickers
+"Celebrations, Mix","25,1",2089,"25,1",Mars,499,"61,7","5,6","54,7","Celebrations, Mix"
+Mars 2Pack,"16,6",1876,"16,6",Mars,448,"70,1","3,8",64,Mars 2Pack
+"Bounty Trio, Kokos",26,2043,26,Mars,488,"58,3","3,8","47,8","Bounty Trio, Kokos"
+"Amicelli, Tiramisu","24,5",2127,"24,5",Mars,508,64,"7,2","54,1","Amicelli, Tiramisu"
+Balisto Joghurt,0,2114,0,Mars,505,"61,5","5,7","26,1",Balisto Joghurt
+"Balisto, Choco Apple","18,8",1838,"18,8",Mars,439,62,"5,4",34,"Balisto, Choco Apple"
+"Balisto, Joghurt-Beeren-Mix","24,9",2106,"24,9",Mars,503,61,7,"43,8","Balisto, Joghurt-Beeren-Mix"
+"Balisto, Cocos","23,5",1976,"23,5",Mars,472,"58,1","6,4","29,2","Balisto, Cocos"
+"Pausenschnitte, Original","2,2",2198,"2,2",Manner,525,"57,6","5,8","29,7","Pausenschnitte, Original"
+"Minor, Pr√ºgeli",39,2403,39,Maestrani,574,45,9,44,"Minor, Pr√ºgeli"
+Wachauer Schnitte,"3,2",2089,"3,2",Manner,499,"60,4","5,2","26,2",Wachauer Schnitte
+"Manner Mignon Stick, Mignon","27,4",2144,"27,4",Manner,512,"58,8","5,1","42,8","Manner Mignon Stick, Mignon"
+"Schokoladenriegel, Caramel",0,2093,0,M-Budget,500,64,"4,5",25,"Schokoladenriegel, Caramel"
+Branche classic,32,2273,32,M Classic,543,55,7,52,Branche classic
+Mini Power Riegel Schoko-Haselnuss,34,2031,34,Lycka,485,43,"11,3",33,Mini Power Riegel Schoko-Haselnuss
+"Balisto, Yoghurt limited Edition","25,2",2123,"25,2",Mars,507,"62,2",6,"45,9","Balisto, Yoghurt limited Edition"
+"Balisto, Blaubeere Mandel",19,1880,19,Mars,449,57,"7,9",36,"Balisto, Blaubeere Mandel"
+"Minor Classic, Schokoladen Confiserie mit ger√∂stet...",0,2370,0,Maestrani,566,45,9,39,"Minor Classic, Schokoladen Confiserie mit ger√∂stet..."
+Risoletto Classic,0,1867,0,M Classic,446,70,3,17,Risoletto Classic
+"Peanut Bits (Mini), Gef√ºllte Milchschokolade","27,9",2089,"27,9",Ludwig Schokolade,499,"50,9",10,"42,5","Peanut Bits (Mini), Gef√ºllte Milchschokolade"
+"Schogetten,  Alpenvollmich-Haselnuss",38,2399,38,Ludwig Schokolade,573,50,"6,4",50,"Schogetten,  Alpenvollmich-Haselnuss"
+"Lovechock, Maulbeere/Vanille",44,2433,44,Lovechock,581,41,6,21,"Lovechock, Maulbeere/Vanille"
+Choco Bits,"16,3",1892,"16,3",Ludwig Schokolade,452,"72,4","3,6","64,2",Choco Bits
+"Cho'go, Cornflakes",22,2043,22,Ludwig Schokolade,488,64,"7,3",44,"Cho'go, Cornflakes"
+"Lovechock, Goji/Orange",48,2571,48,Lovechock,614,40,7,17,"Lovechock, Goji/Orange"
+"Loacker, milk & cereals",0,2244,0,Loacker,536,54,8,32,"Loacker, milk & cereals"
+Love Chock Pecan Maca 81% Kakao,50,2583,50,Lovechock,617,36,6,21,Love Chock Pecan Maca 81% Kakao
+"Lovechock, Kirsch/Chili",44,2462,44,Lovechock,588,44,5,24,"Lovechock, Kirsch/Chili"
+"Loacker Classic, Cremkakao",27,2114,27,Loacker,505,58,"7,5",28,"Loacker Classic, Cremkakao"
+Choco & Nuts,33,2265,33,Loacker,541,50,"8,6",33,Choco & Nuts
+"Vollmilch, Alpenmilch",33,2294,33,Lindt,548,55,"7,2",55,"Vollmilch, Alpenmilch"
+"Weisse Schokolade, Schokolade","4,7",2340,"4,7",Lindt,559,56,7,34,"Weisse Schokolade, Schokolade"
+Joghurt-Himbeer-Vanille Stick,34,2340,34,Lindt,559,53,7,47,Joghurt-Himbeer-Vanille Stick
+"Loacker Gardena, Chocolate",0,2139,0,Loacker,511,"56,6","7,2","28,4","Loacker Gardena, Chocolate"
+Hello Frozen Yoghurt Stick,33,2244,33,Lindt,536,53,"6,3",47,Hello Frozen Yoghurt Stick
+"Cho'go, Crispies",26,2165,26,Ludwig Schokolade,517,63,"6,8",49,"Cho'go, Crispies"
+"Creola Riegel, Vanille",0,2361,0,Lindt,564,50,"7,6",37,"Creola Riegel, Vanille"
+"Black & White, Vanille-Tr√ºffel",39,2424,39,Lindt,579,50,"5,4",48,"Black & White, Vanille-Tr√ºffel"
+"Hello nice to sweet you, Lemon Cheescake",35,2303,35,Lindt,550,51,7,45,"Hello nice to sweet you, Lemon Cheescake"
+"Weihnachtsnascherei, Weihnachts-Stollen","3,2",2123,"3,2",Lindt,507,51,"6,8",29,"Weihnachtsnascherei, Weihnachts-Stollen"
+"Lindor Stick, Milch",44,2537,44,Lindt,606,46,"5,5",45,"Lindor Stick, Milch"
+"Branches Classic, Schokolade",32,2273,32,M Classic,543,55,8,53,"Branches Classic, Schokolade"
+"Salted Caramel, Vollmilchschokolade mit gesalzener...",29,2131,29,Lindt,509,57,"4,5",54,"Salted Caramel, Vollmilchschokolade mit gesalzener..."
+"Hello my name is, Sweet Popcorn",36,2353,36,Lindt,562,52,"6,6",50,"Hello my name is, Sweet Popcorn"
+"Hello My Name Is, Mango Lassi",34,2315,34,Lindt,553,54,"6,9",52,"Hello My Name Is, Mango Lassi"
+Berry Affair Nice to sweet you,35,2307,35,Lindt,551,52,"7,5",49,Berry Affair Nice to sweet you
+"Hello Nice To Sweet You Stick, Cookie","35,9",2361,"35,9",Lindt,564,52,"6,9","48,7","Hello Nice To Sweet You Stick, Cookie"
+"Nutchoc, Haselnuss","5,4",2064,"5,4",Lidl,493,"55,6","5,7","29,6","Nutchoc, Haselnuss"
+"Shortcakes, Caramel",30,2169,30,Lidl,518,54,"7,3",35,"Shortcakes, Caramel"
+"Animation Schokoriegel, Erdbeer-Joghurt","38,1",2445,"38,1",Lidl,584,"53,3","6,4",50,"Animation Schokoriegel, Erdbeer-Joghurt"
+"Collection Superieur Schokoriegel, Dunkle Auswahl","41,6",2466,"41,6",Lidl,589,45,"6,7","42,7","Collection Superieur Schokoriegel, Dunkle Auswahl"
+Edel Marzipan Riegel,26,2022,26,Lindt,483,51,"8,2",49,Edel Marzipan Riegel
+"Schokoriegel, Kipferl","39,3",2433,"39,3",Lidl,581,"48,5","7,8","47,2","Schokoriegel, Kipferl"
+"Nocciolatte, Schokolade","3,7",2403,"3,7",Lindt,574,44,5,42,"Nocciolatte, Schokolade"
+Hello My Name is COOKIES & CREAM,37,2366,37,Lindt,565,52,7,49,Hello My Name is COOKIES & CREAM
+"Animation, Pfirsich-Aprikose Joghurt","37,5",2428,"37,5",Lidl,580,"53,2","7,1","50,1","Animation, Pfirsich-Aprikose Joghurt"
+"Animation, Bratapfel","40,3",2445,"40,3",Lidl,584,"47,1","7,8","46,1","Animation, Bratapfel"
+"Dreemy mini, gef√ºllte Milchschokolade",16,1884,16,Lidl,450,72,4,67,"Dreemy mini, gef√ºllte Milchschokolade"
+"LCW Balance Schokolade, Dunkle Schokolade","36,8",1918,"36,8",LCW-Shop,458,14,"5,7","2,7","LCW Balance Schokolade, Dunkle Schokolade"
+"Lidl Sweet Mix, Schokoriegel Mini Mix",22,1993,22,Lidl,476,64,"5,4",56,"Lidl Sweet Mix, Schokoriegel Mini Mix"
+"Proteinriegel Low Carb, Schoko-Banane","20,6",1436,"20,6",Layenberger,343,"24,5","45,5","1,4","Proteinriegel Low Carb, Schoko-Banane"
+"Animation, Florentiner-Krokant Pralin√©","36,2",2361,"36,2",Lidl,564,"50,3","7,5",44,"Animation, Florentiner-Krokant Pralin√©"
+"Chocoletti , Noisette","4,4",2324,"4,4",Lindt,555,53,"6,7",35,"Chocoletti , Noisette"
+"La Nouba Schokoriegel , Dark with Coconut cream fi...","2,9",2319,"2,9",La Nouba,554,"34,6","4,4","47,8","La Nouba Schokoriegel , Dark with Coconut cream fi..."
+Magnum Double Chocolate,31,2215,31,Langnese,529,54,"5,8",46,Magnum Double Chocolate
+"LowCarb Protein Riegel, Kokos-Mandel","18,8",1520,"18,8",Layenberger,363,"22,5","45,4","1,3","LowCarb Protein Riegel, Kokos-Mandel"
+"Peanut Bits, Schokolade","27,9",2089,"27,9",Kr√ºger,499,"50,9",10,"42,5","Peanut Bits, Schokolade"
+K√§gi M√§x,37,2378,37,K√§gi,568,54,"7,6",39,K√§gi M√§x
+Bananko,"6,7",1620,"6,7",Kras,387,"76,7","1,3","73,3",Bananko
+"Knusperb√§llchen -f√ºr Dich-, Getreide/Schoko","30,3",2219,"30,3",la vida,530,"55,3","7,4","47,6","Knusperb√§llchen -f√ºr Dich-, Getreide/Schoko"
+"K√§gi Fretlil Mini, Schokolade",0,2010,0,K√§gi,480,73,7,18,"K√§gi Fretlil Mini, Schokolade"
+"Sportriegel ungarisch, Lotto Walnuss",16,1842,16,Kraft Foods,440,"67,5","2,4",62,"Sportriegel ungarisch, Lotto Walnuss"
+Balance Milk Chocolate Wafer,30,2022,30,Klingele Chocolade,483,58,"4,5","4,2",Balance Milk Chocolate Wafer
+"Prince Polo, Classic XXL",0,2198,0,Kraft Foods,525,"58,5",5,30,"Prince Polo, Classic XXL"
+"Balance Belgian Chocolate, Milk Truffle","27,9",2384,"27,9",Klingele Chocolade,569,"35,3","5,5","6,4","Balance Belgian Chocolate, Milk Truffle"
+Kvikk Lunsj,0,2219,0,Kraft Foods,530,56,"8,2","30,5",Kvikk Lunsj
+Kinder Country,"33,7",2328,"33,7",Kinder nicht verwenden --> Ferrero,556,55,"8,9",49,Kinder Country
+Happy Hippo Cacao,0,2374,0,Kinder nicht verwenden --> Ferrero,567,"51,2","9,4","36,1",Happy Hippo Cacao
+"Kinder Schokolade, Milchschokolade",0,2319,0,Kinder nicht verwenden --> Ferrero,554,52,10,34,"Kinder Schokolade, Milchschokolade"
+"Chocarre Mandel Karamell, Schokolade","39,2",2424,"39,2",Lidl,579,"48,9","7,4","48,2","Chocarre Mandel Karamell, Schokolade"
+"Prince Polo, Classic",0,2219,0,Kraft Foods,530,"57,5","4,8",31,"Prince Polo, Classic"
+√ú-Ei,0,2366,0,Kinder nicht verwenden --> Ferrero,565,"51,5","9,5","35,5",√ú-Ei
+Kinder Riegel,"34,5",2336,"34,5",Kinder nicht verwenden --> Ferrero,558,53,"8,8",52,Kinder Riegel
+"Choco Krispies Coco Pops, Riegel Kellogg, Cereal ...",12,1758,12,Kellogg's,420,71,7,42,"Choco Krispies Coco Pops, Riegel Kellogg, Cereal ..."
+"Kinder Bueno, White","35,3",2345,"35,3",Kinder nicht verwenden --> Ferrero,560,"51,4","9,2",42,"Kinder Bueno, White"
+"Wafer-Star, Waffelriegel mit Milchschokolade",29,2236,29,K-Classic,534,60,"6,9",52,"Wafer-Star, Waffelriegel mit Milchschokolade"
+"Protein Riegel, Kokos-Mandel","18,8",1522,"18,8",Layenberger,364,"22,5","45,4","1,3","Protein Riegel, Kokos-Mandel"
+"Milnetti, Minis",16,1884,16,K-Classic,450,72,"3,6",64,"Milnetti, Minis"
+Cruzer,"5,4",1922,"5,4",K-Classic,459,"64,9","4,1","19,7",Cruzer
+Nut-Star(Mini),"27,9",2093,"27,9",K-Classic,500,"50,9",10,"42,5",Nut-Star(Mini)
+"Squares, Total Choco",13,1809,13,Kellogg's,432,74,"4,5",37,"Squares, Total Choco"
+Prince Polo Orzechowe,28,2198,28,Kraft Foods,525,"59,5","6,5",40,Prince Polo Orzechowe
+Milnetti Minis,16,1876,16,K-Classic,448,72,"3,6",64,Milnetti Minis
+Hap-Noc,21,1963,21,K-Classic,469,64,"4,9",54,Hap-Noc
+"Coco-Nut mini, Kokos",25,2026,25,K-Classic,484,59,"3,6",48,"Coco-Nut mini, Kokos"
+"Magic Creams, Chocolate Cream Cracker Sandwich",25,2093,25,Jack n' Jill,500,67,7,21,"Magic Creams, Chocolate Cream Cracker Sandwich"
+"Jezyki - Kokosriegel, Kokos",25,2056,25,Jutrzenka,491,59,"5,4",47,"Jezyki - Kokosriegel, Kokos"
+Rahm-Mandel Schokolade,"5,3",2407,"5,3",Ja!,575,"38,3","10,3","37,3",Rahm-Mandel Schokolade
+"Edel-Zartbitter Venezuela 56%, Edel-Zartbitter","39,2",2366,"39,2",J.D.Gross,565,"45,2","4,5","42,5","Edel-Zartbitter Venezuela 56%, Edel-Zartbitter"
+Mousse au Chocolat,"39,2",2370,"39,2",J.D.Gross,566,"46,1","6,9",45,Mousse au Chocolat
+Mini-Schokoriegel-Mix,"23,5",2005,"23,5",Ja!,479,"59,2","5,6",49,Mini-Schokoriegel-Mix
+Double-Star(Mini),24,2118,24,K-Classic,506,67,"4,7",47,Double-Star(Mini)
+Wild-Crisp(mini),24,2043,24,K-Classic,488,63,"4,5",51,Wild-Crisp(mini)
+Schoko & Keks,30,2215,30,Ja!,529,58,"6,1",52,Schoko & Keks
+"All-Bran Riegel, Chocolate",16,1750,16,Kellogg's,418,52,7,23,"All-Bran Riegel, Chocolate"
+"Isostar High Protein 25 Powerplay, Yoghurt",4,1574,4,Isostar,376,"48,5","25,1","8,9","Isostar High Protein 25 Powerplay, Yoghurt"
+"Energie-Eiwei√ü-Riegel, Cocos, Vanille, Schoko, Mar...",2,1855,2,Inkospor,443,47,18,21,"Energie-Eiwei√ü-Riegel, Cocos, Vanille, Schoko, Mar..."
+"X-Treme Protein Flash, Vanille",11,1620,11,Inkospor,387,"41,7",32,"35,2","X-Treme Protein Flash, Vanille"
+"My Line, Erdnuss-Karamell",2,1754,2,Inkospor,419,"41,6","24,3",35,"My Line, Erdnuss-Karamell"
+"X - Treme Power Flash, Schoko",8,1532,8,Inkospor,366,48,26,31,"X - Treme Power Flash, Schoko"
+Edelvollmilch Gianduja Nougat,35,2328,35,Hussel,556,52,"6,2",50,Edelvollmilch Gianduja Nougat
+"Hostess Brownie M&m, M&m",7,712,7,Hostess,170,26,2,19,"Hostess Brownie M&m, M&m"
+Schokoladenwaffel,0,2290,0,Hua Shengsutang,547,"48,3","5,5",36,Schokoladenwaffel
+"Collection Sup√©rieur, Gro√üe Auswahl","40,4",2449,"40,4",J.D.Gross,585,"46,4","7,5","44,4","Collection Sup√©rieur, Gro√üe Auswahl"
+"Imperius Protein Bar Coconut Crisp, Coconut Crisp",15,1591,15,Iron Maxx,380,35,36,1,"Imperius Protein Bar Coconut Crisp, Coconut Crisp"
+Nippon,"30,1",2236,"30,1",Hosta,534,"58,9","5,6","40,2",Nippon
+"Mr. Tom Erdnussriegel, Peanut","33,9",2290,"33,9",Hosta,547,"38,1","20,6","24,7","Mr. Tom Erdnussriegel, Peanut"
+"Wintertraum Nougat Riegel, Krokant in Vollmilchsch...","30,5",2232,"30,5",Hofer,533,"55,1","7,6","52,6","Wintertraum Nougat Riegel, Krokant in Vollmilchsch..."
+Reeses Sticks,"31,2",2273,"31,2",Hershey's,543,"51,9","10,3","41,3",Reeses Sticks
+"Nugat Riegel (Hofer), Waffel","31,7",2261,"31,7",Hofer,540,"54,4","7,1","51,6","Nugat Riegel (Hofer), Waffel"
+"Hershey's, Cookies'n'Creme","26,9",2181,"26,9",Hershey's,521,"60,7","8,1",45,"Hershey's, Cookies'n'Creme"
+Reeses Fast Break 18 g Bars,"22,2",2093,"22,2",Hershey's,500,"66,6","11,1","55,5",Reeses Fast Break 18 g Bars
+"Nugat Riegel (Hofer), Haselnuss","36,5",2374,"36,5",Hofer,567,"47,1","9,5","44,5","Nugat Riegel (Hofer), Haselnuss"
+"Reese¬¥s Nutrageous, Candy Bar","31,4",2131,"31,4",Hershey's,509,"54,9","11,8",43,"Reese¬¥s Nutrageous, Candy Bar"
+reese's sticks,"30,7",2269,"30,7",Hershey's,542,56,"10,3","41,8",reese's sticks
+Zero Candy Bar,"15,4",1851,"15,4",Hershey's,442,"71,2","5,4","59,6",Zero Candy Bar
+"Fast Break, Milk Chocolate, Peanut Butter & No...","3,6",1947,"3,6",Hershey's,465,"62,5",9,"21,5","Fast Break, Milk Chocolate, Peanut Butter & No..."
+Reeses nut bar,"30,3",2219,"30,3",Hershey's,530,"50,8","10,8","44,5",Reeses nut bar
+Reese Schokolade,0,1172,0,Hershey's,280,30,5,15,Reese Schokolade
+Anita Coko,33,2273,33,I.D.C. Polonia S.A.,543,52,7,37,Anita Coko
+"Hachez Longs Vollmilch-Nougat, Vollmilch-Nougat",0,2324,0,Hachez,555,46,7,38,"Hachez Longs Vollmilch-Nougat, Vollmilch-Nougat"
+Guylian Meeresfr√ºchte Riegel,33,2211,33,Guylian,528,51,7,49,Guylian Meeresfr√ºchte Riegel
+"Active Energy Riegel, Marzipan",0,1825,0,Inkospor,436,48,21,19,"Active Energy Riegel, Marzipan"
+"Halk Duble Gofret, Wafers with Cocoa Cream","17,7",1738,"17,7",Halk,415,"60,5","3,3","17,4","Halk Duble Gofret, Wafers with Cocoa Cream"
+Papua Neuguinea 34% Kakao Stick,36,2303,36,Hachez,550,46,9,45,Papua Neuguinea 34% Kakao Stick
+"Milch Schokoriegel, mit einer F√ºllung mit Joghurt ...",35,2332,35,Gunz,557,53,"6,8",53,"Milch Schokoriegel, mit einer F√ºllung mit Joghurt ..."
+Cocos Schokoriegel mini,23,1985,23,Gut & G√ºnstig,474,63,4,54,Cocos Schokoriegel mini
+"Caramel Schokoriegel, Mini",20,1922,20,Gut & G√ºnstig,459,65,"4,2",57,"Caramel Schokoriegel, Mini"
+"Prinzenrolle, Mini",20,2026,20,Griesson DeBeukelaer,484,68,"6,4",32,"Prinzenrolle, Mini"
+"Torrone Schokolade, Zartbitter","33,8",2299,"33,8",Goutier,549,"52,8","5,5","47,5","Torrone Schokolade, Zartbitter"
+"Brownie, mit Schoko-St√ºckchen",26,1926,26,Gourmandor,460,51,"5,5",32,"Brownie, mit Schoko-St√ºckchen"
+Grzeski,29,2183,29,Goplana,521,54,10,32,Grzeski
+"Mahalo Candy Bar, Kokosnuss und Mandel","33,3",2056,"33,3",GoMaxGo,491,"45,6","5,3","31,6","Mahalo Candy Bar, Kokosnuss und Mandel"
+GoMaxGo TWILIGHT Schokoriegel vegan,11,1700,11,GoMaxGo,406,"74,1","2,2","48,4",GoMaxGo TWILIGHT Schokoriegel vegan
+GoMaxGo BUCCANEER Schokoriegel vegan,12,1691,12,GoMaxGo,404,75,"1,7",58,GoMaxGo BUCCANEER Schokoriegel vegan
+Mr.Tom Schokolade,"35,6",2349,"35,6",Hosta,561,"48,1","10,3","43,2",Mr.Tom Schokolade
+"Jezyki, Schokoriegeliegel, Classic, Classic","5,3",1980,"5,3",Goplana,473,"63,4","5,5",21,"Jezyki, Schokoriegeliegel, Classic, Classic"
+"Ballaststoffriegel, Pflaume/Zitrone/Weizenkleie","13,8",1562,"13,8",Gittis,373,"47,3","5,5","37,3","Ballaststoffriegel, Pflaume/Zitrone/Weizenkleie"
+"Protein Bar, Kokos","15,4",1721,"15,4",HelloFit,411,38,"31,2","31,2","Protein Bar, Kokos"
+Nougat-Marzipan Baumstamm,"4,7",2152,"4,7",Goldora,514,"56,1","6,3","29,2",Nougat-Marzipan Baumstamm
+Gerlin√©a,11,1486,11,Gerlin√©a,355,31,27,17,Gerlin√©a
+GoMaxGo THUMBS UP Schokoriegel vegan,"16,2",1809,"16,2",GoMaxGo,432,"70,3","5,4","51,4",GoMaxGo THUMBS UP Schokoriegel vegan
+"Wei√üe Bio-Joghurt-Schokolade, Mango-Kokos",36,2361,36,GEPA,564,"51,4","8,3","45,2","Wei√üe Bio-Joghurt-Schokolade, Mango-Kokos"
+"Praline, Espresso","41,4",2445,"41,4",GEPA,584,44,"6,9","42,2","Praline, Espresso"
+Fairetta Coco & Rice,"37,7",2345,"37,7",GEPA,560,"48,4","3,8",43,Fairetta Coco & Rice
+"Maitre Truffout, Espresso",4,2219,4,Gunz,530,48,"4,9",34,"Maitre Truffout, Espresso"
+Glutano Nussy Haselnussschnitte,28,2169,28,Glutano,518,56,8,39,Glutano Nussy Haselnussschnitte
+Quinua Crisp,"36,8",2370,"36,8",GEPA,566,49,"8,3",43,Quinua Crisp
+"Pralin√© Macchiato, Macchiato","40,3",2458,"40,3",GEPA,587,"47,8",8,"47,5","Pralin√© Macchiato, Macchiato"
+Fairetta Zartbitter Ingwer,"38,1",2336,"38,1",GEPA,558,"41,8","6,9","32,2",Fairetta Zartbitter Ingwer
+Fairetta Krokant Vollmilch,"38,1",2399,"38,1",GEPA,573,"47,1","8,7","43,1",Fairetta Krokant Vollmilch
+Bio Fairetta Kids,0,2508,0,GEPA,599,"44,1",7,"43,9",Bio Fairetta Kids
+Fairetta Wei√üe Crisp,"36,4",2382,"36,4",GEPA,569,"51,5","8,8","46,7",Fairetta Wei√üe Crisp
+"Fiber One Protein, Caramel Nut","18,2",1650,"18,2",General Mills,394,"40,5","21,2","21,2","Fiber One Protein, Caramel Nut"
+"Praline Noisette, Wei√üe- und Vollmilchschokolade m...",38,2412,38,GEPA,576,"48,7","8,7",46,"Praline Noisette, Wei√üe- und Vollmilchschokolade m..."
+"Galler Schokolade , knusprige Pralinenf√ºllung",4,2386,4,Galler,570,"47,5","8,5","37,7","Galler Schokolade , knusprige Pralinenf√ºllung"
+"Schoko Lolly, Vollmilchschokolade, wei√üe Schokolade","31,9",2299,"31,9",Fr√∂hliche Osterzeit,549,"59,2","6,2","54,5","Schoko Lolly, Vollmilchschokolade, wei√üe Schokolade"
+"Bio Osterriegel, Vollmilch- Schokoriegel mit Milch...","42,3",2504,"42,3",GEPA,598,46,"7,6","45,4","Bio Osterriegel, Vollmilch- Schokoriegel mit Milch..."
+"Raise The Bar!, Chocolate Orange",12,1591,12,Gainomax,380,38,33,28,"Raise The Bar!, Chocolate Orange"
+Di√§t Cocos Riegel,12,2102,12,Frankonia,502,45,7,30,Di√§t Cocos Riegel
+Galaxy Smooth Milk,"32,4",2286,"32,4",Galaxy,546,"55,7","6,8","55,1",Galaxy Smooth Milk
+"Caramel, Karamell","33,4",2215,"33,4",GEPA,529,"49,4","6,6",48,"Caramel, Karamell"
+"Yogurette Sauerkirsche, mit Geschmack von Marzipan","37,1",2396,"37,1",Ferrero,572,"54,4","4,8","53,4","Yogurette Sauerkirsche, mit Geschmack von Marzipan"
+"Yogurette, Zitrone (Summer Fresh)","35,6",2379,"35,6",Ferrero,568,"56,4",5,"55,1","Yogurette, Zitrone (Summer Fresh)"
+Di√§t Marzipan Riegel,32,2127,32,Frankonia,508,42,10,42,Di√§t Marzipan Riegel
+"Mon Repas Gerlinea, Protein Riegel, Caramel","10,5",1580,"10,5",Gerlin√©a,377,"45,1","23,7","37,5","Mon Repas Gerlinea, Protein Riegel, Caramel"
+"Yogurette Brazilian Summer, White & Limette",39,2441,39,Ferrero,583,"52,5","4,5",52,"Yogurette Brazilian Summer, White & Limette"
+"Yogurette, Maracuja",36,2370,36,Ferrero,566,"54,9","5,2",53,"Yogurette, Maracuja"
+"Yogurette, Cranberry","35,4",2353,"35,4",Ferrero,562,"55,1","5,2",53,"Yogurette, Cranberry"
+Yogurette Heidelbeere,"36,7",2407,"36,7",Ferrero,575,"55,6","4,5","54,6",Yogurette Heidelbeere
+"Yogurette, Waldbeere",0,2311,0,Ferrero,552,"53,6","4,8","35,2","Yogurette, Waldbeere"
+Tronky Nocciola,"32,5",2294,"32,5",Ferrero,548,"54,9","7,8","43,7",Tronky Nocciola
+Tronky,"31,1",2227,"31,1",Ferrero,532,"52,5","8,1","37,3",Tronky
+"Yogurette, Johannisbeere",0,2311,0,Ferrero,552,"53,6","4,8","35,2","Yogurette, Johannisbeere"
+"Yogurette Wintertraum, Bratapfel & Zimt",37,2403,37,Ferrero,574,"54,5","4,8","53,6","Yogurette Wintertraum, Bratapfel & Zimt"
+"Yogurette, Erdbeere","35,6",2391,"35,6",Ferrero,571,"56,8","4,8","55,4","Yogurette, Erdbeere"
+"Kinder Happy Hippo, Cacao","38,6",2483,"38,6",Ferrero,593,"53,6","6,7","45,1","Kinder Happy Hippo, Cacao"
+"Kinder, bueno","37,3",2384,"37,3",Ferrero,569,"49,5","8,6","41,2","Kinder, bueno"
+Kinder Maxi King extra chocolate,30,1938,30,Ferrero,463,43,"5,9",39,Kinder Maxi King extra chocolate
+Kinder Bueno Dark,"40,6",2483,"40,6",Ferrero,593,"46,1",9,"36,7",Kinder Bueno Dark
+Fruit Branches Mango-Maracuja,31,2211,31,Frey Nutrition,528,55,7,51,Fruit Branches Mango-Maracuja
+"Kinder, Choco fresh","43,7",2441,"43,7",Ferrero,583,"39,3","7,3","39,3","Kinder, Choco fresh"
+Kinder Friends Country Mini,0,2428,0,Ferrero,580,56,10,36,Kinder Friends Country Mini
+Duplo Milchcreme,35,2345,35,Ferrero,560,54,"6,7",49,Duplo Milchcreme
+"Duplo, Zartbitter Mandel","35,2",2328,"35,2",Ferrero,556,"50,5",7,42,"Duplo, Zartbitter Mandel"
+Kinder Country,"33,8",2349,"33,8",Ferrero,561,"54,9","8,6","49,1",Kinder Country
+Duplo Typ Spekulatius,"33,9",2324,"33,9",Ferrero,555,"55,3",6,"47,5",Duplo Typ Spekulatius
+"Duplo, Caramel",36,2395,36,Ferrero,572,"55,7","5,6","49,5","Duplo, Caramel"
+Duplo Zartbitter Cocos,"39,4",2479,"39,4",Ferrero,592,"51,9","6,3","42,6",Duplo Zartbitter Cocos
+"Duplo, Vollmilch Cocos","39,4",2479,"39,4",Ferrero,592,"51,9","6,3","46,7","Duplo, Vollmilch Cocos"
+"Yogurette Mini-Riegel, Erdbeere","35,6",2391,"35,6",Ferrero,571,"56,8","4,8","55,4","Yogurette Mini-Riegel, Erdbeere"
+"Yogurette, Exotic Mango",36,2395,36,Ferrero,572,56,"4,7","54,2","Yogurette, Exotic Mango"
+"Yogurette, Brombeere & Vanille-Geschmack",36,2399,36,Ferrero,573,"56,6","4,7","55,6","Yogurette, Brombeere & Vanille-Geschmack"
+"Yogurette, White & Ananas-Limette","38,8",2458,"38,8",Ferrero,587,"53,8",5,"53,3","Yogurette, White & Ananas-Limette"
+Yogurette Brombeere & Holunder,"36,7",2407,"36,7",Ferrero,575,"55,6","4,5","54,3",Yogurette Brombeere & Holunder
+Yogurette White & Mango,"40,4",2471,"40,4",Ferrero,590,52,"4,8","51,1",Yogurette White & Mango
+"Yogurette, Himbeere (Himbeer-Garten)","1,1",2403,"1,1",Ferrero,574,"56,3","4,9","36,1","Yogurette, Himbeere (Himbeer-Garten)"
+kinderbueno,0,2386,0,Ferrero,570,"48,2","9,8","37,5",kinderbueno
+"Yogurette, Rhabarber-Erdbeer","4,6",2386,"4,6",Ferrero,570,"55,5",5,"35,8","Yogurette, Rhabarber-Erdbeer"
+"Yogurette, White","38,8",2445,"38,8",Ferrero,584,"53,4","4,8","52,9","Yogurette, White"
+Kinder Friends Bueno Mini,"37,3",2575,"37,3",Ferrero,615,"49,5","9,2","41,3",Kinder Friends Bueno Mini
+Tronky Latte e Cereali,"33,6",2286,"33,6",Ferrero,546,"49,9","9,8","39,6",Tronky Latte e Cereali
+Kinder Maxi King,"37,5",2181,"37,5",Ferrero,521,"38,2","6,7","35,6",Kinder Maxi King
+Kinder Friends Schokolade Mini,0,2303,0,Ferrero,550,52,10,33,Kinder Friends Schokolade Mini
+duplo Zartbitter,0,2186,0,Ferrero,522,"55,5",6,"30,8",duplo Zartbitter
+"Kinder Choco Sticks, Zartbitter",0,1930,0,Ferrero,461,"42,7","5,5","29,8","Kinder Choco Sticks, Zartbitter"
+Duplo Chocnut white,"43,2",2525,"43,2",Ferrero,603,"43,5","9,2","36,5",Duplo Chocnut white
+"Kinder bueno, Milchhaselnusscreme",0,2357,0,Ferrero,563,"46,6","9,8","37,5","Kinder bueno, Milchhaselnusscreme"
+Duplo Nocciolato,"39,1",2403,"39,1",Ferrero,574,46,"7,8",38,Duplo Nocciolato
+"Duplo, Zartbitter Schokolade",0,2265,0,Ferrero,541,55,5,"30,8","Duplo, Zartbitter Schokolade"
+"Duplo, Chocnut","39,3",2483,"39,3",Ferrero,593,"50,9","7,4","41,9","Duplo, Chocnut"
+Kinder Riegel,35,2370,35,Ferrero,566,"53,5","8,7","53,3",Kinder Riegel
+"Lightketchup, Tomate",0,159,0,FELIX,38,7,"1,5","0,1","Lightketchup, Tomate"
+"Susu Original, Schokolade",16,1784,16,Fazer,426,64,"5,8",52,"Susu Original, Schokolade"
+Duplo,33,2324,33,Ferrero,555,56,6,50,Duplo
+"Fairetta creamy Kokos, Kokos","41,2",2479,"41,2",EZA,592,47,"7,4","43,5","Fairetta creamy Kokos, Kokos"
+"Yogurette, Kirsche","35,4",2366,"35,4",Ferrero,565,56,"5,2",54,"Yogurette, Kirsche"
+Suffeli,27,2098,27,Fazer,501,60,"5,6",48,Suffeli
+"Excelsior Jumper, Softcream, Erdn√ºsse und Karamell","4,2",2089,"4,2",Excelsior,499,"50,9",10,"27,9","Excelsior Jumper, Softcream, Erdn√ºsse und Karamell"
+Eurodiet Pralinenriegel,14,1537,14,eurodiet,367,"21,4","28,8","16,1",Eurodiet Pralinenriegel
+"Duplo, Spekulatius","33,9",2315,"33,9",Ferrero,553,"55,3",6,"47,5","Duplo, Spekulatius"
+Chocolate Tryptophan Bar,"20,5",1390,"20,5",eurodiet,332,"20,4",32,"10,4",Chocolate Tryptophan Bar
+Chocolate-coated chocolate bar,8,1444,8,eurodiet,345,"25,7","34,5","17,6",Chocolate-coated chocolate bar
+ETi Wanted Karamelli,"23,4",2047,"23,4",Eti,489,63,"5,7","44,1",ETi Wanted Karamelli
+Maximus,"25,8",2085,"25,8",Eti,498,"56,7","8,3","43,1",Maximus
+"Enervit Power Sport, Cacao",6,1566,6,Enervit,374,60,"18,3",28,"Enervit Power Sport, Cacao"
+Keks Schokoriegel Mini,23,2081,23,Euco,497,67,5,47,Keks Schokoriegel Mini
+"Boxer Biscuit und Caramel, Schokolade",0,2026,0,Excelsior,484,"63,8","4,6",23,"Boxer Biscuit und Caramel, Schokolade"
+Karamell-Nuss-Schokoladenriegel,"6,7",1696,"6,7",eurodiet,405,"20,2","28,6","10,4",Karamell-Nuss-Schokoladenriegel
+Puffreisriegel mit Schokolade,35,2340,35,enerBio,559,53,"7,1",41,Puffreisriegel mit Schokolade
+Veganer Himbeer-Waffel-Schokoriegel,"38,8",2445,"38,8",enerBio,584,"56,6","0,9","41,8",Veganer Himbeer-Waffel-Schokoriegel
+"Schoko-Knusper-Riegel, Nuss-Nougat und Reis-Crispi...",0,2399,0,enerBio,573,"47,9","7,1","39,2","Schoko-Knusper-Riegel, Nuss-Nougat und Reis-Crispi..."
+"Brocken - Spliter, knackige Haselnusskrokant - Dre...","29,6",2227,"29,6",Edeka,532,"58,5","5,5","52,7","Brocken - Spliter, knackige Haselnusskrokant - Dre..."
+"Celebrate Bar, Caramel, Coconut & Almonds",28,2043,28,eli's,488,58,"4,7",32,"Celebrate Bar, Caramel, Coconut & Almonds"
+"Schokoriegel, Superfruit Zartbitter","36,5",2302,"36,5",enerBio,550,"44,2",6,"39,8","Schokoriegel, Superfruit Zartbitter"
+"Schoko Riegel Mokka 42g, Zartbitterschokolade mit ...",34,2060,34,Egle,492,37,"6,3",3,"Schoko Riegel Mokka 42g, Zartbitterschokolade mit ..."
+"Mars Minis, 18g","15,7",1855,"15,7",Durchschnittswert,443,"70,9","3,9","61,9","Mars Minis, 18g"
+"CAKEBITES , Birthdaycake",7,1005,7,Durchschnittswert,240,25,20,5,"CAKEBITES , Birthdaycake"
+Schoko-Riegel Espresso Cr√©me,41,2428,41,enerBio,580,46,7,46,Schoko-Riegel Espresso Cr√©me
+Kitkat Singles,"27,6",2194,"27,6",Durchschnittswert,524,"60,2","7,9","47,8",Kitkat Singles
+Proteinriegel Schoko 2,"9,8",960,"9,8",Durchschnittswert,229,"9,7","22,3","7,8",Proteinriegel Schoko 2
+"Snickers Minis, 18g","22,5",2014,"22,5",Durchschnittswert,481,"60,5","8,6","51,8","Snickers Minis, 18g"
+Lion Peanut,"25,7",2089,"25,7",Durchschnittswert,499,"56,7",9,"38,5",Lion Peanut
+Baton Bajeczny - Wedel,"4,5",2273,"4,5",E. Wedel,543,"54,2","8,5","32,5",Baton Bajeczny - Wedel
+"Amaranth Riegel, Mit Zartbitterschokolade","26,7",2081,"26,7",enerBio,497,"50,2","9,8",33,"Amaranth Riegel, Mit Zartbitterschokolade"
+Dr. Munzinger sport Tiramisu,"24,5",1980,"24,5",Dr. Munzinger,473,"54,6",8,"52,6",Dr. Munzinger sport Tiramisu
+Snickers Sticks,"25,5",2077,"25,5",Durchschnittswert,496,"57,7","8,3","50,2",Snickers Sticks
+Bounty Riegel,"25,7",2039,"25,7",Durchschnittswert,487,"58,9","3,7","48,2",Bounty Riegel
+"Haselmark, in Zartbitter Schokolade","30,7",2039,"30,7",Dr. Balke,487,"44,5","8,2","32,2","Haselmark, in Zartbitter Schokolade"
+"Zimt-Mandel, Mandel",29,2064,29,Dr. Balke,493,48,"9,1","42,9","Zimt-Mandel, Mandel"
+"Molino Molat, Molat in Vollmilch Schokolade","20,3",1884,"20,3",Dr. Grandel,450,56,"9,6","43,9","Molino Molat, Molat in Vollmilch Schokolade"
+"Schokoriegel, Vollmilch Espresso Crunch",41,2466,41,DM Bio,589,46,"7,6",44,"Schokoriegel, Vollmilch Espresso Crunch"
+"Molke - Riegel, Erbeere",0,1809,0,DM,432,55,"15,5","16,6","Molke - Riegel, Erbeere"
+"Molke-Riegel Bourbon Vanille Geschmack, Vanille",14,1691,14,DM,404,49,16,38,"Molke-Riegel Bourbon Vanille Geschmack, Vanille"
+Molke-Riegel,"16,7",1771,"16,7",DM,423,50,"16,7",37,Molke-Riegel
+Molke Riegel Toffee-Geschmack,14,1704,14,DM,407,50,16,37,Molke Riegel Toffee-Geschmack
+"Kokos Riegel, Vollmilch",32,2098,32,DM Bio,501,46,"4,3",38,"Kokos Riegel, Vollmilch"
+"Molke-Riegel, Latta Macchiato",0,1704,0,Di√§ko,407,57,16,12,"Molke-Riegel, Latta Macchiato"
+"Latte Macchiato Molke-Riegel, Latte Macchiato",12,1691,12,Di√§ko,404,57,16,45,"Latte Macchiato Molke-Riegel, Latte Macchiato"
+"Calcium Bites ChocoRite, Schokolade",2,126,2,Durchschnittswert,30,8,1,1,"Calcium Bites ChocoRite, Schokolade"
+WLS Proteinriegel Crispy Kokos,"1,8",1403,"1,8",Diverse,335,22,30,14,WLS Proteinriegel Crispy Kokos
+"Protein-Riegel, Cranberry",12,1616,12,Di√§ko,386,42,34,"8,9","Protein-Riegel, Cranberry"
+"Eiwei√üriegel, Karamell",0,1750,0,Di√§ko,418,46,27,14,"Eiwei√üriegel, Karamell"
+Take 5,"26,2",1994,"26,2",Diverse,476,"59,5","9,5","42,9",Take 5
+"Schokoriegel, Vollmilch Himbeer Joghurt",39,2437,39,DM Bio,582,49,9,47,"Schokoriegel, Vollmilch Himbeer Joghurt"
+"Utz Swissli, Milchschokolade mit Pralinef√ºllung","36,6",2386,"36,6",Diverse,570,"53,5","5,7","51,7","Utz Swissli, Milchschokolade mit Pralinef√ºllung"
+Saldainiai Nomeda,14,1758,14,Diverse,420,70,"4,7",61,Saldainiai Nomeda
+"Schokoriegel Latte Macchiato Chocarre, latte macch...","40,7",2453,"40,7",Diverse,586,"46,4","7,8","46,1","Schokoriegel Latte Macchiato Chocarre, latte macch..."
+"Woodies, Hazelnut","34,3",2052,"34,3",Diverse,490,"45,8",7,"7,2","Woodies, Hazelnut"
+"Rice Choc Bar, Original","42,8",2479,"42,8",Diverse,592,"51,5","1,9","37,6","Rice Choc Bar, Original"
+"Pro Well Riegel, Praline",18,1683,18,Diverse,402,42,19,30,"Pro Well Riegel, Praline"
+Torino,0,2449,0,Diverse,585,47,8,41,Torino
+Whatchamacallit,"26,7",2140,"26,7",Diverse,511,"62,2","6,7","46,7",Whatchamacallit
+"S√©lection Chocolat helle Auswahl, S√º√ü","39,2",2433,"39,2",Diverse,581,"47,9","8,1","46,1","S√©lection Chocolat helle Auswahl, S√º√ü"
+"Prince Polo Classic XXL Schokoladenriegel, Classic","4,9",2219,"4,9",Diverse,530,"58,5",5,"30,5","Prince Polo Classic XXL Schokoladenriegel, Classic"
+"Peanuts Minis, Derby",27,2144,27,Diverse,512,58,"9,3",50,"Peanuts Minis, Derby"
+Nutrilett Chocolate Crisp Bar,12,1403,12,Diverse,335,37,21,4,Nutrilett Chocolate Crisp Bar
+mini coco,"24,7",1980,"24,7",Diverse,473,"59,3","3,6",52,mini coco
+"One Meal Chocolate Mint, Minze",16,1495,16,Diverse,357,36,29,14,"One Meal Chocolate Mint, Minze"
+"OhYeah, Creamy Vanilla & Caramel","15,3",1821,"15,3",Diverse,435,33,33,13,"OhYeah, Creamy Vanilla & Caramel"
+Nuss & Crisp,"37,9",2357,"37,9",Diverse,563,"45,5","7,7","41,5",Nuss & Crisp
+"Nicks Sport-Crunch, Orange","5,5",2206,"5,5",Diverse,527,"20,6","30,1",6,"Nicks Sport-Crunch, Orange"
+K√§gi Fretli,0,2374,0,Diverse,567,56,7,35,K√§gi Fretli
+Mandelkrokant,"4,6",2458,"4,6",Diverse,587,"55,5","5,6","35,9",Mandelkrokant
+K√§gifret,0,2382,0,Diverse,569,57,5,35,K√§gifret
+"Ma Pause Gerlin√©a, Chocolats Noir & Blanc","13,6",1712,"13,6",Diverse,409,"47,3","22,5",38,"Ma Pause Gerlin√©a, Chocolats Noir & Blanc"
+"Kornkeks, Yoghurt & Berry Mix",28,2148,28,Diverse,513,57,7,40,"Kornkeks, Yoghurt & Berry Mix"
+"Forever Fast Break Ultra, Peanutbutter",14,1616,14,Diverse,386,"49,1","19,3","31,6","Forever Fast Break Ultra, Peanutbutter"
+Pepero Almond & Chocolate,"4,6",2198,"4,6",Diverse,525,"55,6","13,9","27,8",Pepero Almond & Chocolate
+Fudge,"15,1",1842,"15,1",Diverse,440,73,"2,4",63,Fudge
+"Gerlinea, Schokoladenkeks",9,2031,9,Diverse,485,"54,2","7,5","24,5","Gerlinea, Schokoladenkeks"
+"Eiweissriegel, Chocolate-Caramel-Nuts","13,5",1679,"13,5",Diverse,401,"39,7",33,29,"Eiweissriegel, Chocolate-Caramel-Nuts"
+"Candy Star minis, Art Milky Way",15,1859,15,Diverse,444,73,"3,9",67,"Candy Star minis, Art Milky Way"
+"Goodlife Star Nutrition, caramel coco","3,3",1616,"3,3",Diverse,386,40,"32,8",11,"Goodlife Star Nutrition, caramel coco"
+"Goodlife, nutty peanut","3,3",1633,"3,3",Diverse,390,"40,1","33,2","11,4","Goodlife, nutty peanut"
+"Creamy Sticks, mit Karamell",20,1905,20,Diverse,455,65,"3,6",55,"Creamy Sticks, mit Karamell"
+"BCM Basic Riegel, Choco Crisp",13,1545,13,Diverse,369,"35,5",26,"10,8","BCM Basic Riegel, Choco Crisp"
+equive Riegel Schoo Caramell,"17,5",1553,"17,5",Diverse,371,"26,6","26,6",3,equive Riegel Schoo Caramell
+Butlers Irish Coffee Truffle Schokolade,"26,2",1834,"26,2",Diverse,438,50,"6,3",40,Butlers Irish Coffee Truffle Schokolade
+Branchli,0,2244,0,Diverse,536,52,8,33,Branchli
+WLS Skinny Bar Intensive Schokokade,"0,9",1444,"0,9",Diverse,345,"10,4","34,1","13,6",WLS Skinny Bar Intensive Schokokade
+Wafer Breax minis,29,2236,29,Diverse,534,60,"6,9",52,Wafer Breax minis
+Twix Minis,"24,1",2060,"24,1",Diverse,492,64,"4,8",48,Twix Minis
+Yankie Original,"5,5",1968,"5,5",Diverse,470,66,3,21,Yankie Original
+"Bpi Sports Best Protein Bar, Cinnamon Crunch","2,2",879,"2,2",Diverse,210,26,20,6,"Bpi Sports Best Protein Bar, Cinnamon Crunch"
+Tangerm√ºnder N√§hrstange,"33,2",2382,"33,2",Diverse,569,"58,1","9,5","58,1",Tangerm√ºnder N√§hrstange
+"Wipper, caramel-nuss-riegel",0,2110,0,Diverse,504,58,"9,5",26,"Wipper, caramel-nuss-riegel"
+"Animation Schokoriegel, Nuss & Crisp","41,6",2453,"41,6",Diverse,586,"43,3","8,5","39,9","Animation Schokoriegel, Nuss & Crisp"
+"Protein Bomb, Peanut Butter Flavour",14,1507,14,Diverse,360,23,35,3,"Protein Bomb, Peanut Butter Flavour"
+"Sekacz o smaku orzechowym, s√º√ü","1,8",1419,"1,8",Diverse,339,"21,9","4,4","25,6","Sekacz o smaku orzechowym, s√º√ü"
+"Schokoriegel, Vollmilchschokolade mit Jogurt","39,4",2453,"39,4",Diverse,586,51,"6,8",50,"Schokoriegel, Vollmilchschokolade mit Jogurt"
+"Pausenfreund, Zwetschke-Amaranth","17,5",1691,"17,5",Diverse,404,"51,3","6,2","30,8","Pausenfreund, Zwetschke-Amaranth"
+"Riegel Opavia Tatranky, Nuss",31,2303,31,Diverse,550,57,"7,8","36,5","Riegel Opavia Tatranky, Nuss"
+"SunRice, Kid crunchy",0,2227,0,Diverse,532,"55,4","6,6","31,6","SunRice, Kid crunchy"
+"Coconut Slab, Toasted Coconut Slab Milk Chocolate ...","40,8",2430,"40,8",Diverse,580,"45,8","8,8","37,2","Coconut Slab, Toasted Coconut Slab Milk Chocolate ..."
+Prince Polo,"30,5",2240,"30,5",Diverse,535,58,5,39,Prince Polo
+"Penguin Original, Milchschokokeks mit Schokoladenc...","27,1",2156,"27,1",Diverse,515,"61,4",0,"39,5","Penguin Original, Milchschokokeks mit Schokoladenc..."
+"Oh Henry!, Peanut Caramel",23,1934,23,Diverse,462,66,8,46,"Oh Henry!, Peanut Caramel"
+"Mocca Tr√ºffel, Vollmilch Mocca Tr√ºffel","2,6",1985,"2,6",Diverse,474,"55,7","4,6","24,1","Mocca Tr√ºffel, Vollmilch Mocca Tr√ºffel"
+"One Meal Chocolate, Schokolade",15,1436,15,Diverse,343,28,37,10,"One Meal Chocolate, Schokolade"
+Mandelbar,38,2399,38,Diverse,573,47,"8,3",29,Mandelbar
+La Branche Noir Bio 25g,43,2453,43,Diverse,586,48,6,42,La Branche Noir Bio 25g
+K√§gi-fret,0,2374,0,Diverse,567,56,7,35,K√§gi-fret
+Niemetz Manja,0,2366,0,Diverse,565,"51,5","6,3",37,Niemetz Manja
+Karamellriegel,"16,7",1947,"16,7",Diverse,465,73,"5,6","2,5",Karamellriegel
+Get it,23,2072,23,Diverse,495,67,5,44,Get it
+"Pro Well Riegel, Toffee",18,1700,18,Diverse,406,42,19,40,"Pro Well Riegel, Toffee"
+"happy rebel, Cocoa passion","60,2",2893,"60,2",Diverse,691,"34,2","5,7","14,3","happy rebel, Cocoa passion"
+"Exante Rasbeery white chocolate chip bar, Himbeere...","9,5",1545,"9,5",Diverse,369,"37,8","30,8","15,9","Exante Rasbeery white chocolate chip bar, Himbeere..."
+Nuss-Schnitte (Pea),36,2328,36,Diverse,556,51,7,38,Nuss-Schnitte (Pea)
+Goodlife blueberry,"3,5",1629,"3,5",Diverse,389,"41,4","32,7","10,9",Goodlife blueberry
+"MilkyWay, Schokoladig",17,1890,17,Diverse,451,71,"3,6",62,"MilkyWay, Schokoladig"
+"Freyja Draumur, Rosa ""Big Dream""","4,9",2060,"4,9",Diverse,492,59,6,26,"Freyja Draumur, Rosa ""Big Dream"""
+Caffarel Nocciolotto,40,2512,40,Diverse,600,50,"7,5","42,5",Caffarel Nocciolotto
+Di√§triegel,"13,6",1658,"13,6",Diverse,396,"47,3","22,5",38,Di√§triegel
+"Brodericks, Caramel and Chocolat Riegel","19,9",1867,"19,9",Diverse,446,"60,4",6,"40,7","Brodericks, Caramel and Chocolat Riegel"
+Bisco (wie Duplo),0,2211,0,Diverse,528,56,"6,7",31,Bisco (wie Duplo)
+"Galaxy, Caramel",0,2018,0,Diverse,482,"61,3",5,24,"Galaxy, Caramel"
+Branche classic,37,2374,37,Diverse,567,52,7,46,Branche classic
+"Balisto, Korn-Mix",0,2089,0,Diverse,499,"60,1","7,1","25,7","Balisto, Korn-Mix"
+Cocos Minis,0,1989,0,Diverse,475,63,4,23,Cocos Minis
+"Dextro Energy Sport-Snack Chocolate, Schokolade","7,5",1595,"7,5",Dextro Energy,381,60,17,41,"Dextro Energy Sport-Snack Chocolate, Schokolade"
+"ChocoRite, Milchschokolade",6,481,6,Diverse,115,14,2,2,"ChocoRite, Milchschokolade"
+equive Riegel Beeren crisp,"13,9",1566,"13,9",Diverse,374,"33,2","26,8","4,6",equive Riegel Beeren crisp
+"Derby Schoko-Milch-St√§bchen, Schokolade","36,4",2366,"36,4",Derby,565,"51,8","7,6",51,"Derby Schoko-Milch-St√§bchen, Schokolade"
+Derby Erdbeer-Joghurt-Riegel,"38,8",2437,"38,8",Derby,582,"52,3","5,5",51,Derby Erdbeer-Joghurt-Riegel
+"Fichi Cotti, Feige mit Schokolade umh√ºllt",16,1707,16,Deluxe,408,"58,1","3,4","58,1","Fichi Cotti, Feige mit Schokolade umh√ºllt"
+Schoko-Waffel,"4,8",2223,"4,8",Denner,531,57,5,31,Schoko-Waffel
+Adicto,"4,5",1989,"4,5",Diverse,475,"53,5","4,1","25,8",Adicto
+"Schoko-Waffeln, Vollmilch","36,7",2370,"36,7",Delicia,566,"49,8","7,7","36,6","Schoko-Waffeln, Vollmilch"
+"Sportness Eiweissriegel Brownie o. Polyole, Brownie","10,5",1503,"10,5",Das Gesunde Plus,359,23,50,1,"Sportness Eiweissriegel Brownie o. Polyole, Brownie"
+"Dextro Energy Sport-Snack, Vanilla","7,5",1612,"7,5",Dextro Energy,385,64,16,43,"Dextro Energy Sport-Snack, Vanilla"
+"Waffelriegel, Haselnuss",35,2340,35,Delicia,559,54,7,42,"Waffelriegel, Haselnuss"
+"Muscle Milk Bar, Schokolade",15,1708,15,Cytosport,408,38,34,15,"Muscle Milk Bar, Schokolade"
+"Waffelriegel, Cappuccino","4,7",2257,"4,7",Delicia,539,56,"5,2",32,"Waffelriegel, Cappuccino"
+M√ºsliriegel - wei√üe Schokolade,"24,3",1532,"24,3",Crownfield,366,"74,4",6,"1,6",M√ºsliriegel - wei√üe Schokolade
+"Jive, caramel shortcake bar, Schoko Karamell mit K...",23,2025,23,Dairyfine,484,64,"5,3",44,"Jive, caramel shortcake bar, Schoko Karamell mit K..."
+"White Praline , Wei√üe Schokolade mit Haseln√ºssen",35,2131,35,de Bron,509,45,"6,4","7,6","White Praline , Wei√üe Schokolade mit Haseln√ºssen"
+Apple Pie Protein,"8,8",1591,"8,8",creative Nature,380,49,20,36,Apple Pie Protein
+"Riegel, Karamell-Geschmack mit Zartbitter-Schokola...","2,6",1738,"2,6",Das Gesunde Plus,415,50,"16,5",16,"Riegel, Karamell-Geschmack mit Zartbitter-Schokola..."
+"Cote d'Or Single Bar, Praline Blanc",0,2240,0,C√¥te d'Or,535,61,"5,2",30,"Cote d'Or Single Bar, Praline Blanc"
+"Croccantini, Schokolade Krokant","31,2",2240,"31,2",Cucina,535,"53,5","7,9","49,6","Croccantini, Schokolade Krokant"
+"Schokoladen-Riegel Branche Classic, Schoko, Haseln...",37,2395,37,Coop,572,52,7,46,"Schokoladen-Riegel Branche Classic, Schoko, Haseln..."
+"Sportness Eiwei√ü 50%, Vanille-Joghurt-Crisp",27,1524,27,Das Gesunde Plus,364,30,50,"2,1","Sportness Eiwei√ü 50%, Vanille-Joghurt-Crisp"
+Branche Blanche,41,2466,41,Coop,589,45,9,45,Branche Blanche
+Bio Branche - Haselnussf√ºllung,"2,5",2403,"2,5",Coop,574,47,9,39,Bio Branche - Haselnussf√ºllung
+"Eiwei√üriegel, Zartbitter-schokolade Brownie","11,4",1591,"11,4",ComidaMed,380,"39,6","27,5","26,9","Eiwei√üriegel, Zartbitter-schokolade Brownie"
+"Schokoladenriegel, Haselnuss",0,2072,0,de Bron,495,"42,1","6,5","38,3","Schokoladenriegel, Haselnuss"
+"Schokoriegel, Mandelf√ºllung",0,2303,0,C√¥te d'Or,550,51,"7,8","34,5","Schokoriegel, Mandelf√ºllung"
+"Clif Bar Nut Butter Filled, Chocolate Hazelnut But...",22,1926,22,Clif Bar & Company,460,54,14,20,"Clif Bar Nut Butter Filled, Chocolate Hazelnut But..."
+Lebkuchen-Riegel,"24,2",2014,"24,2",Conrad Schulte Feingeb√§ck,481,"56,7","7,2","37,1",Lebkuchen-Riegel
+Branche Classic Coop,2,2374,2,Coop,567,52,7,37,Branche Classic Coop
+Chocqbar Kokos Cacao,"38,1",2181,"38,1",Chocqlate,521,"28,4","9,5","22,5",Chocqbar Kokos Cacao
+"CHOCQBAR, Haselnuss Cacao",36,2177,36,Chocqlate,520,"36,1","9,2","25,6","CHOCQBAR, Haselnuss Cacao"
+Chocqbar Mocca Cacao,31,1892,31,Chocqlate,452,"43,5",10,35,Chocqbar Mocca Cacao
+"Tourist Riegel, Schokolade","4,3",2253,"4,3",Chocolat Frey AG,538,52,8,32,"Tourist Riegel, Schokolade"
+"Risoletto blanco, weisse Schokolade",0,1909,0,Chocolat Frey AG,456,67,"3,5",19,"Risoletto blanco, weisse Schokolade"
+"Sin Az√∫cares, Vollmilch Schoko Riegel",49,1980,49,Chocolates Torras S.A.,473,54,6,6,"Sin Az√∫cares, Vollmilch Schoko Riegel"
+"Chocqbar, Cacao",32,1924,32,Chocqlate,460,45,10,36,"Chocqbar, Cacao"
+classic Branches,33,2282,33,Chocolat Frey AG,545,52,8,50,classic Branches
+Frey Milit√§r-Schokolade,"4,8",2160,"4,8",Chocolat Frey AG,516,57,9,28,Frey Milit√§r-Schokolade
+"Frey d'or noir, dunkle Schokolade",44,2537,44,Chocolat Frey AG,606,41,8,36,"Frey d'or noir, dunkle Schokolade"
+Chocola Creamy,20,1922,20,Choco'la,459,65,"4,1",57,Chocola Creamy
+"Maxi Branche Blanche, Schokolade","3,8",2483,"3,8",Chocolats Halba,593,45,8,42,"Maxi Branche Blanche, Schokolade"
+"Frey Branches, classic",32,2244,32,Chocolat Frey AG,536,54,8,51,"Frey Branches, classic"
+Chocola Party Mix Minis,"23,5",1985,"23,5",Choco'la,474,"59,2","5,6",49,Chocola Party Mix Minis
+"ChocoLa Waffelsnack, Haselnuss","35,7",2332,"35,7",Choco'la,557,"49,9","6,9","39,7","ChocoLa Waffelsnack, Haselnuss"
+"Chocola, Simba minis","24,2",2102,"24,2",Choco'la,502,65,"5,2",53,"Chocola, Simba minis"
+"Choco Bistro Brunchy, Choco Bistro Brunchy Keksrie...","21,7",2001,"21,7",Choco Bistro,478,"62,6","6,7","35,6","Choco Bistro Brunchy, Choco Bistro Brunchy Keksrie..."
+"Crack'n'Snack, Schokolade",29,2219,29,Choco'la,530,59,"6,7",52,"Crack'n'Snack, Schokolade"
+Nougat Crisp Chocola,"35,7",2353,"35,7",Choco'la,562,"52,5","6,1","48,8",Nougat Crisp Chocola
+Schokomilchriegel,"38,3",2403,"38,3",Choceur,574,"49,5","7,9",49,Schokomilchriegel
+"Chocola Kokos minis, Kokos","24,2",1922,"24,2",Choco'la,459,"54,4","4,4","48,3","Chocola Kokos minis, Kokos"
+"Deluxe Chocolate Sticks , verschiedene","29,5",2232,"29,5",Choceur,533,"59,9","6,2","59,4","Deluxe Chocolate Sticks , verschiedene"
+"Chocola Erfrischungsst√§bchen, Orange-Zitrone","9,9",1660,"9,9",Choco'la,396,73,2,72,"Chocola Erfrischungsst√§bchen, Orange-Zitrone"
+"Choceur, Nuss & Crisp","36,4",2311,"36,4",Choceur,552,"46,9","9,2",41,"Choceur, Nuss & Crisp"
+Speed,23,2026,23,Choceur,484,64,"5,3",44,Speed
+"Schokoriegel, Erdbeer-Joghurt",38,2416,38,Choceur,577,"51,6","6,2","50,6","Schokoriegel, Erdbeer-Joghurt"
+"Choco Bistro Brunchy, Milch Schoko Getreide","21,7",2001,"21,7",Choco Bistro,478,"62,6","6,7","35,6","Choco Bistro Brunchy, Milch Schoko Getreide"
+"Choceur Winter Kipferl, Vanillekipferl","36,2",2370,"36,2",Choceur,566,"51,6","7,8",48,"Choceur Winter Kipferl, Vanillekipferl"
+"Milch Jumbo & Cacao, Schoko","2,7",2257,"2,7",Choceur,539,"51,1","8,3","33,3","Milch Jumbo & Cacao, Schoko"
+"Schokoriegel, Cookies & Milk",36,2366,36,Choceur,565,"51,6",8,"48,9","Schokoriegel, Cookies & Milk"
+Choceur - Winter Mandel,"35,2",2278,"35,2",Choceur,544,"49,1","8,8","46,5",Choceur - Winter Mandel
+"Choco Love, Schokoladenkonfekt in 7 versch. Sorten",25,2052,25,Choceur,490,"60,7","5,2","53,3","Choco Love, Schokoladenkonfekt in 7 versch. Sorten"
+"Schoko und Keks, Milch",30,2240,30,Choceur,535,"57,8","7,6","49,4","Schoko und Keks, Milch"
+"Schokoriegel, Joghurt","38,5",2412,"38,5",Chateau,576,"51,4","6,2",51,"Schokoriegel, Joghurt"
+Winter Mandel,"35,1",2303,"35,1",Chateau,550,"49,3","8,8",45,Winter Mandel
+"Schoko Knusper Riegel, Zartbitter",33,2278,33,Chateau,544,53,"5,9","44,3","Schoko Knusper Riegel, Zartbitter"
+Pfirsich - Maracuja - Joghurt,"36,4",2382,"36,4",Chateau,569,"53,1","6,1","49,8",Pfirsich - Maracuja - Joghurt
+Choceur Romeo mini,23,1989,23,Choceur,475,63,4,54,Choceur Romeo mini
+"Choceur, Milch Cereal",37,2386,37,Choceur,570,"50,8","7,7","44,6","Choceur, Milch Cereal"
+"Edel-Vollmilchschokolade, Erdbeere Joghurt",38,2416,38,Choceur,577,"51,6","6,2","50,6","Edel-Vollmilchschokolade, Erdbeere Joghurt"
+"Choceur Schoko & Keks, Joghurt Beere",30,2232,30,Choceur,533,57,"7,6","48,8","Choceur Schoko & Keks, Joghurt Beere"
+"Schokoriegel, Pfirsich Maracuja Joghurt","37,7",2407,"37,7",Chateau,575,"52,2","6,3",51,"Schokoriegel, Pfirsich Maracuja Joghurt"
+"Chateau Schoko & Keks, Vollmilchschokolade",0,2186,0,Chateau,522,"58,2","7,7","28,7","Chateau Schoko & Keks, Vollmilchschokolade"
+"Milch Cereal, Milchcreme & Vollmilchschokolade","1,4",2332,"1,4",Chateau,557,"51,7","7,9","35,3","Milch Cereal, Milchcreme & Vollmilchschokolade"
+"ChocoLofties, Vollmilchschokolade","33,1",2303,"33,1",Chateau,550,"53,7","8,3",52,"ChocoLofties, Vollmilchschokolade"
+Erdbeer-Joghurt-Schokolade,"1,2",2416,"1,2",Chateau,577,"51,6","6,2",38,Erdbeer-Joghurt-Schokolade
+"Chateau Schoko Knusper Riegel, Schoko",0,2236,0,Chateau,534,"54,3","7,4","32,2","Chateau Schoko Knusper Riegel, Schoko"
+"Muscle High Protein Bar 45%, Karamell-Cappuccino",23,1319,23,Champ,315,30,45,3,"Muscle High Protein Bar 45%, Karamell-Cappuccino"
+"Riegel, Latte Macchiato","37,1",2378,"37,1",Chateau,568,"49,6",8,"49,1","Riegel, Latte Macchiato"
+"Active Crunch Bar, Haselnuss",14,1757,14,Champ,420,56,16,36,"Active Crunch Bar, Haselnuss"
+Ce'Real Cereal-Crispy-Riegel,"30,2",2240,"30,2",Chateau,535,"56,8","7,7",47,Ce'Real Cereal-Crispy-Riegel
+"Milch Riegel, Knusper","37,3",2381,"37,3",Chateau,569,"49,9","8,3","46,8","Milch Riegel, Knusper"
+"Orange Dark, Orange",30,1821,30,Cavalier,435,"13,2","5,3","35,9","Orange Dark, Orange"
+"Cereal Melk Lait, Vollmilch",36,1972,36,Cereal,471,46,"7,1","8,3","Cereal Melk Lait, Vollmilch"
+Schoko Knusper Riegel Vollmilch,"32,5",2299,"32,5",Chateau,549,"55,1","7,6",47,Schoko Knusper Riegel Vollmilch
+"Cavalier Stevia Light - 30% Caramel, Caramel","24,8",1624,"24,8",Cavalier,388,"29,1","6,7",17,"Cavalier Stevia Light - 30% Caramel, Caramel"
+"Cavalier Berries Dark, Waldbeeren","34,7",1687,"34,7",Cavalier,403,11,"5,2","33,1","Cavalier Berries Dark, Waldbeeren"
+Cavalier Stevia Coconut White,"8,7",2123,"8,7",Cavalier,507,"30,8","7,5","19,6",Cavalier Stevia Coconut White
+"Cavalier Mini Dark, Zartbitter","34,8",1809,"34,8",Cavalier,432,10,"5,3","3,2","Cavalier Mini Dark, Zartbitter"
+Cavalier Balance Milk Praline,"1,8",2319,"1,8",Cavalier,554,"21,3","7,7","46,2",Cavalier Balance Milk Praline
+"Cavalier Schokoriegel Milk, milk",35,2010,35,Cavalier,480,"45,4","7,1","8,8","Cavalier Schokoriegel Milk, milk"
+Cavalier Stevia Schokoriegel light Vanilla Dark -3...,"14,8",1394,"14,8",Cavalier,333,"23,1","3,6","4,2",Cavalier Stevia Schokoriegel light Vanilla Dark -3...
+"Cavalier, Dark Praline","34,6",2060,"34,6",Cavalier,492,"39,3","5,8","2,2","Cavalier, Dark Praline"
+"Cavalier Woodies, Haselnuss","34,3",2068,"34,3",Cavalier,494,"44,8","6,9","7,2","Cavalier Woodies, Haselnuss"
+Mango Raspberry White,"8,8",2035,"8,8",Cavalier,486,"37,5","8,5","25,3",Mango Raspberry White
+Cavalier Stevia Pralinut Milk,"7,8",2181,"7,8",Cavalier,521,"29,9","8,6","17,2",Cavalier Stevia Pralinut Milk
+Cavalier Stevia Karamell Milch Riegel,9,2064,9,Cavalier,493,"32,7",7,20,Cavalier Stevia Karamell Milch Riegel
+"Cavalier Schokoriegel Milk Praline, Milk Praline","38,2",2077,"38,2",Cavalier,496,"34,1","8,4","17,3","Cavalier Schokoriegel Milk Praline, Milk Praline"
+"Cavalier Mocca Dark, Mocca",36,1997,36,Cavalier,477,"40,4",6,2,"Cavalier Mocca Dark, Mocca"
+Cavalier Banana Cocoanibs Milk (nur anrechenbare K...,"17,2",2035,"17,2",Cavalier,486,"22,1","7,3","38,3",Cavalier Banana Cocoanibs Milk (nur anrechenbare K...
+"Cavalier, Milchschokoklade mit Spekulatius","34,5",2106,"34,5",Cavalier,503,"47,7","6,5","11,2","Cavalier, Milchschokoklade mit Spekulatius"
+"Barsano, Winterzauber",24,1863,24,Cape June,445,27,32,15,"Barsano, Winterzauber"
+Cavalier Strawberry Dark (nur anrechenbare KH),"23,9",1499,"23,9",Cavalier,358,"11,4","5,2","7,1",Cavalier Strawberry Dark (nur anrechenbare KH)
+"torino, NOIR",44,2604,44,Camille Bloch,622,48,6,42,"torino, NOIR"
+"Cavalier - Strawberry Raspberry Dark, Erdbeer - Hi...","36,8",1959,"36,8",Cavalier,468,"9,6","5,4","7,4","Cavalier - Strawberry Raspberry Dark, Erdbeer - Hi..."
+Winter Spekulatius,"32,6",2278,"32,6",Chateau,544,"54,4","7,5",47,Winter Spekulatius
+"Caillier Branche Milch mittelgross, Schokolade","34,6",2319,"34,6",Cailler,554,"49,2","8,3","46,2","Caillier Branche Milch mittelgross, Schokolade"
+"Cambridge WP Schokoladen-Riegel, Schokolade",6,850,6,Cambridge,203,"23,7","12,7","17,7","Cambridge WP Schokoladen-Riegel, Schokolade"
+Casali Original Schoko-Bananen-Riegel Weihnachten,"12,3",1666,"12,3",Casali,398,"69,3","1,8","54,3",Casali Original Schoko-Bananen-Riegel Weihnachten
+Ragusa,0,2366,0,Camille Bloch,565,46,8,39,Ragusa
+"Cailler Branche l'original, Schokolade","4,2",2319,"4,2",Cailler,554,"49,8","8,3","34,6","Cailler Branche l'original, Schokolade"
+Heroes,22,2005,22,Cadbury,479,65,"4,4",57,Heroes
+"Branche Noir Intense, Schokolade","3,6",2349,"3,6",Cailler,561,"42,9","7,8","37,7","Branche Noir Intense, Schokolade"
+Cavalier Lemon - Lime Dark,"36,5",1913,"36,5",Cavalier,457,"15,4","5,5",10,Cavalier Lemon - Lime Dark
+Wunderbar,28,2131,28,Cadbury,509,53,10,44,Wunderbar
+Crunchie,"19,1",1968,"19,1",Cadbury,470,"69,9","3,6","61,7",Crunchie
+Starbar,29,2125,29,Cadbury,508,"51,9","9,9","42,8",Starbar
+Boost,"28,5",2156,"28,5",Cadbury,515,"58,5","5,9","49,5",Boost
+Fudge,"15,1",1842,"15,1",Cadbury,440,"73,9","2,5",64,Fudge
+Wagon Wheels,"14,5",1846,"14,5",Burton's Biscuit C.,441,"68,7","5,1","38,6",Wagon Wheels
+"Mini-Protein-Schokokuchen, Milchschokolade",28,2106,28,Bulk Powders,503,30,30,27,"Mini-Protein-Schokokuchen, Milchschokolade"
+Picnic,"22,5",2031,"22,5",Cadbury,485,61,"7,7","46,4",Picnic
+Creme Egg Twisted,"20,8",1947,"20,8",Cadbury,465,"64,6","5,2",61,Creme Egg Twisted
+"Chrunchy Slam-Dunk Peanut Chunk, Erdnussbutterrieg...","34,6",2244,"34,6",Broderick Brothers,536,"42,3","11,9","36,7","Chrunchy Slam-Dunk Peanut Chunk, Erdnussbutterrieg..."
+Nutty Crunchy Caramel Munchie,"28,8",2064,"28,8",Broderick Brothers,493,"49,6","8,6",43,Nutty Crunchy Caramel Munchie
+"Mini Zwieback, Schoko Vollmilch",0,1972,0,Brandt,471,"62,4","9,8","20,1","Mini Zwieback, Schoko Vollmilch"
+"Caramental, Karamell-Schokoladen Keks","25,5",1792,"25,5",Broderick Brothers,428,"47,9","6,5","26,3","Caramental, Karamell-Schokoladen Keks"
+"Toffee-Riegel, Schokolade",12,1511,12,Bonvita,361,39,25,29,"Toffee-Riegel, Schokolade"
+"Branches Callier, Nougat",32,2290,32,Cailler,547,55,8,47,"Branches Callier, Nougat"
+"Bpi Sports Best Protein Bar, Chocolate Peanut Butt...",17,963,17,bpi sports,230,6,20,8,"Bpi Sports Best Protein Bar, Chocolate Peanut Butt..."
+Crispy Crunch,10,1005,10,Cadbury,240,33,3,25,Crispy Crunch
+"Rice Milk, mit Pistazie","4,3",2479,"4,3",Bonvita,592,51,3,43,"Rice Milk, mit Pistazie"
+Sahne-Toffee-Riegel,"1,3",720,"1,3",Bonvita,172,16,13,"5,4",Sahne-Toffee-Riegel
+"Knusper-Riegel, Schokolade","9,6",1449,"9,6",Bonvita,346,36,25,28,"Knusper-Riegel, Schokolade"
+"Bonbarr Peanut, Erdnuss","12,7",1541,"12,7",Bonvita,368,"57,8",4,13,"Bonbarr Peanut, Erdnuss"
+SANA-PRO PREMIUM EIWEISSRIEGEL Bodymed Winterzaube...,"8,5",1361,"8,5",Bodymed,325,19,40,"8,3",SANA-PRO PREMIUM EIWEISSRIEGEL Bodymed Winterzaube...
+Belgy Nicker Nutty Drippy Drop,"32,7",2217,"32,7",Broderick Brothers,530,"49,1","9,1","36,4",Belgy Nicker Nutty Drippy Drop
+Krokant-Karamell-Riegel,12,1570,12,Bonvita,375,41,24,29,Krokant-Karamell-Riegel
+"Power Protein Bar, Vanille-Stracciatella",13,1687,13,Body Attack,403,46,25,32,"Power Protein Bar, Vanille-Stracciatella"
+"Protein Bar, Schoko","9,1",1507,"9,1",Bodylab24,360,"18,7",42,"3,9","Protein Bar, Schoko"
+Mars Protein,"8,1",1470,"8,1",Body Attack,351,39,33,23,Mars Protein
+Power Proteinbar caramel toffee,"3,9",1742,"3,9",Body Attack,416,47,32,14,Power Proteinbar caramel toffee
+Vanille-Crisp-Riegel,"1,4",741,"1,4",Bonvita,177,17,11,6,Vanille-Crisp-Riegel
+"Tiff Toff in the Tuffen, Schokoladenriegel mit kna...","30,2",2208,"30,2",Broderick Brothers,527,"56,8","6,2","42,8","Tiff Toff in the Tuffen, Schokoladenriegel mit kna..."
+"Smart Bar Crunchy, Coffee & Dark Chocolate","22,1",1470,"22,1",Body & Fit,351,26,"35,4","1,7","Smart Bar Crunchy, Coffee & Dark Chocolate"
+"Carb Control High Protein Bar, latte macchiato",25,1474,25,Body Attack,352,27,45,"2,3","Carb Control High Protein Bar, latte macchiato"
+"Yambam , Strawberry Vanilla",29,1687,29,Body Attack,403,36,33,"4,8","Yambam , Strawberry Vanilla"
+"Perfection Bar, Coconut Sensation","12,8",1432,"12,8",Body & Fit,342,"24,5","33,6","4,2","Perfection Bar, Coconut Sensation"
+"Getreidekeks, Banane",20,1930,20,Billa,461,64,"6,5",30,"Getreidekeks, Banane"
+"Premium Pro Riegel (35 % Protein), Milchschokolade",0,1671,0,Best Body Nutrition,399,"40,3",36,"11,4","Premium Pro Riegel (35 % Protein), Milchschokolade"
+"Keks Riegel, Disco",19,1901,19,Biscotto,454,65,"4,9",43,"Keks Riegel, Disco"
+"powercrunch, Cookies & Creme","32,5",2144,"32,5",bionutritional,512,20,35,"12,5","powercrunch, Cookies & Creme"
+"best body eiwei√üriegel, vanille",0,1503,0,Best Body Nutrition,359,"23,1","50,8","8,3","best body eiwei√üriegel, vanille"
+"organic raw choc bar, schokolade","16,7",1616,"16,7",Beond,386,"38,9","14,8",33,"organic raw choc bar, schokolade"
+"Waffel mit Milch-Haselnusscremef√ºllung, schokoladi...","35,5",2319,"35,5",Bellona,554,"48,3","9,3","38,6","Waffel mit Milch-Haselnusscremef√ºllung, schokoladi..."
+"delicate FITPACK, Cookie",12,1687,12,Best Body Nutrition,403,55,18,42,"delicate FITPACK, Cookie"
+Erdbeer & Joghurt,"38,1",2445,"38,1",Bellarom,584,"53,3","6,4","50,3",Erdbeer & Joghurt
+"De Luxe, Nuss & Crisp","2,1",2433,"2,1",Bellarom,581,43,"8,5",42,"De Luxe, Nuss & Crisp"
+"Power Protein Bar, Caramel Toffee Flavour",13,1666,13,Body Attack,398,45,25,31,"Power Protein Bar, Caramel Toffee Flavour"
+"Milch & Schoko Deluxe, Gef√ºllte Vollmilch...","1,5",2470,"1,5",Bellarom,590,48,"8,1",41,"Milch & Schoko Deluxe, Gef√ºllte Vollmilch..."
+"Faccine, Schoko",20,1997,20,Balocco,477,66,"6,7",26,"Faccine, Schoko"
+Rollino Latte,"21,7",1796,"21,7",Balconi,429,52,"5,8","38,5",Rollino Latte
+"Schokoriegel low carb, Milk Chokolate Waffle",45,2022,45,Balance,483,58,"4,6","4,2","Schokoriegel low carb, Milk Chokolate Waffle"
+Pick Up Caf√© Latte,26,2131,26,Bahlsen,509,60,"6,8",34,Pick Up Caf√© Latte
+Balance no added sugar Milk Praline Lait,32,2210,32,Balance,528,"40,1","6,3","6,6",Balance no added sugar Milk Praline Lait
+"Premium Pro Bar Riegel, Milchschokolade","3,4",1708,"3,4",Best Body Nutrition,408,41,35,11,"Premium Pro Bar Riegel, Milchschokolade"
+"TV Bar, Milk","32,2",2307,"32,2",Beacon,551,58,"6,7",37,"TV Bar, Milk"
+"Choclate Fluffy Marschmallow Bar, milk choclate ...",18,1838,18,Baru,439,65,"4,2",61,"Choclate Fluffy Marschmallow Bar, milk choclate ..."
+"Atkins Endulge, Crispy Milk Chocolate",42,1964,42,Atkins,469,48,13,5,"Atkins Endulge, Crispy Milk Chocolate"
+Atkins Caramel Nut Chew Bar,15,544,15,Atkins,130,2,5,8,Atkins Caramel Nut Chew Bar
+"Fudge Caramel Proteinriegel, Karamell",24,1570,24,Atkins,375,4,25,19,"Fudge Caramel Proteinriegel, Karamell"
+"Schokoriegel, Bitterschokolade Crunch","16,4",1641,"16,4",Atkins,392,"21,8",33,2,"Schokoriegel, Bitterschokolade Crunch"
+Endulge Peanut Caramel Bar,"24,3",1624,"24,3",Atkins,388,"31,6",9,"4,3",Endulge Peanut Caramel Bar
+Atkins Endulge Chocolate Break,39,2014,39,Atkins,481,12,"6,5","6,8",Atkins Endulge Chocolate Break
+"Atkins Advantage Bar Chocolate Hazelnut, Chocolate...","24,4",1583,"24,4",Atkins,378,"29,1",32,"1,8","Atkins Advantage Bar Chocolate Hazelnut, Chocolate..."
+Atkins Advantage Chocolate Decadence (nur anrechen...,"11,2",1675,"11,2",Atkins,400,"9,5","28,4",20,Atkins Advantage Chocolate Decadence (nur anrechen...
+"Atkins fudge karamel, Karamel",19,1570,19,Atkins,375,"28,2",25,"3,9","Atkins fudge karamel, Karamel"
+"Atkins Endulge, Chocolate-Caramel-Peanut",24,1612,24,Atkins,385,30,"9,5","4,3","Atkins Endulge, Chocolate-Caramel-Peanut"
+"Atkins advantage chokolate caramel crunch, Schoko-...","1,9",1492,"1,9",Atkins,356,23,35,14,"Atkins advantage chokolate caramel crunch, Schoko-..."
+"Advantage Chocolate Decadence Bar, Schokolade",20,1624,20,Atkins,388,"2,6",30,"24,8","Advantage Chocolate Decadence Bar, Schokolade"
+"Atkins Advantage Bar Cookies & Cream, Cookies ...","23,9",1754,"23,9",Atkins,419,"27,9",31,"2,8","Atkins Advantage Bar Cookies & Cream, Cookies ..."
+"Pick Up!, Wild Berry",22,2035,22,Bahlsen,486,66,"5,1",38,"Pick Up!, Wild Berry"
+Atkins Nutty Fudge Brownie (nur anrechenbare KH),15,1779,15,Atkins,425,15,"17,5",30,Atkins Nutty Fudge Brownie (nur anrechenbare KH)
+"TimTam Wafer, chocolate",30,2303,30,Arnotts,550,60,5,30,"TimTam Wafer, chocolate"
+"Drachenriegel, mit knackigen Knisterperlen","4,1",2412,"4,1",Argenta,576,"49,5",7,"38,4","Drachenriegel, mit knackigen Knisterperlen"
+"Aptonia Cereal bars, Schokolade",12,1750,12,Aptonia,418,70,"6,7",28,"Aptonia Cereal bars, Schokolade"
+"Happy Pop-Rice, Zartbitter",33,2211,33,Amore Food,528,48,6,32,"Happy Pop-Rice, Zartbitter"
+"Zartbitterschokolade 70%, Chili Kirsch","43,4",2407,"43,4",Alnatura,575,"33,6",7,"28,2","Zartbitterschokolade 70%, Chili Kirsch"
+Atkins Chocolate Coconut,32,1855,32,Atkins,443,5,"8,8",5,Atkins Chocolate Coconut
+Cappuccino & Schoko Keks,"29,8",2206,"29,8",Amanie,527,"57,6","6,1","50,6",Cappuccino & Schoko Keks
+Piccadilly,30,2186,30,Bahlsen,522,56,"7,1",31,Piccadilly
+"Schoko Waffel Riegel, Schokolade","37,4",2386,"37,4",Alnavit,570,"52,7","4,1","34,4","Schoko Waffel Riegel, Schokolade"
+Edelmarzipan - Riegel in Zartbitterschokolade,28,2052,28,Alnatura,490,49,"7,2",47,Edelmarzipan - Riegel in Zartbitterschokolade
+"Himbeer-Joghurt Riegel, Vollmilchschokolade mit Hi...",0,2395,0,Alnatura,572,"47,9","8,4","38,5","Himbeer-Joghurt Riegel, Vollmilchschokolade mit Hi..."
+"Schokoriegel, Erdbeer Joghurt",0,2508,0,Alnatura,599,"47,6","6,6","42,5","Schokoriegel, Erdbeer Joghurt"
+"Schokist√§ngeli, Schokolade","32,2",2273,"32,2",Alpenk√ºche,543,"54,6",7,"52,6","Schokist√§ngeli, Schokolade"
+"Milchschoko, Vollmilch","41,7",2487,"41,7",Alnatura,594,"46,1","8,2","45,5","Milchschoko, Vollmilch"
+Schokoriegel Nougat & Mandel,"3,2",2466,"3,2",Alnatura,589,53,5,39,Schokoriegel Nougat & Mandel
+"Hy-Pro Deluxe, White Chocolate Crunch",12,1520,12,All Stars Fitness Products,363,31,29,21,"Hy-Pro Deluxe, White Chocolate Crunch"
+"Alnatura Pflaume-Riegel, schokoliert",0,1541,0,Alnatura,368,"48,1","6,1","16,8","Alnatura Pflaume-Riegel, schokoliert"
+Cocos Vollmilch,38,2265,38,Alnatura,541,"41,4","4,5",41,Cocos Vollmilch
+"Whey-Crisp Protein Bar , Pure Milk Chocolate",28,2081,28,All Stars Fitness Products,497,28,30,22,"Whey-Crisp Protein Bar , Pure Milk Chocolate"
+"Amanie, Milch & Schoko Keks","30,1",2211,"30,1",Amanie,528,"58,8","5,5",51,"Amanie, Milch & Schoko Keks"
+"Crisp Pro Bar, Chocolate-Brownie",17,1779,17,All Stars Fitness Products,425,37,32,24,"Crisp Pro Bar, Chocolate-Brownie"
+"Pro-Plex Delicious High Protein Energy Bar, Coconut",23,1846,23,All Stars Fitness Products,441,36,18,27,"Pro-Plex Delicious High Protein Energy Bar, Coconut"
+Ritter Sport Rum Knusperst√ºck,34,2319,34,Alfred Ritter,554,53,5,46,Ritter Sport Rum Knusperst√ºck
+"Hy-Pro Riegel Supreme, Hazelnut-Almond Crunch",15,1629,15,All Stars Fitness Products,389,29,29,14,"Hy-Pro Riegel Supreme, Hazelnut-Almond Crunch"
+"Race (wie Mars), Caramel","19,7",1909,"19,7",Aldi,456,"64,9","4,1","56,8","Race (wie Mars), Caramel"
+"Proteinriegel, Erdbeer-Joghurt",11,1562,11,All Stars Fitness Products,373,32,28,25,"Proteinriegel, Erdbeer-Joghurt"
+"Vollmilchschokoriegel, mit Latte Macchiato-F√ºllung",0,2345,0,Aldi,560,"49,3","8,1","36,7","Vollmilchschokoriegel, mit Latte Macchiato-F√ºllung"
+Feinster Edel Nugat,"47,3",2587,"47,3",Aldi,618,"38,8","8,3","35,5",Feinster Edel Nugat
+"Speed, Knuspriger Keks und zarter Karamell",23,2026,23,Aldi,484,64,"5,3",44,"Speed, Knuspriger Keks und zarter Karamell"
+Dreemy,17,1884,17,Aldi,450,70,"3,7",63,Dreemy
+Erdnusstraum,36,2328,36,Aldi,556,41,15,31,Erdnusstraum
+"Choco Lolly Schneemann, Schokolade",31,2257,31,Aldi,539,58,"6,1",56,"Choco Lolly Schneemann, Schokolade"
+"Chateau, Schoko & Keks",0,2186,0,Aldi,522,"58,2","7,7","28,7","Chateau, Schoko & Keks"
+"Milch Jumbo, Haselnuss","35,1",2345,"35,1",Aldi,560,51,9,"38,7","Milch Jumbo, Haselnuss"
+"Brunchy, Schoko-Milch & Cerealien Riegel","22,9",2026,"22,9",Aldi S√ºd,484,"62,2",6,"35,8","Brunchy, Schoko-Milch & Cerealien Riegel"
+Caf√© Biscuit,"40,9",2437,"40,9",Alnatura,582,46,7,"45,5",Caf√© Biscuit
+Crispie Cereal,2,2215,2,Aldi,529,"56,5","7,4","30,4",Crispie Cereal
+"Race Selection mini Aldi, Race Mars","0,9",1955,"0,9",Aldi,467,70,4,19,"Race Selection mini Aldi, Race Mars"
+Cereal Crunch,"7,9",2215,"7,9",Aldi,529,"56,5","7,8","30,2",Cereal Crunch
+"Milchm√§use, Caramel","30,6",2206,"30,6",Aldi,527,"55,9","6,5",51,"Milchm√§use, Caramel"
+Crispy Bits Mini,25,2144,25,Aldi,512,66,"5,1",52,Crispy Bits Mini
+"Getit, Caramel",23,2025,23,Aldi,484,"63,8","5,3",44,"Getit, Caramel"
+"Erdnuss Geb√§ck-Riegel, Erdnuss, Karamell, Mil...","21,8",1947,"21,8",Aldi,465,"59,7","6,1",31,"Erdnuss Geb√§ck-Riegel, Erdnuss, Karamell, Mil..."
+Coconut Bits Mini,25,2014,25,Aldi,481,60,"3,9",53,Coconut Bits Mini
+"Chateau, Erdbeer Joghurt Schokolade","2,7",2378,"2,7",Aldi,568,"51,4","6,2",37,"Chateau, Erdbeer Joghurt Schokolade"
+Croccantini mit Vollmilchschokolade,31,2240,31,Aldente,535,54,"7,9",50,Croccantini mit Vollmilchschokolade
+Super Knicks,29,2219,29,Aldi,530,59,"6,7",52,Super Knicks
+"Choceur, Milch","2,8",2186,"2,8",Aldi,522,"58,2","7,7","28,7","Choceur, Milch"
+"Feine Schokoladenpl√§ttchen, Zartbitter","32,4",2240,"32,4",Aldi,535,"49,7","7,3",43,"Feine Schokoladenpl√§ttchen, Zartbitter"
+"Aldi Kornkeks, M√ºsli Mix",27,2094,27,Aldi,500,"56,5","6,8",42,"Aldi Kornkeks, M√ºsli Mix"
