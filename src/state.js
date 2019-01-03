@@ -17,7 +17,7 @@ let state = {
     yscroll: '500px',
 
    // Color-Change
-    headerColor: "#aaaaaa",
+    headerColor: '#888888',
 
     // Haupt-Farben
     Haupt_Farbe: "rgba(211, 45, 32, 1)",
