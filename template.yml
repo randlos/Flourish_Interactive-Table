@@ -33,6 +33,19 @@ settings:
       -
         - Absteigend
         - desc
+  
+  - property: layout
+    name: Layout für Export
+    description: Umschalten für Grafik export
+    type: string
+    choices:
+      -
+        - Standart für Intaraktiv
+        - pitr
+      -
+        - Für Grafik-Export PNG
+        - it
+  
   # - property: layout
   #   name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
   #   type: string

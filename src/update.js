@@ -29,6 +29,14 @@ function update() {
         return variable;
     }
 
+    function deactivateSearch() {
+        if (state.layout == "t") {
+            $('#mySearch').remove();
+        }
+    }
+
+    deactivateSearch()
+
     function tranlsateSortingAlphaToNumber(alpha) {
         let alphaList = [{number:1, string:'A'},
                          {number:2, string:'B'},
