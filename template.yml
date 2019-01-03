@@ -44,8 +44,19 @@ settings:
         - pitr
       -
         - Für Grafik-Export PNG
-        - it
-  
+        - t
+  - property: yscroll
+    name: Höhe der Tabelle ändern (Höhe in Pixeln eingeben)
+    description: für Export als png
+    type: string
+    choices:
+      -
+        - Standart 500px
+        - 500px
+      -
+        - Höher 900px
+        - 900px
+    choices_other: true
   # - property: layout
   #   name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
   #   type: string

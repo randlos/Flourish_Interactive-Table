@@ -132,7 +132,7 @@ function update() {
               },
         }],
         "paging": false,
-        "scrollY": "500px",
+        "scrollY": state.yscroll,
         //"scrollCollapse": true,
         "pageLength":state.numberOfEntries,
         "order": [tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder], 
@@ -150,6 +150,10 @@ function update() {
     // Deactivate Search for Grafik PNG Export
     deactivateSearch()
     
+    $("iframe[name='result']").each(function() {
+        this.sandbox += ' allow-modals';
+    });
+
     // .map(function(d) { return comma_to_point(d.schlusskurs) })
 }
 
