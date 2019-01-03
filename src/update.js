@@ -35,8 +35,6 @@ function update() {
         }
     }
 
-    deactivateSearch()
-
     function tranlsateSortingAlphaToNumber(alpha) {
         let alphaList = [{number:1, string:'A'},
                          {number:2, string:'B'},
@@ -149,7 +147,8 @@ function update() {
         $('#myTable').DataTable().search( this.value ).draw();
     } );
 
-
+    // Deactivate Search for Grafik PNG Export
+    deactivateSearch()
     
     // .map(function(d) { return comma_to_point(d.schlusskurs) })
 }

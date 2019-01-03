@@ -36,7 +36,7 @@ settings:
   
   - property: layout
     name: Layout für Export
-    description: Umschalten für Grafik export
+    description: Layout umschalten für Grafik PNG-Export
     type: string
     choices:
       -
