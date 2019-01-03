@@ -29,6 +29,12 @@ function update() {
         return variable;
     }
 
+    function deactivateSearch() {
+        if (state.layout == "t") {
+            $('#mySearch').remove();
+        }
+    }
+
     function tranlsateSortingAlphaToNumber(alpha) {
         let alphaList = [{number:1, string:'A'},
                          {number:2, string:'B'},
@@ -126,7 +132,7 @@ function update() {
               },
         }],
         "paging": false,
-        "scrollY": "500px",
+        "scrollY": state.yscroll,
         //"scrollCollapse": true,
         "pageLength":state.numberOfEntries,
         "order": [tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder], 
@@ -141,8 +147,13 @@ function update() {
         $('#myTable').DataTable().search( this.value ).draw();
     } );
 
-
+    // Deactivate Search for Grafik PNG Export
+    deactivateSearch()
     
+    $("iframe[name='result']").each(function() {
+        this.sandbox += ' allow-modals';
+    });
+
     // .map(function(d) { return comma_to_point(d.schlusskurs) })
 }
 

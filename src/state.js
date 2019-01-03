@@ -13,6 +13,9 @@ let state = {
     // DOM-Layout Tabelle
     layout: 'pitr',
 
+   // Scrolling y
+    yscroll: '500px',
+
     // Haupt-Farben
     Haupt_Farbe: "rgba(211, 45, 32, 1)",
     Green: '#6CBA6C',
