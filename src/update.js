@@ -29,11 +29,6 @@ function update() {
         return variable;
     }
 
-    function deactivateSearch() {
-        if (state.layout == "t") {
-            $('#mySearch').remove();
-        }
-    }
 
     function tranlsateSortingAlphaToNumber(alpha) {
         let alphaList = [{number:1, string:'A'},
@@ -148,11 +143,23 @@ function update() {
     } );
 
     // Deactivate Search for Grafik PNG Export
+    function deactivateSearch() {
+        if (state.layout == "t") {
+            $('#mySearch').remove();
+        }
+    }
+    
     deactivateSearch()
     
-    $("iframe[name='result']").each(function() {
+    
+    $("iframe[name='preview']").each(function() {
         this.sandbox += ' allow-modals';
     });
+
+
+    // Change Header Color
+    $('.dataTables_scrollHead').css("background", state.headerColor);
+
 
     // .map(function(d) { return comma_to_point(d.schlusskurs) })
 }
