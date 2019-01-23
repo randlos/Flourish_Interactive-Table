@@ -125,6 +125,17 @@ function update() {
                     return data;
                 }
               },
+        },{
+            "targets": -1,
+            "render": function (data, type, row, meta) {
+                if (!isNaN(data)) {
+                    
+                    return data;
+                }
+                else {
+                    return "no number";
+                }
+            }
         }],
         "paging": false,
         "scrollY": state.yscroll,
