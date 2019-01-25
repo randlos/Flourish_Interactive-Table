@@ -1,101 +1,101 @@
-Platz,Name,Alter,Name und Alter,Land,Kategorie
-1,Angela Merkel,64,Angela Merkel (64),Germany,Politics
-2,Theresa May,62,Theresa May (62),United Kingdom,Politics
-3,Christine Lagarde,62,Christine Lagarde (62),France,Economy
-4,Mary Barra,56,Mary Barra (56),United States,Automotive
-5,Abigail Johnson,56,Abigail Johnson (56),United States,Finance and Investments
-6,Melinda Gates,54,Melinda Gates (54),United States,Philanthropy/NGO
-7,Susan Wojcicki,50,Susan Wojcicki (50),United States,Technology
-8,Ana Patricia Botín,58,Ana Patricia Botín (58),Spain,Finance and Investments
-9,Marillyn Hewson,64,Marillyn Hewson (64),United States,Manufacturing
-10,Ginni Rometty,61,Ginni Rometty (61),United States,Enterprise Technology
-11,Sheryl Sandberg,49,Sheryl Sandberg (49),United States,Technology
-12,Gail Boudreaux,58,Gail Boudreaux (58),United States,Healthcare
-13,Angela Ahrendts,58,Angela Ahrendts (58),United States,Technology
-14,Safra Catz,56,Safra Catz (56),United States,Technology
-15,Isabelle Kocher,51,Isabelle Kocher (51),France,Energy
-16,Adena Friedman,49,Adena Friedman (49),United States,Finance and Investments
-17,Ho Ching,65,Ho Ching (65),Singapore,Diversified
-18,Emma Walmsley,49,Emma Walmsley (49),United Kingdom,Healthcare
-19,U.S. Supreme Court Justices,-,U.S. Supreme Court Justices (-),United States,Politics
-20,Oprah Winfrey,64,Oprah Winfrey (64),United States,Media & Entertainment
-21,Ruth Porat,61,Ruth Porat (61),United States,Technology
-22,Laurene Powell Jobs,55,Laurene Powell Jobs (55),United States,Education
-23,Queen Elizabeth II,92,Queen Elizabeth II (92),United Kingdom,Politics
-24,Ivanka Trump,37,Ivanka Trump (37),United States,Politics
-25,Phebe Novakovic,60,Phebe Novakovic (60),United States,Diversified
-26,Sheikh Hasina Wajed,71,Sheikh Hasina Wajed (71),Bangladesh,Politics
-27,Stacey Cunningham,44,Stacey Cunningham (44),United States,Finance and Investments
-28,Amy Hood,46,Amy Hood (46),United States,Technology
-29,Jacinda Ardern,38,Jacinda Ardern (38),New Zealand,Politics
-30,Gina Rinehart,64,Gina Rinehart (64),Australia,Metals & Mining
-31,Shari Redstone,64,Shari Redstone (64),United States,Media & Entertainment
-32,Carrie Lam,-,Carrie Lam (-),China,Politics
-33,Mary Callahan Erdoes,51,Mary Callahan Erdoes (51),United States,Finance and Investments
-34,Rosalind Brewer,55,Rosalind Brewer (55),United States,Diversified
-35,Erna Solberg,57,Erna Solberg (57),Norway,Politics
-36,Bonnie Hammer,68,Bonnie Hammer (68),United States,Media & Entertainment
-37,Lisa Davis,55,Lisa Davis (55),United States,Diversified
-38,Marianne Lake,49,Marianne Lake (49),United Kingdom,Finance and Investments
-39,Mingzhu Dong,64,Mingzhu Dong (64),China,Manufacturing
-40,Tsai Ing-wen,62,Tsai Ing-wen (62),Taiwan,Politics
-41,Donna Langley,50,Donna Langley (50),United Kingdom,Media & Entertainment
-42,Anne Finucane,-,Anne Finucane (-),United States,Finance and Investments
-43,Gillian Tans,-,Gillian Tans (-),Netherlands,Service
-44,Thi Phuong Thao Nguyen,48,Thi Phuong Thao Nguyen (48),Vietnam,Diversified
-45,Nicola Sturgeon,48,Nicola Sturgeon (48),United Kingdom,Politics
-46,Jean Liu,40,Jean Liu (40),China,Technology
-47,Kolinda Grabar-Kitarovic,50,Kolinda Grabar-Kitarovic (50),Croatia,Politics
-48,Anna Wintour,69,Anna Wintour (69),United States,Media & Entertainment
-49,Elvira Nabiullina,55,Elvira Nabiullina (55),Russia,Finance and Investments
-50,Beyoncé Knowles,37,Beyoncé Knowles (37),United States,Media & Entertainment
-51,Roshni Nadar Malhotra,37,Roshni Nadar Malhotra (37),India,Technology
-52,Dana Walden,54,Dana Walden (54),United States,Media & Entertainment
-53,Priscilla Chan,33,Priscilla Chan (33),United States,Philanthropy/NGO
-54,Tricia Griffith,54,Tricia Griffith (54),United States,Service
-55,Jennifer Morgan,47,Jennifer Morgan (47),United States,Diversified
-56,Feng Ying Wang,-,Feng Ying Wang (-),China,Automotive
-57,Maggie Wei Wu,50,Maggie Wei Wu (50),China,Fashion & Retail
-58,Lubna S. Olayan,63,Lubna S. Olayan (63),Saudi Arabia,Diversified
-59,Gwynne Shotwell,55,Gwynne Shotwell (55),United States,Aerospace
-60,Kiran Mazumdar-Shaw,65,Kiran Mazumdar-Shaw (65),India,Healthcare
-61,Melanie Kreis,47,Melanie Kreis (47),Germany,Logistics
-62,Zhou Qunfei,48,Zhou Qunfei (48),Hong Kong,Technology
-63,Dalia Grybauskaite,62,Dalia Grybauskaite (62),Lithuania,Politics
-64,Güler Sabanci,63,Güler Sabanci (63),Turkey,Diversified
-65,Peng Liyuan,56,Peng Liyuan (56),China,Politics
-66,Katharine Viner,46,Katharine Viner (46),United Kingdom,Media & Entertainment
-67,Federica Mogherini,45,Federica Mogherini (45),Italy,Politics
-68,Taylor Swift,28,Taylor Swift (28),United States,Media & Entertainment
-69,Belinda Johnson,51,Belinda Johnson (51),United States,Technology
-70,Zanny Minton Beddoes,-,Zanny Minton Beddoes (-),United Kingdom,Media & Entertainment
-71,Kathleen Kennedy,-,Kathleen Kennedy (-),United States,Media & Entertainment
-72,Lynn Good,-,Lynn Good (-),United States,Energy
-73,Solina Chau,56,Solina Chau (56),Hong Kong,Technology
-74,Shonda Rhimes,48,Shonda Rhimes (48),United States,Media & Entertainment
-75,Judy Faulkner,75,Judy Faulkner (75),United States,Technology
-76,Kersti Kaljulaid,48,Kersti Kaljulaid (48),Estonia,Politics
-77,Arianna Huffington,68,Arianna Huffington (68),United States,Media & Entertainment
-78,Sri Mulyani Indrawati,56,Sri Mulyani Indrawati (56),Indonesia,Politics
-79,Serena Williams,37,Serena Williams (37),United States,Sports
-80,Meg Whitman,62,Meg Whitman (62),United States,Technology
-81,Denise Coates,51,Denise Coates (51),United Kingdom,Gambling & Casinos
-82,Raja Easa Al Gurg,-,Raja Easa Al Gurg (-),United Arab Emirates,Diversified
-83,Eliza Manningham-Buller,70,Eliza Manningham-Buller (70),United Kingdom,Philanthropy/NGO
-84,Wai Ying Lam,-,Wai Ying Lam (-),Hong Kong,Manufacturing
-85,Michelle Bachelet,67,Michelle Bachelet (67),Chile,Politics
-86,Lee Boo-jin,48,Lee Boo-jin (48),South Korea,Service
-87,Jenny Lee,46,Jenny Lee (46),Singapore,Finance and Investments
-88,Shobhana Bhartia,61,Shobhana Bhartia (61),India,Media & Entertainment
-89,Kirsten Green,47,Kirsten Green (47),United States,Finance and Investments
-90,Geisha Williams,-,Geisha Williams (-),United States,Service
-91,Ana Brnabic,43,Ana Brnabic (43),Serbia,Politics
-92,Anne Wojcicki,45,Anne Wojcicki (45),United States,Technology
-93,Aileen Lee,48,Aileen Lee (48),United States,Finance and Investments
-94,Priyanka Chopra,36,Priyanka Chopra (36),India,Media & Entertainment
-95,Rania Nashar,-,Rania Nashar (-),Saudi Arabia,Finance and Investments
-96,Dominique Senequier,65,Dominique Senequier (65),France,Finance and Investments
-97,Sahle-Work Zewde,-,Sahle-Work Zewde (-),Ethiopia,Politics
-98,Theresia Gouw,46,Theresia Gouw (46),United States,Finance and Investments
-99,Margarita Louis-Dreyfus,56,Margarita Louis-Dreyfus (56),Switzerland,Food and Beverage
-100,Beth Brooke-Marciniak,59,Beth Brooke-Marciniak (59),United States,Diversified
+Platz,Name,Alter,Name und Alter,Land,Kategorie,Chart
+1,Angela Merkel,64,Angela Merkel (64),Germany,666,666
+2,Theresa May,62,Theresa May (62),United Kingdom,504,504
+3,Christine Lagarde,62,Christine Lagarde (62),France,44,44
+4,Mary Barra,56,Mary Barra (56),United States,543,543
+5,Abigail Johnson,56,Abigail Johnson (56),United States,44,44
+6,Melinda Gates,54,Melinda Gates (54),United States,654,654
+7,Susan Wojcicki,50,Susan Wojcicki (50),United States,315.0666667,315.0666667
+8,Ana Patricia Botín,58,Ana Patricia Botín (58),Spain,288.1809524,288.1809524
+9,Marillyn Hewson,64,Marillyn Hewson (64),United States,261.2952381,261.2952381
+10,Ginni Rometty,61,Ginni Rometty (61),United States,234.4095238,234.4095238
+11,Sheryl Sandberg,49,Sheryl Sandberg (49),United States,207.5238095,207.5238095
+12,Gail Boudreaux,58,Gail Boudreaux (58),United States,180.6380952,180.6380952
+13,Angela Ahrendts,58,Angela Ahrendts (58),United States,153.752381,153.752381
+14,Safra Catz,56,Safra Catz (56),United States,126.8666667,126.8666667
+15,Isabelle Kocher,51,Isabelle Kocher (51),France,99.98095238,99.98095238
+16,Adena Friedman,49,Adena Friedman (49),United States,73.0952381,73.0952381
+17,Ho Ching,65,Ho Ching (65),Singapore,46.20952381,46.20952381
+18,Emma Walmsley,49,Emma Walmsley (49),United Kingdom,19.32380952,19.32380952
+19,U.S. Supreme Court Justices,-,U.S. Supreme Court Justices (-),United States,25,25
+20,Oprah Winfrey,64,Oprah Winfrey (64),United States,30.67619048,30.67619048
+21,Ruth Porat,61,Ruth Porat (61),United States,36.35238095,36.35238095
+22,Laurene Powell Jobs,55,Laurene Powell Jobs (55),United States,42.02857143,42.02857143
+23,Queen Elizabeth II,92,Queen Elizabeth II (92),United Kingdom,47.7047619,47.7047619
+24,Ivanka Trump,37,Ivanka Trump (37),United States,53.38095238,53.38095238
+25,Phebe Novakovic,60,Phebe Novakovic (60),United States,59.05714286,59.05714286
+26,Sheikh Hasina Wajed,71,Sheikh Hasina Wajed (71),Bangladesh,64.73333333,64.73333333
+27,Stacey Cunningham,44,Stacey Cunningham (44),United States,70.40952381,70.40952381
+28,Amy Hood,46,Amy Hood (46),United States,76.08571429,76.08571429
+29,Jacinda Ardern,38,Jacinda Ardern (38),New Zealand,81.76190476,81.76190476
+30,Gina Rinehart,64,Gina Rinehart (64),Australia,87.43809524,87.43809524
+31,Shari Redstone,64,Shari Redstone (64),United States,93.11428571,93.11428571
+32,Carrie Lam,-,Carrie Lam (-),China,98.79047619,98.79047619
+33,Mary Callahan Erdoes,51,Mary Callahan Erdoes (51),United States,104.4666667,104.4666667
+34,Rosalind Brewer,55,Rosalind Brewer (55),United States,110.1428571,110.1428571
+35,Erna Solberg,57,Erna Solberg (57),Norway,115.8190476,115.8190476
+36,Bonnie Hammer,68,Bonnie Hammer (68),United States,121.4952381,121.4952381
+37,Lisa Davis,55,Lisa Davis (55),United States,127.1714286,127.1714286
+38,Marianne Lake,49,Marianne Lake (49),United Kingdom,132.847619,132.847619
+39,Mingzhu Dong,64,Mingzhu Dong (64),China,138.5238095,138.5238095
+40,Tsai Ing-wen,62,Tsai Ing-wen (62),Taiwan,144.2,144.2
+41,Donna Langley,50,Donna Langley (50),United Kingdom,149.8761905,149.8761905
+42,Anne Finucane,-,Anne Finucane (-),United States,155.552381,155.552381
+43,Gillian Tans,-,Gillian Tans (-),Netherlands,161.2285714,161.2285714
+44,Thi Phuong Thao Nguyen,48,Thi Phuong Thao Nguyen (48),Vietnam,166.9047619,166.9047619
+45,Nicola Sturgeon,48,Nicola Sturgeon (48),United Kingdom,172.5809524,172.5809524
+46,Jean Liu,40,Jean Liu (40),China,178.2571429,178.2571429
+47,Kolinda Grabar-Kitarovic,50,Kolinda Grabar-Kitarovic (50),Croatia,183.9333333,183.9333333
+48,Anna Wintour,69,Anna Wintour (69),United States,189.6095238,189.6095238
+49,Elvira Nabiullina,55,Elvira Nabiullina (55),Russia,195.2857143,195.2857143
+50,Beyoncé Knowles,37,Beyoncé Knowles (37),United States,200.9619048,200.9619048
+51,Roshni Nadar Malhotra,37,Roshni Nadar Malhotra (37),India,206.6380952,206.6380952
+52,Dana Walden,54,Dana Walden (54),United States,212.3142857,212.3142857
+53,Priscilla Chan,33,Priscilla Chan (33),United States,217.9904762,217.9904762
+54,Tricia Griffith,54,Tricia Griffith (54),United States,223.6666667,223.6666667
+55,Jennifer Morgan,47,Jennifer Morgan (47),United States,229.3428571,229.3428571
+56,Feng Ying Wang,-,Feng Ying Wang (-),China,235.0190476,235.0190476
+57,Maggie Wei Wu,50,Maggie Wei Wu (50),China,240.6952381,240.6952381
+58,Lubna S. Olayan,63,Lubna S. Olayan (63),Saudi Arabia,246.3714286,246.3714286
+59,Gwynne Shotwell,55,Gwynne Shotwell (55),United States,252.047619,252.047619
+60,Kiran Mazumdar-Shaw,65,Kiran Mazumdar-Shaw (65),India,257.7238095,257.7238095
+61,Melanie Kreis,47,Melanie Kreis (47),Germany,263.4,263.4
+62,Zhou Qunfei,48,Zhou Qunfei (48),Hong Kong,269.0761905,269.0761905
+63,Dalia Grybauskaite,62,Dalia Grybauskaite (62),Lithuania,274.752381,274.752381
+64,Güler Sabanci,63,Güler Sabanci (63),Turkey,280.4285714,280.4285714
+65,Peng Liyuan,56,Peng Liyuan (56),China,286.1047619,286.1047619
+66,Katharine Viner,46,Katharine Viner (46),United Kingdom,291.7809524,291.7809524
+67,Federica Mogherini,45,Federica Mogherini (45),Italy,297.4571429,297.4571429
+68,Taylor Swift,28,Taylor Swift (28),United States,303.1333333,303.1333333
+69,Belinda Johnson,51,Belinda Johnson (51),United States,308.8095238,308.8095238
+70,Zanny Minton Beddoes,-,Zanny Minton Beddoes (-),United Kingdom,314.4857143,314.4857143
+71,Kathleen Kennedy,-,Kathleen Kennedy (-),United States,320.1619048,320.1619048
+72,Lynn Good,-,Lynn Good (-),United States,325.8380952,325.8380952
+73,Solina Chau,56,Solina Chau (56),Hong Kong,331.5142857,331.5142857
+74,Shonda Rhimes,48,Shonda Rhimes (48),United States,337.1904762,337.1904762
+75,Judy Faulkner,75,Judy Faulkner (75),United States,342.8666667,342.8666667
+76,Kersti Kaljulaid,48,Kersti Kaljulaid (48),Estonia,348.5428571,348.5428571
+77,Arianna Huffington,68,Arianna Huffington (68),United States,354.2190476,354.2190476
+78,Sri Mulyani Indrawati,56,Sri Mulyani Indrawati (56),Indonesia,359.8952381,359.8952381
+79,Serena Williams,37,Serena Williams (37),United States,365.5714286,365.5714286
+80,Meg Whitman,62,Meg Whitman (62),United States,371.247619,371.247619
+81,Denise Coates,51,Denise Coates (51),United Kingdom,376.9238095,376.9238095
+82,Raja Easa Al Gurg,-,Raja Easa Al Gurg (-),United Arab Emirates,382.6,382.6
+83,Eliza Manningham-Buller,70,Eliza Manningham-Buller (70),United Kingdom,388.2761905,388.2761905
+84,Wai Ying Lam,-,Wai Ying Lam (-),Hong Kong,393.952381,393.952381
+85,Michelle Bachelet,67,Michelle Bachelet (67),Chile,399.6285714,399.6285714
+86,Lee Boo-jin,48,Lee Boo-jin (48),South Korea,405.3047619,405.3047619
+87,Jenny Lee,46,Jenny Lee (46),Singapore,410.9809524,410.9809524
+88,Shobhana Bhartia,61,Shobhana Bhartia (61),India,416.6571429,416.6571429
+89,Kirsten Green,47,Kirsten Green (47),United States,422.3333333,422.3333333
+90,Geisha Williams,-,Geisha Williams (-),United States,428.0095238,428.0095238
+91,Ana Brnabic,43,Ana Brnabic (43),Serbia,433.6857143,433.6857143
+92,Anne Wojcicki,45,Anne Wojcicki (45),United States,439.3619048,439.3619048
+93,Aileen Lee,48,Aileen Lee (48),United States,445.0380952,445.0380952
+94,Priyanka Chopra,36,Priyanka Chopra (36),India,450.7142857,450.7142857
+95,Rania Nashar,-,Rania Nashar (-),Saudi Arabia,456.3904762,456.3904762
+96,Dominique Senequier,65,Dominique Senequier (65),France,462.0666667,462.0666667
+97,Sahle-Work Zewde,-,Sahle-Work Zewde (-),Ethiopia,467.7428571,467.7428571
+98,Theresia Gouw,46,Theresia Gouw (46),United States,473.4190476,473.4190476
+99,Margarita Louis-Dreyfus,56,Margarita Louis-Dreyfus (56),Switzerland,479.0952381,479.0952381
+100,Beth Brooke-Marciniak,59,Beth Brooke-Marciniak (59),United States,484.7714286,484.7714286
