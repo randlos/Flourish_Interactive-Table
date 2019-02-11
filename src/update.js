@@ -129,10 +129,12 @@ function update() {
         },{
             "targets": -1,
             "render": function (data, type, row, meta) {
+                //console.log(data);
                 if (!isNaN(data)) {
                                         
-                    let chart = d3.select('tr')
-                    .select('td')
+                    let chart = d3
+                    .select("this")
+                    .select("td")
                     .append("svg")
                     .attr("class", "barchart")
                     .attr("width", "100%")
@@ -146,13 +148,13 @@ function update() {
                     //console.log(data);
                     
                     bar.append("rect")
-                    .attr("width", function(d) { return d + "%"})//function(d) { return (d/(d3.sum(data)))*100 + "%"; } )
+                    .attr("width", function(d) { return d + "%"}) // function(d) { return (d/(d3.sum(data)))*100 + "%"; } )   
                     .attr("x", "0")
                     .attr("y", "50%")
                     .attr("height", "80%")
                     .attr("fill", "#000");
 
-                    return;
+                    
                 }
                 else {
                     return data;
