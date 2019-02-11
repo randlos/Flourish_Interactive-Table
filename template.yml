@@ -17,6 +17,11 @@ build:
 settings: 
   - BEI JEDER ÄNDERUNG BESTÄTIGEN UND BROWSER MIT CMD+R NEU LADEN
 
+  - property: headerColor
+    name: Farbe des Headers ändern (Alle Hex-Codes möglich)
+    description: 
+    type: string
+
   - property: sortingColumn
     name: Spalte zur initialen Sortierung
     description: Nach welcher Spalte soll initial sortiert werden

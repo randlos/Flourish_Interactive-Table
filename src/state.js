@@ -16,6 +16,9 @@ let state = {
    // Scrolling y
     yscroll: '500px',
 
+   // Color-Change
+    headerColor: '#dadada',
+
     // Haupt-Farben
     Haupt_Farbe: "rgba(211, 45, 32, 1)",
     Green: '#6CBA6C',

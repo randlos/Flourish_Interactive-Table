@@ -25,15 +25,11 @@ function update() {
     } */
 
     function reloadTable(variable) {
+        
         table.ajax.reload();
         return variable;
     }
 
-    function deactivateSearch() {
-        if (state.layout == "t") {
-            $('#mySearch').remove();
-        }
-    }
 
     function tranlsateSortingAlphaToNumber(alpha) {
         let alphaList = [{number:1, string:'A'},
@@ -130,6 +126,38 @@ function update() {
                     return data;
                 }
               },
+        },{
+            "targets": -1,
+            "render": function (data, type, row, meta) {
+                if (!isNaN(data)) {
+                                        
+                    let chart = d3.select('tr')
+                    .select('td')
+                    .append("svg")
+                    .attr("class", "barchart")
+                    .attr("width", "100%")
+                    .attr("height", "70%");
+                    
+                    let bar = chart.selectAll("g")
+                    .data(data)    
+                    .enter()
+                    .append("g");
+                    
+                    //console.log(data);
+                    
+                    bar.append("rect")
+                    .attr("width", function(d) { return d + "%"})//function(d) { return (d/(d3.sum(data)))*100 + "%"; } )
+                    .attr("x", "0")
+                    .attr("y", "50%")
+                    .attr("height", "80%")
+                    .attr("fill", "#000");
+
+                    return;
+                }
+                else {
+                    return data;
+                }
+            }
         }],
         "paging": false,
         "scrollY": state.yscroll,
@@ -139,6 +167,13 @@ function update() {
         columns: c_names(),
         "language": {
             "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/German.json"
+        },
+        "drawCallback": function ( settings ) {
+
+            // Change Header Color
+            $('.dataTables_scrollHead').css("background", state.headerColor);          
+            //console.log("Table reload!");
+            //console.log(state.headerColor);
         }
     });
 
@@ -148,11 +183,22 @@ function update() {
     } );
 
     // Deactivate Search for Grafik PNG Export
+    function deactivateSearch() {
+        if (state.layout == "t") {
+            $('#mySearch').remove();
+        }
+    }
+    
     deactivateSearch()
     
-    $("iframe[name='result']").each(function() {
+    
+    $("iframe[name='preview']").each(function() {
         this.sandbox += ' allow-modals';
     });
+
+
+;
+
 
     // .map(function(d) { return comma_to_point(d.schlusskurs) })
 }
