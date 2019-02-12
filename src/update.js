@@ -30,6 +30,45 @@ function update() {
         return variable;
     }
 
+    function maxValue(data) {
+        let dataArray = new Array();
+
+        data.forEach(function(item, index, array) {
+            // GET THE LAST ITEM (LAST COLUMN CELL) IN A ARRAY
+            //console.log(item.values.slice(-1)[0], index);
+            dataArray.push(item.values.slice(-1)[0]);
+
+        });
+        
+        let maxValue = Math.max.apply(Math, dataArray);
+        console.log(maxValue);
+
+        return maxValue;
+    }
+
+   
+    // function balken(data) {
+        
+    //     // let chart = d3.select("body")//d3.select("td:nth-last-child(1)")
+    //     // .append("svg")
+    //     // .attr("class", "barchart")
+    //     // .attr("width", "100%")
+    //     // .attr("height", "70%");
+      
+
+    //     // let bar = chart.select("g")
+    //     // .data(data)    
+    //     // .enter()
+    //     // .append("g");
+        
+        
+    //     let bar = d3.append("rect")
+    //     .attr("width", function(d) { return 100/d + "%"}) //function(d) { return (d/(d3.sum(data)))*100 + "%"; } )   // function(d) { return d + "%"})
+    //     .attr("x", "0")
+    //     .attr("y", "50%")
+    //     .attr("height", "80%")
+    //     .attr("fill", "#000");
+    // }
 
     function tranlsateSortingAlphaToNumber(alpha) {
         let alphaList = [{number:1, string:'A'},
@@ -129,31 +168,48 @@ function update() {
         },{
             "targets": -1,
             "render": function (data, type, row, meta) {
-                //console.log(data);
-                if (!isNaN(data)) {
-                                        
-                    let chart = d3
-                    .select("this")
-                    .select("td")
-                    .append("svg")
-                    .attr("class", "barchart")
-                    .attr("width", "100%")
-                    .attr("height", "70%");
-                    
-                    let bar = chart.selectAll("g")
-                    .data(data)    
-                    .enter()
-                    .append("g");
-                    
-                    //console.log(data);
-                    
-                    bar.append("rect")
-                    .attr("width", function(d) { return d + "%"}) // function(d) { return (d/(d3.sum(data)))*100 + "%"; } )   
-                    .attr("x", "0")
-                    .attr("y", "50%")
-                    .attr("height", "80%")
-                    .attr("fill", "#000");
 
+                if (!isNaN(data)) {
+                    
+                   
+                    // var canvas = d3.select("td") //:nth-last-child(1)
+                    // .append('canvas')
+                    // .attr('width', '100%')
+                    // .attr('height', '100%');
+
+                    // var context = canvas.node().getContext('2d');
+
+                    // console.log(context);
+                    // let chart = d3.select
+                    // ("td:nth-last-child(1)")
+                    // .append("svg")
+                    // .attr("class", "barchart")
+                    // .attr("width", "100%")
+                    // .attr("height", "70%");
+                  
+
+
+                    // let bar = chart.select("g")
+                    // .data(data)    
+                    // .enter()
+                    // .append("g");
+                    
+                    // console.log(bar);
+                    
+                    // bar.append("rect")
+                    // .attr("width", function(d) { return 100/d + "%"}) //function(d) { return (d/(d3.sum(data)))*100 + "%"; } )   // function(d) { return d + "%"})
+                    // .attr("x", "0")
+                    // .attr("y", "50%")
+                    // .attr("height", "80%")
+                    // .attr("fill", "#000");
+
+                    // //console.log(d3.sum(data));
+                    
+                    //let c = $("td:nth-last-child(1)").append("<svg> Test </svg>");
+                    
+                    let bar = '<div style="height:80%; width:' + data + '; background:#000000"> Test </div>';
+                    //console.log(bar);
+                    return bar;
                     
                 }
                 else {
