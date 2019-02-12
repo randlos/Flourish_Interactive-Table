@@ -37,7 +37,12 @@ function update() {
         data.forEach(function(item, index, array) {
             // GET THE LAST ITEM (LAST COLUMN CELL) IN A ARRAY
             //console.log(item.values.slice(-1)[0], index);
-            dataArray.push(item.values.slice(-1)[0]);
+
+            // Get the active column for bar-charts in Alpha, convert it to a number and get the max value of that column
+            
+            let valueToConsider = item.values.slice(tranlsateSortingAlphaToNumber(state.bar_column))[0];
+            dataArray.push(valueToConsider);
+            //console.log(valueToConsider)
 
         });
         
@@ -48,6 +53,9 @@ function update() {
     }
 
     let maxVal = maxValue(data.Data);
+    console.log(maxVal);
+
+    //console.log(data.Data.values[tranlsateSortingAlphaToNumber(state.bar_column]));
    
     // function balken(data) {
         
@@ -127,7 +135,7 @@ function update() {
         
         var color = d3.scale.linear()
         .domain([0,maxVal])
-        .range(["blue", "green"]);
+        .range(["green", "red"]);
 
         return color(data);
 
