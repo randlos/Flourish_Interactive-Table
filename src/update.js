@@ -39,7 +39,6 @@ function update() {
             //console.log(item.values.slice(-1)[0], index);
 
             // Get the active column for bar-charts in Alpha, convert it to a number and get the max value of that column
-            
             let valueToConsider = item.values.slice(tranlsateSortingAlphaToNumber(state.bar_column))[0];
             dataArray.push(valueToConsider);
             //console.log(valueToConsider)
