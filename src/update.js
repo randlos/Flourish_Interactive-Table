@@ -171,7 +171,7 @@ function update() {
             "targets": -1,
             "render": function (data, type, row, meta) {
 
-                if (!isNaN(data)) {
+                if (state.bar_switch) {  //(!isNaN(data))
                    
                     let pre_bar_container = '<div class="barcont">';
                     let bartext = '<div class="bartext"><p>' + data + '</p></div>';

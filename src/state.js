@@ -43,6 +43,10 @@ let state = {
     sonstige_parteien_farbe: '#c5cad0',
     nichtwahler_farbe: '#dce1e0',
     
+
+    // Bar-Chart-Feature
+   bar_switch: false,
+
   
    };
 
