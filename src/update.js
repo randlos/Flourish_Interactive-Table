@@ -172,45 +172,13 @@ function update() {
             "render": function (data, type, row, meta) {
 
                 if (!isNaN(data)) {
-                    
                    
-                    // var canvas = d3.select("td") //:nth-last-child(1)
-                    // .append('canvas')
-                    // .attr('width', '100%')
-                    // .attr('height', '100%');
-
-                    // var context = canvas.node().getContext('2d');
-
-                    // console.log(context);
-                    // let chart = d3.select
-                    // ("td:nth-last-child(1)")
-                    // .append("svg")
-                    // .attr("class", "barchart")
-                    // .attr("width", "100%")
-                    // .attr("height", "70%");
-                  
-
-
-                    // let bar = chart.select("g")
-                    // .data(data)    
-                    // .enter()
-                    // .append("g");
-                    
-                    // console.log(bar);
-                    
-                    // bar.append("rect")
-                    // .attr("width", function(d) { return 100/d + "%"}) //function(d) { return (d/(d3.sum(data)))*100 + "%"; } )   // function(d) { return d + "%"})
-                    // .attr("x", "0")
-                    // .attr("y", "50%")
-                    // .attr("height", "80%")
-                    // .attr("fill", "#000");
-
-                    // //console.log(d3.sum(data));
-                    
-                    //let c = $("td:nth-last-child(1)").append("<svg> Test </svg>");
-                    
-                    let bar = '<svg style="height:20%; width:' + data/maxVal * 100 +  '%; background:#000000">Test</svg>';
-                    return bar;
+                    let pre_bar_container = '<td>';
+                    let bartext = '<p>' + data + '</p>';
+                    let bar = '<svg style="height:25; width:' + data/maxVal * 100 +  '%; background:#000000"></svg>';
+                    let post_bar_container = '</td>';
+                    console.log(bar, bartext);
+                    return bar + bartext;
                     
                 }
                 else {
