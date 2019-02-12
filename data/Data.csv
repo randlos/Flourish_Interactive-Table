@@ -1,101 +1,1070 @@
-Platz,Name,Alter,Name und Alter,Land,Kategorie,Chart
-1,Angela Merkel,64,Angela Merkel (64),Germany,666,666
-2,Theresa May,62,Theresa May (62),United Kingdom,504,504
-3,Christine Lagarde,62,Christine Lagarde (62),France,44,44
-4,Mary Barra,56,Mary Barra (56),United States,543,543
-5,Abigail Johnson,56,Abigail Johnson (56),United States,44,44
-6,Melinda Gates,54,Melinda Gates (54),United States,654,654
-7,Susan Wojcicki,50,Susan Wojcicki (50),United States,315.0666667,315.0666667
-8,Ana Patricia Botín,58,Ana Patricia Botín (58),Spain,288.1809524,288.1809524
-9,Marillyn Hewson,64,Marillyn Hewson (64),United States,261.2952381,261.2952381
-10,Ginni Rometty,61,Ginni Rometty (61),United States,234.4095238,234.4095238
-11,Sheryl Sandberg,49,Sheryl Sandberg (49),United States,207.5238095,207.5238095
-12,Gail Boudreaux,58,Gail Boudreaux (58),United States,180.6380952,180.6380952
-13,Angela Ahrendts,58,Angela Ahrendts (58),United States,153.752381,153.752381
-14,Safra Catz,56,Safra Catz (56),United States,126.8666667,126.8666667
-15,Isabelle Kocher,51,Isabelle Kocher (51),France,99.98095238,99.98095238
-16,Adena Friedman,49,Adena Friedman (49),United States,73.0952381,73.0952381
-17,Ho Ching,65,Ho Ching (65),Singapore,46.20952381,46.20952381
-18,Emma Walmsley,49,Emma Walmsley (49),United Kingdom,19.32380952,19.32380952
-19,U.S. Supreme Court Justices,-,U.S. Supreme Court Justices (-),United States,25,25
-20,Oprah Winfrey,64,Oprah Winfrey (64),United States,30.67619048,30.67619048
-21,Ruth Porat,61,Ruth Porat (61),United States,36.35238095,36.35238095
-22,Laurene Powell Jobs,55,Laurene Powell Jobs (55),United States,42.02857143,42.02857143
-23,Queen Elizabeth II,92,Queen Elizabeth II (92),United Kingdom,47.7047619,47.7047619
-24,Ivanka Trump,37,Ivanka Trump (37),United States,53.38095238,53.38095238
-25,Phebe Novakovic,60,Phebe Novakovic (60),United States,59.05714286,59.05714286
-26,Sheikh Hasina Wajed,71,Sheikh Hasina Wajed (71),Bangladesh,64.73333333,64.73333333
-27,Stacey Cunningham,44,Stacey Cunningham (44),United States,70.40952381,70.40952381
-28,Amy Hood,46,Amy Hood (46),United States,76.08571429,76.08571429
-29,Jacinda Ardern,38,Jacinda Ardern (38),New Zealand,81.76190476,81.76190476
-30,Gina Rinehart,64,Gina Rinehart (64),Australia,87.43809524,87.43809524
-31,Shari Redstone,64,Shari Redstone (64),United States,93.11428571,93.11428571
-32,Carrie Lam,-,Carrie Lam (-),China,98.79047619,98.79047619
-33,Mary Callahan Erdoes,51,Mary Callahan Erdoes (51),United States,104.4666667,104.4666667
-34,Rosalind Brewer,55,Rosalind Brewer (55),United States,110.1428571,110.1428571
-35,Erna Solberg,57,Erna Solberg (57),Norway,115.8190476,115.8190476
-36,Bonnie Hammer,68,Bonnie Hammer (68),United States,121.4952381,121.4952381
-37,Lisa Davis,55,Lisa Davis (55),United States,127.1714286,127.1714286
-38,Marianne Lake,49,Marianne Lake (49),United Kingdom,132.847619,132.847619
-39,Mingzhu Dong,64,Mingzhu Dong (64),China,138.5238095,138.5238095
-40,Tsai Ing-wen,62,Tsai Ing-wen (62),Taiwan,144.2,144.2
-41,Donna Langley,50,Donna Langley (50),United Kingdom,149.8761905,149.8761905
-42,Anne Finucane,-,Anne Finucane (-),United States,155.552381,155.552381
-43,Gillian Tans,-,Gillian Tans (-),Netherlands,161.2285714,161.2285714
-44,Thi Phuong Thao Nguyen,48,Thi Phuong Thao Nguyen (48),Vietnam,166.9047619,166.9047619
-45,Nicola Sturgeon,48,Nicola Sturgeon (48),United Kingdom,172.5809524,172.5809524
-46,Jean Liu,40,Jean Liu (40),China,178.2571429,178.2571429
-47,Kolinda Grabar-Kitarovic,50,Kolinda Grabar-Kitarovic (50),Croatia,183.9333333,183.9333333
-48,Anna Wintour,69,Anna Wintour (69),United States,189.6095238,189.6095238
-49,Elvira Nabiullina,55,Elvira Nabiullina (55),Russia,195.2857143,195.2857143
-50,Beyoncé Knowles,37,Beyoncé Knowles (37),United States,200.9619048,200.9619048
-51,Roshni Nadar Malhotra,37,Roshni Nadar Malhotra (37),India,206.6380952,206.6380952
-52,Dana Walden,54,Dana Walden (54),United States,212.3142857,212.3142857
-53,Priscilla Chan,33,Priscilla Chan (33),United States,217.9904762,217.9904762
-54,Tricia Griffith,54,Tricia Griffith (54),United States,223.6666667,223.6666667
-55,Jennifer Morgan,47,Jennifer Morgan (47),United States,229.3428571,229.3428571
-56,Feng Ying Wang,-,Feng Ying Wang (-),China,235.0190476,235.0190476
-57,Maggie Wei Wu,50,Maggie Wei Wu (50),China,240.6952381,240.6952381
-58,Lubna S. Olayan,63,Lubna S. Olayan (63),Saudi Arabia,246.3714286,246.3714286
-59,Gwynne Shotwell,55,Gwynne Shotwell (55),United States,252.047619,252.047619
-60,Kiran Mazumdar-Shaw,65,Kiran Mazumdar-Shaw (65),India,257.7238095,257.7238095
-61,Melanie Kreis,47,Melanie Kreis (47),Germany,263.4,263.4
-62,Zhou Qunfei,48,Zhou Qunfei (48),Hong Kong,269.0761905,269.0761905
-63,Dalia Grybauskaite,62,Dalia Grybauskaite (62),Lithuania,274.752381,274.752381
-64,Güler Sabanci,63,Güler Sabanci (63),Turkey,280.4285714,280.4285714
-65,Peng Liyuan,56,Peng Liyuan (56),China,286.1047619,286.1047619
-66,Katharine Viner,46,Katharine Viner (46),United Kingdom,291.7809524,291.7809524
-67,Federica Mogherini,45,Federica Mogherini (45),Italy,297.4571429,297.4571429
-68,Taylor Swift,28,Taylor Swift (28),United States,303.1333333,303.1333333
-69,Belinda Johnson,51,Belinda Johnson (51),United States,308.8095238,308.8095238
-70,Zanny Minton Beddoes,-,Zanny Minton Beddoes (-),United Kingdom,314.4857143,314.4857143
-71,Kathleen Kennedy,-,Kathleen Kennedy (-),United States,320.1619048,320.1619048
-72,Lynn Good,-,Lynn Good (-),United States,325.8380952,325.8380952
-73,Solina Chau,56,Solina Chau (56),Hong Kong,331.5142857,331.5142857
-74,Shonda Rhimes,48,Shonda Rhimes (48),United States,337.1904762,337.1904762
-75,Judy Faulkner,75,Judy Faulkner (75),United States,342.8666667,342.8666667
-76,Kersti Kaljulaid,48,Kersti Kaljulaid (48),Estonia,348.5428571,348.5428571
-77,Arianna Huffington,68,Arianna Huffington (68),United States,354.2190476,354.2190476
-78,Sri Mulyani Indrawati,56,Sri Mulyani Indrawati (56),Indonesia,359.8952381,359.8952381
-79,Serena Williams,37,Serena Williams (37),United States,365.5714286,365.5714286
-80,Meg Whitman,62,Meg Whitman (62),United States,371.247619,371.247619
-81,Denise Coates,51,Denise Coates (51),United Kingdom,376.9238095,376.9238095
-82,Raja Easa Al Gurg,-,Raja Easa Al Gurg (-),United Arab Emirates,382.6,382.6
-83,Eliza Manningham-Buller,70,Eliza Manningham-Buller (70),United Kingdom,388.2761905,388.2761905
-84,Wai Ying Lam,-,Wai Ying Lam (-),Hong Kong,393.952381,393.952381
-85,Michelle Bachelet,67,Michelle Bachelet (67),Chile,399.6285714,399.6285714
-86,Lee Boo-jin,48,Lee Boo-jin (48),South Korea,405.3047619,405.3047619
-87,Jenny Lee,46,Jenny Lee (46),Singapore,410.9809524,410.9809524
-88,Shobhana Bhartia,61,Shobhana Bhartia (61),India,416.6571429,416.6571429
-89,Kirsten Green,47,Kirsten Green (47),United States,422.3333333,422.3333333
-90,Geisha Williams,-,Geisha Williams (-),United States,428.0095238,428.0095238
-91,Ana Brnabic,43,Ana Brnabic (43),Serbia,433.6857143,433.6857143
-92,Anne Wojcicki,45,Anne Wojcicki (45),United States,439.3619048,439.3619048
-93,Aileen Lee,48,Aileen Lee (48),United States,445.0380952,445.0380952
-94,Priyanka Chopra,36,Priyanka Chopra (36),India,450.7142857,450.7142857
-95,Rania Nashar,-,Rania Nashar (-),Saudi Arabia,456.3904762,456.3904762
-96,Dominique Senequier,65,Dominique Senequier (65),France,462.0666667,462.0666667
-97,Sahle-Work Zewde,-,Sahle-Work Zewde (-),Ethiopia,467.7428571,467.7428571
-98,Theresia Gouw,46,Theresia Gouw (46),United States,473.4190476,473.4190476
-99,Margarita Louis-Dreyfus,56,Margarita Louis-Dreyfus (56),Switzerland,479.0952381,479.0952381
-100,Beth Brooke-Marciniak,59,Beth Brooke-Marciniak (59),United States,484.7714286,484.7714286
+,Name,Hersteller,Ballaststoffe in g,Kalorien in kcal,Kohlenhydrate in g,Zucker in g,Fett in g
+0,"happy rebel, Cocoa passion",Diverse,60.2,691,34.2,14.3,60.2
+1,"torino, NOIR",Camille Bloch,44.0,622,48.0,42.0,44.0
+2,Feinster Edel Nugat,Aldi,47.3,618,38.8,35.5,47.3
+3,Love Chock Pecan Maca 81 % Kakao,Lovechock,50.0,617,36.0,21.0,50.0
+4,Kinder Friends Bueno Mini,Ferrero,37.3,615,49.5,41.3,37.3
+5,"Lovechock, Goji/Orange",Lovechock,48.0,614,40.0,17.0,48.0
+6,Tiger Stick,Rapunzel Naturkost,3.5,609,42.0,45.0,3.5
+7,"Lindor Stick, Milch",Lindt,44.0,606,46.0,45.0,44.0
+8,"Frey d'or noir, dunkle Schokolade",Chocolat Frey AG,44.0,606,41.0,36.0,44.0
+9,Duplo Chocnut white,Ferrero,43.2,603,43.5,36.5,43.2
+10,Nutting Hills,Zotter,44.0,602,39.0,38.0,44.0
+11,Caffarel Nocciolotto,Diverse,40.0,600,50.0,42.5,40.0
+12,Bio Fairetta Kids,GEPA,0.0,599,44.1,43.9,0.0
+13,"Schokoriegel, Erdbeer Joghurt",Alnatura,0.0,599,47.6,42.5,0.0
+14,Bio strawberrys & cream,Ombar,47.2,598,42.1,28.4,47.2
+15,"Bio Osterriegel, Vollmilch- Schokoriegel mit Milch...",GEPA,42.3,598,46.0,45.4,42.3
+16,Keto Snickers,Selbst gemacht,1.2,597,14.6,48.5,1.2
+17,"Edelbitter Sahne, Edel-Sahne-Bitterschokolade",Alnatura,45.9,594,32.9,28.6,45.9
+18,Bio-Haselnuss-Schoko-Riegel,Spar Natur Pur,41.0,594,47.0,45.0,41.0
+19,"Milchschoko, Vollmilch",Alnatura,41.7,594,46.1,45.5,41.7
+20,"Kinder Happy Hippo, Cacao",Ferrero,38.6,593,53.6,45.1,38.6
+21,Kinder Bueno Dark,Ferrero,40.6,593,46.1,36.7,40.6
+22,"Duplo, Chocnut",Ferrero,39.3,593,50.9,41.9,39.3
+23,"Maxi Branche Blanche, Schokolade",Chocolats Halba,3.8,593,45.0,42.0,3.8
+24,Duplo Zartbitter Cocos,Ferrero,39.4,592,51.9,42.6,39.4
+25,"Duplo, Vollmilch Cocos",Ferrero,39.4,592,51.9,46.7,39.4
+26,"Fairetta creamy Kokos, Kokos",EZA,41.2,592,47.0,43.5,41.2
+27,"Rice Choc Bar, Original",Diverse,42.8,592,51.5,37.6,42.8
+28,"Rice Milk, mit Pistazie",Bonvita,4.3,592,51.0,43.0,4.3
+29,Edelkakoa-Schokolade,Tchibo,46.0,590,32.0,28.0,46.0
+30,Yogurette White & Mango,Ferrero,40.4,590,52.0,51.1,40.4
+31,"Milch & Schoko Deluxe, Gefüllte Vollmilch...",Bellarom,1.5,590,48.0,41.0,1.5
+32,Pfefferminz Praline,Mister Choc,41.0,589,45.4,43.7,41.0
+33,"Collection Superieur Schokoriegel, Dunkle Auswahl",Lidl,41.6,589,45.0,42.7,41.6
+34,"Schokoriegel, Vollmilch Espresso Crunch",DM Bio,41.0,589,46.0,44.0,41.0
+35,Branche Blanche,Coop,41.0,589,45.0,45.0,41.0
+36,Schokoriegel Nougat & Mandel,Alnatura,3.2,589,53.0,39.0,3.2
+37,"Schokolade, Macadamia",Schwermer,40.0,588,49.0,48.0,40.0
+38,"Lovechock, Kirsch/Chili",Lovechock,44.0,588,44.0,24.0,44.0
+39,"Ragusa Friends Classique, Schokolade mit ganzen Ha...",Camille Bloch,37.0,587,55.0,48.0,37.0
+40,"Pralin√© Macchiato, Macchiato",GEPA,40.3,587,47.8,47.5,40.3
+41,"Yogurette, White & Ananas-Limette",Ferrero,38.8,587,53.8,53.3,38.8
+42,Mandelkrokant,Diverse,4.6,587,55.5,35.9,4.6
+43,White Nougat Crisp,Vivani,39.0,586,54.3,44.0,39.0
+44,Schoko-Stick gefüllt mit feiner Himbeer-Joghurt-Cr...,Rapunzel Naturkost,40.0,586,50.9,48.8,40.0
+45,"Schokoriegel Latte Macchiato Chocarre, latte macch...",Diverse,40.7,586,46.4,46.1,40.7
+46,"Animation Schokoriegel, Nuss & Crisp",Diverse,41.6,586,43.3,39.9,41.6
+47,"Schokoriegel, Vollmilchschokolade mit Jogurt",Diverse,39.4,586,51.0,50.0,39.4
+48,La Branche Noir Bio 25g,Diverse,43.0,586,48.0,42.0,43.0
+49,"Collection Supérieur, Große Auswahl",J.D.Gross,40.4,585,46.4,44.4,40.4
+50,Torino,Diverse,0.0,585,47.0,41.0,0.0
+51,"VEGO Schokoriegel, Haselnuss",Vego Good Food,41.3,584,39.5,39.5,41.3
+52,Mister Choc Bratapfel-Riegel,Mister Choc,40.3,584,47.1,46.1,40.3
+53,"Animation Schokoriegel, Erdbeer-Joghurt",Lidl,38.1,584,53.3,50.0,38.1
+54,"Animation, Bratapfel",Lidl,40.3,584,47.1,46.1,40.3
+55,"Praline, Espresso",GEPA,41.4,584,44.0,42.2,41.4
+56,"Yogurette, White",Ferrero,38.8,584,53.4,52.9,38.8
+57,Veganer Himbeer-Waffel-Schokoriegel,enerBio,38.8,584,56.6,41.8,38.8
+58,Erdbeer & Joghurt,Bellarom,38.1,584,53.3,50.3,38.1
+59,"Yogurette Brazilian Summer, White & Limette",Ferrero,39.0,583,52.5,52.0,39.0
+60,"Kinder, Choco fresh",Ferrero,43.7,583,39.3,39.3,43.7
+61,Espresso & Biscotti Schokoladenriegel,Vivani,40.9,582,46.1,45.6,40.9
+62,"Mister choc, Joghurt pflaume crisp",Mister Choc,38.8,582,51.3,49.5,38.8
+63,"Schokoriegel, Vollmilch Himbeer Joghurt",DM Bio,39.0,582,49.0,47.0,39.0
+64,Derby Erdbeer-Joghurt-Riegel,Derby,38.8,582,52.3,51.0,38.8
+65,Café Biscuit,Alnatura,40.9,582,46.0,45.5,40.9
+66,"Lovechock, Maulbeere/Vanille",Lovechock,44.0,581,41.0,21.0,44.0
+67,"Schokoriegel, Kipferl",Lidl,39.3,581,48.5,47.2,39.3
+68,S√©lection Chocolat helle Auswahl ,Diverse,39.2,581,47.9,46.1,39.2
+69,"De Luxe, Nuss & Crisp",Bellarom,2.1,581,43.0,42.0,2.1
+70,Nougat Stängli,Alnatura,39.5,580,46.9,44.6,39.5
+71,Jogurt Erdbeer stäbchen,Spar,39.0,580,52.0,51.0,39.0
+72,"Samba Snack, Haselnuss-Schoko Schnitte",Rapunzel Naturkost,39.5,580,46.9,44.6,39.5
+73,"Animation, Pfirsich-Aprikose Joghurt",Lidl,37.5,580,53.2,50.1,37.5
+74,Kinder Friends Country Mini,Ferrero,0.0,580,56.0,36.0,0.0
+75,Schoko-Riegel Espresso Créme,enerBio,41.0,580,46.0,46.0,41.0
+76,"Coconut Slab, Toasted Coconut Slab Milk Chocolate ...",Diverse,40.8,580,45.8,37.2,40.8
+77,Dark Nougat Croccante,Vivani,40.0,579,45.0,40.0,40.0
+78,"Alpia, Mounties Schokostäbchen",Stollwerck,0.0,579,53.1,37.4,0.0
+79,Mandel Karamell,Mister Choc,39.2,579,48.9,48.2,39.2
+80,Mister Choc Milch und Schokolade Riegel,Mister Choc,38.0,579,51.7,50.4,38.0
+81,Milch+Schokolade,Mister Choc,38.4,579,51.7,50.4,38.4
+82,"Black & White, Vanille-Trüffel",Lindt,39.0,579,50.0,48.0,39.0
+83,"Chocarre Mandel Karamell, Schokolade",Lidl,39.2,579,48.9,48.2,39.2
+84,"Schokomonk Weiße Schokolade Himbeere, mit Himbeeren",Shokocrown,4.4,578,52.2,35.7,4.4
+85,Erdbeer-Joghurt Riegel,Netto,37.9,578,52.6,51.6,37.9
+86,"Schokoriegel, Erdbeer-Joghurt",Choceur,38.0,577,51.6,50.6,38.0
+87,"Edel-Vollmilchschokolade, Erdbeere Joghurt",Choceur,38.0,577,51.6,50.6,38.0
+88,Erdbeer-Joghurt-Schokolade,Chateau,1.2,577,51.6,38.0,1.2
+89,"Ovolino, Original Schweizer Pralin√©",Wander AG,38.0,576,52.0,48.0,38.0
+90,Schokoriegel Erdbeer & Joghurt,Tip,38.5,576,52.1,51.0,38.5
+91,"Schokoriegel, Lebkuchen",Mister Choc,39.0,576,47.6,45.9,39.0
+92,"Praline Noisette, Weiße- und Vollmilchschokolade m...",GEPA,38.0,576,48.7,46.0,38.0
+93,"Schokoriegel, Joghurt",Chateau,38.5,576,51.4,51.0,38.5
+94,"Drachenriegel, mit knackigen Knisterperlen",Argenta,4.1,576,49.5,38.4,4.1
+95,"Merci Finest Selection, Helle Vielfalt",Storck,37.8,575,49.8,48.2,37.8
+96,"Shokomonk, Weisse Pistazie",Shokocrown,0.0,575,48.2,38.8,0.0
+97,Rahm-Mandel Schokolade,Ja!,5.3,575,38.3,37.3,5.3
+98,Yogurette Heidelbeere,Ferrero,36.7,575,55.6,54.6,36.7
+99,Yogurette Brombeere & Holunder,Ferrero,36.7,575,55.6,54.3,36.7
+100,"Schokoriegel, Pfirsich Maracuja Joghurt",Chateau,37.7,575,52.2,51.0,37.7
+101,"Zartbitterschokolade 70 %, Chili Kirsch",Alnatura,43.4,575,33.6,28.2,43.4
+102,Feinster Vollmilch Nougat Barren,Rosengarten,37.5,574,50.9,47.2,37.5
+103,"Choco Edition, Erdbeer - Joghurt Riegel",Netto,37.9,574,52.1,51.0,37.9
+104,"Prügeli, weiss",Munz,39.0,574,47.0,45.0,39.0
+105,"Minor, Prügeli",Maestrani,39.0,574,45.0,44.0,39.0
+106,"Nocciolatte, Schokolade",Lindt,3.7,574,44.0,42.0,3.7
+107,"Yogurette Wintertraum, Bratapfel & Zimt",Ferrero,37.0,574,54.5,53.6,37.0
+108,"Yogurette, Himbeere (Himbeer-Garten)",Ferrero,1.1,574,56.3,36.1,1.1
+109,Duplo Nocciolato,Ferrero,39.1,574,46.0,38.0,39.1
+110,Bio Branche - HaselnussFüllung,Coop,2.5,574,47.0,39.0,2.5
+111,Schokomilchriegel,Choceur,38.3,574,49.5,49.0,38.3
+112,Choc Bar Haselnuss,Veganz,38.0,573,51.0,45.0,38.0
+113,"Vegan Hero Schakalode, weißer Mandelriegel",Vantastic Foods,38.0,573,47.0,29.0,38.0
+114,"Schogetten,  Alpenvollmich-Haselnuss",Ludwig Schokolade,38.0,573,50.0,50.0,38.0
+115,Fairetta Krokant Vollmilch,GEPA,38.1,573,47.1,43.1,38.1
+116,"Yogurette, Brombeere & Vanille-Geschmack",Ferrero,36.0,573,56.6,55.6,36.0
+117,"Schoko-Knusper-Riegel, Nuss-Nougat und Reis-Crispi...",enerBio,0.0,573,47.9,39.2,0.0
+118,Mandelbar,Diverse,38.0,573,47.0,29.0,38.0
+119,"Yogurette Sauerkirsche, mit Geschmack von Marzipan",Ferrero,37.1,572,54.4,53.4,37.1
+120,"Duplo, Caramel",Ferrero,36.0,572,55.7,49.5,36.0
+121,"Yogurette, Exotic Mango",Ferrero,36.0,572,56.0,54.2,36.0
+122,"Schokoladen-Riegel Branche Classic, Schoko, Haseln...",Coop,37.0,572,52.0,46.0,37.0
+123,"Himbeer-Joghurt Riegel, Vollmilchschokolade mit Hi...",Alnatura,0.0,572,47.9,38.5,0.0
+124,"Lina, Erdnuss Schokolade",Sedita,4.2,571,50.0,37.5,4.2
+125,"Yogurette, Erdbeere",Ferrero,35.6,571,56.8,55.4,35.6
+126,"Yogurette Mini-Riegel, Erdbeere",Ferrero,35.6,571,56.8,55.4,35.6
+127,"Shokomonk Starbar, Bananensplit",Shokocrown,4.4,570,52.4,36.9,4.4
+128,"Galler Schokolade, knusprige Pralinenfüllung",Galler,4.0,570,47.5,37.7,4.0
+129,kinderbueno,Ferrero,0.0,570,48.2,37.5,0.0
+130,"Yogurette, Rhabarber-Erdbeer",Ferrero,4.6,570,55.5,35.8,4.6
+131,"Utz Swissli, Milchschokolade mit Pralinenfüllung",Diverse,36.6,570,53.5,51.7,36.6
+132,"Choceur, Milch Cereal",Choceur,37.0,570,50.8,44.6,37.0
+133,"Schoko Waffel Riegel, Schokolade",Alnavit,37.4,570,52.7,34.4,37.4
+134,Mister Choc Milch + Schokolade,Mister Choc,37.1,569,50.9,49.9,37.1
+135,"Balance Belgian Chocolate, Milk Truffle",Klingele Chocolade,27.9,569,35.3,6.4,27.9
+136,Fairetta Weiße Crisp,GEPA,36.4,569,51.5,46.7,36.4
+137,"Kinder, bueno",Ferrero,37.3,569,49.5,41.2,37.3
+138,Kägifret,Diverse,0.0,569,57.0,35.0,0.0
+139,Tangerm√ºnder N√§hrstange,Diverse,33.2,569,58.1,58.1,33.2
+140,Pfirsich - Maracuja - Joghurt,Chateau,36.4,569,53.1,49.8,36.4
+141,"Milch Riegel, Knusper",Chateau,37.3,569,49.9,46.8,37.3
+142,Mandel Orange Rice Choc,Vivani,36.6,568,54.9,43.7,36.6
+143,"merci, Mandel Knusper Vielfalt",Storck,37.2,568,46.8,44.4,37.2
+144,Schoko Milch Riegel,Schokoliebe,36.1,568,53.2,52.7,36.1
+145,Kägi Mäx,K√§gi,37.0,568,54.0,39.0,37.0
+146,"Yogurette, Zitrone (Summer Fresh)",Ferrero,35.6,568,56.4,55.1,35.6
+147,"Riegel, Latte Macchiato",Chateau,37.1,568,49.6,49.1,37.1
+148,"Chateau, Erdbeer Joghurt Schokolade",Aldi,2.7,568,51.4,37.0,2.7
+149,"Schoko-Milch-Riegel Derby Penny, Milch",Penny Markt,36.4,567,51.8,51.0,36.4
+150,"Kastany, Schokolade",Nestlé,36.5,567,51.2,49.2,36.5
+151,Happy Hippo Cacao,Ferrero,0.0,567,51.2,36.1,0.0
+152,"Nugat Riegel (Hofer), Haselnuss",Hofer,36.5,567,47.1,44.5,36.5
+153,Kägi Fretli,Diverse,0.0,567,56.0,35.0,0.0
+154,Kägi-fret,Diverse,0.0,567,56.0,35.0,0.0
+155,Branche classic,Diverse,37.0,567,52.0,46.0,37.0
+156,Branche Classic Coop,Coop,2.0,567,52.0,37.0,2.0
+157,"Knuspi, Schoko",Spitz,5.0,566,53.9,34.4,5.0
+158,"Minor Classic, Schokoladen Confiserie mit geröstet...",Maestrani,0.0,566,45.0,39.0,0.0
+159,Mousse au Chocolat,J.D.Gross,39.2,566,46.1,45.0,39.2
+160,Quinua Crisp,GEPA,36.8,566,49.0,43.0,36.8
+161,"Yogurette, Maracuja",Ferrero,36.0,566,54.9,53.0,36.0
+162,Kinder Riegel,Ferrero,35.0,566,53.5,53.3,35.0
+163,"Schoko-Waffeln, Vollmilch",Delicia,36.7,566,49.8,36.6,36.7
+164,"Choceur Winter Kipferl, Vanillekipferl",Choceur,36.2,566,51.6,48.0,36.2
+165,Organic Raw Chocolate Pitch Dark,The Raw Chocolate Company,43.1,565,36.3,24.9,43.1
+166,Latte-Macchiato Stick,Rapunzel Naturkost,36.1,565,52.4,51.0,36.1
+167,"MISTER CHOC Gefüllte Schokoladenstäbchen, Erdbeer ...",Mister Choc,4.4,565,52.6,36.2,4.4
+168,"Zack, Ganze Haselnüsse",Milka,38.0,565,44.5,42.5,38.0
+169,"Milka Riegel, ganze Haselnüsse",Milka,38.0,565,44.5,42.5,38.0
+170,"Lila Pause, à la Caramel",Milka,0.0,565,54.0,36.0,0.0
+171,"Hazelnoten, Noisettes, Schockolade",Milka,3.7,565,44.5,38.5,3.7
+172,Hello My Name is COOKIES & CREAM,Lindt,37.0,565,52.0,49.0,37.0
+173,Ü-Ei,Ferrero,0.0,565,51.5,35.5,0.0
+174,"Edel-Zartbitter Venezuela 56 %, Edel-Zartbitter",J.D.Gross,39.2,565,45.2,42.5,39.2
+175,"Yogurette, Kirsche",Ferrero,35.4,565,56.0,54.0,35.4
+176,Niemetz Manja,Diverse,0.0,565,51.5,37.0,0.0
+177,"Derby Schoko-Milch-stäbchen, Schokolade",Derby,36.4,565,51.8,51.0,36.4
+178,"Schokoriegel, Cookies & Milk",Choceur,36.0,565,51.6,48.9,36.0
+179,Ragusa,Camille Bloch,0.0,565,46.0,39.0,0.0
+180,"Knusper-Traum, Haselnuss Schokoriegel",Spitz,35.7,564,51.6,39.7,35.7
+181,"Dove, Peanut Butter & Milk Chocolate",Mars,35.9,564,51.3,46.2,35.9
+182,"Creola Riegel, Vanille",Lindt,0.0,564,50.0,37.0,0.0
+183,"Hello Nice To Sweet You Stick, Cookie",Lindt,35.9,564,52.0,48.7,35.9
+184,"Animation, Florentiner-Krokant Pralin√©",Lidl,36.2,564,50.3,44.0,36.2
+185,"Weiße Bio-Joghurt-Schokolade, Mango-Kokos",GEPA,36.0,564,51.4,45.2,36.0
+186,"Shokomonk, Weiße Schokolade - Blaubeere",Shokocrown,35.7,563,53.4,51.9,35.7
+187,"Kinder bueno, Milchhaselnusscreme",Ferrero,0.0,563,46.6,37.5,0.0
+188,Nuss & Crisp,Diverse,37.9,563,45.5,41.5,37.9
+189,Merci Schokolade,Storck,36.3,562,49.7,47.0,36.3
+190,Knuspertraum,Spitz,0.0,562,51.0,37.0,0.0
+191,"Shokomonk, waffelbruch",Shokocrown,4.2,562,50.1,36.1,4.2
+192,"Shokomonk, Karamell",Shokocrown,4.2,562,50.1,36.4,4.2
+193,"Schokomonk, Weiße Schokolade Erdbeere & Bourbo...",Schokomonk,36.5,562,51.7,51.6,36.5
+194,Schokoladenwaffel Prestige,Prestige,35.6,562,53.9,38.0,35.6
+195,Ovomaltine Knusperschnitte,Ovomaltine,0.0,562,41.6,38.5,0.0
+196,"Hello my name is, Sweet Popcorn",Lindt,36.0,562,52.0,50.0,36.0
+197,"Yogurette, Cranberry",Ferrero,35.4,562,55.1,53.0,35.4
+198,Nougat Crisp Chocola,Choco'la,35.7,562,52.5,48.8,35.7
+199,"Schokomonk, Weiße Schokolade Raspberry Cheesecake",Schokomonk,35.2,561,54.0,49.7,35.2
+200,Banjo,Mars,2.6,561,51.2,34.5,2.6
+201,Mr.Tom Schokolade,Hosta,35.6,561,48.1,43.2,35.6
+202,Kinder Country,Ferrero,33.8,561,54.9,49.1,33.8
+203,"Branche Noir Intense, Schokolade",Cailler,3.6,561,42.9,37.7,3.6
+204,Weiße Schokolade mit Himbeer-stückchen,Schwermer,35.0,560,55.0,54.0,35.0
+205,"Vollmilch Schokolade, Nougatcreme Crisp",Riegelein,0.0,560,54.4,35.1,0.0
+206,"Kinder Bueno, White",Ferrero,35.3,560,51.4,42.0,35.3
+207,Fairetta Coco & Rice,GEPA,37.7,560,48.4,43.0,37.7
+208,Duplo Milchcreme,Ferrero,35.0,560,54.0,49.0,35.0
+209,"Vollmilchschokoriegel, mit Latte Macchiato-Füllung",Aldi,0.0,560,49.3,36.7,0.0
+210,"Milch Jumbo, Haselnuss",Aldi,35.1,560,51.0,38.7,35.1
+211,Nougat-Riegel in Zartbitterschokolade,Veganz,36.0,559,50.0,48.0,36.0
+212,Kägi Fret,Toggenburger,35.0,559,57.0,38.0,35.0
+213,"shokomonk, weisse blaubeer",Shokocrown,0.0,559,53.4,35.4,0.0
+214,"Weisse Schokolade, Schokolade",Lindt,4.7,559,56.0,34.0,4.7
+215,Joghurt-Himbeer-Vanille Stick,Lindt,34.0,559,53.0,47.0,34.0
+216,Puffreisriegel mit Schokolade,enerBio,35.0,559,53.0,41.0,35.0
+217,"Waffelriegel, Haselnuss",Delicia,35.0,559,54.0,42.0,35.0
+218,"Cremiges Venezuela, Nougat Vollmilch-Schokolade",Rewe,38.0,558,46.0,45.0,38.0
+219,Espresso Stick,Rapunzel Naturkost,9.3,558,43.4,38.0,9.3
+220,Kinder Riegel,Ferrero,34.5,558,53.0,52.0,34.5
+221,Fairetta Zartbitter Ingwer,GEPA,38.1,558,41.8,32.2,38.1
+222,"Nussschnitten, S Budget, Haselnuss",S-Budget,35.7,557,49.9,39.7,35.7
+223,SchokoNuss,Penny Markt,0.0,557,54.0,35.0,0.0
+224,"Milch Schokoriegel, mit einer Füllung mit Joghurt ...",Gunz,35.0,557,53.0,53.0,35.0
+225,"ChocoLa Waffelsnack, Haselnuss",Choco'la,35.7,557,49.9,39.7,35.7
+226,"Milch Cereal, Milchcreme & Vollmilchschokolade",Chateau,1.4,557,51.7,35.3,1.4
+227,"No.1, 75 % Sao Thomé, Edelbitter",Sarotti,42.0,556,28.3,22.8,42.0
+228,Kinder Country,Ferrero,33.7,556,55.0,49.0,33.7
+229,Edelvollmilch Gianduja Nougat,Hussel,35.0,556,52.0,50.0,35.0
+230,"Duplo, Zartbitter Mandel",Ferrero,35.2,556,50.5,42.0,35.2
+231,Nuss-Schnitte (Pea),Diverse,36.0,556,51.0,38.0,36.0
+232,Erdnusstraum,Aldi,36.0,556,41.0,31.0,36.0
+233,"Erdbeer Joghurt Schokoriegel, Erdbeere",Lidl,33.5,555,56.0,50.4,33.5
+234,"Rocher Noir 35g, Zart Bitter",Suchard,4.2,555,50.5,37.0,4.2
+235,"plamil, zartbitter",Plamil,25.0,555,27.1,1.5,25.0
+236,"Schokolade, Toffee Ganznuss",Milka,35.0,555,52.5,51.0,35.0
+237,"Milka Snowman Mousse, Schokolade",Milka,34.0,555,56.0,55.5,34.0
+238,"Chocoletti, Noisette",Lindt,4.4,555,53.0,35.0,4.4
+239,"Hachez Longs Vollmilch-Nougat, Vollmilch-Nougat",Hachez,0.0,555,46.0,38.0,0.0
+240,Duplo Typ Spekulatius,Ferrero,33.9,555,55.3,47.5,33.9
+241,Duplo,Ferrero,33.0,555,56.0,50.0,33.0
+242,"Bellona, Haselnuss",Mister Choc,35.5,554,48.3,38.6,35.5
+243,"La Nouba Schokoriegel, Dark with Coconut cream fi...",La Nouba,2.9,554,34.6,47.8,2.9
+244,"Kinder Schokolade, Milchschokolade",Ferrero,0.0,554,52.0,34.0,0.0
+245,Cavalier Balance Milk Praline,Cavalier,1.8,554,21.3,46.2,1.8
+246,"Caillier Branche Milch mittelgross, Schokolade",Cailler,34.6,554,49.2,46.2,34.6
+247,"Cailler Branche l'original, Schokolade",Cailler,4.2,554,49.8,34.6,4.2
+248,"Waffel mit Milch-HaselnusscremeFüllung, schokoladi...",Bellona,35.5,554,48.3,38.6,35.5
+249,Ritter Sport Rum Knusperstück,Alfred Ritter,34.0,554,53.0,46.0,34.0
+250,"Corny Nussvoll, Nuss-Schokolade",Schwartauer Werke,35.8,553,38.4,18.9,35.8
+251,"Mini-Pralinen, crunchy Peanutbutter",Scholetta,35.0,553,52.0,50.0,35.0
+252,"Ovolino, original Schweizer Praline",Ovomaltine,0.0,553,53.0,35.4,0.0
+253,"Milka & Daim, Riegel",Milka,30.0,553,59.0,58.5,30.0
+254,"Hello My Name Is, Mango Lassi",Lindt,34.0,553,54.0,52.0,34.0
+255,"Duplo, Spekulatius",Ferrero,33.9,553,55.3,47.5,33.9
+256,"Twin Bar, Schokoriegel",Sch√§r,35.0,552,53.0,46.4,35.0
+257,"Haselnuss Waffelriegel, Haselnuss",Rosengarten,39.0,552,42.3,30.4,39.0
+258,"Yogurette, Waldbeere",Ferrero,0.0,552,53.6,35.2,0.0
+259,"Yogurette, Johannisbeere",Ferrero,0.0,552,53.6,35.2,0.0
+260,"Choceur, Nuss & Crisp",Choceur,36.4,552,46.9,41.0,36.4
+261,"Rice Choc Bar, Amaranth Coconut",Zero Zebra,35.7,551,55.3,40.3,35.7
+262,Knoppers,Storck,33.2,551,52.4,35.3,33.2
+263,"Knoppers, minis",Storck,33.2,551,52.4,34.8,33.2
+264,"Schoko Lolly, aus Vollmilchschokolade und weißer S...",Santa Claus in Town,32.1,551,58.7,56.7,32.1
+265,Princessa Milchgeschmack- Riegel,Nestlé,32.5,551,57.6,41.9,32.5
+266,Berry Affair Nice to sweet you,Lindt,35.0,551,52.0,49.0,35.0
+267,"TV Bar, Milk",Beacon,32.2,551,58.0,37.0,32.2
+268,Choc Bar Crisp,Veganz,4.3,550,51.0,36.0,4.3
+269,"Elis Earth Bar TREASURE BAR, Peanut Butter Crunch ...",Sjaaks Organic Chocolates,37.0,550,47.0,32.0,37.0
+270,"Coconut Dark Chocolate Bar, Schoko Kokosnuss",Oskri,32.0,550,57.0,23.0,32.0
+271,"Lila Pause, Erdbeer",Milka,33.5,550,56.0,51.5,33.5
+272,"Galaxy Duet, Cookies & Cream",Mars,33.2,550,55.1,53.7,33.2
+273,"Hello nice to sweet you, Lemon Cheescake",Lindt,35.0,550,51.0,45.0,35.0
+274,Papua Neuguinea 34 % Kakao Stick,Hachez,36.0,550,46.0,45.0,36.0
+275,Kinder Friends Schokolade Mini,Ferrero,0.0,550,52.0,33.0,0.0
+276,"Schokoriegel, Superfruit Zartbitter",enerBio,36.5,550,44.2,39.8,36.5
+277,"Riegel Opavia Tatranky, Nuss",Diverse,31.0,550,57.0,36.5,31.0
+278,"Schokoriegel, Mandelfüllung",C√¥te d'Or,0.0,550,51.0,34.5,0.0
+279,Winter Mandel,Chateau,35.1,550,49.3,45.0,35.1
+280,"ChocoLofties, Vollmilchschokolade",Chateau,33.1,550,53.7,52.0,33.1
+281,"TimTam Wafer, chocolate",Arnotts,30.0,550,60.0,30.0,30.0
+282,"Schokomonk Zartbitterschokolade Kokos, 50  % Kakao",Shokocrown,34.8,549,50.3,45.8,34.8
+283,"Torrone Schokolade, Zartbitter",Goutier,33.8,549,52.8,47.5,33.8
+284,"Schoko Lolly, Vollmilchschokolade, weiße Schokolade",Fr√∂hliche Osterzeit,31.9,549,59.2,54.5,31.9
+285,Schoko Knusper Riegel Vollmilch,Chateau,32.5,549,55.1,47.0,32.5
+286,"Sun Rice Crunchy Nuss Happen, Puffreis + Cerealien...",R√ºbezahl,33.0,548,54.0,43.0,33.0
+287,"Mars Delight Minis, Schokolade-Karamell",Mars,1.4,548,58.0,32.7,1.4
+288,"Vollmilch, Alpenmilch",Lindt,33.0,548,55.0,55.0,33.0
+289,Tronky Nocciola,Ferrero,32.5,548,54.9,43.7,32.5
+290,"Shokomonk, Extrabitter",Shokocrown,2.3,547,28.0,42.0,2.3
+291,"Lila Pause, Nuss",Milka,4.4,547,52.5,34.5,4.4
+292,Schokoladenwaffel,Hua Shengsutang,0.0,547,48.3,36.0,0.0
+293,"Mr. Tom Erdnussriegel, Peanut",Hosta,33.9,547,38.1,24.7,33.9
+294,"Branches Callier, Nougat",Cailler,32.0,547,55.0,47.0,32.0
+295,"Shokomonk, Haselnuss-Crepe",Shokocrown,4.1,546,49.3,34.5,4.1
+296,"Crisp Bar, Schokowaffel, Haselnusscreme und Puffre...",Sch√§r,31.5,546,60.2,37.0,31.5
+297,"Osterhasen Schockolade, Vollmilch",Rewe,33.2,546,52.8,52.6,33.2
+298,Mister Choc Knuspo,Mister Choc,33.0,546,53.0,46.5,33.0
+299,"Nussini, Haselnuss",Milka,33.0,546,54.0,39.0,33.0
+300,Galaxy Smooth Milk,Galaxy,32.4,546,55.7,55.1,32.4
+301,Tronky Latte e Cereali,Ferrero,33.6,546,49.9,39.6,33.6
+302,"Lila Pause, Nougat-Creme",Milka,33.0,545,55.5,51.5,33.0
+303,classic Branches,Chocolat Frey AG,33.0,545,52.0,50.0,33.0
+304,Choceur - Winter Mandel,Choceur,35.2,544,49.1,46.5,35.2
+305,"Schoko Knusper Riegel, Zartbitter",Chateau,33.0,544,53.0,44.3,33.0
+306,Winter Spekulatius,Chateau,32.6,544,54.4,47.0,32.6
+307,"Schnouggi, Nougatriegel",Vantastic Foods,36.0,543,51.0,49.4,36.0
+308,Osterhasenriegel Vollmilch Schokolade mit Nougat C...,Riegelein,4.7,543,56.4,32.0,4.7
+309,"Schokoriegel, Vanilla Choc",Nestlé,30.8,543,59.2,50.1,30.8
+310,"KitKat Chunky, Caramel",Nestlé,0.0,543,58.6,31.8,0.0
+311,Branche classic,M Classic,32.0,543,55.0,52.0,32.0
+312,"Branches Classic, Schokolade",M Classic,32.0,543,55.0,53.0,32.0
+313,Reeses Sticks,Hershey's,31.2,543,51.9,41.3,31.2
+314,Anita Coko,I.D.C. Polonia S.A.,33.0,543,52.0,37.0,33.0
+315,Baton Bajeczny - Wedel,E. Wedel,4.5,543,54.2,32.5,4.5
+316,"Schokist√§ngeli, Schokolade",Alpenk√ºche,32.2,543,54.6,52.6,32.2
+317,"Sun Rice, Kid Crunchy",R√ºbezahl,32.6,542,53.4,44.7,32.6
+318,Haselnussriegel,Pischinger,34.0,542,52.0,43.0,34.0
+319,"Nestle Aero Bubbly Bar Milk, Milk",Nestlé,30.9,542,57.8,56.2,30.9
+320,reese's sticks,Hershey's,30.7,542,56.0,41.8,30.7
+321,Quadritos,Sch√§r,32.0,541,56.0,32.0,32.0
+322,"KitKat Chunky, White",Nestlé,30.6,541,59.4,50.3,30.6
+323,Bros,Nestlé,0.0,541,56.3,32.1,0.0
+324,"KitKat Chunky, Hazelnut",Nestlé,0.0,541,60.1,31.4,0.0
+325,"KitKat, Ruby cocoa beans",Nestlé,31.5,541,56.8,44.5,31.5
+326,Choco & Nuts,Loacker,33.0,541,50.0,33.0,33.0
+327,"Duplo, Zartbitter Schokolade",Ferrero,0.0,541,55.0,30.8,0.0
+328,Cocos Vollmilch,Alnatura,38.0,541,41.4,41.0,38.0
+329,"Aero Luft-Schokolade, Zarte Vollmilch",Trumpf Schokoladenfabrik,0.0,540,57.0,32.0,0.0
+330,"KitKat, Hazelnut Cream",Nestlé,0.0,540,59.2,31.3,0.0
+331,Toblerone Mini with white chocolate filling (ltd. ...,Mondelez,30.5,540,59.5,59.5,30.5
+332,Peanut Caramel Riegel,Milka,33.0,540,51.0,48.0,33.0
+333,"Nugat Riegel (Hofer), Waffel",Hofer,31.7,540,54.4,51.6,31.7
+334,"Princessa (Nestle), mleczna",Nestlé,31.4,539,57.7,13.0,31.4
+335,"Waffelriegel, Cappuccino",Delicia,4.7,539,56.0,32.0,4.7
+336,"Milch Jumbo & Cacao, Schoko",Choceur,2.7,539,51.1,33.3,2.7
+337,"Choco Lolly Schneemann, Schokolade",Aldi,31.0,539,58.0,56.0,31.0
+338,"Ce'Real  Cereal-Crispy-Riegel, Schokoladig",Selbst gemacht,30.8,538,56.4,46.5,30.8
+339,"Amaranth-Riegel Attila, schokoladig",Selbst gemacht,39.0,538,36.0,30.0,39.0
+340,Kitkat Chunky Peanut Butter,Nestlé,31.2,538,52.8,45.3,31.2
+341,"Tourist Riegel, Schokolade",Chocolat Frey AG,4.3,538,52.0,32.0,4.3
+342,"Herbes Madagaskar, Zartbitter",Rewe,36.0,537,46.0,45.0,36.0
+343,"Loacker, milk & cereals",Loacker,0.0,536,54.0,32.0,0.0
+344,Hello Frozen Yoghurt Stick,Lindt,33.0,536,53.0,47.0,33.0
+345,Branchli,Diverse,0.0,536,52.0,33.0,0.0
+346,"Frey Branches, classic",Chocolat Frey AG,32.0,536,54.0,51.0,32.0
+347,"Chrunchy Slam-Dunk Peanut Chunk, Erdnussbutterrieg...",Broderick Brothers,34.6,536,42.3,36.7,34.6
+348,"Schoko Lolly, aus Vollmilchschokolade",Santa Claus in Town,30.0,535,58.9,57.7,30.0
+349,"Delicia Waffel, Cappuccino",Norma,3.2,535,56.0,32.0,3.2
+350,Snack,Nestlé,32.3,535,52.2,30.5,32.3
+351,"Princessa, Kokos",Nestlé,32.1,535,53.6,33.3,32.1
+352,Snack Vollmilch,Nestlé,30.3,535,58.2,39.2,30.3
+353,"Snack Riegel, Dark Cherry",Nestlé,31.9,535,54.4,44.0,31.9
+354,Milka Choco Supreme,Milka,31.0,535,56.0,43.0,31.0
+355,"Milka Leo Zack, Schokolade mit Waffel",Milka,29.5,535,59.5,44.0,29.5
+356,Prince Polo,Diverse,30.5,535,58.0,39.0,30.5
+357,"Cote d'Or Single Bar, Praline Blanc",C√¥te d'Or,0.0,535,61.0,30.0,0.0
+358,"Croccantini, Schokolade Krokant",Cucina,31.2,535,53.5,49.6,31.2
+359,"Schoko und Keks, Milch",Choceur,30.0,535,57.8,49.4,30.0
+360,Ce'Real Cereal-Crispy-Riegel,Chateau,30.2,535,56.8,47.0,30.2
+361,Croccantini mit Vollmilchschokolade,Aldente,31.0,535,54.0,50.0,31.0
+362,"Feine Schokoladenpl√§ttchen, Zartbitter",Aldi,32.4,535,49.7,43.0,32.4
+363,Waffelschnitte Haselnuss,Veganz,31.0,534,56.0,36.0,31.0
+364,"Wafer-Star, Waffelriegel mit Milchschokolade",K-Classic,29.0,534,60.0,52.0,29.0
+365,Nippon,Hosta,30.1,534,58.9,40.2,30.1
+366,Wafer Breax minis,Diverse,29.0,534,60.0,52.0,29.0
+367,"Chateau Schoko Knusper Riegel, Schoko",Chateau,0.0,534,54.3,32.2,0.0
+368,"Deluxe Chocolate Sticks, Milch-Creme",Scholetta,29.5,533,59.9,59.0,29.5
+369,"KitKat Chunky, Creamy Cocoa",Nestlé,4.9,533,58.3,30.8,4.9
+370,"Protein Cake, Milky",MaxSport,35.0,533,24.0,10.0,35.0
+371,"Wintertraum Nougat Riegel, Krokant in Vollmilchsch...",Hofer,30.5,533,55.1,52.6,30.5
+372,"Deluxe Chocolate Sticks, verschiedene",Choceur,29.5,533,59.9,59.4,29.5
+373,"Choceur Schoko & Keks, Joghurt Beere",Choceur,30.0,533,57.0,48.8,30.0
+374,Sch√∂nenberger Amaretti Riegel,Schoenenberger,37.3,532,50.5,38.9,37.3
+375,Ecuador,Rausch,41.9,532,30.7,26.0,41.9
+376,"Snack, Erdnuss",Nestlé,29.9,532,54.3,40.5,29.9
+377,Tronky,Ferrero,31.1,532,52.5,37.3,31.1
+378,"Brocken - Spliter, knackige Haselnusskrokant - Dre...",Edeka,29.6,532,58.5,52.7,29.6
+379,"SunRice, Kid crunchy",Diverse,0.0,532,55.4,31.6,0.0
+380,Schokor√∂llchen mit feiner schokolade,Rewe,2.7,531,59.0,30.0,2.7
+381,"Gourmet-Riegel, Mandel-Nuss",Rewe,0.0,531,35.9,38.2,0.0
+382,Schoko-Waffel,Denner,4.8,531,57.0,31.0,4.8
+383,Kit Kat Chunky White,Nestlé,0.0,530,59.3,29.1,0.0
+384,"Mister Choc, Wafer Duo",Mister Choc,29.0,530,59.0,52.0,29.0
+385,"Leo, Schokoriegel",Milka,0.0,530,59.0,29.5,0.0
+386,Milka & Daim Zack,Milka,29.5,530,58.5,58.0,29.5
+387,Leo Go!,Milka,29.5,530,59.0,43.5,29.5
+388,"Twix Topix, Macciato",Mars,0.0,530,61.0,29.4,0.0
+389,"Knusperb√§llchen -f√ºr Dich-, Getreide/Schoko",la vida,30.3,530,55.3,47.6,30.3
+390,Kvikk Lunsj,Kraft Foods,0.0,530,56.0,30.5,0.0
+391,"Prince Polo, Classic",Kraft Foods,0.0,530,57.5,31.0,0.0
+392,Reeses nut bar,Hershey's,30.3,530,50.8,44.5,30.3
+393,"Maitre Truffout, Espresso",Gunz,4.0,530,48.0,34.0,4.0
+394,"Prince Polo Classic XXL Schokoladenriegel, Classic",Diverse,4.9,530,58.5,30.5,4.9
+395,"Crack'n'Snack, Schokolade",Choco'la,29.0,530,59.0,52.0,29.0
+396,Belgy Nicker Nutty Drippy Drop,Broderick Brothers,32.7,530,49.1,36.4,32.7
+397,Super Knicks,Aldi,29.0,530,59.0,52.0,29.0
+398,Fr√ºhstücksschnitte,Tip,4.5,529,54.0,30.0,4.5
+399,"KitKat Chunky Original, Schokolade",Nestlé,28.6,529,59.5,49.7,28.6
+400,"Farmer Soft, Marroni",Migros,0.0,529,56.0,30.0,0.0
+401,Magnum Double Chocolate,Langnese,31.0,529,54.0,46.0,31.0
+402,Schoko & Keks,Ja!,30.0,529,58.0,52.0,30.0
+403,"Caramel, Karamell",GEPA,33.4,529,49.4,48.0,33.4
+404,Crispie Cereal,Aldi,2.0,529,56.5,30.4,2.0
+405,Cereal Crunch,Aldi,7.9,529,56.5,30.2,7.9
+406,Einmalzin Branches,Migros,29.0,528,57.0,50.0,29.0
+407,"Eimalzin Branche, Kakao",Migros,29.0,528,57.0,50.0,29.0
+408,Guylian Meeresfr√ºchte Riegel,Guylian,33.0,528,51.0,49.0,33.0
+409,Fruit Branches Mango-Maracuja,Frey Nutrition,31.0,528,55.0,51.0,31.0
+410,Bisco (wie Duplo),Diverse,0.0,528,56.0,31.0,0.0
+411,Balance no added sugar Milk Praline Lait,Balance,32.0,528,40.1,6.6,32.0
+412,"Happy Pop-Rice, Zartbitter",Amore Food,33.0,528,48.0,32.0,33.0
+413,"Amanie, Milch & Schoko Keks",Amanie,30.1,528,58.8,51.0,30.1
+414,KitKat Chunky,Nestlé,28.2,527,61.1,51.3,28.2
+415,"Nicks Sport-Crunch, Orange",Diverse,5.5,527,20.6,6.0,5.5
+416,"Tiff Toff in the Tuffen, Schokoladenriegel mit kna...",Broderick Brothers,30.2,527,56.8,42.8,30.2
+417,Cappuccino & Schoko Keks,Amanie,29.8,527,57.6,50.6,29.8
+418,"Milchm√§use, Caramel",Aldi,30.6,527,55.9,51.0,30.6
+419,"Whey-Crisp Protein Bar, White Chocolate",All Stars Fitness Products,33.0,526,27.0,23.0,33.0
+420,"Magnum Double peanut Butter Schokoriegel, Erdnuss",Unilever,32.0,526,47.0,39.0,32.0
+421,"Lilly, Haselnuss",Suntjens,28.8,526,62.4,38.0,28.8
+422,Amaranth Riegel (Vegan for fit),Selbst gemacht,2.8,526,33.0,40.0,2.8
+423,"Baumstamm, Edelnougat & Edelmarzipan umh√ºllt m...",Santa Claus in Town,29.9,526,56.1,53.9,29.9
+424,"Balisto, Honig-Mandel Mix",Mars,29.1,526,56.8,40.4,29.1
+425,Schoko Sticks Minze & Gr√ºner Tee,Mister Choc,27.9,525,65.2,63.8,27.9
+426,"Pausenschnitte, Original",Manner,2.2,525,57.6,29.7,2.2
+427,"Prince Polo, Classic XXL",Kraft Foods,0.0,525,58.5,30.0,0.0
+428,Prince Polo Orzechowe,Kraft Foods,28.0,525,59.5,40.0,28.0
+429,Pepero Almond & Chocolate,Diverse,4.6,525,55.6,27.8,4.6
+430,Kitkat Singles,Durchschnittswert,27.6,524,60.2,47.8,27.6
+431,KitKat Mini,Nestlé,27.9,523,60.0,47.9,27.9
+432,"KitKat Mini / Selgross, extra creamy, extra crispy",Nestlé,5.0,522,60.2,27.7,5.0
+433,KitKat 5er-Pack,Nestlé,5.0,522,60.2,27.6,5.0
+434,KitKat Chunky Snack Size,Nestlé,28.1,522,59.6,50.0,28.1
+435,"KitKat, Singles",Nestlé,27.2,522,61.9,49.3,27.2
+436,duplo Zartbitter,Ferrero,0.0,522,55.5,30.8,0.0
+437,"Chateau Schoko & Keks, Vollmilchschokolade",Chateau,0.0,522,58.2,28.7,0.0
+438,Piccadilly,Bahlsen,30.0,522,56.0,31.0,30.0
+439,"Chateau, Schoko & Keks",Aldi,0.0,522,58.2,28.7,0.0
+440,"Choceur, Milch",Aldi,2.8,522,58.2,28.7,2.8
+441,KitKat,Nestlé,27.6,521,58.8,46.6,27.6
+442,"Penguin, Original",McVitie's,27.1,521,62.5,40.0,27.1
+443,"Hershey's, Cookies'n'Creme",Hershey's,26.9,521,60.7,45.0,26.9
+444,Grzeski,Goplana,29.0,521,54.0,32.0,29.0
+445,Kinder Maxi King,Ferrero,37.5,521,38.2,35.6,37.5
+446,Chocqbar Kokos Cacao,Chocqlate,38.1,521,28.4,22.5,38.1
+447,Cavalier Stevia Pralinut Milk,Cavalier,7.8,521,29.9,17.2,7.8
+448,"Shokomonk, Orange",Shokocrown,2.9,520,35.0,36.0,2.9
+449,"Kitkat, Erdbeere",Nestlé,0.0,520,64.0,24.0,0.0
+450,"KitKat, Extra Creamy, Extra Crispy",Nestlé,27.7,520,60.0,49.2,27.7
+451,Bisco Haselnuss-Creme-Riegel,Natra,29.0,520,56.0,44.0,29.0
+452,"Galaxy Duet, Caramel & Shortcake",Mars,29.0,520,58.0,53.0,29.0
+453,"CHOCQBAR, Haselnuss Cacao",Chocqlate,36.0,520,36.1,25.6,36.0
+454,KitKat White,Nestlé,0.0,519,60.8,26.6,0.0
+455,"KitKat, FINE DARK",Nestlé,0.0,518,55.0,29.2,0.0
+456,"Shortcakes, Caramel",Lidl,30.0,518,54.0,35.0,30.0
+457,Glutano Nussy Haselnussschnitte,Glutano,28.0,518,56.0,39.0,28.0
+458,"Coco Rico, Kokosriegel Zartbitter",Allos,0.0,517,32.1,41.6,0.0
+459,"Balisto, Honey-Almond-Mix",Masterfoods,0.0,517,54.6,29.9,0.0
+460,"Cho'go, Crispies",Ludwig Schokolade,26.0,517,63.0,49.0,26.0
+461,"Snickers Maximus, Erdn√ºsse & Karamell",Mars,29.0,516,53.2,44.5,29.0
+462,Frey Milit√§r-Schokolade,Chocolat Frey AG,4.8,516,57.0,28.0,4.8
+463,Niederegger Marzipan mit karamellisierten Mandeln,Niederegger,36.2,515,34.6,32.5,36.2
+464,KitKat Chunky Coconut,Nestlé,5.3,515,64.0,25.0,5.3
+465,"KitKat, White Strawberry & Joghurt Mini",Nestlé,0.0,515,60.3,26.2,0.0
+466,"Nussini, Kokos",Milka,28.5,515,59.5,39.0,28.5
+467,"Milka, Crunchy Choco Break",Milka,28.0,515,61.0,39.0,28.0
+468,"Snickers, Cruncher",Mars,0.0,515,54.1,28.4,0.0
+469,"Penguin Original, Milchschokokeks mit Schokoladenc...",Diverse,27.1,515,61.4,39.5,27.1
+470,Boost,Cadbury,28.5,515,58.5,49.5,28.5
+471,Nugat Edelmarzipan in Vollmilchschokolade,Schluckwerder,28.4,514,55.9,55.0,28.4
+472,"Milka, Crunchy Break",Milka,27.0,514,62.0,39.0,27.0
+473,Nougat-Marzipan Baumstamm,Goldora,4.7,514,56.1,29.2,4.7
+474,"Tavarlin Schoko Riegel Kokos, Kokos",Tavarlin,36.9,513,43.5,43.0,36.9
+475,Toffee Crisp,Nestlé,26.8,513,63.5,49.7,26.8
+476,Yorkie,Nestlé,5.0,513,60.4,26.2,5.0
+477,"Kornkeks, Yoghurt & Berry Mix",Diverse,28.0,513,57.0,40.0,28.0
+478,Peanuts Minis,Penny Markt,27.0,512,58.0,50.0,27.0
+479,Balaton,Nestlé,28.2,512,57.4,43.5,28.2
+480,"KitKat Dark Noir, Schokolade dunkel",Nestlé,25.8,512,61.1,45.9,25.8
+481,"Balisto, Erdbeer-Joghurt-Mix",Masterfoods,0.0,512,58.4,26.7,0.0
+482,"Manner Mignon Stick, Mignon",Manner,27.4,512,58.8,42.8,27.4
+483,"Peanuts Minis, Derby",Diverse,27.0,512,58.0,50.0,27.0
+484,"powercrunch, Cookies & Creme",bionutritional,32.5,512,20.0,12.5,32.5
+485,Crispy Bits Mini,Aldi,25.0,512,66.0,52.0,25.0
+486,White Chocolate Praline Wonder Bar,The Grown Up Chocolate Company,27.9,511,58.7,56.0,27.9
+487,"Marzipan stick zartbitter, Marzipan",Niederegger,3.1,511,36.9,34.0,3.1
+488,"Mister Choc, Joghurt-Beeren-Mix",Mister Choc,28.0,511,57.0,41.0,28.0
+489,"Loacker Gardena, Chocolate",Loacker,0.0,511,56.6,28.4,0.0
+490,Whatchamacallit,Diverse,26.7,511,62.2,46.7,26.7
+491,"Holly Original, Karamell-Nougat-Haselnuss",Toms,4.7,510,56.0,29.0,4.7
+492,"KitKat Finger, Cookies&Cream",Nestlé,25.0,510,64.0,50.7,25.0
+493,Very Naughty Nutty Nougat,The Grown Up Chocolate Company,30.9,509,50.3,45.8,30.9
+494,Rondessa - Rum-Kokos,Spitz,0.0,509,66.0,25.0,0.0
+495,"Trüffel Stick Smoothie, Very Berry",Niederegger,35.2,509,38.9,36.5,35.2
+496,"Yes, Cacao",Nestlé,33.0,509,46.0,34.0,33.0
+497,"Salted Caramel, Vollmilchschokolade mit gesalzener...",Lindt,29.0,509,57.0,54.0,29.0
+498,"Reese's Nutrageous, Candy Bar",Hershey's,31.4,509,54.9,43.0,31.4
+499,"White Praline, Weiße Schokolade mit Haselnüssen",de Bron,35.0,509,45.0,7.6,35.0
+500,Wunderbar,Cadbury,28.0,509,53.0,44.0,28.0
+501,Pick Up Café Latte,Bahlsen,26.0,509,60.0,34.0,26.0
+502,"Amaranth Schokoriegel, Zartbitter",Alnatura,28.0,508,50.0,33.0,28.0
+503,"Peanuts, Erdn√ºsse in Karamell & Soft Nougat",Penny Markt,28.1,508,52.4,43.1,28.1
+504,"Yorkie, Raisin & Biscuit",Nestlé,25.4,508,61.9,58.3,25.4
+505,Twix top,Nestlé,25.5,508,62.5,37.1,25.5
+506,"Amicelli, Tiramisu",Mars,24.5,508,64.0,54.1,24.5
+507,Diät Marzipan Riegel,Frankonia,32.0,508,42.0,42.0,32.0
+508,Starbar,Cadbury,29.0,508,51.9,42.8,29.0
+509,Dark chocolate,Oxfam Fair Trade,30.0,507,54.0,51.0,30.0
+510,Cereal-Mix,Penny Markt,27.5,507,58.0,41.0,27.5
+511,"Kitkat, Schoko",Nestlé,0.0,507,61.0,26.0,0.0
+512,"Balatonszelet, schokoriegel",Nestlé,0.0,507,59.3,27.4,0.0
+513,"Kuchenriegel, Karamell",Mister Choc,31.0,507,51.0,38.0,31.0
+514,"Balisto, Yoghurt limited Edition",Mars,25.2,507,62.2,45.9,25.2
+515,"Weihnachtsnascherei, Weihnachts-Stollen",Lindt,3.2,507,51.0,29.0,3.2
+516,Cavalier Stevia Coconut White,Cavalier,8.7,507,30.8,19.6,8.7
+517,"Balisto, Joghurt-Beeren.Mix",Real,26.6,506,59.0,43.0,26.6
+518,Double-Star(Mini),K-Classic,24.0,506,67.0,47.0,24.0
+519,KitKat Chunky Mini,Nestlé,0.0,505,62.5,25.2,0.0
+520,"Riegel, Choco & Rice",Milka,26.5,505,60.0,51.0,26.5
+521,"Schokoladenriegel mit Puffreis, Puffreis",Milka,5.0,505,60.0,26.5,5.0
+522,Choco & Rice,Milka,26.6,505,60.0,51.0,26.6
+523,Snickers Miniatures,Mars,26.5,505,57.3,50.1,26.5
+524,Balisto Joghurt,Mars,0.0,505,61.5,26.1,0.0
+525,"Loacker Classic, Cremkakao",Loacker,27.0,505,58.0,28.0,27.0
+526,"Balisto, Erdbeer-Joghurt-Mix",Mars,25.1,504,59.6,42.4,25.1
+527,"Wipper, caramel-nuss-riegel",Diverse,0.0,504,58.0,26.0,0.0
+528,Chococonfiserie Cappuccino,Allos,3.2,503,37.8,34.9,3.2
+529,Bl√§tterkrokant (Netto),Netto,23.0,503,67.0,59.0,23.0
+530,Twix White minis,Mars,25.2,503,63.7,48.1,25.2
+531,"Balisto, Joghurt-Beeren-Mix",Mars,24.9,503,61.0,43.8,24.9
+532,"Cavalier, Milchschokoklade mit Spekulatius",Cavalier,34.5,503,47.7,11.2,34.5
+533,"Mini-Protein-Schokokuchen, Milchschokolade",Bulk Powders,28.0,503,30.0,27.0,28.0
+534,Caramel & Keks,Alnatura,27.0,502,60.0,39.0,27.0
+535,"Huesitos, Original",Valor,23.8,502,65.2,49.5,23.8
+536,"Mister Choc, Müsli-Mix",Mister Choc,27.0,502,57.0,41.0,27.0
+537,Twix White,Mars,25.0,502,64.0,48.1,25.0
+538,"Balisto, Müsli-Mix",Mars,25.0,502,61.1,43.9,25.0
+539,Diät Cocos Riegel,Frankonia,12.0,502,45.0,30.0,12.0
+540,"Chocola, Simba minis",Choco'la,24.2,502,65.0,53.0,24.2
+541,Marzipan Nougat Riegel Zartbitter,Alnatura,29.5,501,49.1,46.8,29.5
+542,ChocRice,Penny Markt,25.0,501,62.0,34.0,25.0
+543,"Chrunch, Schokolade",Nestlé,5.7,501,68.3,25.1,5.7
+544,Suffeli,Fazer,27.0,501,60.0,48.0,27.0
+545,"Kokos Riegel, Vollmilch",DM Bio,32.0,501,46.0,38.0,32.0
+546,Oma Hartmanns Kalter Hund,Vadossi,0.0,500,54.3,28.6,0.0
+547,Peanut Champion,Sugar Kiss,28.0,500,50.9,43.0,28.0
+548,Enjoy Vollmilch,Sondey,23.4,500,64.3,32.1,23.4
+549,"Lion, Peanut",Nestlé,25.4,500,58.7,44.7,25.4
+550,"Butterfinger Crisp, Erdnussbutter/Schokolade",Nestlé,26.0,500,66.0,48.0,26.0
+551,Choco Break mit Haferflocken,Milka,24.0,500,63.0,43.0,24.0
+552,"Balisto, Korn-Mix",Mars,23.7,500,62.5,42.6,23.7
+553,"Schokoladenriegel, Caramel",M-Budget,0.0,500,64.0,25.0,0.0
+554,Nut-Star(Mini),K-Classic,27.9,500,50.9,42.5,27.9
+555,"Magic Creams, Chocolate Cream Cracker Sandwich",Jack n' Jill,25.0,500,67.0,21.0,25.0
+556,Reeses Fast Break 18 g Bars,Hershey's,22.2,500,66.6,55.5,22.2
+557,"Aldi Kornkeks, Müsli Mix",Aldi,27.0,500,56.5,42.0,27.0
+558,Peanut & Choco minis,Mister Choc,27.9,499,50.9,42.5,27.9
+559,"Celebrations, Mix",Mars,25.1,499,61.7,54.7,25.1
+560,Wachauer Schnitte,Manner,3.2,499,60.4,26.2,3.2
+561,"Peanut Bits (Mini), Gefüllte Milchschokolade",Ludwig Schokolade,27.9,499,50.9,42.5,27.9
+562,"Peanut Bits, Schokolade",Kr√ºger,27.9,499,50.9,42.5,27.9
+563,"Excelsior Jumper, Softcream, Erdn√ºsse und Karamell",Excelsior,4.2,499,50.9,27.9,4.2
+564,Lion Peanut,Durchschnittswert,25.7,499,56.7,38.5,25.7
+565,"Balisto, Korn-Mix",Diverse,0.0,499,60.1,25.7,0.0
+566,Maximus,Eti,25.8,498,56.7,43.1,25.8
+567,"Balisto, korn cereal",Mars,23.7,497,62.5,42.6,23.7
+568,Keks Schokoriegel Mini,Euco,23.0,497,67.0,47.0,23.0
+569,"Amaranth Riegel, Mit Zartbitterschokolade",enerBio,26.7,497,50.2,33.0,26.7
+570,"Whey-Crisp Protein Bar, Pure Milk Chocolate",All Stars Fitness Products,28.0,497,28.0,22.0,28.0
+571,"Mini-Pralinen, Salted Caramel",Scholetta,28.0,496,58.0,53.0,28.0
+572,Lion King Size,Nestlé,0.0,496,65.3,24.0,0.0
+573,Snickers Sticks,Durchschnittswert,25.5,496,57.7,50.2,25.5
+574,"Cavalier Schokoriegel Milk Praline, Milk Praline",Cavalier,38.2,496,34.1,17.3,38.2
+575,"Twix, Xtra",Mars,0.0,495,64.6,24.0,0.0
+576,Raider,Mars,24.0,495,64.6,48.8,24.0
+577,Get it,Diverse,23.0,495,67.0,44.0,23.0
+578,"Schokoladenriegel, Haselnuss",de Bron,0.0,495,42.1,38.3,0.0
+579,Twix Mini,Mars,23.7,494,64.9,49.9,23.7
+580,"Cavalier Woodies, Haselnuss",Cavalier,34.3,494,44.8,7.2,34.3
+581,"Space Cookie, Keks-Karamel-Schokolade",Zielback,23.8,493,64.7,47.0,23.8
+582,Lion Riegel EXTRA CRISPY,Nestlé,22.9,493,65.5,53.1,22.9
+583,Twix Sticks,Mars,23.7,493,64.9,49.1,23.7
+584,"Nutchoc, Haselnuss",Lidl,5.4,493,55.6,29.6,5.4
+585,"Zimt-Mandel, Mandel",Dr. Balke,29.0,493,48.0,42.9,29.0
+586,Cavalier Stevia Karamell Milch Riegel,Cavalier,9.0,493,32.7,20.0,9.0
+587,Nutty Crunchy Caramel Munchie,Broderick Brothers,28.8,493,49.6,43.0,28.8
+588,Crunchy Crispy Toffee Trilogy,The Grown Up Chocolate Company,25.2,492,58.8,53.5,25.2
+589,Nuts Riegel,Nestlé,24.7,492,62.2,55.8,24.7
+590,"Bounty, Zartherb",Mars,27.5,492,55.6,44.7,27.5
+591,Twix,Mars,24.0,492,65.0,49.0,24.0
+592,Twix Snack Size,Mars,24.1,492,64.0,48.0,24.1
+593,Bounty Miniatures,Mars,26.1,492,58.8,49.5,26.1
+594,"Schoko Riegel Mokka 42g, Zartbitterschokolade mit ...",Egle,34.0,492,37.0,3.0,34.0
+595,Twix Minis,Diverse,24.1,492,64.0,48.0,24.1
+596,"Freyja Draumur, Rosa ""Big Dream""",Diverse,4.9,492,59.0,26.0,4.9
+597,"Cavalier, Dark Praline",Cavalier,34.6,492,39.3,2.2,34.6
+598,"Mars, Mandel",Masterfoods,0.0,491,61.6,24.2,0.0
+599,"Jezyki - Kokosriegel, Kokos",Jutrzenka,25.0,491,59.0,47.0,25.0
+600,"Mahalo Candy Bar, Kokosnuss und Mandel",GoMaxGo,33.3,491,45.6,31.6,33.3
+601,Marzipan (Marzipanriegel mit Schokolade),Migros,27.0,490,53.0,44.0,27.0
+602,"Woodies, Hazelnut",Diverse,34.3,490,45.8,7.2,34.3
+603,"Choco Love, Schokoladenkonfekt in 7 versch. Sorten",Choceur,25.0,490,60.7,53.3,25.0
+604,Edelmarzipan - Riegel in Zartbitterschokolade,Alnatura,28.0,490,49.0,47.0,28.0
+605,Snickers & Hazelnut,Mars,23.9,489,59.5,50.4,23.9
+606,ETi Wanted Karamelli,Eti,23.4,489,63.0,44.1,23.4
+607,"Mars, Hazelnut",Masterfoods,23.8,488,60.9,53.0,23.8
+608,Bounty,Mars,25.7,488,58.9,48.2,25.7
+609,"Bounty Trio, Kokos",Mars,26.0,488,58.3,47.8,26.0
+610,"Cho'go, Cornflakes",Ludwig Schokolade,22.0,488,64.0,44.0,22.0
+611,Wild-Crisp(mini),K-Classic,24.0,488,63.0,51.0,24.0
+612,"Celebrate Bar, Caramel, Coconut & Almonds",eli's,28.0,488,58.0,32.0,28.0
+613,"Kofila, Schokolade",Orion,25.5,487,60.0,40.4,25.5
+614,Snickers INTENSE CHOC,Mars,24.2,487,57.6,48.5,24.2
+615,Bounty Riegel,Durchschnittswert,25.7,487,58.9,48.2,25.7
+616,"Haselmark, in Zartbitter Schokolade",Dr. Balke,30.7,487,44.5,32.2,30.7
+617,Nuts King Size,Nestlé,0.0,486,62.0,24.8,0.0
+618,Mango Raspberry White,Cavalier,8.8,486,37.5,25.3,8.8
+619,Cavalier Banana Cocoanibs Milk (nur anrechenbare K...,Cavalier,17.2,486,22.1,38.3,17.2
+620,"Pick Up!, Wild Berry",Bahlsen,22.0,486,66.0,38.0,22.0
+621,Mini Power Riegel Schoko-Haselnuss,Lycka,34.0,485,43.0,33.0,34.0
+622,"Gerlinea, Schokoladenkeks",Diverse,9.0,485,54.2,24.5,9.0
+623,Picnic,Cadbury,22.5,485,61.0,46.4,22.5
+624,"Cocos Riegel Spar, Kokos",Spar,25.0,484,59.0,48.0,25.0
+625,Nuts,Nestlé,25.1,484,59.2,52.7,25.1
+626,"Lion White, Weiße Schokolade",Nestlé,22.1,484,65.2,50.1,22.1
+627,"Hazelnut & Choco, Mini",Mister Choc,24.5,484,60.0,52.6,24.5
+628,"Coco-Nut mini, Kokos",K-Classic,25.0,484,59.0,48.0,25.0
+629,"Prinzenrolle, Mini",Griesson DeBeukelaer,20.0,484,68.0,32.0,20.0
+630,"Boxer Biscuit und Caramel, Schokolade",Excelsior,0.0,484,63.8,23.0,0.0
+631,"Jive, caramel shortcake bar, Schoko Karamell mit K...",Dairyfine,23.0,484,64.0,44.0,23.0
+632,Speed,Choceur,23.0,484,64.0,44.0,23.0
+633,"Speed, Knuspriger Keks und zarter Karamell",Aldi,23.0,484,64.0,44.0,23.0
+634,"Brunchy, Schoko-Milch & Cerealien Riegel",Aldi S√ºd,22.9,484,62.2,35.8,22.9
+635,"Getit, Caramel",Aldi,23.0,484,63.8,44.0,23.0
+636,Karamell - Schoko Waffeln,Weight Watchers,18.6,483,68.6,40.2,18.6
+637,Schoko-Keks Riegel,Weight Watchers,21.5,483,62.2,27.8,21.5
+638,Lion Snack Size,Nestlé,22.1,483,64.7,43.8,22.1
+639,Lion,Nestlé,22.2,483,64.6,44.8,22.2
+640,Edel Marzipan Riegel,Lindt,26.0,483,51.0,49.0,26.0
+641,Balance Milk Chocolate Wafer,Klingele Chocolade,30.0,483,58.0,4.2,30.0
+642,"Schokoriegel low carb, Milk Chokolate Waffle",Balance,45.0,483,58.0,4.2,45.0
+643,"Amaranth Stick, Zartbitter",Allos,0.0,482,48.8,25.8,0.0
+644,"Knusperriegel, Joghurt",Schneekoppe,33.0,482,48.0,8.8,33.0
+645,"Schoko-Marzipan, Edelmarzipan",Salzburg Schokolade,24.5,482,57.0,49.5,24.5
+646,"Marzipan Happen, Vollmilch Marzipan",Rapunzel Naturkost,31.0,482,38.0,37.0,31.0
+647,"Minus Z Puffreis Riegel, Joghurt",Pea,33.0,482,48.0,8.8,33.0
+648,"Snickers, Mini",Mars,22.5,482,60.5,51.8,22.5
+649,"Galaxy, Caramel",Diverse,0.0,482,61.3,24.0,0.0
+650,Erdnussriegel Minis,Prix Garantie,24.0,481,55.0,49.0,24.0
+651,"Cocos Choco, Cocos",Mister Choc,24.7,481,59.0,48.1,24.7
+652,Snickers,Mars,22.5,481,60.5,51.8,22.5
+653,"Snickers Minis, 18g",Durchschnittswert,22.5,481,60.5,51.8,22.5
+654,Lebkuchen-Riegel,Conrad Schulte Feingeb√§ck,24.2,481,56.7,37.1,24.2
+655,Atkins Endulge Chocolate Break,Atkins,39.0,481,12.0,6.8,39.0
+656,Coconut Bits Mini,Aldi,25.0,481,60.0,53.0,25.0
+657,"Yes, Caramel",Nestlé,28.0,480,52.0,40.0,28.0
+658,Chokito,Nestlé,0.0,480,65.3,22.0,0.0
+659,"Kägi Fretlil Mini, Schokolade",K√§gi,0.0,480,73.0,18.0,0.0
+660,"Cavalier Schokoriegel Milk, milk",Cavalier,35.0,480,45.4,8.8,35.0
+661,"Amaranth Schokolette, Zartbitter",Allos,0.0,479,50.6,25.4,0.0
+662,"Protein-Cockies, Kakao",√úlker,23.6,479,47.5,25.7,23.6
+663,"Sugar Kiss, Caramel Riegel",Netto,0.0,479,64.0,23.0,0.0
+664,Mini-Schokoriegel-Mix,Ja!,23.5,479,59.2,49.0,23.5
+665,Heroes,Cadbury,22.0,479,65.0,57.0,22.0
+666,Peanuts,Sugar Kiss,25.0,478,51.5,46.0,25.0
+667,Peanuts (sugar kiss),Netto,25.0,478,51.5,46.0,25.0
+668,"Choco Bistro Brunchy, Choco Bistro Brunchy Keksrie...",Choco Bistro,21.7,478,62.6,35.6,21.7
+669,"Choco Bistro Brunchy, Milch Schoko Getreide",Choco Bistro,21.7,478,62.6,35.6,21.7
+670,Mister Choc Candy mini,Mister Choc,0.8,477,72.0,16.0,0.8
+671,"Cavalier Mocca Dark, Mocca",Cavalier,36.0,477,40.4,2.0,36.0
+672,"Faccine, Schoko",Balocco,20.0,477,66.0,26.0,20.0
+673,"TAVARLIN Schoko-Riegel, Cranberry-Pistazie",Tavarlin,28.9,476,45.5,41.1,28.9
+674,"Lidl Sweet Mix, Schokoriegel Mini Mix",Lidl,22.0,476,64.0,56.0,22.0
+675,Take 5,Diverse,26.2,476,59.5,42.9,26.2
+676,Lion Mini White,Nestlé,20.8,475,65.5,42.5,20.8
+677,LU Cha-Cha maxx,Mondelez,21.0,475,66.0,44.0,21.0
+678,"Mister Choc Sweet Mix, Schokolade",Mister Choc,22.0,475,63.5,54.0,22.0
+679,Cocos Minis,Diverse,0.0,475,63.0,23.0,0.0
+680,Adicto,Diverse,4.5,475,53.5,25.8,4.5
+681,Choceur Romeo mini,Choceur,23.0,475,63.0,54.0,23.0
+682,Knackiger Mousse Riegel,Nestlé,28.5,474,47.6,37.8,28.5
+683,Cocos Schokoriegel mini,Gut & G√ºnstig,23.0,474,63.0,54.0,23.0
+684,"Mocca Trüffel, Vollmilch Mocca Trüffel",Diverse,2.6,474,55.7,24.1,2.6
+685,Chocola Party Mix Minis,Choco'la,23.5,474,59.2,49.0,23.5
+686,"Vollmilch Schokoriegel o. Polyole, Vollmilch Schok...",Torras,34.0,473,7.0,7.0,34.0
+687,"Jezyki, Schokoriegeliegel, Classic, Classic",Goplana,5.3,473,63.4,21.0,5.3
+688,Dr. Munzinger sport Tiramisu,Dr. Munzinger,24.5,473,54.6,52.6,24.5
+689,mini coco,Diverse,24.7,473,59.3,52.0,24.7
+690,"Sin Az√∫cares, Vollmilch Schoko Riegel",Chocolates Torras S.A.,49.0,473,54.0,6.0,49.0
+691,"Choco Fruit Snack, Erdbeer-Joghurt",Viba Sweets,23.7,472,46.2,38.0,23.7
+692,"Balisto, Cocos",Mars,23.5,472,58.1,29.2,23.5
+693,"Bambini, Erdbeer Mascarpone",Zetti,21.3,471,60.5,52.3,21.3
+694,"Corny Big, Kokos",Schwartauer Werke,4.9,471,59.0,23.8,4.9
+695,"So Free, Cool Mint dark Chocolate",Plamil,46.0,471,5.0,1.0,46.0
+696,Violet Crumble,Nestlé,17.1,471,75.9,65.9,17.1
+697,"Nuts Peanut, Erdnuss",Nestlé,5.4,471,65.3,19.9,5.4
+698,"Baby Ruth, Peanut",Nestlé,23.5,471,66.0,55.0,23.5
+699,"Cereal Melk Lait, Vollmilch",Cereal,36.0,471,46.0,8.3,36.0
+700,"Mini Zwieback, Schoko Vollmilch",Brandt,0.0,471,62.4,20.1,0.0
+701,"Get Up, Schokoladenriegel mit Karamellfüllung",Rewe,21.0,470,65.0,57.0,21.0
+702,"Chokito Mini, Caramel und Knusperreis",Nestlé,5.6,470,66.7,20.3,5.6
+703,Yankie Original,Diverse,5.5,470,66.0,21.0,5.5
+704,Crunchie,Cadbury,19.1,470,69.9,61.7,19.1
+705,Hap-Noc,K-Classic,21.0,469,64.0,54.0,21.0
+706,"Atkins Endulge, Crispy Milk Chocolate",Atkins,42.0,469,48.0,5.0,42.0
+707,"sweet william, schokolade",Sweet William,38.0,468,52.0,1.0,38.0
+708,Nelly's Caramello Minis,Penny Markt,0.0,468,60.0,23.0,0.0
+709,"Cavalier - Strawberry Raspberry Dark, Erdbeer - Hi...",Cavalier,36.8,468,9.6,7.4,36.8
+710,"Rolo Kingsize, Schoko-Toffee",Nestlé,19.5,467,68.5,62.0,19.5
+711,"Jokerz Candy Bar, ""Snickers""",Mars,0.0,467,55.0,25.0,0.0
+712,"Race Selection mini Aldi, Race Mars",Aldi,0.9,467,70.0,19.0,0.9
+713,"protein bar, peanut & chocolate",Nature Valley,22.9,466,33.9,19.9,22.9
+714,Crispy Knusper-Riegel,Salzburg Schokolade,23.0,465,64.0,45.0,23.0
+715,"Fast Break, Milk Chocolate, Peanut Butter & No...",Hershey's,3.6,465,62.5,21.5,3.6
+716,Karamellriegel,Diverse,16.7,465,73.0,2.5,16.7
+717,Creme Egg Twisted,Cadbury,20.8,465,64.6,61.0,20.8
+718,"Erdnuss Geb√§ck-Riegel, Erdnuss, Karamell, Mil...",Aldi,21.8,465,59.7,31.0,21.8
+719,"Chocolix, Glutenfreier Riegel mit Karamellfüllung",Sch√§r,18.0,463,70.0,34.0,18.0
+720,Kinder Maxi King extra chocolate,Ferrero,30.0,463,43.0,39.0,30.0
+721,"Oh Henry!, Peanut Caramel",Diverse,23.0,462,66.0,46.0,23.0
+722,Caramel,Sugar Kiss,18.0,461,70.0,62.0,18.0
+723,"Snickers, Rockin' nut Road",Mars,20.0,461,66.1,52.1,20.0
+724,"Kinder Choco Sticks, Zartbitter",Ferrero,0.0,461,42.7,29.8,0.0
+725,"Getreidekeks, Banane",Billa,20.0,461,64.0,30.0,20.0
+726,"Brownie, mit Schoko-stückchen",Gourmandor,26.0,460,51.0,32.0,26.0
+727,"Clif Bar Nut Butter Filled, Chocolate Hazelnut But...",Clif Bar & Company,22.0,460,54.0,20.0,22.0
+728,"Chocqbar, Cacao",Chocqlate,32.0,460,45.0,36.0,32.0
+729,After Eight Munchies,Nestlé,5.6,459,67.0,15.4,5.6
+730,Cruzer,K-Classic,5.4,459,64.9,19.7,5.4
+731,"Caramel Schokoriegel, Mini",Gut & G√ºnstig,20.0,459,65.0,57.0,20.0
+732,Chocola Creamy,Choco'la,20.0,459,65.0,57.0,20.0
+733,"Chocola Kokos minis, Kokos",Choco'la,24.2,459,54.4,48.3,24.2
+734,"LCW Balance Schokolade, Dunkle Schokolade",LCW-Shop,36.8,458,14.0,2.7,36.8
+735,Dark Chocolate Smoothy,The Grown Up Chocolate Company,21.5,457,59.3,54.0,21.5
+736,"Pausa, ciok",Sch√§r,22.0,457,58.0,39.0,22.0
+737,Cavalier Lemon - Lime Dark,Cavalier,36.5,457,15.4,10.0,36.5
+738,Fetzer,Zetti,0.0,456,66.5,19.2,0.0
+739,"mister choc, choco&caramel",Mister Choc,19.7,456,64.9,56.8,19.7
+740,"Mister Choc, Choco Caramel",Mister Choc,19.7,456,64.9,56.8,19.7
+741,"Risoletto blanco, weisse Schokolade",Chocolat Frey AG,0.0,456,67.0,19.0,0.0
+742,"Race (wie Mars), Caramel",Aldi,19.7,456,64.9,56.8,19.7
+743,"Erdbeer Joghurt Schoko-Traum, Erdbeer Joghurt",Viba Sweets,18.8,455,61.6,45.4,18.8
+744,"Energate Riegel, Cocos",Multipower,0.0,455,42.0,22.0,0.0
+745,"Creamy Sticks, mit Karamell",Diverse,20.0,455,65.0,55.0,20.0
+746,"Trek Flapjack, Cocoa Oat",Trek Bar UK,22.1,454,43.9,27.9,22.1
+747,Mars Caramel Limited Edition,Mars,18.0,454,68.0,58.0,18.0
+748,"Keks Riegel, Disco",Biscotto,19.0,454,65.0,43.0,19.0
+749,"Salmix-Schoko-Riegel, Vollmilch",Salmix,16.8,452,74.0,68.2,16.8
+750,Mars Xtra Choc,Mars,17.7,452,67.8,59.4,17.7
+751,Choco Bits,Ludwig Schokolade,16.3,452,72.4,64.2,16.3
+752,Chocqbar Mocca Cacao,Chocqlate,31.0,452,43.5,35.0,31.0
+753,Milk Minis,S-Budget,16.0,451,72.4,67.4,16.0
+754,Oh Henry!,Nestlé,21.6,451,64.7,47.1,21.6
+755,Candy & Choco,Mister Choc,16.0,451,72.4,67.4,16.0
+756,"MilkyWay, Schokoladig",Diverse,17.0,451,71.0,62.0,17.0
+757,Butterfinger Minis,Nestlé,20.0,450,72.5,45.0,20.0
+758,Milky Way Minis,Masterfoods,16.3,450,71.6,66.0,16.3
+759,"Dreemy mini, gefüllte Milchschokolade",Lidl,16.0,450,72.0,67.0,16.0
+760,"Milnetti, Minis",K-Classic,16.0,450,72.0,64.0,16.0
+761,"Molino Molat, Molat in Vollmilch Schokolade",Dr. Grandel,20.3,450,56.0,43.9,20.3
+762,Dreemy,Aldi,17.0,450,70.0,63.0,17.0
+763,Risoletto,Migros,18.0,449,68.0,62.0,18.0
+764,"Mars, Mars",Mars,16.6,449,70.2,61.7,16.6
+765,Mars,Masterfoods,16.6,449,70.2,61.7,16.6
+766,"Balisto, Blaubeere Mandel",Mars,19.0,449,57.0,36.0,19.0
+767,Caramel Wafer Biscuits,Tunnocks,17.4,448,69.2,34.7,17.4
+768,Tunnock's Caramel Wafer Biscuits,Real,17.4,448,69.2,34.7,17.4
+769,Discobits,Nora,18.5,448,64.7,43.0,18.5
+770,Milky Way Riegel,Masterfoods,0.0,448,72.4,15.9,0.0
+771,Mars 2Pack,Mars,16.6,448,70.1,64.0,16.6
+772,Milnetti Minis,K-Classic,16.0,448,72.0,64.0,16.0
+773,"Margot, Kokos",Orion,4.7,447,56.9,20.0,4.7
+774,100 Grand,Nestlé,18.8,447,70.6,51.8,18.8
+775,"Mister Choc, Candy minis",Mister Choc,16.0,447,72.0,66.0,16.0
+776,Balisto Choco Orange,Mars,18.9,447,58.7,37.1,18.9
+777,"Balconi Mix Max, Vollmilch Schokolade",Netto,23.4,446,52.8,37.0,23.4
+778,Risoletto Classic,M Classic,0.0,446,70.0,17.0,0.0
+779,"Brodericks, Caramel and Chocolat Riegel",Diverse,19.9,446,60.4,40.7,19.9
+780,"Barsano, Winterzauber",Cape June,24.0,445,27.0,15.0,24.0
+781,choc ovo crunchy,Wander AG,14.3,444,67.5,52.9,14.3
+782,"Candy Star minis, Art Milky Way",Diverse,15.0,444,73.0,67.0,15.0
+783,"Mars, Mini",Masterfoods,15.7,443,70.9,61.9,15.7
+784,Milky Way,Mars,15.0,443,73.4,66.2,15.0
+785,"Energie-Eiweiß-Riegel, Cocos, Vanille, Schoko, Mar...",Inkospor,2.0,443,47.0,21.0,2.0
+786,"Mars Minis, 18g",Durchschnittswert,15.7,443,70.9,61.9,15.7
+787,Atkins Chocolate Coconut,Atkins,32.0,443,5.0,5.0,32.0
+788,Zero Candy Bar,Hershey's,15.4,442,71.2,59.6,15.4
+789,"Milky Way Midnight Dark, Midnight Dark",Mars,16.0,441,73.0,58.0,16.0
+790,Wagon Wheels,Burton's Biscuit C.,14.5,441,68.7,38.6,14.5
+791,"Pro-Plex Delicious High Protein Energy Bar, Coconut",All Stars Fitness Products,23.0,441,36.0,27.0,23.0
+792,"Munz Banana, Choco-Chew",Munz,0.0,440,78.0,12.0,0.0
+793,"Sportriegel ungarisch, Lotto Walnuss",Kraft Foods,16.0,440,67.5,62.0,16.0
+794,Fudge,Diverse,15.1,440,73.0,63.0,15.1
+795,Fudge,Cadbury,15.1,440,73.9,64.0,15.1
+796,"Balisto, Choco Apple",Mars,18.8,439,62.0,34.0,18.8
+797,"Choclate Fluffy Marschmallow Bar, milk choclate ...",Baru,18.0,439,65.0,61.0,18.0
+798,"Fitness-Riegel, Schoko",Seitenbacher,22.0,438,36.0,32.0,22.0
+799,Butlers Irish Coffee Truffle Schokolade,Diverse,26.2,438,50.0,40.0,26.2
+800,"Active Energy Riegel, Marzipan",Inkospor,0.0,436,48.0,19.0,0.0
+801,Vanilla Toffee Fudge,Oh Yeah!,2.9,435,35.0,21.0,2.9
+802,"OhYeah, Creamy Vanilla & Caramel",Diverse,15.3,435,33.0,13.0,15.3
+803,"Orange Dark, Orange",Cavalier,30.0,435,13.2,35.9,30.0
+804,"Squares, Total Choco",Kellogg's,13.0,432,74.0,37.0,13.0
+805,GoMaxGo THUMBS UP Schokoriegel vegan,GoMaxGo,16.2,432,70.3,51.4,16.2
+806,"Molke - Riegel, Erbeere",DM,0.0,432,55.0,16.6,0.0
+807,"Cavalier Mini Dark, Zartbitter",Cavalier,34.8,432,10.0,3.2,34.8
+808,"Corny A la Tartelette au citron, Zitrone",Schwartauer Werke,15.2,431,66.7,30.4,15.2
+809,"Genussbombe, Schokoriegel",Seitenbacher,0.0,430,50.0,17.0,0.0
+810,Kesten Desert,Pionir,3.9,429,47.0,29.0,3.9
+811,Deli Schokoriegel,Nestlé,13.1,429,73.8,56.2,13.1
+812,"Eiweißriegel, Vanille-Karamell",My Line,17.0,429,40.0,22.0,17.0
+813,Rollino Latte,Balconi,21.7,429,52.0,38.5,21.7
+814,"SportVit, Malzwürfel",Migros,0.0,428,63.0,14.0,0.0
+815,"Caramental, Karamell-Schokoladen Keks",Broderick Brothers,25.5,428,47.9,26.3,25.5
+816,"Caramel Wafer (WW 1, 5 P), Caramel",Weight Watchers,20.2,427,64.7,39.0,20.2
+817,"Susu Original, Schokolade",Fazer,16.0,426,64.0,52.0,16.0
+818,Tender √° la Tiramisu,Milka,20.0,425,56.5,40.0,20.0
+819,Atkins Nutty Fudge Brownie (nur anrechenbare KH),Atkins,15.0,425,15.0,30.0,15.0
+820,"Crisp Pro Bar, Chocolate-Brownie",All Stars Fitness Products,17.0,425,37.0,24.0,17.0
+821,"Tender, Milch",Milka,20.0,424,55.5,37.5,20.0
+822,Amaranth-Riegel,NaturGut,0.0,423,59.8,16.4,0.0
+823,Molke-Riegel,DM,16.7,423,50.0,37.0,16.7
+824,"Pulsin Raw Choc Brownie Peanut Choc Chip, Peanut C...",Pulsin,25.1,420,34.4,23.3,25.1
+825,"Choco Krispies Coco Pops, Riegel Kellogg, Cereal ...",Kellogg's,12.0,420,71.0,42.0,12.0
+826,Saldainiai Nomeda,Diverse,14.0,420,70.0,61.0,14.0
+827,"Active Crunch Bar, Haselnuss",Champ,14.0,420,56.0,36.0,14.0
+828,"High Protein SO GOOD, White Chocolate",QNT,14.9,419,42.7,34.1,14.9
+829,"My Line, Erdnuss-Karamell",Inkospor,2.0,419,41.6,35.0,2.0
+830,"Atkins Advantage Bar Cookies & Cream, Cookies ...",Atkins,23.9,419,27.9,2.8,23.9
+831,"Energate Bar, Hazelnut / Haselnuss",Multipower,3.5,418,42.0,16.0,3.5
+832,"All-Bran Riegel, Chocolate",Kellogg's,16.0,418,52.0,23.0,16.0
+833,"Eiweißriegel, Karamell",Di√§ko,0.0,418,46.0,14.0,0.0
+834,"Aptonia Cereal bars, Schokolade",Aptonia,12.0,418,70.0,28.0,12.0
+835,Power Proteinbar caramel toffee,Body Attack,3.9,416,47.0,14.0,3.9
+836,"Halk Duble Gofret, Wafers with Cocoa Cream",Halk,17.7,415,60.5,17.4,17.7
+837,"Riegel, Karamell-Geschmack mit Zartbitter-Schokola...",Das Gesunde Plus,2.6,415,50.0,16.0,2.6
+838,"Eiweissriegel, Peanut Butter caramel",Z Konzept,16.0,413,37.0,20.0,16.0
+839,"Goodlife Coconut Dream, Kokosnuss",Star Nutrition,15.9,413,38.8,33.9,15.9
+840,"Protein Bar, Kokos",HelloFit,15.4,411,38.0,31.2,15.4
+841,"Raw choc brownie, Mandel Rosinen rohe schokolade",Pulsin,21.2,410,46.8,35.9,21.2
+842,"Weight Watchers Choco Cream, Schoko Cream Riegel i...",Weight Watchers,11.8,409,72.6,57.0,11.8
+843,weight watchers Chocolate Caramel,Weight Watchers,9.4,409,72.6,31.6,9.4
+844,"Ma Pause Gerlin√©a, Chocolats Noir & Blanc",Diverse,13.6,409,47.3,38.0,13.6
+845,"Fichi Cotti, Feige mit Schokolade umh√ºllt",Deluxe,16.0,408,58.1,58.1,16.0
+846,"Muscle Milk Bar, Schokolade",Cytosport,15.0,408,38.0,15.0,15.0
+847,"Premium Pro Bar Riegel, Milchschokolade",Best Body Nutrition,3.4,408,41.0,11.0,3.4
+848,"Slim System, Karamell-Toffee Geschmack",Slim-System,13.0,407,59.0,40.0,13.0
+849,Molke Riegel Toffee-Geschmack,DM,14.0,407,50.0,37.0,14.0
+850,"Molke-Riegel, Latta Macchiato",Di√§ko,0.0,407,57.0,12.0,0.0
+851,GoMaxGo TWILIGHT Schokoriegel vegan,GoMaxGo,11.0,406,74.1,48.4,11.0
+852,"Pro Well Riegel, Toffee",Diverse,18.0,406,42.0,40.0,18.0
+853,"Weight Watchers Choco Mint Crips, Choco Mint",Weight Watchers,10.0,405,74.8,44.0,10.0
+854,Karamell-Nuss-Schokoladenriegel,eurodiet,6.7,405,20.2,10.4,6.7
+855,"Yippie, Weider, Peanut-Caramel",Weider,29.0,404,35.0,3.1,29.0
+856,GoMaxGo BUCCANEER Schokoriegel vegan,GoMaxGo,12.0,404,75.0,58.0,12.0
+857,"Molke-Riegel Bourbon Vanille Geschmack, Vanille",DM,14.0,404,49.0,38.0,14.0
+858,"Latte Macchiato Molke-Riegel, Latte Macchiato",Di√§ko,12.0,404,57.0,45.0,12.0
+859,"Pausenfreund, Zwetschke-Amaranth",Diverse,17.5,404,51.3,30.8,17.5
+860,Candy Creme Riegel mit Milchschokoladen√ºberzug,Weight Watchers,0.8,403,75.1,10.2,0.8
+861,"Eiweißriegel, Fitness- Riegel",Seitenbacher,19.0,403,36.0,34.0,19.0
+862,"Cavalier Berries Dark, Waldbeeren",Cavalier,34.7,403,11.0,33.1,34.7
+863,"Power Protein Bar, Vanille-Stracciatella",Body Attack,13.0,403,46.0,32.0,13.0
+864,"Yambam, Strawberry Vanilla",Body Attack,29.0,403,36.0,4.8,29.0
+865,"delicate FITPACK, Cookie",Best Body Nutrition,12.0,403,55.0,42.0,12.0
+866,"Schoko-Energie-Happen, s√º√ü",Selbst gemacht,30.7,402,17.3,7.2,30.7
+867,"Pure Protein riegel, Chewy Chocolate Chip",Pure Protein,10.2,402,36.3,5.0,10.2
+868,"Pro Well Riegel, Praline",Diverse,18.0,402,42.0,30.0,18.0
+869,"Eiweissriegel, Chocolate-Caramel-Nuts",Diverse,13.5,401,39.7,29.0,13.5
+870,"Nutramino protein bar soft, Chocolate coconut",Nutramino,12.0,400,40.0,22.0,12.0
+871,Atkins Advantage Chocolate Decadence (nur anrechen...,Atkins,11.2,400,9.5,20.0,11.2
+872,"Cappuccino Cream Riegel, Cappuccino",Weight Watchers,10.4,399,67.7,48.6,10.4
+873,"Molke Riegel, Vanillie",Multaben,10.0,399,59.0,52.0,10.0
+874,"Premium Pro Riegel (35  % Protein), Milchschokolade",Best Body Nutrition,0.0,399,40.3,11.4,0.0
+875,"Yippie, Brownie-Vanilla",Weider,30.0,398,35.0,2.7,30.0
+876,"Weider, Coconut-Dark Chocolate",Weider,32.0,398,38.0,2.0,32.0
+877,Casali Original Schoko-Bananen-Riegel Weihnachten,Casali,12.3,398,69.3,54.3,12.3
+878,"Power Protein Bar, Caramel Toffee Flavour",Body Attack,13.0,398,45.0,31.0,13.0
+879,"Pria Balanced, Schokocrisp",Powerbar,0.0,397,61.0,10.0,0.0
+880,Diätriegel,Diverse,13.6,396,47.3,38.0,13.6
+881,"Chocola Erfrischungsstäbchen, Orange-Zitrone",Choco'la,9.9,396,73.0,72.0,9.9
+882,Yippie! Salted Caramel,Weider,31.0,395,39.0,3.7,31.0
+883,"Proteinissimo, Macchiato Caramel Crunch",Scitec Nutrition,11.0,395,44.0,34.0,11.0
+884,"Fiber One Protein, Caramel Nut",General Mills,18.2,394,40.5,21.2,18.2
+885,"Protein Bar, Joghurt Geschmack",Power System,11.0,393,40.0,23.0,11.0
+886,"Protein Bar Joghurt Geschmack 35 % -Eiweiss, Joghurt",Power System,11.0,393,40.0,23.0,11.0
+887,"HyPro Riegel Haselnuss, Haselnuss",All Stars Fitness Products,10.0,392,46.0,31.0,10.0
+888,"DoublePro, Hazelnut-Banana Flavour",Weider,11.1,392,44.7,29.0,11.1
+889,"Schokoriegel, Bitterschokolade Crunch",Atkins,16.4,392,21.8,2.0,16.4
+890,"Basic 30 % Protein Bar, Cookies & Cream",Qi2 Sports Nutrition,12.2,391,39.0,34.0,12.2
+891,Snickers Protein,Mars,13.9,391,36.1,18.6,13.9
+892,"Goodlife, nutty peanut",Diverse,3.3,390,40.1,11.4,3.3
+893,Chocolate Crisp,Weight Watchers,13.0,389,47.0,30.0,13.0
+894,"Powerpack, Vanille",Multipower,0.0,389,45.0,11.0,0.0
+895,Goodlife blueberry,Diverse,3.5,389,41.4,10.9,3.5
+896,"Hy-Pro Riegel Supreme, Hazelnut-Almond Crunch",All Stars Fitness Products,15.0,389,29.0,14.0,15.0
+897,"Fitbar Protein Riegel, Classic",Weider,0.0,388,46.0,11.1,0.0
+898,"Cavalier Stevia Light - 30 % Caramel, Caramel",Cavalier,24.8,388,29.1,17.0,24.8
+899,Endulge Peanut Caramel Bar,Atkins,24.3,388,31.6,4.3,24.3
+900,"Advantage Chocolate Decadence Bar, Schokolade",Atkins,20.0,388,2.6,24.8,20.0
+901,"weight watchers Chewy Toffee Popcorn, Schokolade",Weight Watchers,13.1,387,51.0,47.9,13.1
+902,Bananko,Kras,6.7,387,76.7,73.3,6.7
+903,"X-Treme Protein Flash, Vanille",Inkospor,11.0,387,41.7,35.2,11.0
+904,"Maximum Protein  (42 % Protein-Bar), Strawberry",Weider,3.3,386,39.0,8.4,3.3
+905,"Protein-Riegel, Cranberry",Di√§ko,12.0,386,42.0,8.9,12.0
+906,"Forever Fast Break Ultra, Peanutbutter",Diverse,14.0,386,49.1,31.6,14.0
+907,"Goodlife Star Nutrition, caramel coco",Diverse,3.3,386,40.0,11.0,3.3
+908,"organic raw choc bar, schokolade",Beond,16.7,386,38.9,33.0,16.7
+909,Weight Watchers Choco Cookie,Weight Watchers,11.6,385,64.3,32.0,11.6
+910,"Weight Watchers, Chocolate & Orange Crisp",Weight Watchers,13.7,385,52.9,29.4,13.7
+911,"Dextro Energy Sport-Snack, Vanilla",Dextro Energy,7.5,385,64.0,43.0,7.5
+912,"Atkins Endulge, Chocolate-Caramel-Peanut",Atkins,24.0,385,30.0,4.3,24.0
+913,"Legend Bar Proteinriegel, Vanilla Fusion",Zec+ Nutrition,15.0,383,35.0,3.5,15.0
+914,"Torrasl Chocolate Negro con Menta, Stevia, Menta",Torras,0.3,383,3.5,36.0,0.3
+915,Modifast Lunch Karamell,Wander AG,10.9,382,47.0,34.4,10.9
+916,"Modifast Lunch, Schoko",Modifast,0.0,382,46.5,11.1,0.0
+917,"Low Carb Protein Bar (Nutrend), Nougat",Nutrend,13.3,381,41.2,4.9,13.3
+918,"Power Eiweiß Riegel, Himbeere",Multinorm,11.3,381,40.0,27.2,11.3
+919,"Dextro Energy Sport-Snack Chocolate, Schokolade",Dextro Energy,7.5,381,60.0,41.0,7.5
+920,"Schoko-Riegel, Banane-Cranberry",Seitenbacher,4.0,380,74.0,56.0,4.0
+921,"Basic 30 % Protein Bar, Erdbeere",Qi2 Sports Nutrition,10.6,380,39.0,35.0,10.6
+922,"Power Eiweiß Riegel, Schokolade",Multinorm,11.1,380,34.5,29.5,11.1
+923,"Imperius Protein Bar Coconut Crisp, Coconut Crisp",Iron Maxx,15.0,380,35.0,1.0,15.0
+924,"Raise The Bar!, Chocolate Orange",Gainomax,12.0,380,38.0,28.0,12.0
+925,Apple Pie Protein,creative Nature,8.8,380,49.0,36.0,8.8
+926,"Eiweißriegel, Zartbitter-schokolade Brownie",ComidaMed,11.4,380,39.6,26.9,11.4
+927,Toffee & Banana Riegel,Weight Watchers,5.1,379,77.0,37.0,5.1
+928,"Diätriegel, S√ºss",Multaben,12.0,379,31.2,29.5,12.0
+929,"Scitec Nutrition Jumbo, Double Chocolate Cookie F...",Scitec Nutrition,8.2,378,26.0,8.6,8.2
+930,"Atkins Advantage Bar Chocolate Hazelnut, Chocolate...",Atkins,24.4,378,29.1,1.8,24.4
+931,White Choco Crisp,Weight Watchers,11.4,377,64.5,40.5,11.4
+932,"veePRO Veganer Proteinriegel, Schokolade Kokos",Profuel,14.5,377,23.4,15.7,14.5
+933,"Modifast Riegel Schokolade, Schokolade",Modifast,11.0,377,47.0,31.0,11.0
+934,"Figur 2 Schoko-Karamell Riegel, Diät  % Eiweiss",Multaben,11.0,377,33.0,25.0,11.0
+935,"Mon Repas Gerlinea, Protein Riegel, Caramel",Gerlin√©a,10.5,377,45.1,37.5,10.5
+936,"Power Protein Riegel, Schoko",Well & Active,11.0,376,34.0,30.0,11.0
+937,Weight Watchers White Choco Strawberry,Weight Watchers,12.1,376,53.9,27.0,12.1
+938,"Basic 30 % Protein Bar, Vanille",Qi2 Sports Nutrition,9.8,376,40.0,38.0,9.8
+939,"Isostar High Protein 25 Powerplay, Yoghurt",Isostar,4.0,376,48.5,8.9,4.0
+940,Krokant-Karamell-Riegel,Bonvita,12.0,375,41.0,29.0,12.0
+941,"Fudge Caramel Proteinriegel, Karamell",Atkins,24.0,375,4.0,19.0,24.0
+942,"Atkins fudge karamel, Karamel",Atkins,19.0,375,28.2,3.9,19.0
+943,"Weight Watchers Schokoriegel, Crispy Amaretto",Weight Watchers,9.8,374,56.5,41.2,9.8
+944,"Mein Gewicht und ich Meine Schokolade, Schoko",Mein Gewicht und Ich,23.8,374,33.1,8.0,23.8
+945,"Enervit Power Sport, Cacao",Enervit,6.0,374,60.0,28.0,6.0
+946,equive Riegel Beeren crisp,Diverse,13.9,374,33.2,4.6,13.9
+947,"Powerbar protein Plus Reduced in Carbs, Erdbeer",Powerbar,10.5,373,23.9,9.5,10.5
+948,"Ballaststoffriegel, Pflaume/Zitrone/Weizenkleie",Gittis,13.8,373,47.3,37.3,13.8
+949,"Proteinriegel, Erdbeer-Joghurt",All Stars Fitness Products,11.0,373,32.0,25.0,11.0
+950,"Basic 30 % Protein Bar, Schokolade",Qi2 Sports Nutrition,10.5,372,36.0,32.0,10.5
+951,equive Riegel Schoo Caramell,Diverse,17.5,371,26.6,3.0,17.5
+952,Weight Watchers Schoko Crisp Riegel,Weight Watchers,0.8,369,75.1,10.2,0.8
+953,"BCM Basic Riegel, Choco Crisp",Diverse,13.0,369,35.5,10.8,13.0
+954,"Exante Rasbeery white chocolate chip bar, Himbeere...",Diverse,9.5,369,37.8,15.9,9.5
+955,"precon BCM Diät ChocoBar, Choco",Precon,11.1,368,36.2,34.5,11.1
+956,"Bonbarr Peanut, Erdnuss",Bonvita,12.7,368,57.8,13.0,12.7
+957,"Alnatura Pflaume-Riegel, schokoliert",Alnatura,0.0,368,48.1,16.8,0.0
+958,QuestBar Peanut Butter Supreme,Quest Nutrition,16.7,367,6.7,3.3,16.7
+959,OhYeah! Low Carb Bar Cookie & Creme,Oh Yeah!,12.0,367,38.0,2.0,12.0
+960,"Cyclone Proteinriegel, Schoko-Orange",Maxinutrition,9.2,367,28.2,16.7,9.2
+961,Eurodiet Pralinenriegel,eurodiet,14.0,367,21.4,16.1,14.0
+962,"X - Treme Power Flash, Schoko",Inkospor,8.0,366,48.0,31.0,8.0
+963,Müsliriegel - weiße Schokolade,Crownfield,24.3,366,74.4,1.6,24.3
+964,"Weight Watchers, Chocolate, Caramel&Biscuit",Weight Watchers,9.8,365,54.0,47.5,9.8
+965,soft caramel Karamell-Schokoladen-Riegel,Weight Watchers,0.6,365,76.1,10.6,0.6
+966,"Turo Rudi - Schokorolle, Erdbeere",P√∂tty√∂s,3.8,365,45.2,17.1,3.8
+967,"√ìri√°s P√∂tty√∂s T√∫r√≥ Rudi, Nat√∫r, mit Milchschokolade",P√∂tty√∂s,18.8,364,39.3,38.2,18.8
+968,"Protein Riegel, Kokos-Mandel",Layenberger,18.8,364,22.5,1.3,18.8
+969,"Sportness Eiweiß 50 %, Vanille-Joghurt-Crisp",Das Gesunde Plus,27.0,364,30.0,2.1,27.0
+970,"Alnatura Dattelschokoriegel, mit Vollmilchschokola...",Alnatura,0.0,363,53.7,14.1,0.0
+971,"Wellmix 50 % Protein Riegel, Chocolate Crisp Geschm...",Wellmix Sport,9.8,363,23.4,0.4,9.8
+972,"Weight Watchers White Chocolate & Rasperry, we...",Weight Watchers,7.8,363,58.7,37.7,7.8
+973,"LowCarb Protein Riegel, Kokos-Mandel",Layenberger,18.8,363,22.5,1.3,18.8
+974,"Hy-Pro Deluxe, White Chocolate Crunch",All Stars Fitness Products,12.0,363,31.0,21.0,12.0
+975,"Toffee-Riegel, Schokolade",Bonvita,12.0,361,39.0,29.0,12.0
+976,"Pro-Plex Protein Energy Bar, Kirsch-Joghurt",All Stars Fitness Products,12.0,360,32.0,25.0,12.0
+977,"Galeb, Coko Banana",Pionir,8.3,360,74.0,57.0,8.3
+978,"Protein Bomb, Peanut Butter Flavour",Diverse,14.0,360,23.0,3.0,14.0
+979,"Protein Bar, Schoko",Bodylab24,9.1,360,18.7,3.9,9.1
+980,Weight Watchers Choco Peanut & Caramel,Weight Watchers,12.0,359,61.4,49.0,12.0
+981,"Sportness Eiweissriegel Brownie o. Polyole, Brownie",Das Gesunde Plus,10.5,359,23.0,1.0,10.5
+982,"best body eiweißriegel, vanille",Best Body Nutrition,0.0,359,23.1,8.3,0.0
+983,QuestBar White Chocolate Raspberry (net carbs),Quest Nutrition,16.0,358,13.0,2.0,16.0
+984,Cavalier Strawberry Dark (nur anrechenbare KH),Cavalier,23.9,358,11.4,7.1,23.9
+985,"Figur-Riegel, Vanille-Joghurt",Multaben,11.8,357,36.0,28.0,11.8
+986,"One Meal Chocolate Mint, Minze",Diverse,16.0,357,36.0,14.0,16.0
+987,"Atkins advantage chokolate caramel crunch, Schoko-...",Atkins,1.9,356,23.0,14.0,1.9
+988,"Kings Bar, Choco Supreme",Zec+ Nutrition,25.0,355,3.0,2.4,25.0
+989,Weigt Watchers Blueberry Joghurt,Weight Watchers,6.4,355,68.7,34.6,6.4
+990,Jaffa Cake Bar,Weight Watchers,6.3,355,67.4,47.5,6.3
+991,TopWell Protein Bar,TopWell,2.2,355,26.0,11.2,2.2
+992,Gerlin√©a,Gerlin√©a,11.0,355,31.0,17.0,11.0
+993,"Proteinriegel mit Whey, Mandeln, Honig und Erdnuss...",Selbst gemacht,1.4,353,16.7,16.9,1.4
+994,"veePro Veganer Proteinriegel, Banane",Profuel,10.2,353,27.1,18.9,10.2
+995,WLS Skinny Bar  Crispy Erdbeere,WLS Products,0.9,352,11.1,13.8,0.9
+996,"Carb Control High Protein Bar, latte macchiato",Body Attack,25.0,352,27.0,2.3,25.0
+997,"QNT 50 % Full Protein, Strawberry Flavour",QNT,7.9,351,24.8,6.9,7.9
+998,Mars Protein,Mars,8.1,351,39.0,23.0,8.1
+999,Mars Protein,Body Attack,8.1,351,39.0,23.0,8.1
+1000,"Smart Bar Crunchy, Coffee & Dark Chocolate",Body & Fit,22.1,351,26.0,1.7,22.1
+1001,"Realpro Low Carb, Peanut",All Stars Fitness Products,27.0,350,3.6,3.6,27.0
+1002,QuestBar Mixed Berry Bliss,Quest Nutrition,15.0,350,6.7,3.3,15.0
+1003,"Oh Yeah! One Bar, Chocolate Birthday Cake",Oh Yeah!,11.6,350,41.6,1.6,11.6
+1004,"Mahlzeitenersatz-Riegel, Schokolade",Myprotein,10.0,350,40.0,12.0,10.0
+1005,"Meal Replacement Bar, Salted Caramel Flavour",Myprotein,10.0,350,40.0,12.0,10.0
+1006,"Fruchtriegel in Zartbitterschokolade, Pflaume",Alnatura,0.0,349,47.1,15.7,0.0
+1007,QuestBar Cookies & Cream,Quest Nutrition,15.0,349,12.0,1.7,15.0
+1008,"Oats & Whey Flapjack, Double Chocolate",Optimum Nutrition,14.0,346,38.0,5.0,14.0
+1009,"Knusper-Riegel, Schokolade",Bonvita,9.6,346,36.0,28.0,9.6
+1010,Chocolate-coated chocolate bar,eurodiet,8.0,345,25.7,17.6,8.0
+1011,WLS Skinny Bar Intensive Schokokade,Diverse,0.9,345,10.4,13.6,0.9
+1012,"Proteinriegel Low Carb, Schoko-Banane",Layenberger,20.6,343,24.5,1.4,20.6
+1013,"One Meal Chocolate, Schokolade",Diverse,15.0,343,28.0,10.0,15.0
+1014,"Riegel, choco caramel crunch",Weight Watchers,13.1,342,53.3,32.0,13.1
+1015,"Weight Watchers Brownie, Chocolat",Weight Watchers,6.5,342,47.8,17.2,6.5
+1016,"Perfection Bar, Coconut Sensation",Body & Fit,12.8,342,24.5,4.2,12.8
+1017,"50 % Protein Bar, Chocolate & Banana Crisp",Multipower,9.1,341,26.0,1.9,9.1
+1018,"Weight Watchers Choco Vanilla Cereal, Schoko Vanil...",Weight Watchers,4.6,339,63.3,16.0,4.6
+1019,"Sekacz o smaku orzechowym, s√º√ü",Diverse,1.8,339,21.9,25.6,1.8
+1020,"High Protein Bar, Chocolate Coconut",Myprotein,9.0,336,29.0,3.6,9.0
+1021,Merci Dunkle Mousse,Storck,0.0,335,50.7,34.3,0.0
+1022,WLS Proteinriegel Crispy Kokos,Diverse,1.8,335,22.0,14.0,1.8
+1023,Nutrilett Chocolate Crisp Bar,Diverse,12.0,335,37.0,4.0,12.0
+1024,"Dark Chocolate Minis, Dark Chocolate",Weight Watchers,8.6,334,49.0,17.0,8.6
+1025,"Complete Protein Bar, schokolade",Optimum Nutrition,14.0,333,24.0,8.7,14.0
+1026,Cavalier Stevia Schokoriegel light Vanilla Dark -3...,Cavalier,14.8,333,23.1,4.2,14.8
+1027,Chocolate Tryptophan Bar,eurodiet,20.5,332,20.4,10.4,20.5
+1028,"weider high protein low carb, straciatella",Weider,18.0,325,20.0,0.9,18.0
+1029,SANA-PRO PREMIUM EIWEISSRIEGEL Bodymed Winterzaube...,Bodymed,8.5,325,19.0,8.3,8.5
+1030,"Powerbar Proteinplus, Vanilla Low Carb",Powerbar,10.0,322,34.0,4.5,10.0
+1031,"Matrix pro 32, Vanille",Olimp,19.0,322,25.6,2.3,19.0
+1032,"Sponser Pro Protein 50, Chocolate",Sponser,6.5,320,20.0,0.7,6.5
+1033,"Sana-Pro Premium Schokoriegel, Schoko",Sana-Pro,8.2,320,18.0,8.2,8.2
+1034,"Toffee Bars, Toffee",Weight Watchers,0.0,319,52.3,10.6,0.0
+1035,"Rich Toffee Riegel, Toffee",Weight Watchers,10.6,319,52.3,33.8,10.6
+1036,Whippes Bites Chocolate,Optimum Nutrition,32.0,319,37.0,2.5,32.0
+1037,Bio-Obstriegel Cranberry Kirsch,Spar,1.9,318,68.0,53.0,1.9
+1038,"Questbar Oatmeal, Chocolate Chip",Quest Nutrition,13.3,317,36.7,1.7,13.3
+1039,"Muscle High Protein Bar 45 %, Karamell-Cappuccino",Champ,23.0,315,30.0,3.0,23.0
+1040,QuestBar Chocolate Peanut Butter,Quest Nutrition,11.0,309,17.0,2.0,11.0
+1041,"max Elle Virtue Bar, Extra Schokoladig",Myprotein,9.0,308,45.5,8.8,9.0
+1042,"Real-Protein Riegel, Schokolade",Aktivnahrung Dr. Briegel,1.1,303,13.0,7.0,1.1
+1043,Chewy Toffee Popcorn Bar,Weight Watchers,10.0,291,48.4,43.1,10.0
+1044,"Riegel, Schoko Aprikose",Seitenbacher,4.0,285,49.0,45.0,4.0
+1045,"Seitenbacher Schoko-Aprikose, Schoko-Aprikose",Seitenbacher,4.0,284,49.0,45.0,4.0
+1046,QuestBar Cookies & Cream,Selbst gemacht,3.0,283,35.4,5.4,3.0
+1047,"HighPro Bar, Chocolate Orange Flavour",Myprotein,8.6,280,19.7,3.2,8.6
+1048,Reese Schokolade,Hershey's,0.0,280,30.0,15.0,0.0
+1049,"CAKEBITES, Birthdaycake",Durchschnittswert,7.0,240,25.0,5.0,7.0
+1050,Crispy Crunch,Cadbury,10.0,240,33.0,25.0,10.0
+1051,"Bpi Sports Best Protein Bar, Chocolate Peanut Butt...",bpi sports,17.0,230,6.0,8.0,17.0
+1052,Proteinriegel Schoko 2,Durchschnittswert,9.8,229,9.7,7.8,9.8
+1053,Amaranthriegel,Selbst gemacht,1.3,227,16.0,17.0,1.3
+1054,"Oh Yeah Chocolate Brownie, Schoko",Oh Yeah!,8.0,220,4.0,1.0,8.0
+1055,"Low Carb Bar Oh Yeah, Mint Chocolate Chip",Oh Yeah!,7.0,220,24.0,1.0,7.0
+1056,squarebar cherry,Squarebar,9.0,210,22.0,15.0,9.0
+1057,"Bpi Sports Best Protein Bar, Cinnamon Crunch",Diverse,2.2,210,26.0,6.0,2.2
+1058,"Cambridge WP Schokoladen-Riegel, Schokolade",Cambridge,6.0,203,23.7,17.7,6.0
+1059,"Kings BAR 50 %, Schoko",Zec+ Nutrition,12.5,178,2.0,1.2,12.5
+1060,Vanille-Crisp-Riegel,Bonvita,1.4,177,17.0,6.0,1.4
+1061,Sahne-Toffee-Riegel,Bonvita,1.3,172,16.0,5.4,1.3
+1062,"Hostess Brownie M&m, M&m",Hostess,7.0,170,26.0,19.0,7.0
+1063,Atkins Caramel Nut Chew Bar,Atkins,15.0,130,2.0,8.0,15.0
+1064,"ChocoRite, Milchschokolade",Diverse,6.0,115,14.0,2.0,6.0
+1065,"Low Carb Bounty-Riegel, Kokos",Selbst gemacht,0.3,110,3.8,8.9,0.3
+1066,"Balance Schoko-Riegel, SCHOKOLADE",Tchibo,5.0,99,7.8,0.0,5.0
+1067,"Lightketchup, Tomate",FELIX,0.0,38,7.0,0.1,0.0
+1068,"Calcium Bites ChocoRite, Schokolade",Durchschnittswert,2.0,30,8.0,1.0,2.0

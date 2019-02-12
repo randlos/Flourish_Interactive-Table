@@ -173,12 +173,12 @@ function update() {
 
                 if (!isNaN(data)) {
                    
-                    let pre_bar_container = '<td>';
-                    let bartext = '<p>' + data + '</p>';
-                    let bar = '<svg style="height:25; width:' + data/maxVal * 100 +  '%; background:#000000"></svg>';
-                    let post_bar_container = '</td>';
-                    console.log(bar, bartext);
-                    return bar + bartext;
+                    let pre_bar_container = '<div class="barcont">';
+                    let bartext = '<div style="width:30%; float:left;"><p style="word-break:break-all; padding:3px;">' + data + '</p></div>';
+                    let bar = '<div style="width:70%; float:right;"><svg style="height:24px; width:' + data/maxVal * 100 +  '%; background:#000000"></svg></div>';
+                    let post_bar_container = '</div>';
+                    //console.log(bar, bartext);
+                    return pre_bar_container + bartext + bar + post_bar_container;
                     
                 }
                 else {
