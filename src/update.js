@@ -123,6 +123,20 @@ function update() {
     }
     
     
+    function colorMapBalken(data) {
+        
+        var color = d3.scale.linear()
+        .domain([0,maxVal])
+        .range(["blue", "green"]);
+
+        return color(data);
+
+    }
+
+    // let colortestdata = [2,4,7,8,14,55,66,99];
+    // console.log(colortestdata.length);
+    // console.log(colorMapBalken(colortestdata));
+   
     
     let table = $('#myTable').dataTable( {
         data: data.Data.map(e => e.values),
@@ -168,17 +182,23 @@ function update() {
                 }
               },
         },{
-            "targets": -1,
+            "targets": tranlsateSortingAlphaToNumber(state.bar_column),
             "render": function (data, type, row, meta) {
 
-                if (state.bar_switch) {  //(!isNaN(data))
-                   
-                    let pre_bar_container = '<div class="barcont">';
-                    let bartext = '<div class="bartext"><p>' + data + '</p></div>';
-                    let bar = '<div class="bar"><svg class="barsvg" style="height:10px; width:' + data/maxVal * 100 +  '%; background:#000000"></svg></div>';
-                    let post_bar_container = '</div>';
-                    return pre_bar_container + bar + bartext + post_bar_container;
+                if (state.bar_switch) {  //
                     
+                    if (!isNaN(data)) {
+                   
+                        let pre_bar_container = '<div class="barcont">';
+                        let bartext = '<div class="bartext"><p>' + data + '</p></div>';
+                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + data/maxVal * 100 + '%; background:' + colorMapBalken(data) + '";> </svg> </div>';
+                        let post_bar_container = '</div>';
+                        return pre_bar_container + bar + bartext + post_bar_container;
+                    
+                    }
+                    else {
+                        return data;
+                    }
                 }
                 else {
                     return data;

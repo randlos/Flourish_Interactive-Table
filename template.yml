@@ -38,7 +38,22 @@ settings:
       -
         - Absteigend
         - desc
+
+  - property: bar_column
+    name: In welcher Spalte sollen Balken-Charts dargestellt werden
+    type: string
   
+  - property: bar_switch
+    name: Balken-Charts ein-/ausschalten
+    type: boolean
+    choices:
+      -
+        - On
+        - true
+      -
+        - Off
+        - false
+
   - property: layout
     name: Layout für Export
     description: Layout umschalten für Grafik PNG-Export
@@ -62,6 +77,7 @@ settings:
         - Höher 900px
         - 900px
     choices_other: true
+
   # - property: layout
   #   name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
   #   type: string

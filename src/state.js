@@ -45,7 +45,8 @@ let state = {
     
 
     // Bar-Chart-Feature
-   bar_switch: false,
+   bar_switch: true,
+   bar_column: 'E',
 
   
    };
