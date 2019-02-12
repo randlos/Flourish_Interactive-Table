@@ -42,7 +42,7 @@ function update() {
         });
         
         let maxValue = Math.max.apply(Math, dataArray);
-        console.log(maxValue);
+        //console.log(maxValue);
 
         return maxValue;
     }
@@ -174,11 +174,10 @@ function update() {
                 if (!isNaN(data)) {
                    
                     let pre_bar_container = '<div class="barcont">';
-                    let bartext = '<div style="width:30%; float:left;"><p style="word-break:break-all; padding:3px;">' + data + '</p></div>';
-                    let bar = '<div style="width:70%; float:right;"><svg style="height:24px; width:' + data/maxVal * 100 +  '%; background:#000000"></svg></div>';
+                    let bartext = '<div class="bartext"><p>' + data + '</p></div>';
+                    let bar = '<div class="bar"><svg class="barsvg" style="height:10px; width:' + data/maxVal * 100 +  '%; background:#000000"></svg></div>';
                     let post_bar_container = '</div>';
-                    //console.log(bar, bartext);
-                    return pre_bar_container + bartext + bar + post_bar_container;
+                    return pre_bar_container + bar + bartext + post_bar_container;
                     
                 }
                 else {
