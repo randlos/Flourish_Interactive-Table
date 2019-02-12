@@ -30,6 +30,7 @@ function update() {
         return variable;
     }
 
+    
     function maxValue(data) {
         let dataArray = new Array();
 
@@ -46,6 +47,7 @@ function update() {
         return maxValue;
     }
 
+    let maxVal = maxValue(data.Data);
    
     // function balken(data) {
         
@@ -207,8 +209,7 @@ function update() {
                     
                     //let c = $("td:nth-last-child(1)").append("<svg> Test </svg>");
                     
-                    let bar = '<div style="height:80%; width:' + data + '; background:#000000"> Test </div>';
-                    //console.log(bar);
+                    let bar = '<svg style="height:20%; width:' + data/maxVal * 100 +  '%; background:#000000">Test</svg>';
                     return bar;
                     
                 }
