@@ -79,6 +79,13 @@ function update() {
     //     .attr("fill", "#000");
     // }
 
+    function getOrderedColumn(table) {
+        let order = table.order();
+        //console.log(order);
+        return order;
+    }
+
+    
     function tranlsateSortingAlphaToNumber(alpha) {
         let alphaList = [{number:1, string:'A'},
                          {number:2, string:'B'},
@@ -147,6 +154,13 @@ function update() {
     
     let table = $('#myTable').dataTable( {
         data: data.Data.map(e => e.values),
+        responsive: {
+            details: true,
+            breakpoints: [
+                { name: 'stationär', width: Infinity },
+                { name: 'mobil',  width: 705 },
+            ]
+        },
         colReorder: {
             enable: true,
         //     order: [ 5, 4, 3, 2, 1, 0 ],
@@ -175,13 +189,16 @@ function update() {
         //         extend: 'columnsToggle',
         //     }
         // ],
-        responsive: true,
+        //responsive: true,
+        //"autoWidth": true,
         "columnDefs" : [{
             "targets": 0,
             "data": 0,
             "render": function ( data, type, row, meta ) {
-                if (data.indexOf("//www.bild.de/") > -1){
-                    var img_tag = '<img src="'+data+'" height="100" weight="100">';
+                //console.log(data);
+                if (data.indexOf("/") > -1){
+                    var img_tag = '<img src="'+data+'" height="100" width="150.38">';
+                    //console.log(data);
                     return img_tag;
                 }
                 else {
@@ -230,6 +247,7 @@ function update() {
         }
     });
 
+    console.log(getOrderedColumn(table));
 
     $('#mySearch').on( 'keyup', function() {
         $('#myTable').DataTable().search( this.value ).draw();
