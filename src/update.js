@@ -52,7 +52,7 @@ function update() {
     }
 
     let maxVal = maxValue(data.Data);
-    console.log(maxVal);
+    //console.log(maxVal);
 
     //console.log(data.Data.values[tranlsateSortingAlphaToNumber(state.bar_column]));
    
@@ -197,7 +197,7 @@ function update() {
             "render": function ( data, type, row, meta ) {
                 //console.log(data);
                 if (data.indexOf("/") > -1){
-                    var img_tag = '<img src="'+data+'" height="100" width="150.38">';
+                    var img_tag = '<img src="'+data+'"height="'+state.imgsize[0]+'"width="'+state.imgsize[1]+'">';
                     //console.log(data);
                     return img_tag;
                 }

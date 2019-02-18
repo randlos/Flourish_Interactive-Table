@@ -39,6 +39,10 @@ settings:
         - Absteigend
         - desc
 
+  - property: imgsize
+    name: Größe der Bilder einstellen - Höhe, Breite
+    type: string
+    
   - property: bar_column
     name: In welcher Spalte sollen Balken-Charts dargestellt werden
     type: string

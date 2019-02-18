@@ -44,7 +44,12 @@ let state = {
     nichtwahler_farbe: '#dce1e0',
     
 
-    // Bar-Chart-Feature
+
+   // Images Options
+
+   imgsize: [100, 150],
+
+   // Bar-Chart-Feature
    bar_switch: true,
    bar_column: 'D',
 
