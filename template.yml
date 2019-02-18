@@ -44,7 +44,7 @@ settings:
     type: string
     
   - property: bar_column
-    name: In welcher Spalte sollen Balken-Charts dargestellt werden
+    name: In welchen Spalten sollen Balken-Charts dargestellt werden? (Bsp. E oder D,E)
     type: string
   
   - property: bar_switch
