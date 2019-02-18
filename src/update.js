@@ -30,29 +30,41 @@ function update() {
         return variable;
     }
 
-    
-    function maxValue(data) {
+    let database = data.Data;
+
+    function maxValue(column) {
+        let exp_column = column;
+        let scope_data = database;
+        //console.log(scope_data);
+
         let dataArray = new Array();
-
-        data.forEach(function(item, index, array) {
-            // GET THE LAST ITEM (LAST COLUMN CELL) IN A ARRAY
-            //console.log(item.values.slice(-1)[0], index);
-
-            // Get the active column for bar-charts in Characters, convert it to a number and get the max value of that column
-            let valueToConsider = item.values.slice(tranlsateSortingAlphaToNumber(state.bar_column))[0];
-            dataArray.push(valueToConsider);
-            //console.log(valueToConsider)
-
-        });
         
-        let maxValue = Math.max.apply(Math, dataArray);
-        //console.log(maxValue);
+        scope_data.forEach(function(item, index, array) {
+            
+                // GET THE LAST ITEM (LAST COLUMN CELL) IN A ARRAY
+                //console.log(item.values.slice(-1)[0], index);
+    
+                // Get the active column for bar-charts in Characters, convert it to a number and get the max value of that column
+                
+                //console.log("Bar Column: " + exp_column);
 
-        return maxValue;
+                let valueToConsider = item.values.slice(exp_column)[0];
+                dataArray.push(valueToConsider);
+                //console.log(valueToConsider)
+    
+            });
+
+         
+        let maxVal = Math.max.apply(Math, dataArray);
+        //console.log("DataArray: " + dataArray);
+
+        return maxVal;
     }
 
-    let maxVal = maxValue(data.Data);
-    //console.log(maxVal);
+    // let maxVal = maxValue(3);
+    // console.log("MAX Value 4.Column: " + maxVal);
+
+    //console.log("Max Value: " + maxVal);
 
     //console.log(data.Data.values[tranlsateSortingAlphaToNumber(state.bar_column]));
    
@@ -121,10 +133,10 @@ function update() {
                         ];
         
         if(typeof alpha == 'object') {
-            console.log("Alpha Array? " + typeof alpha);
+            //console.log("Alpha Array? " + typeof alpha);
 
             for (let key in alpha) {
-                console.log(alpha[key]);     
+                //console.log(alpha[key]);     
                 let i;
                 for (i=0; i < alphaList.length; i++) {
                     if (alphaList[i].string == alpha[key]) {
@@ -133,16 +145,16 @@ function update() {
                     };             
                 }
             }
-                console.log("Column Array: " + "["+columnArray+"]");
-                return "["+columnArray+"]";
+                //console.log("Column Array: " + "["+columnArray+"]");
+                return columnArray;
         }
 
         else {
             let i;
-            console.log("alpha-Input: " + alpha);
+            //console.log("alpha-Input: " + alpha);
             for (i=0; i < alphaList.length; i++) {
                 if (alphaList[i].string == alpha) {
-                    console.log("Output:" + alphaList[i].number);
+                    //console.log("Output:" + alphaList[i].number);
                     barchart_column = alphaList[i].number -1;
                     return barchart_column;
                 };
@@ -152,7 +164,7 @@ function update() {
           
     }
 
-    console.log("Spaltenzahl: " + tranlsateSortingAlphaToNumber(state.bar_column));
+    //console.log("Spaltenzahl: " + tranlsateSortingAlphaToNumber(state.bar_column));
 
 
     function c_names() {
@@ -165,8 +177,8 @@ function update() {
     }
     
     
-    function colorMapBalken(data) {
-        
+    function colorMapBalken(data, maxVal) {
+
         let color = d3.scale.linear()
         .domain([0,maxVal])
         .range(["green", "red"]);
@@ -234,16 +246,20 @@ function update() {
                 }
               },
         },{
-            "targets": 4,
+            "targets": tranlsateSortingAlphaToNumber(state.bar_column),
             "render": function (data, type, row, meta) {
+                
+                
+                
+                let maxVal = maxValue(meta.col);
+                //console.log("Max Value in function: " + maxVal);
 
                 if (state.bar_switch) {  //
-                    
+            
                     if (!isNaN(data)) {
-                   
                         let pre_bar_container = '<div class="barcont">';
                         let bartext = '<div class="bartext"><p>' + data + '</p></div>';
-                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + data/maxVal * 100 + '%; background:' + colorMapBalken(data) + ';"> </svg> </div>';
+                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + data/maxVal * 100 + '%; background:' + colorMapBalken(data, maxVal) + ';"> </svg> </div>';
                         let post_bar_container = '</div>';
                         return pre_bar_container + bar + bartext + post_bar_container;
                     
