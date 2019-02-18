@@ -43,7 +43,16 @@ let state = {
     sonstige_parteien_farbe: '#c5cad0',
     nichtwahler_farbe: '#dce1e0',
     
-  
+
+
+   // Images Options
+
+   imgsize: [100, 150],
+
+   // Bar-Chart-Feature
+   bar_switch: true,
+   bar_column: "E", //['D','C'],//'D',//
+
    };
 
    export default state;

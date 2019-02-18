@@ -30,8 +30,80 @@ function update() {
         return variable;
     }
 
+    let database = data.Data;
 
+    function maxValue(column) {
+        let exp_column = column;
+        let scope_data = database;
+        //console.log(scope_data);
+
+        let dataArray = new Array();
+        
+        scope_data.forEach(function(item, index, array) {
+            
+                // GET THE LAST ITEM (LAST COLUMN CELL) IN A ARRAY
+                //console.log(item.values.slice(-1)[0], index);
+    
+                // Get the active column for bar-charts in Characters, convert it to a number and get the max value of that column
+                
+                //console.log("Bar Column: " + exp_column);
+
+                let valueToConsider = item.values.slice(exp_column)[0];
+                dataArray.push(valueToConsider);
+                //console.log(valueToConsider)
+    
+            });
+
+         
+        let maxVal = Math.max.apply(Math, dataArray);
+        //console.log("DataArray: " + dataArray);
+
+        return maxVal;
+    }
+
+    // let maxVal = maxValue(3);
+    // console.log("MAX Value 4.Column: " + maxVal);
+
+    //console.log("Max Value: " + maxVal);
+
+    //console.log(data.Data.values[tranlsateSortingAlphaToNumber(state.bar_column]));
+   
+    // function balken(data) {
+        
+    //     // let chart = d3.select("body")//d3.select("td:nth-last-child(1)")
+    //     // .append("svg")
+    //     // .attr("class", "barchart")
+    //     // .attr("width", "100%")
+    //     // .attr("height", "70%");
+      
+
+    //     // let bar = chart.select("g")
+    //     // .data(data)    
+    //     // .enter()
+    //     // .append("g");
+        
+        
+    //     let bar = d3.append("rect")
+    //     .attr("width", function(d) { return 100/d + "%"}) //function(d) { return (d/(d3.sum(data)))*100 + "%"; } )   // function(d) { return d + "%"})
+    //     .attr("x", "0")
+    //     .attr("y", "50%")
+    //     .attr("height", "80%")
+    //     .attr("fill", "#000");
+    // }
+
+    // function getOrderedColumn(table) {
+    //     let order = table.order();
+    //     //console.log(order);
+    //     return order;
+    // }
+
+    
     function tranlsateSortingAlphaToNumber(alpha) {
+        //console.log(alpha[0]);
+
+        let barchart_column;
+        let columnArray = [];
+
         let alphaList = [{number:1, string:'A'},
                          {number:2, string:'B'},
                          {number:3, string:'C'},
@@ -60,16 +132,39 @@ function update() {
                          {number:26, string:'Z'}
                         ];
         
-        let i;
-        for (i=0; i < alphaList.length; i++) {
-            if (alphaList[i].string == alpha) {
-                //console.log("Output:" + typeof(alphaList[i].number));
-                return alphaList[i].number -1;
-            };
-        };       
-        
+        if(typeof alpha == 'object') {
+            //console.log("Alpha Array? " + typeof alpha);
 
+            for (let key in alpha) {
+                //console.log(alpha[key]);     
+                let i;
+                for (i=0; i < alphaList.length; i++) {
+                    if (alphaList[i].string == alpha[key]) {
+                        //console.log("Output:" + typeof(alphaList[i].number));
+                        columnArray.push(alphaList[i].number -1);
+                    };             
+                }
+            }
+                //console.log("Column Array: " + "["+columnArray+"]");
+                return columnArray;
+        }
+
+        else {
+            let i;
+            //console.log("alpha-Input: " + alpha);
+            for (i=0; i < alphaList.length; i++) {
+                if (alphaList[i].string == alpha) {
+                    //console.log("Output:" + alphaList[i].number);
+                    barchart_column = alphaList[i].number -1;
+                    return barchart_column;
+                };
+            }; 
+        }
+
+          
     }
+
+    //console.log("Spaltenzahl: " + tranlsateSortingAlphaToNumber(state.bar_column));
 
 
     function c_names() {
@@ -82,9 +177,30 @@ function update() {
     }
     
     
+    function colorMapBalken(data, maxVal) {
+
+        let color = d3.scale.linear()
+        .domain([0,maxVal])
+        .range(["green", "red"]);
+
+        return color(data);
+
+    }
+
+    // let colortestdata = [2,4,7,8,14,55,66,99];
+    // console.log(colortestdata.length);
+    // console.log(colorMapBalken(colortestdata));
+   
     
     let table = $('#myTable').dataTable( {
         data: data.Data.map(e => e.values),
+        responsive: {
+            details: true,
+            breakpoints: [
+                { name: 'stationär', width: Infinity },
+                { name: 'mobil',  width: 705 },
+            ]
+        },
         colReorder: {
             enable: true,
         //     order: [ 5, 4, 3, 2, 1, 0 ],
@@ -113,13 +229,16 @@ function update() {
         //         extend: 'columnsToggle',
         //     }
         // ],
-        responsive: true,
+        //responsive: true,
+        //"autoWidth": true,
         "columnDefs" : [{
             "targets": 0,
             "data": 0,
             "render": function ( data, type, row, meta ) {
-                if (data.indexOf("//www.bild.de/") > -1){
-                    var img_tag = '<img src="'+data+'" height="100" weight="100">';
+                //console.log(data);
+                if (data.indexOf("/") > -1){
+                    var img_tag = '<img src="'+data+'"height="'+state.imgsize[0]+'"width="'+state.imgsize[1]+'">';
+                    //console.log(data);
                     return img_tag;
                 }
                 else {
@@ -127,32 +246,27 @@ function update() {
                 }
               },
         },{
-            "targets": -1,
+            "targets": tranlsateSortingAlphaToNumber(state.bar_column),
             "render": function (data, type, row, meta) {
-                if (!isNaN(data)) {
-                                        
-                    let chart = d3.select('tr')
-                    .select('td')
-                    .append("svg")
-                    .attr("class", "barchart")
-                    .attr("width", "100%")
-                    .attr("height", "70%");
-                    
-                    let bar = chart.selectAll("g")
-                    .data(data)    
-                    .enter()
-                    .append("g");
-                    
-                    //console.log(data);
-                    
-                    bar.append("rect")
-                    .attr("width", function(d) { return d + "%"})//function(d) { return (d/(d3.sum(data)))*100 + "%"; } )
-                    .attr("x", "0")
-                    .attr("y", "50%")
-                    .attr("height", "80%")
-                    .attr("fill", "#000");
+                
+                
+                
+                let maxVal = maxValue(meta.col);
+                //console.log("Max Value in function: " + maxVal);
 
-                    return;
+                if (state.bar_switch) {  //
+            
+                    if (!isNaN(data)) {
+                        let pre_bar_container = '<div class="barcont">';
+                        let bartext = '<div class="bartext"><p>' + data + '</p></div>';
+                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + data/maxVal * 100 + '%; background:' + colorMapBalken(data, maxVal) + ';"> </svg> </div>';
+                        let post_bar_container = '</div>';
+                        return pre_bar_container + bar + bartext + post_bar_container;
+                    
+                    }
+                    else {
+                        return data;
+                    }
                 }
                 else {
                     return data;
@@ -177,6 +291,7 @@ function update() {
         }
     });
 
+    // console.log(getOrderedColumn(table));
 
     $('#mySearch').on( 'keyup', function() {
         $('#myTable').DataTable().search( this.value ).draw();
@@ -196,11 +311,6 @@ function update() {
         this.sandbox += ' allow-modals';
     });
 
-
-;
-
-
-    // .map(function(d) { return comma_to_point(d.schlusskurs) })
 }
 
 export default update;
