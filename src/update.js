@@ -79,11 +79,11 @@ function update() {
     //     .attr("fill", "#000");
     // }
 
-    function getOrderedColumn(table) {
-        let order = table.order();
-        //console.log(order);
-        return order;
-    }
+    // function getOrderedColumn(table) {
+    //     let order = table.order();
+    //     //console.log(order);
+    //     return order;
+    // }
 
     
     function tranlsateSortingAlphaToNumber(alpha) {
@@ -247,7 +247,7 @@ function update() {
         }
     });
 
-    console.log(getOrderedColumn(table));
+    // console.log(getOrderedColumn(table));
 
     $('#mySearch').on( 'keyup', function() {
         $('#myTable').DataTable().search( this.value ).draw();

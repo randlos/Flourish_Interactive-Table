@@ -39,7 +39,7 @@ body, html {
 .dataTables_scrollHeadInner thead .sorting_asc {
   background: @red;
   color: @basic;
-  padding: 8px auto;
+  padding: 8px auto !important;
   border-left: 2px solid white !important;
   text-align: left;
 }
@@ -47,7 +47,7 @@ body, html {
 .dataTables_scrollHeadInner thead .sorting_desc {
   background: @red;
   color: @basic;
-  padding: 8px auto;
+  padding: 8px auto !important;
   border-left: 2px solid white !important;
   text-align: left;
 }
@@ -64,23 +64,24 @@ table.dataTable.no-footer {
 //   padding: 8px auto;
 // }
 
-.dataTable thead th {
+table.dataTable thead th {
   border: none !important;
+  padding: 11px 18px !important;
 }
 
-.dataTable thead td {
+table.dataTable thead td {
   border: none !important;
 }
 
 
 
 table.dataTable tbody th {
-  padding: 8px 10px;
+  padding: 9px 10px;
   border-left: 4px solid white;
 }
 
 table.dataTable tbody td {
-  padding: 8px 10px;
+  padding: 9x 10px;
   border-left: 2px solid white;
 }
 
@@ -409,7 +410,7 @@ div.barcont .bartext p {
   margin: 0;
   padding: 0 1px;
   word-break: break-all;
-  padding:1px 4px;
+  padding: 1px 4px;
 }
 
 div.barcont .barsvg {
