@@ -87,6 +87,11 @@ function update() {
 
     
     function tranlsateSortingAlphaToNumber(alpha) {
+        //console.log(alpha[0]);
+
+        let barchart_column;
+        let columnArray = [];
+
         let alphaList = [{number:1, string:'A'},
                          {number:2, string:'B'},
                          {number:3, string:'C'},
@@ -115,16 +120,39 @@ function update() {
                          {number:26, string:'Z'}
                         ];
         
-        let i;
-        for (i=0; i < alphaList.length; i++) {
-            if (alphaList[i].string == alpha) {
-                //console.log("Output:" + typeof(alphaList[i].number));
-                return alphaList[i].number -1;
-            };
-        };       
-        
+        if(typeof alpha == 'object') {
+            console.log("Alpha Array? " + typeof alpha);
 
+            for (let key in alpha) {
+                console.log(alpha[key]);     
+                let i;
+                for (i=0; i < alphaList.length; i++) {
+                    if (alphaList[i].string == alpha[key]) {
+                        //console.log("Output:" + typeof(alphaList[i].number));
+                        columnArray.push(alphaList[i].number -1);
+                    };             
+                }
+            }
+                console.log("Column Array: " + "["+columnArray+"]");
+                return "["+columnArray+"]";
+        }
+
+        else {
+            let i;
+            console.log("alpha-Input: " + alpha);
+            for (i=0; i < alphaList.length; i++) {
+                if (alphaList[i].string == alpha) {
+                    console.log("Output:" + alphaList[i].number);
+                    barchart_column = alphaList[i].number -1;
+                    return barchart_column;
+                };
+            }; 
+        }
+
+          
     }
+
+    console.log("Spaltenzahl: " + tranlsateSortingAlphaToNumber(state.bar_column));
 
 
     function c_names() {
@@ -139,7 +167,7 @@ function update() {
     
     function colorMapBalken(data) {
         
-        var color = d3.scale.linear()
+        let color = d3.scale.linear()
         .domain([0,maxVal])
         .range(["green", "red"]);
 
@@ -206,7 +234,7 @@ function update() {
                 }
               },
         },{
-            "targets": tranlsateSortingAlphaToNumber(state.bar_column),
+            "targets": 4,
             "render": function (data, type, row, meta) {
 
                 if (state.bar_switch) {  //
@@ -215,7 +243,7 @@ function update() {
                    
                         let pre_bar_container = '<div class="barcont">';
                         let bartext = '<div class="bartext"><p>' + data + '</p></div>';
-                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + data/maxVal * 100 + '%; background:' + colorMapBalken(data) + '";> </svg> </div>';
+                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + data/maxVal * 100 + '%; background:' + colorMapBalken(data) + ';"> </svg> </div>';
                         let post_bar_container = '</div>';
                         return pre_bar_container + bar + bartext + post_bar_container;
                     
@@ -267,11 +295,6 @@ function update() {
         this.sandbox += ' allow-modals';
     });
 
-
-;
-
-
-    // .map(function(d) { return comma_to_point(d.schlusskurs) })
 }
 
 export default update;

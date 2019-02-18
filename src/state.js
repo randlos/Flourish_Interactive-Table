@@ -51,9 +51,8 @@ let state = {
 
    // Bar-Chart-Feature
    bar_switch: true,
-   bar_column: 'D',
+   bar_column: "D", //[D,E],
 
-  
    };
 
    export default state;
