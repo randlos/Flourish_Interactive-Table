@@ -283,6 +283,10 @@ function update() {
                 let maxVal = maxValue(meta.col);
                 let minVal = minValue(meta.col);
                 let rangeMax = maxVal - minVal;
+                // Adjust the max to 100% and distribute to min
+                let maxNormalize = (data/maxVal) * 100;
+                // ((data - minVal+1)/rangeMax) * 100 --> Get the differenz between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
+                let minMaxNormalize = ((data - minVal+1)/rangeMax) * 100;
 
 
                 //console.log("Max Value in function: " + maxVal);
@@ -293,10 +297,10 @@ function update() {
                         let pre_bar_container = '<div class="barcont">';
                         let bartext = '<div class="bartext"><p style="color:'+ colorMapBalken(data, rangeMax) +'">' + data + '</p></div>';
                         
-                        // ((data - minVal+1)/rangeMax) * 100 --> Get the differenz between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
-                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + ((data - minVal+1)/rangeMax) * 100 + '%; background:' + colorMapBalken(data, maxVal) + ';"> </svg> </div>';
+
+                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + minMaxNormalize + '%; background:' + colorMapBalken(((data - minVal)+1), rangeMax) + ';"> </svg> </div>';
                         let post_bar_container = '</div>';
-                        console.log(maxVal);
+                        //console.log(maxVal);
                         return pre_bar_container + bar + bartext + post_bar_container;
                     
                     }
