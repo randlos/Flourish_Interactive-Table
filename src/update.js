@@ -61,6 +61,35 @@ function update() {
         return maxVal;
     }
 
+    function minValue(column) {
+        
+        let exp_column = column;
+        let scope_data = database;
+        
+        let dataArray = new Array();
+        
+        scope_data.forEach(function(item, index, array) {
+            
+                // GET THE LAST ITEM (LAST COLUMN CELL) IN A ARRAY
+                //console.log(item.values.slice(-1)[0], index);
+    
+                // Get the active column for bar-charts in Characters, convert it to a number and get the max value of that column
+                
+                //console.log("Bar Column: " + exp_column);
+
+                let valueToConsider = item.values.slice(exp_column)[0];
+                dataArray.push(valueToConsider);
+                //console.log(valueToConsider)
+    
+            });
+
+         
+        let minVal = Math.min.apply(Math, dataArray);
+        //console.log("DataArray: " + dataArray);
+
+        return minVal;
+    }
+
     // let maxVal = maxValue(3);
     // console.log("MAX Value 4.Column: " + maxVal);
 
@@ -252,15 +281,22 @@ function update() {
                 
                 
                 let maxVal = maxValue(meta.col);
+                let minVal = minValue(meta.col);
+                let rangeMax = maxVal - minVal;
+
+
                 //console.log("Max Value in function: " + maxVal);
 
                 if (state.bar_switch) {  //
             
                     if (!isNaN(data)) {
                         let pre_bar_container = '<div class="barcont">';
-                        let bartext = '<div class="bartext"><p style="color:'+ colorMapBalken(data, maxVal) +'">' + data + '</p></div>';
-                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + data/maxVal * 100 + '%; background:' + colorMapBalken(data, maxVal) + ';"> </svg> </div>';
+                        let bartext = '<div class="bartext"><p style="color:'+ colorMapBalken(data, rangeMax) +'">' + data + '</p></div>';
+                        
+                        // ((data - minVal+1)/rangeMax) * 100 --> Get the differenz between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
+                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + ((data - minVal+1)/rangeMax) * 100 + '%; background:' + colorMapBalken(data, maxVal) + ';"> </svg> </div>';
                         let post_bar_container = '</div>';
+                        console.log(maxVal);
                         return pre_bar_container + bar + bartext + post_bar_container;
                     
                     }
