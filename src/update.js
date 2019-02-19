@@ -258,7 +258,7 @@ function update() {
             
                     if (!isNaN(data)) {
                         let pre_bar_container = '<div class="barcont">';
-                        let bartext = '<div class="bartext"><p>' + data + '</p></div>';
+                        let bartext = '<div class="bartext"><p style="color:'+ colorMapBalken(data, maxVal) +'">' + data + '</p></div>';
                         let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + data/maxVal * 100 + '%; background:' + colorMapBalken(data, maxVal) + ';"> </svg> </div>';
                         let post_bar_container = '</div>';
                         return pre_bar_container + bar + bartext + post_bar_container;
