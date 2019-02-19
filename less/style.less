@@ -24,7 +24,7 @@ body, html {
 }
 
 .dataTables_scrollHeadInner th {
-  padding: 8px 5px;
+  padding: 8px auto;
   height: 41px;
   border-left: 2px solid white;
   border-bottom: none;
@@ -390,6 +390,7 @@ div.dt-buttons {
 
 div.barcont {
   height: 20px;
+  padding: 2px;
 }
 
 td div.barcont {
@@ -397,12 +398,12 @@ td div.barcont {
 }
 
 div.barcont .bar {
-  width: 70%;
+  width: 60%;
   float: left;
 }
 
 div.barcont .bartext {
-  width: 30%;
+  width: 40%;
   float: left;
 }
 
@@ -410,10 +411,12 @@ div.barcont .bartext p {
   margin: 0;
   padding: 0 1px;
   word-break: break-all;
-  padding: 1px 4px;
+  padding: 0px 10px;
+  font-weight: bold;
 }
 
-div.barcont .barsvg {
+svg.barsvg {
+  //height: 20px;
   // border-top-right-radius: 4px;
   // border-bottom-right-radius: 4px;
 }

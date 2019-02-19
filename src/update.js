@@ -210,7 +210,7 @@ function update() {
 
         let color = d3.scale.linear()
         .domain([0,maxVal])
-        .range(["green", "red"]);
+        .range(["green", "#D82217"]);
 
         return color(data);
 
@@ -265,7 +265,7 @@ function update() {
             "data": 0,
             "render": function ( data, type, row, meta ) {
                 //console.log(data);
-                if (data.indexOf("/") > -1){
+                if (data.indexOf("https://") > -1){
                     var img_tag = '<img src="'+data+'"height="'+state.imgsize[0]+'"width="'+state.imgsize[1]+'">';
                     //console.log(data);
                     return img_tag;
@@ -286,7 +286,7 @@ function update() {
                 // Adjust the max to 100% and distribute to min
                 let maxNormalize = (data/maxVal) * 100;
                 // ((data - minVal+1)/rangeMax) * 100 --> Get the differenz between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
-                let minMaxNormalize = ((data - minVal+1)/rangeMax) * 100;
+                let minMaxNormalize = ((data - minVal+1)/rangeMax) * 90;
 
 
                 //console.log("Max Value in function: " + maxVal);
@@ -295,10 +295,10 @@ function update() {
             
                     if (!isNaN(data)) {
                         let pre_bar_container = '<div class="barcont">';
-                        let bartext = '<div class="bartext"><p style="color:'+ colorMapBalken(data, rangeMax) +'">' + data + '</p></div>';
+                        let bartext = '<div class="bartext"><p style="color:#000000">' + data + '</p></div>';
                         
 
-                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + minMaxNormalize + '%; background:' + colorMapBalken(((data - minVal)+1), rangeMax) + ';"> </svg> </div>';
+                        let bar = '<div class="bar"><svg class="barsvg" style="height:20px;width:' + minMaxNormalize + '%; background:' + colorMapBalken(((data - minVal)+1), rangeMax) + ';"> </svg> </div>';
                         let post_bar_container = '</div>';
                         //console.log(maxVal);
                         return pre_bar_container + bar + bartext + post_bar_container;
