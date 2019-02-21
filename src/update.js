@@ -1,14 +1,14 @@
-
 import state from "./state";
 import data from "./data";
-
 
 import {numconvert} from './numberConversion.js';
 
 
 function update() {
     
-/*     function sortingOrderTranlsate(order) {
+
+// ## Test Documentation
+    /*     function sortingOrderTranlsate(order) {
         if (state.sortingOrder == "Aufsteigend") {
             state.sortingOrder = "asc";
             return state.sortingOrder;
@@ -223,19 +223,14 @@ function update() {
     
     let table = $('#myTable').dataTable( {
         data: data.Data.map(e => e.values),
-        responsive: {
-            details: true,
-            breakpoints: [
-                { name: 'stationär', width: Infinity },
-                { name: 'mobil',  width: 705 },
-            ]
-        },
+        responsive: true,
         colReorder: {
             enable: true,
         //     order: [ 5, 4, 3, 2, 1, 0 ],
         //     realtime: false,
 
         },
+
         // "drawCallback": function( settings ) {
         //     let api = this.api();
         //     // console.log( api.rows( {page:'current'} ).data() );
@@ -295,10 +290,10 @@ function update() {
             
                     if (!isNaN(data)) {
                         let pre_bar_container = '<div class="barcont">';
-                        let bartext = '<div class="bartext"><p style="color:#000000">' + data + '</p></div>';
+                        let bartext = '<div class="bartext"><p style="color:#000000">' + Math.round(data) + '</p></div>';
                         
 
-                        let bar = '<div class="bar"><svg class="barsvg" style="height:20px;width:' + minMaxNormalize + '%; background:' + colorMapBalken(((data - minVal)+1), rangeMax) + ';"> </svg> </div>';
+                        let bar = '<div class="bardiv"> <div class="bar" style="height:20px;width:' + minMaxNormalize + '%; background:#D82217;"></div></div>';
                         let post_bar_container = '</div>';
                         //console.log(maxVal);
                         return pre_bar_container + bar + bartext + post_bar_container;
@@ -331,6 +326,10 @@ function update() {
         }
     });
 
+
+    // Responsive Configuration
+ 
+ 
     // console.log(getOrderedColumn(table));
 
     $('#mySearch').on( 'keyup', function() {
