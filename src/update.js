@@ -161,34 +161,41 @@ function update() {
                          {number:26, string:'Z'}
                         ];
         
-        if(typeof alpha == 'object') {
-            //console.log("Alpha Array? " + typeof alpha);
-
-            for (let key in alpha) {
-                //console.log(alpha[key]);     
-                let i;
-                for (i=0; i < alphaList.length; i++) {
-                    if (alphaList[i].string == alpha[key]) {
-                        //console.log("Output:" + typeof(alphaList[i].number));
-                        columnArray.push(alphaList[i].number -1);
-                    };             
+        if (isNaN(alpha)) {
+            if(typeof alpha == 'object') {
+                //console.log("Alpha Array? " + typeof alpha);
+    
+                for (let key in alpha) {
+                    //console.log(alpha[key]);     
+                    let i;
+                    for (i=0; i < alphaList.length; i++) {
+                        if (alphaList[i].string == alpha[key]) {
+                            //console.log("Output:" + typeof(alphaList[i].number));
+                            columnArray.push(alphaList[i].number -1);
+                        };             
+                    }
                 }
+                    //console.log("Column Array: " + "["+columnArray+"]");
+                    return columnArray;
             }
-                //console.log("Column Array: " + "["+columnArray+"]");
-                return columnArray;
+    
+            else {
+                let i;
+                //console.log("alpha-Input: " + alpha);
+                for (i=0; i < alphaList.length; i++) {
+                    if (alphaList[i].string == alpha) {
+                        //console.log("Output:" + alphaList[i].number);
+                        barchart_column = alphaList[i].number -1;
+                        return barchart_column;
+                    };
+                }; 
+            }
         }
 
         else {
-            let i;
-            //console.log("alpha-Input: " + alpha);
-            for (i=0; i < alphaList.length; i++) {
-                if (alphaList[i].string == alpha) {
-                    //console.log("Output:" + alphaList[i].number);
-                    barchart_column = alphaList[i].number -1;
-                    return barchart_column;
-                };
-            }; 
+            return alpha;
         }
+        
 
           
     }
@@ -288,7 +295,13 @@ function update() {
 
                 if (state.bar_switch) {  //
             
-                    if (!isNaN(data)) {
+                    if (isNaN(data)) {
+                        //console.log("data is not a number");
+                        return data;
+                        
+                    
+                    }
+                    else {
                         let pre_bar_container = '<div class="barcont">';
                         let bartext = '<div class="bartext"><p style="color:#000000">' + Math.round(data) + '</p></div>';
                         
@@ -297,10 +310,6 @@ function update() {
                         let post_bar_container = '</div>';
                         //console.log(maxVal);
                         return pre_bar_container + bar + bartext + post_bar_container;
-                    
-                    }
-                    else {
-                        return data;
                     }
                 }
                 else {

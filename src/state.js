@@ -51,7 +51,7 @@ let state = {
 
    // Bar-Chart-Feature
    bar_switch: false,
-   bar_column: 'A',//'D',//
+   bar_column: 1,//'D',//
 
    };
 
