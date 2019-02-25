@@ -43,22 +43,7 @@ settings:
   - property: imgsize
     name: Größe der Bilder einstellen - Höhe, Breite
     type: string
-    
-  - property: bar_column
-    name: In welchen Spalten sollen Balken-Charts dargestellt werden? (Bsp. E oder D,E)
-    type: string
-  
-  - property: bar_switch
-    name: Balken-Charts ein-/ausschalten
-    type: boolean
-    choices:
-      -
-        - On
-        - true
-      -
-        - Off
-        - false
-
+ 
   - property: layout
     name: Layout für Export
     description: Layout umschalten für Grafik PNG-Export
@@ -82,6 +67,23 @@ settings:
         - Höher 900px
         - 900px
     choices_other: true
+
+  - Balken
+  - property: bar_switch
+    name: Balken-Charts ein-/ausschalten
+    type: boolean
+    choices:
+      -
+        - On
+        - true
+      -
+        - Off
+        - false
+
+  
+  - property: bar_column
+    name: In welchen Spalten sollen Balken-Charts dargestellt werden? (Bsp. E oder D,E)
+    type: string
 
   # - property: layout
   #   name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
