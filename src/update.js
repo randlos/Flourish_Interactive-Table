@@ -193,6 +193,7 @@ function update() {
         }
 
         else {
+            console.log(alpha);
             return alpha;
         }
         
@@ -293,7 +294,7 @@ function update() {
 
                 //console.log("Max Value in function: " + maxVal);
 
-                if (state.bar_switch) {  //
+                if (state.bar_switch || state.bar_column > 0) {  //
             
                     if (isNaN(data)) {
                         //console.log("data is not a number");

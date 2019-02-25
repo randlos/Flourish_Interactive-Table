@@ -2,7 +2,7 @@
 let state = {
   
     // Tabellen-Optionen:
-    sortingColumn: "D",
+    sortingColumn: "A",
     sortingOrder: "desc",
     numberOfEntries: 10,
   
@@ -51,7 +51,7 @@ let state = {
 
    // Bar-Chart-Feature
    bar_switch: false,
-   bar_column: 1,//'D',//
+   bar_column: 0,//'D',//
 
    };
 
