@@ -1,8 +1,8 @@
 id: tabletom
 name: Interaktive Tabelle
 description: Interaktive Tabelle
+version: 0.9.1
 author: Mario Stauber
-version: 0.9.0
 sdk_version: 3
 setHeight: 705
 build:
@@ -14,105 +14,57 @@ build:
   less:
     script: npm run less
     directory: less
-
-settings: 
+settings:
   - BEI JEDER ÄNDERUNG BESTÄTIGEN UND BROWSER MIT CMD+R NEU LADEN
-
   - property: headerColor
     name: Farbe des Headers ändern (Alle Hex-Codes möglich)
-    description: 
+    description: null
     type: string
-
   - property: sortingColumn
     name: Spalte zur initialen Sortierung
     description: Nach welcher Spalte soll initial sortiert werden
     type: string
-
   - property: sortingOrder
     name: Sortierungs-Reihenfolge
     description: Wie soll sortiert werden? Ab- oder Aufsteigend?
     type: string
     choices:
-      - 
-        - Aufsteigend
-        - asc
-      -
-        - Absteigend
-        - desc
-
+      - [Aufsteigend, asc]
+      - [Absteigend, desc]
   - property: imgsize
-    name: Größe der Bilder einstellen - Höhe, Breite
+    name: 'Größe der Bilder einstellen - Höhe, Breite'
     type: string
- 
   - property: layout
     name: Layout für Export
     description: Layout umschalten für Grafik PNG-Export
     type: string
     choices:
-      -
-        - Standart für Intaraktiv
-        - pitr
-      -
-        - Für Grafik-Export PNG
-        - t
+      - [Standart für Intaraktiv, pitr]
+      - [Für Grafik-Export PNG, t]
   - property: yscroll
     name: Höhe der Tabelle ändern (Höhe in Pixeln eingeben)
     description: für Export als png
     type: string
     choices:
-      -
-        - Standart 500px
-        - 500px
-      -
-        - Höher 900px
-        - 900px
+      - [Standart 500px, 500px]
+      - [Höher 900px, 900px]
     choices_other: true
-
   - Balken
   - property: bar_switch
     name: Balken-Charts ein-/ausschalten
     type: boolean
     choices:
-      -
-        - On
-        - true
-      -
-        - Off
-        - false
-
-  
+      - ['On', true]
+      - ['Off', false]
   - property: bar_column
-    name: In welchen Spalten sollen Balken-Charts dargestellt werden? (Bsp. E oder D,E)
+    name: >-
+      In welchen Spalten sollen Balken-Charts dargestellt werden? (Bsp. E oder
+      D,E)
     type: string
-
-  # - property: layout
-  #   name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
-  #   type: string
-  #   choices:
-  #     -
-  #       - Standart-Layout für Interaktiv
-  #       - pitr
-  #     - 
-  #       - Layout ohne Zusatzinfos
-  #       - ptr
-  #     -
-  #       - Layout für statischen Grafik-Export (nur Tabelle, ohne Suche)
-  #       - tr
-  
-
-  # - Tabelle neu laden
-  # - property: reload
-  #   name: Neu laden
-  #   type: number
-  #   choices:
-  #     -
-  #       - Speichern
-  #       - 1
-
 data:
-   - Data
-   - name: Daten
-     dataset: Data
-     key: values
-     type: columns
-     columns: Data::A-F
+  - Data
+  - name: Daten
+    dataset: Data
+    key: values
+    type: columns
+    columns: 'Data::A-F'
