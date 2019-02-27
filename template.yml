@@ -2,7 +2,6 @@ id: tabletom
 name: Interaktive Tabelle
 description: Interaktive Tabelle
 author: Mario Stauber
-version: 1
 sdk_version: 3
 setHeight: 705
 build:
