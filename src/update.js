@@ -307,7 +307,7 @@ function update() {
                         let bartext = '<div class="bartext"><p style="color:#000000">' + Math.round(data) + '</p></div>';
                         
 
-                        let bar = '<div class="bardiv"> <div class="bar" style="height:20px;width:' + minMaxNormalize + '%; background:#D82217;"></div></div>';
+                        let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + minMaxNormalize + '%; background:#D82217;"></span></div>';
                         let post_bar_container = '</div>';
                         //console.log(maxVal);
                         return pre_bar_container + bar + bartext + post_bar_container;

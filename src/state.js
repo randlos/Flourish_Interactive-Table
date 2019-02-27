@@ -50,8 +50,8 @@ let state = {
    imgsize: [100, 150],
 
    // Bar-Chart-Feature
-   bar_switch: false,
-   bar_column: 0,//'D',//
+   bar_switch: true,
+   bar_column: 'D',//'D',//
 
    };
 
