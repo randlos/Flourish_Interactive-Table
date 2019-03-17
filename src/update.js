@@ -162,6 +162,26 @@ function update() {
                         ];
         
         if (isNaN(alpha)) {
+
+            if(alpha.length > 1){
+                let state_alpha_list = alpha.split(",");
+                let columnlist= [];          
+                for (let j=0; j < state_alpha_list.length; j++) {
+        
+                    for (let i=0; i < alphaList.length; i++) {
+                        //console.log(state_alpha_list[j], alphaList[i].string);
+
+                        if (state_alpha_list[j] == alphaList[i].string) {
+                            //console.log("Output:" + alphaList[i].number);
+                            columnlist.push(alphaList[i].number -1);
+                        }
+                    }
+
+                }
+                //console.log(columnlist);
+                return columnlist;    
+            }
+
             if(typeof alpha == 'object') {
                 //console.log("Alpha Array? " + typeof alpha);
     
@@ -186,6 +206,7 @@ function update() {
                     if (alphaList[i].string == alpha) {
                         //console.log("Output:" + alphaList[i].number);
                         barchart_column = alphaList[i].number -1;
+
                         return barchart_column;
                     };
                 }; 
