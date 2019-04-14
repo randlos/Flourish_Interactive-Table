@@ -235,11 +235,12 @@ function update() {
     }
     
     
-    function colorMapBalken(data, maxVal) {
+    function colorMapBalken(data, minVal, maxVal) {
 
-        let color = d3.scale.linear()
-        .domain([0,maxVal])
-        .range(["green", "#D82217"]);
+        let color = d3.scaleLinear()
+        .domain([minVal,maxVal])
+        .interpolate(d3.interpolateHsl)
+        .range(["green","#D82217"]);
 
         return color(data);
 
@@ -252,7 +253,18 @@ function update() {
     
     let table = $('#myTable').dataTable( {
         data: data.Data.map(e => e.values),
-        responsive: true,
+       responsive: {
+            details: {
+                type: 'inline',
+                target: 0,
+                // display: $.fn.dataTable.Responsive.display.modal( {
+                //     header: function ( row ) {
+                //         var data = row.data()[0];
+                //         return data;
+                //     }
+                // } )
+            }
+        },
         colReorder: {
             enable: true,
         //     order: [ 5, 4, 3, 2, 1, 0 ],
@@ -302,14 +314,12 @@ function update() {
             "targets": tranlsateSortingAlphaToNumber(state.bar_column),
             "render": function (data, type, row, meta) {
                 
-                
-                
                 let maxVal = maxValue(meta.col);
                 let minVal = minValue(meta.col);
                 let rangeMax = maxVal - minVal;
                 // Adjust the max to 100% and distribute to min
                 let maxNormalize = (data/maxVal) * 100;
-                // ((data - minVal+1)/rangeMax) * 100 --> Get the differenz between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
+                // ((data - minVal+1)/rangeMax) * 100 --> Get the difference between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
                 let minMaxNormalize = ((data - minVal+1)/rangeMax) * 90;
 
 
@@ -328,7 +338,8 @@ function update() {
                         let bartext = '<div class="bartext"><p style="color:#000000">' + Math.round(data) + '</p></div>';
                         
 
-                        let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + minMaxNormalize + '%; background:#D82217;"></span></div>';
+                        let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + minMaxNormalize + '%; background:'+ colorMapBalken(data, minVal, maxVal) + ';"></span></div>';
+                        //console.log(maxNormalize);
                         let post_bar_container = '</div>';
                         //console.log(maxVal);
                         return pre_bar_container + bar + bartext + post_bar_container;
@@ -359,7 +370,12 @@ function update() {
 
 
     // Responsive Configuration
- 
+    // $(".addbtn").on('click',function(){
+    //     var data = table.row(0).data();
+    //     data[3] = "<button type='button' class='btn btn-info btn-xs' style='font-size: 9px;'>New BtN</button>";
+    //     table.row(0).data(data);
+    //     table.draw();
+    //   });
  
     // console.log(getOrderedColumn(table));
 
