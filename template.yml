@@ -29,37 +29,36 @@ settings:
     description: Wie soll sortiert werden? Ab- oder Aufsteigend?
     type: string
     choices:
-      - [Aufsteigend, asc]
       - [Absteigend, desc]
+      - [Aufsteigend, asc]
   - property: imgsize
-    name: 'Größe der Bilder einstellen - Höhe, Breite'
+    name: 'Größe Bilder (Höhe, Breite)'
     type: string
   - property: layout
-    name: Layout für Export
+    name: Export
     description: Layout umschalten für Grafik PNG-Export
     type: string
     choices:
-      - [Standart für Intaraktiv, pitr]
-      - [Für Grafik-Export PNG, t]
+      - [Interaktiv, pitr]
+      - [PNG Grafik, t]
   - property: yscroll
-    name: Höhe der Tabelle ändern (Höhe in Pixeln eingeben)
+    name: Höhe ändern (in Pixeln)
     description: für Export als png
     type: string
     choices:
       - [Standart 500px, 500px]
       - [Höher 900px, 900px]
     choices_other: true
-  - Balken
+  # - Balken
   - property: bar_switch
-    name: Balken-Charts ein-/ausschalten
+    name: +++ Balken-Charts ein-/ausschalten +++
     type: boolean
     choices:
       - ['On', true]
       - ['Off', false]
   - property: bar_column
     name: >-
-      In welchen Spalten sollen Balken-Charts dargestellt werden? (Bsp. E oder
-      D,E)
+      In welchen Spalten sollen Balken-Charts dargestellt werden?
     type: string
 data:
   - Data

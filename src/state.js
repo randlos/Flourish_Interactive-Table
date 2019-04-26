@@ -17,9 +17,10 @@ let state = {
 
    // Color-Change
     headerColor: '#dadada',
+    headerSortingColor: "#000000",
 
     // Haupt-Farben
-    Haupt_Farbe: "rgba(211, 45, 32, 1)",
+    Haupt_Farbe: 'green',//"rgba(211, 45, 32, 1)",
     Green: '#6CBA6C',
     darkGreen: '#45891B',
     Blue: '#42A8CC',
@@ -49,7 +50,7 @@ let state = {
    imgsize: [100, 150],
 
    // Bar-Chart-Feature
-   bar_switch: true,
+   bar_switch: false,
    bar_column: 'C,D'//'D',//
 
    };

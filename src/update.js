@@ -362,7 +362,8 @@ function update() {
         "drawCallback": function ( settings ) {
 
             // Change Header Color
-            $('.dataTables_scrollHead').css("background", state.headerColor);          
+            $('.dataTables_scrollHead').css("background", state.headerColor);
+            //$('.dataTables_scrollHead thead tr .sorting_desc').css("background-color", state.headerSortingColor);          
             //console.log("Table reload!");
             //console.log(state.headerColor);
         }
