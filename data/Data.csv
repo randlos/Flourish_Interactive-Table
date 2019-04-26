@@ -1,38 +1,10 @@
-Name,Hersteller,Kalorien in kcal,Fett in g
-Race,Ludwig Schokolade GmbH und Co. KG,467,19.7
-Choco Bits,Ludwig Schokolade GmbH und Co. KG,452,16.3
-Coconut Bits,Ludwig Schokolade GmbH und Co. KG,481,24.7
-GET'IT,Ludwig Schokolade GmbH und Co. KG,484,23.0
-Crispy Bits,Ludwig Schokolade GmbH und Co. KG,485,24.0
-Hazelnut Bits,Ludwig Schokolade GmbH und Co. KG,486,25.0
-Peanut Bits,Ludwig Schokolade GmbH und Co. KG,499,27.9
-Choco & Caramel,Mister Choc,459,20.0
-Peanut & Choco,Mister Choc,500,28.0
-Smooth Caramel Bites,Choco Fun,450,19.0
-Caramel Choco,Choco Bella,484,23.0
-Caramel & Biscuts Bites,Choco Fun,498,25.0
-Peanuts & Caramel Bites,Choco Fun,498,27.0
-Peanut Choco,Choco Bella,500,28.0
-Creamy,Ludwig Schokolade GmbH und Co. KG,459,20.0
-Peanuts MINIS,Natra Chocolate International S.L.,504,28.0
-SIMBA minis,Natra Chocolate International S.L.,512,25.0
-Crack 'n' Snack,HG GmbH,530,29.0
-Mars,Mars GmbH,449,16.6
-MILKYWAY,MARS GmbH,451,17.0
-Snickers,Mars GmbH,481,23.0
-Lion White,Nestlé,485,22.3
-Bounty,Mars GmbH,487,26.0
-Twix,Mars GmbH,492,24.0
-Nuts,Nestlé,492,24.7
-nutella B-ready,Ferrero,521,27.0
-KitKat Einzelriegel Classic 4-Finger-Riegel,Nestlé,521,27.6
-Knoppers NussRiegel,Storck,535,31.8
-Daim Riegel,Mondelez,536,31.0
-Hanuta,Ferrero,542,31.9
-Milka und Oreo,Mondelez,548,33.0
-Knoppers,Storck,551,33.2
-Douplo,Ferrero,555,33.5
-Kinder Country,Ferrero,561,33.8
-Kinder Riegel,Ferrero,566,35.0
-Yogurette,Ferrero,571,35.6
-Kinder bueno,Ferrero,572,37.3
+Spalte A, Spalte B, Spalte C, Spalte D
+10, 100, 1000, 10000
+20, 200, 2000, 20000
+30, 300, 3000, 30000
+40, 400, 4000, 40000
+50, 500, 5000, 50000
+40, 400, 4000, 40000
+30, 300, 3000, 30000
+20, 200, 2000, 20000
+10, 100, 1000, 10000

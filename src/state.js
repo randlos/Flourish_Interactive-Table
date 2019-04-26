@@ -6,7 +6,6 @@ let state = {
     sortingOrder: "desc",
     numberOfEntries: 10,
   
-
     // Reload
     reload: 1,
 
