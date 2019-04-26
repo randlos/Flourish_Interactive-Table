@@ -240,7 +240,7 @@ function update() {
         let color = d3.scaleLinear()
         .domain([minVal,maxVal])
         .interpolate(d3.interpolateHsl)
-        .range(["green","#D82217"]);
+        .range(["white","#D82217"]);
 
         return color(data);
 
@@ -363,7 +363,7 @@ function update() {
 
             // Change Header Color
             $('.dataTables_scrollHead').css("background", state.headerColor);
-            //$('.dataTables_scrollHead thead tr .sorting_desc').css("background-color", state.headerSortingColor);          
+            //$('.dataTables_scrollHead th.sorting_desc').css("background-color", state.headerSortingColor);          
             //console.log("Table reload!");
             //console.log(state.headerColor);
         }

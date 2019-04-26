@@ -29,10 +29,10 @@ settings:
     description: Wie soll sortiert werden? Ab- oder Aufsteigend?
     type: string
     choices:
-      - [Absteigend, desc]
-      - [Aufsteigend, asc]
+      - [Aufsteigend (A-Z), asc]
+      - [Absteigend (Z-A), desc]
   - property: imgsize
-    name: 'Größe Bilder (Höhe, Breite)'
+    name: 'Größe Bilder (Höhe,Breite)'
     type: string
   - property: layout
     name: Export
@@ -42,12 +42,12 @@ settings:
       - [Interaktiv, pitr]
       - [PNG Grafik, t]
   - property: yscroll
-    name: Höhe ändern (in Pixeln)
+    name: Höhe ändern (in Pixel)
     description: für Export als png
     type: string
     choices:
-      - [Standart 500px, 500px]
-      - [Höher 900px, 900px]
+      - ['500', 500px]
+      - ['900', 900px]
     choices_other: true
   # - Balken
   - property: bar_switch

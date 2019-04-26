@@ -1,9 +1,9 @@
 
-let state = {
+var state = {
   
     // Tabellen-Optionen:
     sortingColumn: "A",
-    sortingOrder: "desc",
+    sortingOrder: "asc",
     numberOfEntries: 10,
   
     // Reload
@@ -51,7 +51,7 @@ let state = {
 
    // Bar-Chart-Feature
    bar_switch: false,
-   bar_column: 'C,D'//'D',//
+   bar_column: ''//'C,D'//'D',//
 
    };
 
