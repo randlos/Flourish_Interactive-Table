@@ -1,6 +1,14 @@
 
 var state = {
   
+   // Zeilen Konfigurator
+
+   zeilenOn: "aus",
+   hauptzeile: "Hauptzeile",
+   unterzeile: "Unterzeile",
+   hauptzeilen_height: '3rem',
+   unterzeilen_height: '2rem',
+
     // Tabellen-Optionen:
     sortingColumn: "A",
     sortingOrder: "asc",

@@ -391,8 +391,28 @@ function update() {
         }
     }
     
-    deactivateSearch()
+    deactivateSearch();
     
+    // Zeilen
+
+    function zeilen() {
+        if (state.zeilenOn == 'an') {
+            $('#hauptzeile').text(state.hauptzeile);
+            $('#unterzeile').text(state.unterzeile);
+            
+            $('#hauptzeile').css("line-height", state.hauptzeilen_height);
+            $('#unterzeile').css("line-height", state.unterzeilen_height);
+
+        }
+        else {
+
+        }
+
+    }
+
+    zeilen();
+
+    // Reloading Problem
     
     $("iframe[name='preview']").each(function() {
         this.sandbox += ' allow-modals';

@@ -1,7 +1,7 @@
 id: tabletom
 name: Interaktive Tabelle
 description: Interaktive Tabelle
-version: 1.0.1
+version: 1.0.2
 author: Mario Stauber
 sdk_version: 3
 setHeight: 705
@@ -16,6 +16,27 @@ build:
     directory: less
 settings:
   - BEI JEDER ÄNDERUNG BESTÄTIGEN UND BROWSER MIT CMD+R NEU LADEN
+  - property: zeilenOn
+    name: Zeilen ein/aus
+    description: null
+    type: string
+    choices:
+    - [Zeilen an, an]
+    - [Zeilen aus, aus]
+  - property: hauptzeilen_height
+    name: Zeilenabstand ändern in rem oder Pixel
+    type: string
+  - property: unterzeilen_height
+    name: Zeilenabstand änder in rem oder Pixel
+    type: string
+  - property: hauptzeile
+    name: Hauptzeile
+    description: null
+    type: string
+  - property: unterzeile
+    name: Unterzeile
+    description: null
+    type: string
   - property: headerColor
     name: Farbe des Headers ändern (Alle Hex-Codes möglich)
     description: null

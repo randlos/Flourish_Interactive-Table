@@ -14,7 +14,7 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "@flourish/sdk": "^3.9.0",
+    "@flourish/sdk": "^3.9.2",
     "commonjs": "^0.0.1",
     "less": "^3.9.0",
     "less-plugin-clean-css": "^1.5.1",
