@@ -1,45 +1,46 @@
-
 var state = {
-  
-   // Zeilen Konfigurator
 
-   zeilenOn: "aus",
-   hauptzeile: "Hauptzeile",
-   unterzeile: "Unterzeile",
-   hauptzeilen_height: '3rem',
-   unterzeilen_height: '2rem',
+    // Zeilen Konfigurator
+
+    zeilenOn: 'Zeilen an',
+    hauptzeile: "Hauptzeile",
+    unterzeile: "Unterzeile",
+    hauptzeilen_font_size: "2.625rem",
+    unterzeilen_font_size: "1.5rem",
+    hauptzeilen_height: "2.800rem",
+    unterzeilen_height: "1.850rem",
 
     // Tabellen-Optionen:
     sortingColumn: "A",
     sortingOrder: "asc",
     numberOfEntries: 10,
-  
+
     // Reload
     reload: 1,
 
     // DOM-Layout Tabelle
-    layout: 'pitr',
+    layout: 'pitr', // pitr
 
-   // Scrolling y
+    // Scrolling y
     yscroll: '500px',
 
-   // Color-Change
+    // Color-Change
     headerColor: '#dadada',
     headerSortingColor: "#000000",
 
     // Haupt-Farben
-    Haupt_Farbe: 'green',//"rgba(211, 45, 32, 1)",
+    Haupt_Farbe: 'green', //"rgba(211, 45, 32, 1)",
     Green: '#6CBA6C',
     darkGreen: '#45891B',
     Blue: '#42A8CC',
     darkBlue: '#036E93',
-  
+
     // BG-Farben
     Background_Transparent: "transparent",
     Background_Color_Haupt_opacity: "rgba(211, 45, 32, 0.5)",
-  
+
     // Partei-Farben
-  
+
     cdu_csu_farbe: '#143d4b',
     cdu_farbe: '#162129',
     csu_farbe: '#1782d1',
@@ -50,17 +51,23 @@ var state = {
     dielinke_farbe: '#a00163',
     sonstige_parteien_farbe: '#c5cad0',
     nichtwahler_farbe: '#dce1e0',
-    
 
+    // Suche ein/aus
 
-   // Images Options
+    suchfeld: 'pitr',
 
-   imgsize: [100, 150],
+    // Quelle
 
-   // Bar-Chart-Feature
-   bar_switch: false,
-   bar_column: ''//'C,D'//'D',//
+    quelle: '| Quelle: ',
 
-   };
+    // Images Options
 
-   export default state;
+    imgsize: [100, 150],
+
+    // Bar-Chart-Feature
+    bar_switch: false,
+    bar_column: '' //'C,D'//'D',//
+
+};
+
+export default state;

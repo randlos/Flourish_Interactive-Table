@@ -1,7 +1,7 @@
 id: tabletom
 name: Interaktive Tabelle
 description: Interaktive Tabelle
-version: 1.0.2
+version: 1.0.3
 author: Mario Stauber
 sdk_version: 3
 setHeight: 705
@@ -19,26 +19,39 @@ settings:
   - property: zeilenOn
     name: Zeilen ein/aus
     description: null
-    type: string
+    type: boolean
     choices:
-    - [Zeilen an, an]
-    - [Zeilen aus, aus]
-  - property: hauptzeilen_height
-    name: Zeilenabstand ändern in rem oder Pixel
-    type: string
-  - property: unterzeilen_height
-    name: Zeilenabstand änder in rem oder Pixel
-    type: string
+    - [Zeilen an, true]
+    - [Zeilen aus, false]
   - property: hauptzeile
     name: Hauptzeile
     description: null
     type: string
+    show_if: zeilenOn
   - property: unterzeile
     name: Unterzeile
     description: null
     type: string
+    show_if: zeilenOn
+  - property: hauptzeilen_font_size
+    name: Zeilen-Schriftgröße (rem oder px)
+    type: string
+    show_if: zeilenOn
+  - property: hauptzeilen_height
+    name: Zeilen-Abstand (rem oder px)
+    type: string
+    show_if: zeilenOn
+  - property: unterzeilen_font_size
+    name: Unterzeilen-Schriftgröße (rem oder px)
+    type: string
+    show_if: zeilenOn
+  - property: unterzeilen_height
+    name: Unterzeilen-Abstand (rem oder px)
+    type: string
+    show_if: zeilenOn
+
   - property: headerColor
-    name: Farbe des Headers ändern (Alle Hex-Codes möglich)
+    name: Header-Farbe (Hex-Codes)
     description: null
     type: string
   - property: sortingColumn
@@ -55,36 +68,64 @@ settings:
   - property: imgsize
     name: 'Größe Bilder (Höhe,Breite)'
     type: string
+  - property: zusatzoptionen
+    name: Zusatz-Optionen
+    type: boolean
   - property: layout
     name: Export
     description: Layout umschalten für Grafik PNG-Export
     type: string
     choices:
       - [Interaktiv, pitr]
-      - [PNG Grafik, t]
+      - [statisch, t]
+    show_if: zusatzoptionen
+
+  - property: suchfled
+    name: Suche ein/ausblenden
+    type: string
+    choices:
+      - [Ein, pitr]
+      - [Aus, ptr]
+    show_if: zusatzoptionen
+
   - property: yscroll
-    name: Höhe ändern (in Pixel)
+    name: Höhe ändern
     description: für Export als png
     type: string
     choices:
-      - ['500', 500px]
-      - ['900', 900px]
+      - ['500px > 20 Einträge', 500px]
+      - ['100% < 20 Einträge', 100%]
     choices_other: true
+  
+  # Quelle
+  
+  - property: quelle
+    name: Quellentext
+    type: string
+
   # - Balken
+  
   - property: bar_switch
     name: +++ Balken-Charts ein-/ausschalten +++
     type: boolean
     choices:
-      - ['On', true]
-      - ['Off', false]
+      - ['Ein', true]
+      - ['Aus', false]
+  
   - property: bar_column
-    name: >-
-      In welchen Spalten sollen Balken-Charts dargestellt werden?
+    name: In welchen Spalten sollen Balken-Charts dargestellt werden?
     type: string
+    show_if: bar_switch
+
+  # - property: bar_color
+  #   name: Welchen Farbverlauf sollen die Balken haben?
+  #   type: string
+
+
 data:
   - Data
   - name: Daten
     dataset: Data
     key: values
     type: columns
-    columns: 'Data::A-F'
+    columns: 'Data::A-C'

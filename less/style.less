@@ -9,19 +9,40 @@
 body, html {
     margin: 0;
     font-family: "Gotham XNarrow","Avenir Next Condensed",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     transition: background-color .5s ease;
 }
 /* Zeilen */
 
+#zeilen {
+  margin:0 0 10px 0;
+  padding:0;
+}
+
 h1#hauptzeile {
   margin:0;
-  line-height: 2rem;
+  text-align: center;
 }
 
 h2#unterzeile {
   margin:0;
-  line-height: 3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 350px) {
+  /* For mobile phones: */
+  
+  h1#hauptzeile {
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+  }
+  
+  h2#unterzeile {
+    font-size:1.2rem !important;
+    line-height:1.5rem !important;
+  }
+
 }
 
 
@@ -75,7 +96,7 @@ table.dataTable.no-footer {
 
 table.dataTable thead th {
   border: none !important;
-  padding: 11px 18px !important;
+  // padding: 11px 18px !important;
 }
 
 table.dataTable thead td {
@@ -174,8 +195,9 @@ th {
 // Suche
 
 
+
 #mySearch {
-  margin: 15px auto 0px auto;
+  margin: 0 auto 10px auto;
   display: block;
   border: 1px solid @grey;
 }
@@ -183,10 +205,16 @@ th {
 input#mySearch  {
   background:@grey;
   font-family: "Gotham XNarrow","Avenir Next Condensed",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;
-  font-size: 22px;
+  font-size: 1.2rem;
   text-indent: 5px;
+  width: 180px;
 }
 
+@media only screen and (max-width: 350px) {
+  input#mySearch  {
+    width: 100%;
+  }
+}
 
 
 
@@ -236,6 +264,7 @@ input#mySearch  {
   font-size: 1.3rem;
   margin: 0px auto 7px auto;
   text-align: center;
+  padding-top:0;
 }
 
 
@@ -281,8 +310,6 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child::befor
   transform: rotate(90deg);
 }
 
-
-
 div.dt-buttons {
   padding: 5px;
 
@@ -324,4 +351,13 @@ div.barcont .bartext p {
   font-weight: bold;
 }
 
+/* Footer/Quelle */
 
+div#footer {
+  text-align: left;
+  margin: 5px 0 0 5px;
+}
+
+a#infobild {
+  color: #000000;
+}
