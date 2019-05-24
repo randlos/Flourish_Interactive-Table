@@ -49,7 +49,6 @@ settings:
     name: Unterzeilen-Abstand (rem oder px)
     type: string
     show_if: zeilenOn
-
   - property: headerColor
     name: Header-Farbe (Hex-Codes)
     description: null
@@ -65,8 +64,14 @@ settings:
     choices:
       - [Aufsteigend (A-Z), asc]
       - [Absteigend (Z-A), desc]
-  - property: imgsize
-    name: 'Größe Bilder (Höhe,Breite)'
+  - property: search_column
+    name: Such-Spalte (Alle Spalten => freilassen)
+    type: string
+  - property: imgsize_w
+    name: 'Breite Bild (px)'
+    type: string
+  - property: imgsize_h
+    name: 'Breite Bild (px)'
     type: string
   - property: zusatzoptionen
     name: Zusatz-Optionen

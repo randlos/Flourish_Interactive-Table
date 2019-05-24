@@ -298,8 +298,8 @@ function update() {
             "render": function(data, type, row, meta) {
                 //console.log(data);
                 if (data.indexOf("https://") > -1) {
-                    var img_tag = '<img src="' + data + '"height="' + state.imgsize[0] + '"width="' + state.imgsize[1] + '">';
-                    //console.log(data);
+                    var img_tag = '<img src="' + data + '"height="' + state.imgsize_h + '"width="' + state.imgsize_w + '">';
+                    //console.log("height: " + state.imgsize[0] + ", width: " + state.imgsize[1]);
                     return img_tag;
                 } else {
                     return data;
@@ -329,13 +329,11 @@ function update() {
 
                     } else {
                         let pre_bar_container = '<div class="barcont">';
-                        let bartext = '<div class="bartext"><p style="color:#000000">' + Math.round(data) + '</p></div>';
-
-
-                        let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + minMaxNormalize + '%; background:' + colorMapBalken(data, minVal, maxVal) + ';"></span></div>';
-                        //console.log(maxNormalize);
+                        let bartext = '<div class="bartext"><p style="color:#000000">' + data + '</p></div>';
+                        let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + minMaxNormalize + '%; background: #DD0000"></span></div>';
+                        // colorMapBalken(data, minVal, maxVal)  / console.log(maxNormalize);
                         let post_bar_container = '</div>';
-                        //console.log(maxVal);
+
                         return pre_bar_container + bar + bartext + post_bar_container;
                     }
                 } else {
@@ -374,7 +372,19 @@ function update() {
     // console.log(getOrderedColumn(table));
 
     $('#mySearch').on('keyup', function() {
-        $('#myTable').DataTable().search(this.value).draw();
+        let searcher_var = state.search_column;
+        let count_search_column = searcher_var.length - 1;
+
+        console.log(count_search_column);
+
+        if (count_search_column <= 1) {
+            $('#myTable').DataTable().columns(tranlsateSortingAlphaToNumber(state.search_column)).search(this.value).draw();
+            //console.log('Selective Search: ' + tranlsateSortingAlphaToNumber(state.search_column))
+        } else {
+            $('#myTable').DataTable().search(this.value).draw();
+            //console.log('Full Search')
+
+        }
     });
 
     // Deactivate Search for Grafik PNG Export

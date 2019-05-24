@@ -52,21 +52,22 @@ var state = {
     sonstige_parteien_farbe: '#c5cad0',
     nichtwahler_farbe: '#dce1e0',
 
-    // Suche ein/aus
+    // Suche ein/aus + weitere Optionen
 
     suchfeld: 'pitr',
+    search_column: 'B',
 
     // Quelle
 
     quelle: '| Quelle: ',
 
     // Images Options
-
-    imgsize: [100, 150],
+    imgsize_h: 200,
+    imgsize_w: 200,
 
     // Bar-Chart-Feature
-    bar_switch: false,
-    bar_column: '' //'C,D'//'D',//
+    bar_switch: true,
+    bar_column: 'B' //'C,D'//'D',//
 
 };
 
