@@ -1,6 +1,6 @@
 {
   "name": "tabletom",
-  "version": "",
+  "version": "1.0.6",
   "description": "A template for interactive tables",
   "main": "template.js",
   "author": "Mario Stauber",
