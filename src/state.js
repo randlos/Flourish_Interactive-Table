@@ -2,7 +2,7 @@ var state = {
 
     // Zeilen Konfigurator
 
-    zeilenOn: 'Zeilen an',
+    zeilenOn: true,
     hauptzeile: "Hauptzeile",
     unterzeile: "Unterzeile",
     hauptzeilen_font_size: "2.625rem",

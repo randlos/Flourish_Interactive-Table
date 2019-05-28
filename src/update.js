@@ -400,12 +400,6 @@ function update() {
 
     function zeilen() {
 
-        if (state.zeilenOn == "Zeilen an") {
-            state.zeilenOn = true;
-        } else {
-            state.zeilenOn = false;
-        }
-
         if (state.zeilenOn == true) {
             $('#hauptzeile').text(state.hauptzeile);
             $('#unterzeile').text(state.unterzeile);
