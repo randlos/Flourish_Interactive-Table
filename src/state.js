@@ -1,5 +1,8 @@
 var state = {
 
+    // Schriftgroesse
+    schriftgroesse: "1.2rem",
+
     // Zeilen Konfigurator
 
     zeilenOn: true,

@@ -5,6 +5,8 @@
 @red: #D82217;
 @black: #000000;
 
+@table-font-size: 1.2em;
+
 
 body, html {
     margin: 0;
@@ -96,20 +98,23 @@ table.dataTable.no-footer {
 
 table.dataTable thead th {
   border: none !important;
+  font-size: @table-font-size;
   // padding: 11px 18px !important;
 }
 
 table.dataTable thead td {
   border: none !important;
+  font-size: @table-font-size;
 }
-
 
 table.dataTable tbody th {
   padding: 9px 10px;
+  font-size: @table-font-size;
   border-left: 4px solid white;
 }
 
 table.dataTable tbody td {
+  font-size: @table-font-size;
   padding: 5px 10px;
   border-left: 2px solid white;
   vertical-align: top !important;
@@ -260,8 +265,8 @@ input#mySearch  {
 // Info-Element Styling
 
 #myTable_info {
+  font-size: @table-font-size;
   width: 100%;
-  font-size: 1.3rem;
   margin: 0px auto 7px auto;
   text-align: center;
   padding-top:0;
@@ -280,34 +285,51 @@ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child, 
 }
 
 table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before {
-  content: '▸' !important;//'▾' !important;
-	top: 20px !important;
-	left: 0px !important;
-	display: inline !important;
-	position: absolute !important;
-  color: @red !important;
-  width: 0px !important;
-  height: 0px  !important;
-	border: 0 !important;
-	border-radius: 0 !important;
-	box-shadow: 0 0 0 !important; 
-	padding: 0 5px 0 5px;
-  text-align: center;
-  line-height: 0px !important;
-	//text-indent: 0 !important;
-  //font-family: sans-serif !important;
+  // content: '▸' !important;//'▾' !important;
+	// top: 20px !important;
+	// left: 0px !important;
+	// display: inline !important;
+	// position: absolute !important;
+  // color: @red !important;
+  // width: 0px !important;
+  // height: 0px  !important;
+	// border: 0 !important;
+	// border-radius: 0 !important;
+	// box-shadow: 0 0 0 !important; 
+	// padding: 0 5px 0 5px;
+  // text-align: center;
+  // line-height: 0px !important;
+  // background-color: transparent !important;
+  
+  top: 3px !important;
+  left: 0px !important;
+  padding: 10px;
+  color: transparent !important;
+  display: block;
+  position: absolute;
+  color: none !important;
+  border-radius: 0 !important;
+	text-indent: 0 !important;
+  font-family: sans-serif !important;
   font-size: 1.2rem !important;
-	//line-height: 20px !important;
-  background-color: transparent !important;
-  //background: url(plus.png) no-repeat!important;
-  //transform: scale(0.5);
+  line-height: 20px !important;
+  box-shadow: none !important;
+  border: none !important;
+
+  background: url(plus.png) no-repeat!important;
+  transform: scale(0.5);
 }
 
 table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::before{
-  //content: '▸' !important;
-  top: 15px !important;
-  left: 7px !important;
-  transform: rotate(90deg);
+  background: transparent !important;
+  content: '-' !important;
+  color: black !important;
+  font-size: 70px !important;
+  padding: 12px 28px 0 0 !important;
+
+  // top: 15px !important;
+  // left: 7px !important;
+  // transform: rotate(90deg);
 }
 
 div.dt-buttons {
@@ -336,18 +358,18 @@ div.barcont .bardiv {
 div.barcont .bar {
   //width: 40% !important;
   float: left;
+  margin: 0 5px 0 0;
 }
 
 div.barcont .bartext {
   //width: 45%;
-  float:right;
+  float:left;
 }
 
 div.barcont .bartext p {
   margin: 0;
-  padding: 0 1px;
   word-break: break-all;
-  padding: 0px 10px;
+  // padding: 0px 10px;
   font-weight: bold;
 }
 

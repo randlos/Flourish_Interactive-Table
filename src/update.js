@@ -48,7 +48,7 @@ function update() {
 
             //console.log("Bar Column: " + exp_column);
 
-            let valueToConsider = item.values.slice(exp_column)[0];
+            let valueToConsider = getjustnumber(item.values.slice(exp_column)[0]);
             dataArray.push(valueToConsider);
             //console.log(valueToConsider)
 
@@ -57,7 +57,7 @@ function update() {
 
         let maxVal = Math.max.apply(Math, dataArray);
         //console.log("DataArray: " + dataArray);
-
+        // console.log("InFunction maxValue: " + maxVal);
         return maxVal;
     }
 
@@ -77,7 +77,7 @@ function update() {
 
             //console.log("Bar Column: " + exp_column);
 
-            let valueToConsider = item.values.slice(exp_column)[0];
+            let valueToConsider = getjustnumber(item.values.slice(exp_column)[0]);
             dataArray.push(valueToConsider);
             //console.log(valueToConsider)
 
@@ -242,6 +242,12 @@ function update() {
 
     }
 
+    function getjustnumber(datavalue) {
+        let number = parseFloat(datavalue);
+        //console.log(number);
+        return number;
+    }
+
     // let colortestdata = [2,4,7,8,14,55,66,99];
     // console.log(colortestdata.length);
     // console.log(colorMapBalken(colortestdata));
@@ -313,16 +319,19 @@ function update() {
                 let minVal = minValue(meta.col);
                 let rangeMax = maxVal - minVal;
                 // Adjust the max to 100% and distribute to min
-                let maxNormalize = (data / maxVal) * 100;
+                let maxNormalize = (getjustnumber(data) / maxVal) * 100;
                 // ((data - minVal+1)/rangeMax) * 100 --> Get the difference between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
-                let minMaxNormalize = ((data - minVal + 1) / rangeMax) * 90;
+                let minMaxNormalize = ((getjustnumber(data) - minVal + 2) / rangeMax) * 90;
+                // console.log("maxValue: " + maxVal);
+                // console.log("minValue: " + minVal);
+                // console.log("minMaxNoralize: " + minMaxNormalize);
 
 
                 //console.log("Max Value in function: " + maxVal);
 
                 if (state.bar_switch || state.bar_column > 0) { //
 
-                    if (isNaN(data)) {
+                    if (isNaN(getjustnumber(data))) {
                         //console.log("data is not a number");
                         return data;
 
@@ -330,6 +339,10 @@ function update() {
                     } else {
                         let pre_bar_container = '<div class="barcont">';
                         let bartext = '<div class="bartext"><p style="color:#000000">' + data + '</p></div>';
+                        // if (getjustnumber(data) < 0) {
+                        //     let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + rangeMax + '%;background: #DD0000"></span></div>';
+                        // }
+                        console.log("Test minMaxNormalize" + minMaxNormalize);
                         let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + minMaxNormalize + '%; background: #DD0000"></span></div>';
                         // colorMapBalken(data, minVal, maxVal)  / console.log(maxNormalize);
                         let post_bar_container = '</div>';
@@ -396,11 +409,24 @@ function update() {
 
     deactivateSearch();
 
+
+    // Schriftgrösse anpassen
+
+    function mod_font() {
+        $('.table.dataTable thead th').css("font-size", state.schriftgroesse)
+        $('.table.dataTable thead td').css("font-size", state.schriftgroesse)
+        $('.table.dataTable tbody th').css("font-size", state.schriftgroesse)
+        $('.table.dataTable tbody td ').css("font-size", state.schriftgroesse)
+    }
+
+    window.onload = mod_font();
+
     // Zeilen
 
     function zeilen() {
 
         if (state.zeilenOn == true) {
+            $('#zeilen').css("display", "block");
             $('#hauptzeile').text(state.hauptzeile);
             $('#unterzeile').text(state.unterzeile);
 
@@ -411,7 +437,7 @@ function update() {
             $('#unterzeile').css("line-height", state.unterzeilen_height);
 
         } else {
-
+            $('#zeilen').css("display", "none");
         }
 
     }

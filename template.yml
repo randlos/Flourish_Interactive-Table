@@ -1,7 +1,7 @@
 id: tabletom
 name: Interaktive Tabelle
 description: Interaktive Tabelle
-version: 1.0.6
+version: 1.0.7
 author: Mario Stauber
 sdk_version: 3
 setHeight: 700
@@ -16,6 +16,9 @@ build:
     directory: less
 settings:
   - BEI JEDER ÄNDERUNG BESTÄTIGEN UND BROWSER MIT CMD+R NEU LADEN
+  - property: schriftgroesse
+    name: Schriftgrösse ändern
+    type: string
   - property: zeilenOn
     name: Zeilen ein/aus
     description: null
