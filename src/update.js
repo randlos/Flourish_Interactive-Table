@@ -274,6 +274,7 @@ function update() {
 
         },
 
+
         // "drawCallback": function( settings ) {
         //     let api = this.api();
         //     // console.log( api.rows( {page:'current'} ).data() );

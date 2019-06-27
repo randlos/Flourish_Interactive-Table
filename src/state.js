@@ -69,8 +69,8 @@ var state = {
     imgsize_w: 200,
 
     // Bar-Chart-Feature
-    bar_switch: true,
-    bar_column: 'B' //'C,D'//'D',//
+    bar_switch: false,
+    bar_column: '' //'C,D'//'D',//
 
 };
 
