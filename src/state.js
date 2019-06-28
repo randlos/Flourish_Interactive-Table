@@ -9,7 +9,7 @@ var state = {
     hauptzeile: "Hauptzeile",
     unterzeile: "Unterzeile",
     hauptzeilen_font_size: "2.625rem",
-    unterzeilen_font_size: "1.5rem",
+    unterzeilen_font_size: "1.25rem",
     hauptzeilen_height: "2.800rem",
     unterzeilen_height: "1.850rem",
 
