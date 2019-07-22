@@ -1,7 +1,7 @@
 id: tabletom
 name: Interaktive Tabelle
 description: Interaktive Tabelle
-version: 1.0.9
+version: 1.0.10
 author: Mario Stauber
 sdk_version: 3
 setHeight: 700
@@ -70,6 +70,9 @@ settings:
   - property: search_column
     name: Such-Spalte (Alle Spalten => freilassen)
     type: string
+  - property: kommastellen
+    name: Anzahl der Nachkommastellen
+    type: number
   - property: imgsize_w
     name: 'Breite Bild (px)'
     type: string
@@ -136,4 +139,4 @@ data:
     dataset: Data
     key: values
     type: columns
-    columns: 'Data::A-C'
+    columns: 'Data::A-D'

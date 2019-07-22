@@ -230,6 +230,64 @@ function update() {
         return column_data;
     }
 
+    function without_bar(number, data) {
+        console.log("inputnumber: " + number);
+        let value_array = data.Data[0].values;
+        let column_array = new Array();
+        for (var index in value_array) {
+            if (index != number && index != 0) {
+                column_array.push(parseInt(index));
+            }
+        }
+        return column_array;
+    }
+
+    function number_format(data) {
+
+        if (data > 999 && data < 999999) {
+            return thousand(data);
+        } else if (data > 999999) {
+            return mio(data);
+        } else {
+            return data;
+        }
+
+        function thousand(data) {
+            let thousands = data / 1000;
+            thousands = Math.floor(thousands);
+            let hundreds = data % (thousands * 1000);
+
+            hundreds = hundreds.toFixed(state.kommastellen);
+
+            if (hundreds == 0) {
+                let thousand_number = thousands + " 000";
+                return thousand_number;
+            } else if (hundreds < 1) {
+                let thousand_number = thousands + " 00" + hundreds;
+                console.log("Data: " + data);
+                console.log("Hundreds: " + hundreds);
+                console.log("Thousands: " + thousands);
+                console.log(thousand_number);
+                return thousand_number;
+            } else {
+                let thousand_number = thousands + " " + hundreds;
+                return thousand_number;
+            }
+
+        }
+
+        function mio(data) {
+            let mio = data / 1000000;
+            mio = Math.floor(mio);
+            let rest = data % (mio * 1000000);
+            if (rest == 0) {
+                let mio_number = mio + " 000 000";
+                return mio_number;
+            }
+            let mio_number = mio + " " + thousand(rest);
+            return mio_number;
+        }
+    }
 
     function colorMapBalken(data, minVal, maxVal) {
 
@@ -313,6 +371,12 @@ function update() {
                 }
             },
         }, {
+            "targets": without_bar(tranlsateSortingAlphaToNumber(state.bar_column), data),
+            "render": function(data, type, row, meta) {
+                console.log("COLUMN!!")
+                return number_format(data);
+            }
+        }, {
             "targets": tranlsateSortingAlphaToNumber(state.bar_column),
             "render": function(data, type, row, meta) {
 
@@ -339,11 +403,11 @@ function update() {
 
                     } else {
                         let pre_bar_container = '<div class="barcont">';
-                        let bartext = '<div class="bartext"><p style="color:#000000">' + data + '</p></div>';
+                        let bartext = '<div class="bartext"><p style="color:#000000">' + number_format(data) + '</p></div>';
                         // if (getjustnumber(data) < 0) {
                         //     let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + rangeMax + '%;background: #DD0000"></span></div>';
                         // }
-                        console.log("Test minMaxNormalize" + minMaxNormalize);
+                        //console.log("Test minMaxNormalize" + minMaxNormalize);
                         let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + minMaxNormalize + '%; background: #DD0000"></span></div>';
                         // colorMapBalken(data, minVal, maxVal)  / console.log(maxNormalize);
                         let post_bar_container = '</div>';
@@ -351,7 +415,7 @@ function update() {
                         return pre_bar_container + bar + bartext + post_bar_container;
                     }
                 } else {
-                    return data;
+                    return number_format(data);
                 }
             }
         }],
