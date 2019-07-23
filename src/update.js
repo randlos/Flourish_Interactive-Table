@@ -370,20 +370,21 @@ function update() {
             "targets": 0,
             "data": 0,
             "render": function(data, type, row, meta) {
-                //console.log(data);
-                if (data.indexOf("https://") > -1) {
-                    var img_tag = '<img src="' + data + '"height="' + state.imgsize_h + '"width="' + state.imgsize_w + '">';
-                    //console.log("height: " + state.imgsize[0] + ", width: " + state.imgsize[1]);
-                    return img_tag;
-                } else {
-                    return data;
-                }
+                    if (data.indexOf("https://") > -1) {
+                        var img_tag = '<img src="' + data + '"height="' + state.imgsize_h + '"width="' + state.imgsize_w + '">';
+                        //console.log("height: " + state.imgsize[0] + ", width: " + state.imgsize[1]);
+                        return img_tag;
+                    } else {
+                        return data;
+                    }
             },
         }, {
             "targets": without_bar(tranlsateSortingAlphaToNumber(state.bar_column), data),
             "render": function(data, type, row, meta) {
-                //console.log("COLUMN!!")
-                return number_format(data);
+                if (type == "display"){
+                    return number_format(data);
+                }
+                return getjustnumber(data);
             }
         }, {
             "targets": tranlsateSortingAlphaToNumber(state.bar_column),
@@ -402,68 +403,71 @@ function update() {
 
                 //let bar_data = Math.abs(getjustnumber(data));
 
-                getjuststring(data);
+                //getjuststring(data);
 
 
                 //console.log("Max Value in function: " + maxVal);
+                if (type == "display"){
+                    if (state.bar_switch || state.bar_column > 0) { //
 
-                if (state.bar_switch || state.bar_column > 0) { //
-
-                    if (isNaN(getjustnumber(data))) {
-                        //console.log("data is not a number");
-                        return data;
-
-
-                    } else if (state.negative_bar) {
-                        let pre_bar_container = '<div class="barcont">';
-
-                        let lefttd_start = '<div class="leftbar">';
-                        let lefttd_end = '</div>';
-                        let righttd_start = '<div class="rightbar">';
-                        let righttd_end = '</div>';
-
-
-
-                        let left_content = '<p style="text-align:right;margin:0 4px 0 0;">' + getjustnumber(data) + '</p>';
-                        let right_content = '<p style="text-align:left;margin:0 0 0 4px;">' + getjustnumber(data) + '</p>'; //Math.abs(getjustnumber(data))
-
-                        let right_bar = '<div class="bardiv"> <span class="bar" style="height:19px;margin: 3px 0 0 0;width:' + minMaxNormalize + '%; background: green"></span></div>';
-                        let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;margin:0;height:20px;margin: 3px 1px 0 0;width:' + Math.abs(minMaxNormalize) + '%; background: #D82217"></span></div>';
-
-                        let post_bar_container = '</div>';
-
-                        let positive = pre_bar_container + lefttd_start + left_content + lefttd_end + righttd_start + right_bar + righttd_end + post_bar_container;
-                        let negative = pre_bar_container + lefttd_start + left_bar + lefttd_end + righttd_start + right_content + righttd_end + post_bar_container;
-
-                        if (getjustnumber(data) < 0) {
-                            //console.log(Math.abs(getjustnumber(data)));
-
-                            return negative;
+                        if (isNaN(getjustnumber(data))) {
+                            //console.log("data is not a number");
+                            return data;
+    
+    
+                        } else if (state.negative_bar) {
+                            let pre_bar_container = '<div class="barcont">';
+    
+                            let lefttd_start = '<div class="leftbar">';
+                            let lefttd_end = '</div>';
+                            let righttd_start = '<div class="rightbar">';
+                            let righttd_end = '</div>';
+    
+    
+    
+                            let left_content = '<p style="text-align:right;margin:0 4px 0 0;">' + number_format(data) + '</p>';
+                            let right_content = '<p style="text-align:left;margin:0 0 0 4px;">' + number_format(data) + '</p>'; //Math.abs(getjustnumber(data))
+    
+                            let right_bar = '<div class="bardiv"> <span class="bar" style="height:19px;margin: 3px 0 0 0;width:' + minMaxNormalize + '%; background: green"></span></div>';
+                            let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;margin:0;height:20px;margin: 3px 1px 0 0;width:' + Math.abs(minMaxNormalize) + '%; background: #D82217"></span></div>';
+    
+                            let post_bar_container = '</div>';
+    
+                            let positive = pre_bar_container + lefttd_start + left_content + lefttd_end + righttd_start + right_bar + righttd_end + post_bar_container;
+                            let negative = pre_bar_container + lefttd_start + left_bar + lefttd_end + righttd_start + right_content + righttd_end + post_bar_container;
+    
+                            if (getjustnumber(data) < 0) {
+                                //console.log(Math.abs(getjustnumber(data)));  
+                                return negative;
+                            } else {
+                                return positive;
+                            }
+    
+    
                         } else {
-                            data = data;
-                            return positive;
+                            let pre_bar_container = '<div class="barcont">';
+                            let bartext = '<div class="bartext"><p style="color:#000000">' + data + '</p></div>';
+                            // if (getjustnumber(data) < 0) {
+                            //     let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + rangeMax + '%;background: #DD0000"></span></div>';
+                            // }
+                            //console.log("Test minMaxNormalize" + minMaxNormalize);
+    
+                            // BARCHART WITH DIV
+                            let bar = '<div class="bardiv"> <span class="bar" style="lheight:20px;width:' + minMaxNormalize + '%; background: #DD0000"></span></div>';
+                            // colorMapBalken(data, minVal, maxVal)  / console.log(maxNormalize);
+                            let post_bar_container = '</div>';
+    
+                            return pre_bar_container + bar + bartext + post_bar_container;
                         }
-
-
                     } else {
-                        let pre_bar_container = '<div class="barcont">';
-                        let bartext = '<div class="bartext"><p style="color:#000000">' + number_format(data) + '</p></div>';
-                        // if (getjustnumber(data) < 0) {
-                        //     let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + rangeMax + '%;background: #DD0000"></span></div>';
-                        // }
-                        //console.log("Test minMaxNormalize" + minMaxNormalize);
-
-                        // BARCHART WITH DIV
-                        let bar = '<div class="bardiv"> <span class="bar" style="lheight:20px;width:' + minMaxNormalize + '%; background: #DD0000"></span></div>';
-                        // colorMapBalken(data, minVal, maxVal)  / console.log(maxNormalize);
-                        let post_bar_container = '</div>';
-
-                        return pre_bar_container + bar + bartext + post_bar_container;
+                        return number_format(data);
                     }
-                } else {
-                    return number_format(data);
-                }
+                } 
+                return getjustnumber(data);
+                
+                
             }
+                
         }],
         "paging": false,
         "scrollY": state.yscroll,

@@ -17,6 +17,7 @@
     "commonjs": "^0.0.1",
     "less": "^3.9.0",
     "less-plugin-clean-css": "^1.5.1",
+    "package.json": "^2.0.1",
     "requirejs": "^2.3.5",
     "rollup": "^0.58.2",
     "rollup-plugin-commonjs": "^9.3.4",
