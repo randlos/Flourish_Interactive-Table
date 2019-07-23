@@ -306,6 +306,15 @@ function update() {
         return number;
     }
 
+    function getjuststring(datavalue) {
+        var str = datavalue;
+        var patt = /[A-Za-z$€].*/g;
+        var result = str.match(patt);
+        return result;
+    }
+
+
+
     // let colortestdata = [2,4,7,8,14,55,66,99];
     // console.log(colortestdata.length);
     // console.log(colorMapBalken(colortestdata));
@@ -391,6 +400,10 @@ function update() {
                 // console.log("minValue: " + minVal);
                 // console.log("minMaxNoralize: " + minMaxNormalize);
 
+                //let bar_data = Math.abs(getjustnumber(data));
+
+                getjuststring(data);
+
 
                 //console.log("Max Value in function: " + maxVal);
 
@@ -411,11 +424,11 @@ function update() {
 
 
 
-                        let left_content = '<p style="text-align:right;margin:0 4px 0 0;">' + data + '</p>';
-                        let right_content = '<p style="text-align:left;margin:0 0 0 4px;">' + data + '</p>'; //Math.abs(getjustnumber(data))
+                        let left_content = '<p style="text-align:right;margin:0 4px 0 0;">' + getjustnumber(data) + '</p>';
+                        let right_content = '<p style="text-align:left;margin:0 0 0 4px;">' + getjustnumber(data) + '</p>'; //Math.abs(getjustnumber(data))
 
                         let right_bar = '<div class="bardiv"> <span class="bar" style="height:19px;margin: 3px 0 0 0;width:' + minMaxNormalize + '%; background: green"></span></div>';
-                        let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;margin:0;height:20px;margin: 3px 0 0 0;width:' + Math.abs(minMaxNormalize) + '%; background: #D82217"></span></div>';
+                        let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;margin:0;height:20px;margin: 3px 1px 0 0;width:' + Math.abs(minMaxNormalize) + '%; background: #D82217"></span></div>';
 
                         let post_bar_container = '</div>';
 
@@ -424,8 +437,10 @@ function update() {
 
                         if (getjustnumber(data) < 0) {
                             //console.log(Math.abs(getjustnumber(data)));
+
                             return negative;
                         } else {
+                            data = data;
                             return positive;
                         }
 
