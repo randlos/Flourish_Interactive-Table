@@ -210,7 +210,7 @@ function update() {
                 };
             }
         } else {
-            console.log(alpha);
+            //console.log(alpha);
             return alpha;
         }
 
@@ -231,7 +231,7 @@ function update() {
     }
 
     function without_bar(number, data) {
-        console.log("inputnumber: " + number);
+        //console.log("inputnumber: " + number);
         let value_array = data.Data[0].values;
         let column_array = new Array();
         for (var index in value_array) {
@@ -264,10 +264,10 @@ function update() {
                 return thousand_number;
             } else if (hundreds < 1) {
                 let thousand_number = thousands + " 00" + hundreds;
-                console.log("Data: " + data);
-                console.log("Hundreds: " + hundreds);
-                console.log("Thousands: " + thousands);
-                console.log(thousand_number);
+                //console.log("Data: " + data);
+                //console.log("Hundreds: " + hundreds);
+                //console.log("Thousands: " + thousands);
+                //console.log(thousand_number);
                 return thousand_number;
             } else {
                 let thousand_number = thousands + " " + hundreds;
@@ -373,7 +373,7 @@ function update() {
         }, {
             "targets": without_bar(tranlsateSortingAlphaToNumber(state.bar_column), data),
             "render": function(data, type, row, meta) {
-                console.log("COLUMN!!")
+                //console.log("COLUMN!!")
                 return number_format(data);
             }
         }, {
@@ -384,9 +384,9 @@ function update() {
                 let minVal = minValue(meta.col);
                 let rangeMax = maxVal - minVal;
                 // Adjust the max to 100% and distribute to min
-                let maxNormalize = (getjustnumber(data) / maxVal) * 100;
+                let maxNormalize = (Math.abs(getjustnumber(data)) / maxVal) * 100;
                 // ((data - minVal+1)/rangeMax) * 100 --> Get the difference between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
-                let minMaxNormalize = ((getjustnumber(data) - minVal + 2) / rangeMax) * 90;
+                let minMaxNormalize = ((Math.abs(getjustnumber(data)) - minVal + 2) / rangeMax) * 90;
                 // console.log("maxValue: " + maxVal);
                 // console.log("minValue: " + minVal);
                 // console.log("minMaxNoralize: " + minMaxNormalize);
@@ -401,6 +401,35 @@ function update() {
                         return data;
 
 
+                    } else if (state.negative_bar) {
+                        let pre_bar_container = '<div class="barcont">';
+
+                        let lefttd_start = '<div class="leftbar">';
+                        let lefttd_end = '</div>';
+                        let righttd_start = '<div class="rightbar">';
+                        let righttd_end = '</div>';
+
+
+
+                        let left_content = '<p style="text-align:right;margin:0 4px 0 0;">' + data + '</p>';
+                        let right_content = '<p style="text-align:left;margin:0 0 0 4px;">' + data + '</p>'; //Math.abs(getjustnumber(data))
+
+                        let right_bar = '<div class="bardiv"> <span class="bar" style="height:19px;margin: 3px 0 0 0;width:' + minMaxNormalize + '%; background: green"></span></div>';
+                        let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;margin:0;height:20px;margin: 3px 0 0 0;width:' + Math.abs(minMaxNormalize) + '%; background: #D82217"></span></div>';
+
+                        let post_bar_container = '</div>';
+
+                        let positive = pre_bar_container + lefttd_start + left_content + lefttd_end + righttd_start + right_bar + righttd_end + post_bar_container;
+                        let negative = pre_bar_container + lefttd_start + left_bar + lefttd_end + righttd_start + right_content + righttd_end + post_bar_container;
+
+                        if (getjustnumber(data) < 0) {
+                            //console.log(Math.abs(getjustnumber(data)));
+                            return negative;
+                        } else {
+                            return positive;
+                        }
+
+
                     } else {
                         let pre_bar_container = '<div class="barcont">';
                         let bartext = '<div class="bartext"><p style="color:#000000">' + number_format(data) + '</p></div>';
@@ -408,7 +437,9 @@ function update() {
                         //     let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + rangeMax + '%;background: #DD0000"></span></div>';
                         // }
                         //console.log("Test minMaxNormalize" + minMaxNormalize);
-                        let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + minMaxNormalize + '%; background: #DD0000"></span></div>';
+
+                        // BARCHART WITH DIV
+                        let bar = '<div class="bardiv"> <span class="bar" style="lheight:20px;width:' + minMaxNormalize + '%; background: #DD0000"></span></div>';
                         // colorMapBalken(data, minVal, maxVal)  / console.log(maxNormalize);
                         let post_bar_container = '</div>';
 
@@ -453,7 +484,7 @@ function update() {
         let searcher_var = state.search_column;
         let count_search_column = searcher_var.length - 1;
 
-        console.log(count_search_column);
+        //console.log(count_search_column);
 
         if (count_search_column <= 1) {
             $('#myTable').DataTable().columns(tranlsateSortingAlphaToNumber(state.search_column)).search(this.value).draw();

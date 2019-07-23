@@ -72,9 +72,11 @@ var state = {
     bar_switch: true,
     bar_column: 'B', //'C,D'//'D',//
 
+    // Negative Bars
+
+    negative_bar: true,
 
     // Nummerformatierung
-
     kommastellen: 0
 
 };
