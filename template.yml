@@ -1,7 +1,7 @@
 id: tabletom
 name: Interaktive Tabelle
 description: Interaktive Tabelle
-version: 1.0.10
+version: 1.0.11
 author: Mario Stauber
 sdk_version: 3
 setHeight: 700
@@ -74,14 +74,8 @@ settings:
     choices:
       - [Aufsteigend (A-Z), asc]
       - [Absteigend (Z-A), desc]
-  - property: layout
-    name: Suchmaske en-/ausblenden
-    type: string
-    choices:
-      - [Suche ein, pitr]
-      - [Suche aus, pir]
   - property: search_column
-    name: Such-Spalte (Alle Spalten => freilassen)
+    name: Such-Spalte (Alle Spalten => alle)
     type: string
   - property: kommastellen
     name: Anzahl der Nachkommastellen
@@ -92,19 +86,24 @@ settings:
   - property: imgsize_h
     name: 'Breite Bild (px)'
     type: string
-
   - property: zusatzoptionen
     name: Zusatz-Optionen
     type: boolean
-  # - property: layout
-  #   name: Export
-  #   description: Layout umschalten für Grafik PNG-Export
-  #   type: string
-  #   choices:
-  #     - [Interaktiv, pitr]
-  #     - [statisch, t]
-  #   show_if: zusatzoptionen
-
+  - property: searchswitch
+    name: Suchmaske en-/ausblenden
+    type: boolean
+    choices:
+      - [Suche ein, true]
+      - [Suche aus, false]
+    show_if: zusatzoptionen
+  - property: layout
+    name: Export
+    description: Layout umschalten für Grafik PNG-Export
+    type: string
+    choices:
+      - [Interaktiv, pitr]
+      - [statisch, t]
+    show_if: zusatzoptionen
   - property: yscroll
     name: Höhe ändern
     description: für Export als png

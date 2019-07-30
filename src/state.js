@@ -27,6 +27,9 @@ var state = {
     // DOM-Layout Tabelle
     layout: 'pitr', // pitr
 
+    // Suche ein-/aus
+    searchswitch: true,
+
     // Scrolling y
     yscroll: '602px',
 
@@ -61,7 +64,7 @@ var state = {
     // Suche ein/aus + weitere Optionen
 
     suchfeld: 'pitr',
-    search_column: '',
+    search_column: 'alle',
 
     // Quelle
 

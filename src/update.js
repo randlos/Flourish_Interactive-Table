@@ -128,7 +128,7 @@ function update() {
 
 
     function tranlsateSortingAlphaToNumber(alpha) {
-        //console.log(alpha[0]);
+        //console.log(alpha);
 
         let barchart_column;
         let columnArray = [];
@@ -216,6 +216,17 @@ function update() {
 
 
 
+    }
+
+
+    function sortingswitch(sortingColumn, sortingOrder) {
+        if (sortingColumn == 'keine') {
+            return new Array();
+        } else {
+            let column = tranlsateSortingAlphaToNumber(sortingColumn);
+            let output = [column, sortingOrder];
+            return output;
+        }
     }
 
     //console.log("Spaltenzahl: " + tranlsateSortingAlphaToNumber(state.bar_column));
@@ -518,18 +529,17 @@ function update() {
         "scrollY": rm_zeile_height(state.yscroll),
         //"scrollCollapse": true,
         "pageLength": state.numberOfEntries,
-        "order": [tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder],
+        "order": sortingswitch(state.sortingColumn, state.sortingOrder), //[tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder],
         columns: c_names(),
         "language": {
             "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/German.json"
         },
         "drawCallback": function(settings) {
-
+            if (state.sortingColumn)
             // Change Header Color
-            $('.dataTables_scrollHead').css("background", state.headerColor);
+                $('.dataTables_scrollHead').css("background", state.headerColor);
             //$('.dataTables_scrollHead th.sorting_desc').css("background-color", state.headerSortingColor);          
-            //console.log("Table reload!");
-            //console.log(state.headerColor);
+
         }
     });
 
@@ -561,7 +571,7 @@ function update() {
 
     // Deactivate Search for Grafik PNG Export
     function deactivateSearch() {
-        if (state.layout == "t") {
+        if (!state.searchswitch) {
             $('#mySearch').remove();
         }
     }
