@@ -17,7 +17,7 @@ var state = {
     unterzeilen_height: "1.850rem",
 
     // Tabellen-Optionen:
-    sortingColumn: "A",
+    sortingColumn: "keine",
     sortingOrder: "asc",
     numberOfEntries: 10,
 

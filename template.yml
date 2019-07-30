@@ -57,16 +57,17 @@ settings:
     description: null
     type: string
   - property: ordering
-    name: Sortierung an-/ausschalten
-    description: Soll die Sortierung abgeschaltet werden?
+    name: Sortierung
+    description: Redaktionelle oder spezifische Sortierung?
     type: boolean
     choices: 
-      - [Ein, true]
-      - [Aus, false]
+      - [neu definieren, true]
+      - [wie in den Daten, false]
   - property: sortingColumn
-    name: Spalte zur initialen Sortierung
+    name: Spalte zur initialen Sortierung (A,B,C ...)
     description: Nach welcher Spalte soll initial sortiert werden
     type: string
+    show_if: ordering
   - property: sortingOrder
     name: Sortierungs-Reihenfolge
     description: Wie soll sortiert werden? Ab- oder Aufsteigend?
@@ -74,8 +75,9 @@ settings:
     choices:
       - [Aufsteigend (A-Z), asc]
       - [Absteigend (Z-A), desc]
+    show_if: ordering
   - property: search_column
-    name: Such-Spalte (Alle Spalten => alle)
+    name: Such-Spalte (A,B,C,...,alle)
     type: string
   - property: kommastellen
     name: Anzahl der Nachkommastellen
