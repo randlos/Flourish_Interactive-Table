@@ -244,48 +244,56 @@ function update() {
 
     function number_format(data) {
 
-        if (data > 999 && data < 999999) {
+        if (Math.abs(data) > 10000 && Math.abs(data) < 1000000) {
+            //console.log(thousand(data));
             return thousand(data);
-        } else if (data > 999999) {
+        } else if (Math.abs(data) >= 1000000) {
             return mio(data);
+        } else if (data < 0) {
+            let minus = data.substring(0, 1);
+            let hundreds = data.substring(1, );
+            return minus + " " + hundreds;
         } else {
             return data;
         }
 
         function thousand(data) {
-            let thousands = data / 1000;
-            thousands = Math.floor(thousands);
-            let hundreds = data % (thousands * 1000);
-
-            hundreds = hundreds.toFixed(state.kommastellen);
-
-            if (hundreds == 0) {
-                let thousand_number = thousands + " 000";
-                return thousand_number;
-            } else if (hundreds < 1) {
-                let thousand_number = thousands + " 00" + hundreds;
-                //console.log("Data: " + data);
-                //console.log("Hundreds: " + hundreds);
-                //console.log("Thousands: " + thousands);
-                //console.log(thousand_number);
-                return thousand_number;
+            if (data < 0 && Math.abs(data) < 100000) {
+                let thousand_number = data.substring(1, 3);
+                let hundred_number = data.substring(3, 6);
+                return "- " + thousand_number + " " + hundred_number;
+            } else if (data < 0 && Math.abs(data) > 100000) {
+                let thousand_number = data.substring(1, 4);
+                let hundred_number = data.substring(4, 7);
+                return "- " + thousand_number + " " + hundred_number;
+            } else if (data > 0 && Math.abs(data) < 100000) {
+                let thousand_number = data.substring(0, 2);
+                let hundred_number = data.substring(2, 5);
+                return thousand_number + " " + hundred_number;
             } else {
-                let thousand_number = thousands + " " + hundreds;
-                return thousand_number;
+                let thousand_number = data.substring(0, 3);
+                let hundred_number = data.substring(3, 6);
+                return thousand_number + " " + hundred_number;
             }
+
 
         }
 
         function mio(data) {
-            let mio = data / 1000000;
-            mio = Math.floor(mio);
-            let rest = data % (mio * 1000000);
-            if (rest == 0) {
-                let mio_number = mio + " 000 000";
-                return mio_number;
+            //let mio = data.toString();
+            if (data < 0) {
+                let mio_number = data.substring(1, 2);
+                let thousand_number = data.substring(2, 5);
+                let hundred_number = data.substring(5, 8);
+                // console.log(mio_number + " " + thousand_number + " " + hundred_number);
+                return "- " + mio_number + " " + thousand_number + " " + hundred_number;
+            } else {
+                let mio_number = data.substring(0, 1);
+                let thousand_number = data.substring(1, 4);
+                let hundred_number = data.substring(4, 7);
+                return mio_number + " " + thousand_number + " " + hundred_number;
             }
-            let mio_number = mio + " " + thousand(rest);
-            return mio_number;
+
         }
     }
 
@@ -302,7 +310,10 @@ function update() {
 
     function getjustnumber(datavalue) {
         let number = parseFloat(datavalue);
-        //console.log(number);
+        if (datavalue == "keine Angabe") {
+            //console.log(datavalue);
+            return 0;
+        }
         return number;
     }
 
@@ -320,6 +331,17 @@ function update() {
     // console.log(colorMapBalken(colortestdata));
 
 
+    function rm_zeile_height(height) {
+
+        // Get zeilen_height while creating zeilen in zeilen():553 / If recieved in this. function, the DOM isn't fully loaded yet 
+        let zeilen_height = zeilen();
+        let search_height = document.getElementById("search").clientHeight;
+        let quelle_height = document.getElementById("quelle").clientHeight;
+        let table_height = parseInt(height) - zeilen_height - search_height - quelle_height + "px";
+        //console.log(table_height);
+        return table_height;
+    }
+
     let table = $('#myTable').dataTable({
         data: data.Data.map(e => e.values),
         responsive: {
@@ -334,8 +356,9 @@ function update() {
                 // } )
             }
         },
+        "ordering": state.ordering,
         colReorder: {
-            enable: true,
+            enable: false,
             //     order: [ 5, 4, 3, 2, 1, 0 ],
             //     realtime: false,
 
@@ -370,18 +393,18 @@ function update() {
             "targets": 0,
             "data": 0,
             "render": function(data, type, row, meta) {
-                    if (data.indexOf("https://") > -1) {
-                        var img_tag = '<img src="' + data + '"height="' + state.imgsize_h + '"width="' + state.imgsize_w + '">';
-                        //console.log("height: " + state.imgsize[0] + ", width: " + state.imgsize[1]);
-                        return img_tag;
-                    } else {
-                        return data;
-                    }
+                if (data.indexOf("https://") > -1) {
+                    var img_tag = '<img src="' + data + '"height="' + state.imgsize_h + '"width="' + state.imgsize_w + '">';
+                    //console.log("height: " + state.imgsize[0] + ", width: " + state.imgsize[1]);
+                    return img_tag;
+                } else {
+                    return data;
+                }
             },
         }, {
             "targets": without_bar(tranlsateSortingAlphaToNumber(state.bar_column), data),
             "render": function(data, type, row, meta) {
-                if (type == "display"){
+                if (type == "display") {
                     return number_format(data);
                 }
                 return getjustnumber(data);
@@ -392,11 +415,26 @@ function update() {
 
                 let maxVal = maxValue(meta.col);
                 let minVal = minValue(meta.col);
+                //console.log("MinValue: " + minVal);
                 let rangeMax = maxVal - minVal;
+                //console.log("rangeMax: " + rangeMax);
+
                 // Adjust the max to 100% and distribute to min
                 let maxNormalize = (Math.abs(getjustnumber(data)) / maxVal) * 100;
                 // ((data - minVal+1)/rangeMax) * 100 --> Get the difference between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
-                let minMaxNormalize = ((Math.abs(getjustnumber(data)) - minVal + 2) / rangeMax) * 90;
+                let minMaxNormalize_plus = ((Math.abs(getjustnumber(data)) - minVal) / rangeMax) * 90;
+                let minMaxNoralize_minus = ((Math.abs(getjustnumber(data)) - minVal) / rangeMax) * 53;
+
+
+                // console.log("input: " + Math.abs(getjustnumber(data)));
+                //console.log("minVal: " + minVal);
+                //console.log("output: " + (Math.abs(getjustnumber(data)) - Math.abs(minVal)));
+                // console.log("____");
+                // console.log("minMaxNormalized: " + minMaxNormalize_plus);
+                // console.log("rangeMax: " + rangeMax);
+                // console.log("____");
+
+
                 // console.log("maxValue: " + maxVal);
                 // console.log("minValue: " + minVal);
                 // console.log("minMaxNoralize: " + minMaxNormalize);
@@ -407,43 +445,49 @@ function update() {
 
 
                 //console.log("Max Value in function: " + maxVal);
-                if (type == "display"){
+                if (type == "display") {
                     if (state.bar_switch || state.bar_column > 0) { //
+
 
                         if (isNaN(getjustnumber(data))) {
                             //console.log("data is not a number");
                             return data;
-    
-    
+
                         } else if (state.negative_bar) {
                             let pre_bar_container = '<div class="barcont">';
-    
+
                             let lefttd_start = '<div class="leftbar">';
                             let lefttd_end = '</div>';
                             let righttd_start = '<div class="rightbar">';
                             let righttd_end = '</div>';
-    
-    
-    
+
+
+
                             let left_content = '<p style="text-align:right;margin:0 4px 0 0;">' + number_format(data) + '</p>';
-                            let right_content = '<p style="text-align:left;margin:0 0 0 4px;">' + number_format(data) + '</p>'; //Math.abs(getjustnumber(data))
-    
-                            let right_bar = '<div class="bardiv"> <span class="bar" style="height:19px;margin: 3px 0 0 0;width:' + minMaxNormalize + '%; background: green"></span></div>';
-                            let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;margin:0;height:20px;margin: 3px 1px 0 0;width:' + Math.abs(minMaxNormalize) + '%; background: #D82217"></span></div>';
-    
+                            let right_content = '<p style="text-align:left;margin:0 0 0 4px;">' + number_format(data) + '</p>';
+
+                            // 
+
+                            let right_bar = '<div class="bardiv"> <span class="bar" style="height:19px;margin: 3px 0 0 0;width:' + minMaxNoralize_minus + '%; background: ' + state.color_balken_positive + '"></span></div>';
+                            let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;margin:0;height:20px;margin: 3px 1px 0 0;width:' + minMaxNoralize_minus + '%; background:' + state.color_balken_negative + '"></span></div>';
+
                             let post_bar_container = '</div>';
-    
+
+
+                            let zerovalue = pre_bar_container + '<p style="text-align: center; margin:0;">' + data + '</p>' + post_bar_container;
                             let positive = pre_bar_container + lefttd_start + left_content + lefttd_end + righttd_start + right_bar + righttd_end + post_bar_container;
                             let negative = pre_bar_container + lefttd_start + left_bar + lefttd_end + righttd_start + right_content + righttd_end + post_bar_container;
-    
+
                             if (getjustnumber(data) < 0) {
                                 //console.log(Math.abs(getjustnumber(data)));  
                                 return negative;
+                            } else if (getjustnumber(data) == 0) {
+                                return zerovalue;
                             } else {
-                                return positive;
+                                return positive
                             }
-    
-    
+
+
                         } else {
                             let pre_bar_container = '<div class="barcont">';
                             let bartext = '<div class="bartext"><p style="color:#000000">' + data + '</p></div>';
@@ -451,26 +495,27 @@ function update() {
                             //     let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + rangeMax + '%;background: #DD0000"></span></div>';
                             // }
                             //console.log("Test minMaxNormalize" + minMaxNormalize);
-    
+
                             // BARCHART WITH DIV
-                            let bar = '<div class="bardiv"> <span class="bar" style="lheight:20px;width:' + minMaxNormalize + '%; background: #DD0000"></span></div>';
+                            let bar = '<div class="bardiv"> <span class="bar" style="lheight:20px;width:' + minMaxNormalize_plus + '%; background:' + state.color_balken_positive + '"></span></div>';
                             // colorMapBalken(data, minVal, maxVal)  / console.log(maxNormalize);
                             let post_bar_container = '</div>';
-    
+
                             return pre_bar_container + bar + bartext + post_bar_container;
                         }
                     } else {
                         return number_format(data);
                     }
-                } 
+                }
+
                 return getjustnumber(data);
-                
-                
+
+
             }
-                
+
         }],
         "paging": false,
-        "scrollY": state.yscroll,
+        "scrollY": rm_zeile_height(state.yscroll),
         //"scrollCollapse": true,
         "pageLength": state.numberOfEntries,
         "order": [tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder],
@@ -496,7 +541,6 @@ function update() {
     //     table.row(0).data(data);
     //     table.draw();
     //   });
-
     // console.log(getOrderedColumn(table));
 
     $('#mySearch').on('keyup', function() {
@@ -555,6 +599,8 @@ function update() {
             $('#zeilen').css("display", "none");
         }
 
+        let zeilen_height = document.getElementById("zeilen").clientHeight;
+        return zeilen_height;
     }
 
     zeilen();

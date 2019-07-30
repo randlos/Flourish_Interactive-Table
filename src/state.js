@@ -3,6 +3,9 @@ var state = {
     // Schriftgroesse
     schriftgroesse: "1.2rem",
 
+    // Sortierung
+    ordering: true,
+
     // Zeilen Konfigurator
 
     zeilenOn: true,
@@ -25,7 +28,7 @@ var state = {
     layout: 'pitr', // pitr
 
     // Scrolling y
-    yscroll: '500px',
+    yscroll: '602px',
 
     // Color-Change
     headerColor: '#dadada',
@@ -58,26 +61,28 @@ var state = {
     // Suche ein/aus + weitere Optionen
 
     suchfeld: 'pitr',
-    search_column: 'B',
+    search_column: '',
 
     // Quelle
 
     quelle: '| Quelle: ',
 
     // Images Options
-    imgsize_h: 200,
-    imgsize_w: 200,
+    imgsize_h: 100,
+    imgsize_w: 100,
 
     // Bar-Chart-Feature
-    bar_switch: true,
+    bar_switch: false,
     bar_column: 'B', //'C,D'//'D',//
+    color_balken_negative: '#D82217',
+    color_balken_positive: '#6CBA6C',
 
     // Negative Bars
 
     negative_bar: true,
 
     // Nummerformatierung
-    kommastellen: 0
+    kommastellen: 3
 
 };
 

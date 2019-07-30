@@ -1,9 +1,9 @@
 Spalte A,Spalte B,Spalte C,Spalte D
-https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Farben-Testbild.svg/200px-Farben-Testbild.svg.png,100,1230,10000
-Die erste Spalte,-200,43556.546,20000
-2. Spalte,300,Keine Angabe,21212
-Eine weitere,400,4000,40000
-Wahrscheinlich 4,-400,6666,40000
-Könnte Spalte 5 oder 6 sein,3000,9999999,4505
-Eine der letzten,200 Euro,2000,20000
-Die letzte, 100,1000,10000
+https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Farben-Testbild.svg/200px-Farben-Testbild.svg.png,-100,1230,10000
+Die erste Spalte,200,435,20000
+2. Spalte,2000000,keine Angabe,21212
+Eine weitere,-349000,-4000,40000
+Wahrscheinlich 4,-999990,-6666,40000
+Könnte Spalte 5 oder 6 sein,-3000,99999,4505
+Eine der letzten,-200 Euro,25258,20000
+Die letzte,-100,1000,10000

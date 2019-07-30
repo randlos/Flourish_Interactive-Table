@@ -56,6 +56,13 @@ settings:
     name: Header-Farbe (Hex-Codes)
     description: null
     type: string
+  - property: ordering
+    name: Sortierung an-/ausschalten
+    description: Soll die Sortierung abgeschaltet werden?
+    type: boolean
+    choices: 
+      - [Ein, true]
+      - [Aus, false]
   - property: sortingColumn
     name: Spalte zur initialen Sortierung
     description: Nach welcher Spalte soll initial sortiert werden
@@ -67,6 +74,12 @@ settings:
     choices:
       - [Aufsteigend (A-Z), asc]
       - [Absteigend (Z-A), desc]
+  - property: layout
+    name: Suchmaske en-/ausblenden
+    type: string
+    choices:
+      - [Suche ein, pitr]
+      - [Suche aus, pir]
   - property: search_column
     name: Such-Spalte (Alle Spalten => freilassen)
     type: string
@@ -79,25 +92,18 @@ settings:
   - property: imgsize_h
     name: 'Breite Bild (px)'
     type: string
+
   - property: zusatzoptionen
     name: Zusatz-Optionen
     type: boolean
-  - property: layout
-    name: Export
-    description: Layout umschalten für Grafik PNG-Export
-    type: string
-    choices:
-      - [Interaktiv, pitr]
-      - [statisch, t]
-    show_if: zusatzoptionen
-
-  - property: suchfled
-    name: Suche ein/ausblenden
-    type: string
-    choices:
-      - [Ein, pitr]
-      - [Aus, ptr]
-    show_if: zusatzoptionen
+  # - property: layout
+  #   name: Export
+  #   description: Layout umschalten für Grafik PNG-Export
+  #   type: string
+  #   choices:
+  #     - [Interaktiv, pitr]
+  #     - [statisch, t]
+  #   show_if: zusatzoptionen
 
   - property: yscroll
     name: Höhe ändern
@@ -128,9 +134,15 @@ settings:
     type: string
     show_if: bar_switch
 
-  # - property: bar_color
-  #   name: Welchen Farbverlauf sollen die Balken haben?
-  #   type: string
+  - property: color_balken_positive
+    name: Welche Farbe soll der Balken haben?
+    type: string
+    show_if: bar_switch
+
+  - property: color_balken_negative
+    name: Welche Farbe soll der Balken für negative Werte haben?
+    type: string
+    show_if: bar_switch
 
 
 data:
