@@ -68,15 +68,15 @@ var state = {
 
     // Quelle
 
-    quelle: '| Quelle: ',
+    quelle: '',
 
     // Images Options
     imgsize_h: 100,
     imgsize_w: 100,
 
     // Bar-Chart-Feature
-    bar_switch: false,
-    bar_column: 'B', //'C,D'//'D',//
+    bar_switch: true,
+    bar_column: 'C', //'C,D'//'D',//
     color_balken_negative: '#D82217',
     color_balken_positive: '#6CBA6C',
 
@@ -85,7 +85,7 @@ var state = {
     negative_bar: true,
 
     // Nummerformatierung
-    kommastellen: 3
+    kommastellen: 2
 
 };
 

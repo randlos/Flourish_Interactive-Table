@@ -1,7 +1,7 @@
 id: tabletom
 name: Interaktive Tabelle
 description: Interaktive Tabelle
-version: 1.0.11
+version: 1.0.12
 author: Mario Stauber
 sdk_version: 3
 setHeight: 700
@@ -64,7 +64,7 @@ settings:
       - [neu definieren, true]
       - [wie in den Daten, false]
   - property: sortingColumn
-    name: Spalte zur initialen Sortierung (A,B,C ...)
+    name: Spalte zur initialen Sortierung (A,B,C,...,keine)
     description: Nach welcher Spalte soll initial sortiert werden
     type: string
     show_if: ordering
@@ -107,8 +107,8 @@ settings:
       - [statisch, t]
     show_if: zusatzoptionen
   - property: yscroll
-    name: Höhe ändern
-    description: für Export als png
+    name: Höhe ändern (inkl. Zeile und Quelle)
+    description: Gesamthöhe inkl. Zeile und Quelle
     type: string
     choices:
       - ['500px > 20 Einträge', 500px]
