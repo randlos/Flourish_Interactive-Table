@@ -243,25 +243,25 @@ function update() {
     }
 
     function without_bar(number, data) {
-
         let value_array = data.Data[0].values;
-
+        let key_array = new Array();
         let column_array = new Array();
-        for (var index in value_array) {
-            if (isNaN(number)) {
-                for (var j in number) {
-                    if (index != j && index != 0) {
-                        console.log("Pop Index: " + j);
-                        column_array.pop(parseInt(index));
-                    }
-                }
-            }
-            if (index != number && index != 0) {
-                console.log("Push Index: " + index)
-                column_array.push(parseInt(index));
-            }
+
+        for (let index in value_array) {
+            key_array.push(parseInt(index))
         }
-        console.log(column_array);
+
+        if (typeof number == 'number') {
+            number = [number];
+            // console.log(typeof number);
+        }
+
+        // console.log("Number: " + number);
+        // console.log("Value_array: " + value_array.keys());
+        // console.log("Keys Array: " + key_array);
+
+        column_array = key_array.filter(val => !number.includes(val))
+            //console.log(column_array);
         return column_array;
     }
 

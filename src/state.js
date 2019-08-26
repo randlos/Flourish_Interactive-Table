@@ -76,7 +76,7 @@ var state = {
 
     // Bar-Chart-Feature
     bar_switch: true,
-    bar_column: 'B,C', //'C,D'//'D',//
+    bar_column: 'C,D', //'C,D'//'D',//
     color_balken_negative: '#D82217',
     color_balken_positive: '#6CBA6C',
 
