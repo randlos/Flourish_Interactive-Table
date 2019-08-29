@@ -332,6 +332,11 @@ function update() {
     }
 
     function getjustnumber(datavalue) {
+        if (datavalue.includes(",")) {
+            console.log("Dot: " + datavalue)
+            datavalue = datavalue.replace(",", ".")
+            console.log("Comma: " + datavalue)
+        }
         let number = parseFloat(datavalue);
         if (datavalue == "keine Angabe") {
             //console.log(datavalue);
