@@ -266,8 +266,9 @@ function update() {
     }
 
     function number_format(data) {
-
-        if (Math.abs(data) >= 10000 && Math.abs(data) <= 1000000) {
+        if (typeof data == 'string') {
+            return String(data);
+        } else if (Math.abs(data) >= 10000 && Math.abs(data) <= 1000000) {
             //console.log(thousand(data));
             return thousand(data);
         } else if (Math.abs(data) >= 1000000) {
@@ -332,16 +333,25 @@ function update() {
     }
 
     function getjustnumber(datavalue) {
+
+
         if (datavalue.includes(",")) {
-            console.log("Dot: " + datavalue)
             datavalue = datavalue.replace(",", ".")
-            console.log("Comma: " + datavalue)
         }
+
         let number = parseFloat(datavalue);
-        if (datavalue == "keine Angabe") {
+
+        // Check if datavalue contains only alphabetic-characters to ensure that the search is working for those columns
+        if (datavalue == getjuststring(datavalue)) {
             //console.log(datavalue);
-            return 0;
+            return datavalue;
+
+            if (datavalue == "keine Angabe") {
+                return 0;
+            }
         }
+
+
         return number;
     }
 
@@ -349,6 +359,8 @@ function update() {
         var str = datavalue;
         var patt = /[A-Za-z$€].*/g;
         var result = str.match(patt);
+        // console.log(str);
+        // console.log("Result: " + result);
         return result;
     }
 
@@ -434,8 +446,9 @@ function update() {
                 "targets": without_bar(tranlsateSortingAlphaToNumber(state.bar_column), data),
                 "render": function(data, type, row, meta) {
                     if (type == "display") {
-                        return number_format(data);
+                        return String(number_format(data));
                     }
+                    //console.log(getjustnumber(data));
                     return getjustnumber(data);
                 }
             },
@@ -480,7 +493,7 @@ function update() {
                         if (state.bar_switch) { //
                             if (isNaN(getjustnumber(data))) {
                                 //console.log("data is not a number");
-                                return data;
+                                return String(data);
 
                             } else if (state.negative_bar) {
                                 let pre_bar_container = '<div class="barcont">';
@@ -576,14 +589,16 @@ function update() {
         let searcher_var = state.search_column;
         let count_search_column = searcher_var.length - 1;
 
-        //console.log(count_search_column);
+        let all = $('#myTable').DataTable().columns()[0]
 
-        if (count_search_column <= 1) {
+
+        if (state.search_column == "alle") {
+
+            $('#myTable').DataTable().search(this.value).columns(all).draw();
+        } else if (count_search_column < 1) {
             $('#myTable').DataTable().columns(tranlsateSortingAlphaToNumber(state.search_column)).search(this.value).draw();
-            //console.log('Selective Search: ' + tranlsateSortingAlphaToNumber(state.search_column))
         } else {
             $('#myTable').DataTable().search(this.value).draw();
-            //console.log('Full Search')
 
         }
     });

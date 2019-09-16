@@ -75,7 +75,7 @@ var state = {
     imgsize_w: 100,
 
     // Bar-Chart-Feature
-    bar_switch: true,
+    bar_switch: false,
     bar_column: '', //'C,D'//'D',//
     color_balken_negative: '#D82217',
     color_balken_positive: '#6CBA6C',
