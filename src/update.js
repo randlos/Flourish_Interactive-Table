@@ -82,6 +82,10 @@ function update() {
         //"autoWidth": true,
         "columnDefs": [{
                 "targets": 0,
+                className: 'firstColumn'
+            },
+            {
+                "targets": 0,
                 "data": 0,
                 "render": function(data, type, row, meta) {
                     return viz.show_img(data, type, row, meta);

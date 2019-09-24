@@ -9,7 +9,7 @@
     ],
     "scripts": {
         "build": "rollup -c",
-        "less": "less --plugin=less-plugin-clean-css --source-map less/style.less static/style.css",
+        "less": "lessc --plugin=less-plugin-clean-css --source-map less/style.less static/style.css",
         "lint": "eslint src"
     },
     "dependencies": {

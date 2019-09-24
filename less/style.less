@@ -1,13 +1,13 @@
 //variables colors
 
-@basic: #ffffff;
-@grey: #ededed;
-@red: #D82217;
-@black: #0a0a0a;
+@basic: #333333;
+@basiclight: #fafafa;
+@basicdark: #b9bac8;
+@highlight: #ececec;
+@default: #70728F;
+@dark: #0a0a0a;
 
-@table-font-size: 1.2em;
-
-
+@table-font-size: 1em;
 
 body, html {
     margin: 0;
@@ -54,7 +54,7 @@ h2#unterzeile {
 }
 
 .dataTables_scrollHead {
-  background: @black;
+  background: @dark;
   color: @basic;
   width: 100%;
 }
@@ -73,7 +73,7 @@ h2#unterzeile {
 }
 
 .dataTables_scrollHeadInner thead .sorting_asc {
-  background: @red;
+  background: @default;
   color: @basic;
   padding: 8px auto !important;
   border-left: 2px solid white !important;
@@ -81,7 +81,7 @@ h2#unterzeile {
 }
 
 .dataTables_scrollHeadInner thead .sorting_desc {
-  background: @red;
+  background: @default;
   color: @basic;
   padding: 8px auto !important;
   border-left: 2px solid white !important;
@@ -106,6 +106,22 @@ table.dataTable thead th {
 table.dataTable thead td {
   border: none !important;
   font-size: @table-font-size;
+}
+
+table.dataTable .firstColumn {
+  background: @basiclight;
+  border-bottom: 1px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  color: @default;
+}
+
+table.dataTable th.sorting_asc, table.dataTable th.sorting_desc{
+  background: @basicdark;
+}
+
+table.dataTable th.firstColumn {
+  background: @default;
+  color: @highlight;
 }
 
 table.dataTable tbody th {
@@ -180,13 +196,13 @@ th {
 }
 
 #myTable li {
-  border-top: 1px solid @grey;
+  border-top: 1px solid @highlight;
   padding-top: 7px;
   border-bottom: none !important;
 }
 
 #myTable td.child {
-  border-bottom: 2px solid @black;
+  border-bottom: 2px solid @dark;
 }
 
 #myTable th {
@@ -201,11 +217,11 @@ th {
 #mySearch {
   margin: 0 auto 10px auto;
   display: block;
-  border: 1px solid @grey;
+  border: 1px solid @highlight;
 }
 
 input#mySearch  {
-  background:@grey;
+  background:@highlight;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   text-indent: 5px;
@@ -232,11 +248,11 @@ input#mySearch  {
 
 #myTable_paginate a:hover {
   color: @basic;
-  background: black;
+  background: @dark;
 }
 
 #myTable_paginate .paginate_button.current {
-  background: @black;
+  background: @dark;
   color: @basic !important;
   // margin: 5px;
 }
@@ -271,7 +287,7 @@ input#mySearch  {
 // Responsive
 
 td:before {
-  background-color: @black!important;
+  background-color: @dark!important;
   line-height: 19px!important;
   top: auto !important;
   margin-top: 1px;
@@ -331,7 +347,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::
 table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::before{
   background: transparent !important;
   content: '-' !important;
-  color: black !important;
+  color: dark !important;
   font-size: 70px !important;
   padding: 12px 28px 0 0 !important;
 
