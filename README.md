@@ -11,9 +11,18 @@ Build with
 Source Data:
 https://fddb.info/
 
+____
+
+## Demo
+
 ![](./dynatable_intro.gif)
+
+____
+
+## Docs
 
 To publish the template on https://flourish.app install the SDK
 and just type `flourish publish `
+
 
 
