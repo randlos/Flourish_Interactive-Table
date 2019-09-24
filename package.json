@@ -1,36 +1,36 @@
 {
-  "name": "tabletom",
-  "description": "A template for interactive tables",
-  "main": "template.js",
-  "author": "Mario Stauber",
-  "license": "ISC",
-  "keywords": [
-    "flourish"
-  ],
-  "scripts": {
-    "build": "rollup -c",
-    "less": "lessc --plugin=less-plugin-clean-css --source-map less/style.less static/style.css",
-    "lint": "eslint src"
-  },
-  "dependencies": {
-    "@flourish/sdk": "^3.9.2",
-    "commonjs": "^0.0.1",
-    "less": "^3.9.0",
-    "less-plugin-clean-css": "^1.5.1",
-    "package.json": "^2.0.1",
-    "requirejs": "^2.3.5",
-    "rollup": "^0.58.2",
-    "rollup-plugin-commonjs": "^9.3.4",
-    "rollup-plugin-node-resolve": "^3.3.0",
-    "rollup-plugin-uglify": "^3.0.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/flourish_dev/tabletom.git"
-  },
-  "bugs": {
-    "url": "https://gitlab.com/flourish_dev/tabletom/issues"
-  },
-  "homepage": "https://gitlab.com/flourish_dev/tabletom#readme"
+    "name": "tabletom",
+    "description": "A template for interactive tables",
+    "main": "template.js",
+    "author": "Mario Stauber",
+    "license": "ISC",
+    "keywords": [
+        "flourish"
+    ],
+    "scripts": {
+        "build": "rollup -c",
+        "less": "less --plugin=less-plugin-clean-css --source-map less/style.less static/style.css",
+        "lint": "eslint src"
+    },
+    "dependencies": {
+        "@flourish/sdk": "^3.9.2",
+        "commonjs": "^0.0.1",
+        "less": "^3.9.0",
+        "less-plugin-clean-css": "^1.5.1",
+        "package.json": "^2.0.1",
+        "requirejs": "^2.3.5",
+        "rollup": "^0.58.2",
+        "rollup-plugin-commonjs": "^9.3.4",
+        "rollup-plugin-node-resolve": "^3.3.0",
+        "rollup-plugin-uglify": "^3.0.0"
+    },
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/flourish_dev/tabletom.git"
+    },
+    "bugs": {
+        "url": "https://gitlab.com/flourish_dev/tabletom/issues"
+    },
+    "homepage": "https://gitlab.com/flourish_dev/tabletom#readme"
 }
