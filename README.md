@@ -1,4 +1,6 @@
-# DynaTable
+# DynaTable - Flourish_Interactive-Table 
+
+Version: 1.1.18
 
 Dynamic HTML-Table Template. For the data visualisation tool flourish.studio
 + Flourish Visualisation Frontend (https:/+ /flourish.studio/)
@@ -8,8 +10,6 @@ Build with
 
 Source Data:
 https://fddb.info/
-
-![](./dynatable_front.png)
 
 ![](./dynatable_intro.gif)
 
