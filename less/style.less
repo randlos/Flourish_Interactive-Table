@@ -2,16 +2,62 @@
 
 @basic: #ffffff;
 @grey: #ededed;
+<<<<<<< HEAD
 @red: rgb(71, 5, 2);
 @black: #000000;
+=======
+@red: #D82217;
+@black: #0a0a0a;
+
+@table-font-size: 1.2em;
+>>>>>>> beta
 
 
 
 body, html {
     margin: 0;
+<<<<<<< HEAD
     font-family: sans-serif;
+=======
+    font-family: "Gotham XNarrow","Avenir Next Condensed",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;
+    font-size: 16px;
+>>>>>>> beta
     transition: background-color .5s ease;
+    background: #ffffff;
 }
+/* Zeilen */
+
+#zeilen {
+  margin:0 0 10px 0;
+  padding:0;
+}
+
+h1#hauptzeile {
+  margin:0;
+  text-align: center;
+}
+
+h2#unterzeile {
+  margin:0;
+  text-align: center;
+  font-weight: 300 !important;
+}
+
+@media only screen and (max-width: 350px) {
+  /* For mobile phones: */
+  
+  h1#hauptzeile {
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+  }
+  
+  h2#unterzeile {
+    font-size:1.25rem !important;
+    line-height:1.5rem !important;
+  }
+
+}
+
 
 #myTable {
   border: none !important;
@@ -24,7 +70,7 @@ body, html {
 }
 
 .dataTables_scrollHeadInner th {
-  padding: 8px 5px;
+  padding: 8px auto;
   height: 41px;
   border-left: 2px solid white;
   border-bottom: none;
@@ -60,33 +106,37 @@ table.dataTable.no-footer {
   border-bottom: none !important;
 }
 
-// .dataTables_scrollHeadInner thead .sorting_asc {
-//   padding: 8px auto;
-// }
 
 table.dataTable thead th {
   border: none !important;
-  padding: 11px 18px !important;
+  font-size: @table-font-size;
+  // padding: 11px 18px !important;
 }
 
 table.dataTable thead td {
   border: none !important;
+  font-size: @table-font-size;
 }
-
-
 
 table.dataTable tbody th {
   padding: 9px 10px;
+  font-size: @table-font-size;
   border-left: 4px solid white;
 }
 
 table.dataTable tbody td {
-  padding: 9x 10px;
+  font-size: @table-font-size;
+  padding: 5px 10px;
   border-left: 2px solid white;
+  vertical-align: top !important;
 }
 
 th.sorting {
+<<<<<<< HEAD
   //text-align: left;
+=======
+  // text-align: left;
+>>>>>>> beta
 }
 
 .sorting_asc {
@@ -157,90 +207,6 @@ th {
   border-bottom: 2px solid @black;
 }
 
-// #myTable td:first-child {
-//   text-align: center;
-// }
-
-// #myTable th.sorting {
-//   background: @grey;
-//   height: 50px !important;
-// }
-
-// #myTable th.sorting_asc {
-//   background: @red;
-//   color: @basic;
-//   opacity: 0.5%;
-// }
-
-// #myTable th.sorting_asc:after {
-//   display: inline;
-//   float: right;
-//   content: "";
-//   //font-size: 10px;
-//   bottom: 0;
-//   right: 0;
-//   margin: 5px 5px 0 0;
-//   width: 0;
-//   height: 0;
-//   border-style: solid;
-//   border-width: 0 6px 7px;
-//   border-color: transparent transparent #fff transparent;
-
-// }
-
-// #myTable th.sorting_desc:after {
-//   display: inline;
-//   float: right;
-//   content: "";
-//   //font-size: 10px;
-//   bottom: 0;
-//   right: 0;
-//   margin: 5px 5px 0 0;
-//   width: 0;
-//   height: 0;
-//   border-style: solid;
-//   border-width: 0 6px 7px;
-//   border-color: transparent transparent #fff transparent;
-//   -webkit-transform: rotate(180deg);
-//   -moz-transform: rotate(180deg);
-//   -ms-transform: rotate(180deg);
-//   -o-transform: rotate(180deg);
-//   transform: rotate(180deg);
-// }
-
-
-// #myTable th.sorting_desc {
-//   background: @red;
-//   color: @basic;
-// }
-
-/* #myTable th.sorting_asc::before {
-  z-index: 999;
-  visibility: hidden;
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 7px 8px;
-  border-color: transparent transparent #fff transparent;
-}
-
-#myTable th.sorting_asc::after {
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-  border-bottom-color: #db0000;
-} */
-
-
 #myTable th {
   border-left: 3px solid @basic;
 }
@@ -249,20 +215,33 @@ th {
 // Suche
 
 
+
 #mySearch {
-  margin: 15px auto 0px auto;
+  margin: 0 auto 10px auto;
   display: block;
   border: 1px solid @grey;
 }
 
 input#mySearch  {
   background:@grey;
+<<<<<<< HEAD
   font-family: "sans-serif";
   font-size: 22px;
+=======
+  font-family: "Gotham XNarrow","Avenir Next Condensed",sans-serif-condensed,"Arial Narrow","Arial Nova",sans-serif;
+  font-size: 1.2rem;
+>>>>>>> beta
   text-indent: 5px;
+  width: 180px;
 }
 
+@media only screen and (max-width: 350px) {
+  input#mySearch  {
+    width: 100%;
+  }
+}
 
+<<<<<<< HEAD
 // #myTable_filter {
 //   float: left;
 //   margin: 10px 7px 7px 10px;
@@ -283,13 +262,13 @@ input#mySearch  {
   //display: none;
 
 }
+=======
+
+>>>>>>> beta
 
 // Pagination
 
 #myTable_paginate {
-  //float:left;
-  //display: block;
-  //position: relative;
   clear: left;
 }
 
@@ -302,14 +281,6 @@ input#mySearch  {
 #myTable_paginate a:hover {
   color: @basic;
   background: black;
-}
-
-#myTable_paginate .paginate_button {
-  //border:none;
-  // border: 1px solid black;
-  // border-radius: 5px;
-  // border-width: 1px;
-  // border-color: @grey;
 }
 
 #myTable_paginate .paginate_button.current {
@@ -334,23 +305,20 @@ input#mySearch  {
 }
 
 
-#myTable tr.child td.child {
-  //border-top: 4px solid #d3d3d3;
-}
-
-
 // Info-Element Styling
 
 #myTable_info {
+  font-size: @table-font-size;
   width: 100%;
-  font-size: 1.3rem;
   margin: 0px auto 7px auto;
   text-align: center;
+  padding-top:0;
 }
 
 
 // Responsive
 
+<<<<<<< HEAD
 td:before {
   background-color: @black!important;
   line-height: 19px!important;
@@ -364,19 +332,64 @@ td:before {
   width: 17px !important;
   height: 17px !important;
 }
+=======
+>>>>>>> beta
 
-td::after {
-  background-color: #D82217!important;
-  background: #D82217;
-  font-size: 19px !important;
-  text-align: center !important;
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child {
+
+  position: relative;
+  padding-left: 30px !important;
+  cursor: pointer;
+
 }
 
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before {
+  // content: '▸' !important;//'▾' !important;
+	// top: 20px !important;
+	// left: 0px !important;
+	// display: inline !important;
+	// position: absolute !important;
+  // color: @red !important;
+  // width: 0px !important;
+  // height: 0px  !important;
+	// border: 0 !important;
+	// border-radius: 0 !important;
+	// box-shadow: 0 0 0 !important; 
+	// padding: 0 5px 0 5px;
+  // text-align: center;
+  // line-height: 0px !important;
+  // background-color: transparent !important;
+  
+  top: 3px !important;
+  left: 0px !important;
+  padding: 10px;
+  color: transparent !important;
+  display: block;
+  position: absolute;
+  color: none !important;
+  border-radius: 0 !important;
+	text-indent: 0 !important;
+  font-family: sans-serif !important;
+  font-size: 1.2rem !important;
+  line-height: 20px !important;
+  box-shadow: none !important;
+  border: none !important;
 
-// table.dataTable.dtr-inline.collapsed 
+  background: url(plus.png) no-repeat!important;
+  transform: scale(0.5);
+}
 
+table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::before{
+  background: transparent !important;
+  content: '-' !important;
+  color: black !important;
+  font-size: 70px !important;
+  padding: 12px 28px 0 0 !important;
 
-// Buttons for Column-Comparsion
+  // top: 15px !important;
+  // left: 7px !important;
+  // transform: rotate(90deg);
+}
 
 div.dt-buttons {
   padding: 5px;
@@ -387,29 +400,67 @@ div.dt-buttons {
 
 div.barcont {
   height: 20px;
+  padding: 2px;
 }
 
 td div.barcont {
   min-width: 133px;
 }
 
+div.barcont {
+}
+
+div.barcont .bardiv {
+  //width:50%;
+}
+
 div.barcont .bar {
-  width: 70%;
+  //width: 40% !important;
   float: left;
+  margin: 0 5px 0 0;
 }
 
 div.barcont .bartext {
-  width: 30%;
-  float: left;
+  //width: 45%;
+  float:left;
 }
 
 div.barcont .bartext p {
   margin: 0;
-  padding: 0 1px;
   word-break: break-all;
-  padding: 1px 4px;
+  // padding: 0px 10px;
+  font-weight: bold;
 }
 
-div.barcont .barsvg {
-  
+// Negative Bar
+
+.leftbar{
+  position: relative;
+  float: left; 
+  width: 48%; 
+  border-right: 1px solid lightgray; 
+  padding: 0px 1px 2px 0;
+  margin: 0;
+
+}
+
+.rightbar{
+  position: relative;
+  float: right;
+  width: 50%;
+}
+
+/* Footer/Quelle */
+
+div#footer {
+  text-align: left;
+  margin: 5px 0 0 5px;
+}
+
+a#infobild {
+  color: #000000;
+}
+
+div#quellen_container a{
+  color: #000000;
 }

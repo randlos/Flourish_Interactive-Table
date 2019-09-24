@@ -1,30 +1,10 @@
-Foto,Name,Hersteller,Fett in g,Zucker in g
-https://bilder.ams3.cdn.digitaloceanspaces.com/Twix_DSC1460.jpg,Twix,Mars GmbH,24.0,49.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Mars_DSC1458.jpg,Mars,Mars GmbH,16.6,61.7
-https://bilder.ams3.cdn.digitaloceanspaces.com/Snickers_DSC1452.jpg,Snickers,Mars GmbH,23.0,52.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Bounty_DSC1446.jpg,Bounty,Mars GmbH,26.0,48.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Knoppers_DSC1444.jpg,Knoppers NussRiegel,Storck,31.8,38.3
-https://bilder.ams3.cdn.digitaloceanspaces.com/LionWei%C3%9F_DSC1451.jpg,Lion White,Nestlé,22.3,51.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/KitKat_DSC1439.jpg,KitKat Einzelriegel Classic 4-Finger-Riegel,Nestlé,27.6,46.6
-https://bilder.ams3.cdn.digitaloceanspaces.com/Yogurette_DSC1469.jpg,Yogurette,Ferrero,35.6,55.4
-https://bilder.ams3.cdn.digitaloceanspaces.com/Duplo_DSC1431.jpg,Douplo,Ferrero,33.5,50.4
-https://bilder.ams3.cdn.digitaloceanspaces.com/Kinder-Riegel_DSC1422.jpg,Kinder Riegel,Ferrero,35.0,53.3
-https://bilder.ams3.cdn.digitaloceanspaces.com/Kinder-Country_DSC1427.jpg,Kinder Country,Ferrero,33.8,49.1
-https://bilder.ams3.cdn.digitaloceanspaces.com/Bueno_DSC1442.jpg,Kinder Bueno,Ferrero,8.1,41.2
-https://bilder.ams3.cdn.digitaloceanspaces.com/Daim_DSC1471.jpg,Daim Riegel,Mondelez,31.0,60.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Oreo_Milka_DSC1467.jpg,Milka und Oreo,Mondelez,33.0,49.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Nuts_DSC1464.jpg,Nuts,Nestlé,10.4,52.7
-https://bilder.ams3.cdn.digitaloceanspaces.com/Netto_CB_Carmel-Choco_DSC1477.jpg,Caramel Choco,Choco Bella,23.0,44.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Netto_CB_Peanut-Choco_DSC1478.jpg,Peanut Choco,Choco Bella,28.0,43.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Netto_Choco-Fun_Smooth-Caramel-Bites_DSC1492.jpg,Smooth Caramel Bites,Choco Fun,19.0,56.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Netto_Choco-Fun_Peanut_Caramel-Bites_DSC1493.jpg,Peanuts & Caramel Bites,Choco Fun,27.0,44.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Netto_Choco-Fun_Caramel_Biscuts_Bites_DSC1494.jpg,Caramel & Biscuts Bites,Choco Fun,25.0,42.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/LIDL_MC_Choco_Caramel_DSC1480.jpg,Choco & Caramel,Mister Choc,20.0,57.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/LIDL_MC_-Peanut_Choco_DSC1479.jpg,Peanut & Choco,Mister Choc,28.0,43.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Aldi_SelectionMiniChoco-Bits_DSC1484.jpg,Choco Bits,Ludwig Schokolade GmbH und Co. KG,16.3,64.2
-https://bilder.ams3.cdn.digitaloceanspaces.com/Aldi_SelectionMini_Hazelnut-Bits__DSC1483.jpg,Hazelnut Bits,Ludwig Schokolade GmbH und Co. KG,25.0,53.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Aldi_SelectionMini_Chrispy-Bits__DSC1486.jpg,Crispy Bits,Ludwig Schokolade GmbH und Co. KG,24.0,51.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Aldi_SelectionMini_Choconut-Bits__DSC1487.jpg,Coconut Bits,Ludwig Schokolade GmbH und Co. KG,24.7,48.1
-https://bilder.ams3.cdn.digitaloceanspaces.com/Aldi_Race_DSC1489.jpg,Race,Ludwig Schokolade GmbH und Co. KG,19.7,56.8
-https://bilder.ams3.cdn.digitaloceanspaces.com/Aldi_Get-It__DSC1490.jpg,GET'IT,Ludwig Schokolade GmbH und Co. KG,23.0,44.0
-https://bilder.ams3.cdn.digitaloceanspaces.com/Aldi_Peanut-Bits_DSC1491.jpg,Peanut Bits,Ludwig Schokolade GmbH und Co. KG,27.9,42.5
+Spalte A,Spalte B,Spalte C,Spalte D
+https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Farben-Testbild.svg/200px-Farben-Testbild.svg.png,-100,1230,10000
+Die erste Spalte,"200,44 euro/qm",435,20000
+2. Spalte,"200.34 euro/qm",keine Angabe,21212
+Testspalte,"200,87 euro/qm",Hallo Welt, 4353
+Eine weitere,39000,-4000,40000
+Wahrscheinlich 4,-9990,66066,40000
+Könnte Spalte 5 oder 6 sein,-3000,99999,4505
+Eine der letzten,-200 Euro,25258,20000
+Die letzte,1,1000,10000

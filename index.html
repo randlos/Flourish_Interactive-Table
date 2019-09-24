@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +11,35 @@
     <link rel="stylesheet" type="text/css" href="responsive.dataTables.css">
     <link rel="stylesheet" type="text/css" href="colReorder.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="buttons.dataTables.min.css">
- 
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="js/jquery.dataTables.js"></script>
     <script src="js/dataTables.responsive.js"></script>
     <script src="js/dataTables.colReorder.min.js"></script>
     <script src="js/dataTables.buttons.min.js"></script>
     <script src="js/buttons.colVis.min.js"></script>
-    <script src="https://d3js.org/d3.v3.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.js"></script>
+
 </head>
+
 <body>
-    <div>
-        <input id="mySearch" type="search" placeholder="Suchen" aria-controls="myTable">
+    <div id="zeilen">
+        <h1 id="hauptzeile"></h1>
+        <h2 id="unterzeile"></h2>
     </div>
-        <table id="myTable" class="hover stripe footer" style="width:100%">
-      
-        </table>
-        
-      
+
+    <div id="search">
+        <input id="mySearch" type="search" placeholder="Suchen" aria-controls="myTable">
+        <!-- <button class=".addbtn"> TEST </button> -->
+    </div>
+    <table id="myTable" class="hover stripe footer" style="width:100%">
+
+    </table>
+    <div id="quellen_container">
+        <a href="https://info.bild.de" target="_blank">info.BILD.de</a> | <span id="quelle"></span>
+    </div>
+    </div>
+
 </body>
+
 </html>

@@ -1,229 +1,78 @@
-
 import state from "./state";
 import data from "./data";
-
-
-import {numconvert} from './numberConversion.js';
+import * as transform from "./helper/values";
+import * as stats from "./helper/stats";
+import * as options from "./helper/options";
+import * as viz from "./helper/viz";
 
 
 function update() {
-    
-/*     function sortingOrderTranlsate(order) {
-        if (state.sortingOrder == "Aufsteigend") {
-            state.sortingOrder = "asc";
-            return state.sortingOrder;
-        }
-    
-        else if (state.sortingOrder == "Absteigend"){
-            state.sortingOrder = "desc";
-            return state.sortingOrder;
-        }
-        else {
-            return state.sortingOrder;
-        }
 
-    } */
+    function rm_zeile_height(height) {
 
-    function reloadTable(variable) {
-        
-        table.ajax.reload();
-        return variable;
+        // Get zeilen_height while creating zeilen in zeilen():553 / If recieved in this. function, the DOM isn't fully loaded yet 
+        let zeilen_height = zeilen();
+        let search_height = document.getElementById("search").clientHeight;
+        let quelle_height = document.getElementById("quelle").clientHeight;
+        let table_height = parseInt(height) - zeilen_height - search_height - quelle_height + "px";
+        return table_height;
     }
 
-    let database = data.Data;
-
-    function maxValue(column) {
-        let exp_column = column;
-        let scope_data = database;
-        //console.log(scope_data);
-
-        let dataArray = new Array();
-        
-        scope_data.forEach(function(item, index, array) {
-            
-                // GET THE LAST ITEM (LAST COLUMN CELL) IN A ARRAY
-                //console.log(item.values.slice(-1)[0], index);
-    
-                // Get the active column for bar-charts in Characters, convert it to a number and get the max value of that column
-                
-                //console.log("Bar Column: " + exp_column);
-
-                let valueToConsider = item.values.slice(exp_column)[0];
-                dataArray.push(valueToConsider);
-                //console.log(valueToConsider)
-    
-            });
-
-         
-        let maxVal = Math.max.apply(Math, dataArray);
-        //console.log("DataArray: " + dataArray);
-
-        return maxVal;
-    }
-
-    // let maxVal = maxValue(3);
-    // console.log("MAX Value 4.Column: " + maxVal);
-
-    //console.log("Max Value: " + maxVal);
-
-    //console.log(data.Data.values[tranlsateSortingAlphaToNumber(state.bar_column]));
-   
-    // function balken(data) {
-        
-    //     // let chart = d3.select("body")//d3.select("td:nth-last-child(1)")
-    //     // .append("svg")
-    //     // .attr("class", "barchart")
-    //     // .attr("width", "100%")
-    //     // .attr("height", "70%");
-      
-
-    //     // let bar = chart.select("g")
-    //     // .data(data)    
-    //     // .enter()
-    //     // .append("g");
-        
-        
-    //     let bar = d3.append("rect")
-    //     .attr("width", function(d) { return 100/d + "%"}) //function(d) { return (d/(d3.sum(data)))*100 + "%"; } )   // function(d) { return d + "%"})
-    //     .attr("x", "0")
-    //     .attr("y", "50%")
-    //     .attr("height", "80%")
-    //     .attr("fill", "#000");
-    // }
-
-    // function getOrderedColumn(table) {
-    //     let order = table.order();
-    //     //console.log(order);
-    //     return order;
-    // }
-
-    
-    function tranlsateSortingAlphaToNumber(alpha) {
-        //console.log(alpha[0]);
-
-        let barchart_column;
-        let columnArray = [];
-
-        let alphaList = [{number:1, string:'A'},
-                         {number:2, string:'B'},
-                         {number:3, string:'C'},
-                         {number:4, string:'D'},
-                         {number:5, string:'E'},
-                         {number:6, string:'F'},
-                         {number:7, string:'G'},
-                         {number:8, string:'H'},
-                         {number:9, string:'I'},
-                         {number:10, string:'J'},
-                         {number:11, string:'K'},
-                         {number:12, string:'L'},
-                         {number:13, string:'M'},
-                         {number:14, string:'N'},
-                         {number:15, string:'O'},
-                         {number:16, string:'P'},
-                         {number:17, string:'Q'},
-                         {number:18, string:'R'},
-                         {number:19, string:'S'},
-                         {number:20, string:'T'},
-                         {number:21, string:'U'},
-                         {number:22, string:'V'},
-                         {number:23, string:'W'},
-                         {number:24, string:'X'},
-                         {number:25, string:'Y'},
-                         {number:26, string:'Z'}
-                        ];
-        
-        if(typeof alpha == 'object') {
-            //console.log("Alpha Array? " + typeof alpha);
-
-            for (let key in alpha) {
-                //console.log(alpha[key]);     
-                let i;
-                for (i=0; i < alphaList.length; i++) {
-                    if (alphaList[i].string == alpha[key]) {
-                        //console.log("Output:" + typeof(alphaList[i].number));
-                        columnArray.push(alphaList[i].number -1);
-                    };             
-                }
-            }
-                //console.log("Column Array: " + "["+columnArray+"]");
-                return columnArray;
-        }
-
-        else {
-            let i;
-            //console.log("alpha-Input: " + alpha);
-            for (i=0; i < alphaList.length; i++) {
-                if (alphaList[i].string == alpha) {
-                    //console.log("Output:" + alphaList[i].number);
-                    barchart_column = alphaList[i].number -1;
-                    return barchart_column;
-                };
-            }; 
-        }
-
-          
-    }
-
-    //console.log("Spaltenzahl: " + tranlsateSortingAlphaToNumber(state.bar_column));
-
-
-    function c_names() {
-        let column_data = [];
-        for(var i=0; i<data.Data.column_names.values.length; i++){
-            column_data.push({"title": data.Data.column_names.values[i]});     
-        };
-        //console.log(column_data);
-        return column_data;
-    }
-    
-    
-    function colorMapBalken(data, maxVal) {
-
-        let color = d3.scale.linear()
-        .domain([0,maxVal])
-        .range(["green", "red"]);
-
-        return color(data);
-
-    }
-
-    // let colortestdata = [2,4,7,8,14,55,66,99];
-    // console.log(colortestdata.length);
-    // console.log(colorMapBalken(colortestdata));
-   
-    
-    let table = $('#myTable').dataTable( {
+    let table = $('#myTable').dataTable({
         data: data.Data.map(e => e.values),
         responsive: {
-            details: true,
-            breakpoints: [
-                { name: 'stationär', width: Infinity },
-                { name: 'mobil',  width: 705 },
-            ]
+            details: {
+                type: 'inline',
+                target: 0,
+                // display: $.fn.dataTable.Responsive.display.modal( {
+                //     header: function ( row ) {
+                //         var data = row.data()[0];
+                //         return data;
+                //     }
+                // } )
+            }
         },
+        "ordering": state.ordering,
         colReorder: {
-            enable: true,
-        //     order: [ 5, 4, 3, 2, 1, 0 ],
-        //     realtime: false,
+            enable: false,
+            //     order: [ 5, 4, 3, 2, 1, 0 ],
+            //     realtime: false,
 
         },
+        'infoCallback': function(settings, start, end, max, total, pre) {
+
+            // Callback to change information on top of table -> in this particular example: show the number of all entries in the table
+            return start + " bis " + end + " von " + transform.number_format(max) + " Einträgen";
+        },
+
         // "drawCallback": function( settings ) {
         //     let api = this.api();
         //     // console.log( api.rows( {page:'current'} ).data() );
         //     //console.log(api.columns( {page:'current'}).data());
         //     //var api = new $.fn.dataTable.Api( settings );
- 
-            
+
+
         //     // Output the data for the visible rows to the browser's console
         //     // You might do something more useful with it!
         //     //console.log(api.search);
         //     //console.log( api.rows( {page:'current'} ).data().table );
-            
+
         //     // $('#mySearch').on( 'keyup', function () {
         //     //     table.search( this.value );
         //     // } );
         // },
         "dom": state.layout,
+        // "infoCallback": function(settings, start, end, max, total, pre) {
+        //     var api = this.api();
+        //     var pageInfo = api.page.info();
+        //     var entriesInfo = api;
+        //     console.log(pageInfo);
+        //     console.log(entriesInfo);
+
+
+
+        //     return 'Page ' + (number_format(pageInfo.page + 1)) + ' of ' + number_format(pageInfo.pages);
+        // },
         // buttons: [
         //     {
         //         extend: 'columnsToggle',
@@ -231,82 +80,133 @@ function update() {
         // ],
         //responsive: true,
         //"autoWidth": true,
-        "columnDefs" : [{
-            "targets": 0,
-            "data": 0,
-            "render": function ( data, type, row, meta ) {
-                //console.log(data);
-                if (data.indexOf("/") > -1){
-                    var img_tag = '<img src="'+data+'"height="'+state.imgsize[0]+'"width="'+state.imgsize[1]+'">';
-                    //console.log(data);
-                    return img_tag;
+        "columnDefs": [{
+                "targets": 0,
+                "data": 0,
+                "render": function(data, type, row, meta) {
+                    return viz.show_img(data, type, row, meta);
+                },
+            },
+            {
+                "targets": viz.without_bar(transform.tranlsateSortingAlphaToNumber(state.bar_column), data),
+                "render": function(data, type, row, meta) {
+                    return viz.without_viz(data, type, row, meta);
                 }
-                else {
-                    return data;
+            },
+            {
+                "targets": transform.tranlsateSortingAlphaToNumber(state.bar_column),
+                "render": function(data, type, row, meta) {
+                    return viz.barchart(data, type, row, meta);
                 }
-              },
-        },{
-            "targets": tranlsateSortingAlphaToNumber(state.bar_column),
-            "render": function (data, type, row, meta) {
-                
-                
-                
-                let maxVal = maxValue(meta.col);
-                //console.log("Max Value in function: " + maxVal);
 
-                if (state.bar_switch) {  //
-            
-                    if (!isNaN(data)) {
-                        let pre_bar_container = '<div class="barcont">';
-                        let bartext = '<div class="bartext"><p>' + data + '</p></div>';
-                        let bar = '<div class="bar"><svg class="barsvg" style="height:10px;width:' + data/maxVal * 100 + '%; background:' + colorMapBalken(data, maxVal) + ';"> </svg> </div>';
-                        let post_bar_container = '</div>';
-                        return pre_bar_container + bar + bartext + post_bar_container;
-                    
-                    }
-                    else {
-                        return data;
-                    }
-                }
-                else {
-                    return data;
-                }
             }
-        }],
+        ],
         "paging": false,
-        "scrollY": state.yscroll,
+        "scrollY": rm_zeile_height(state.yscroll),
         //"scrollCollapse": true,
-        "pageLength":state.numberOfEntries,
-        "order": [tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder], 
-        columns: c_names(),
+        "pageLength": state.numberOfEntries,
+        "order": options.sortingswitch(state.sortingColumn, state.sortingOrder), //[transform.tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder],
+        columns: options.c_names(),
         "language": {
             "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/German.json"
         },
-        "drawCallback": function ( settings ) {
-
+        "drawCallback": function(settings) {
+            if (state.sortingColumn)
             // Change Header Color
-            $('.dataTables_scrollHead').css("background", state.headerColor);          
-            //console.log("Table reload!");
-            //console.log(state.headerColor);
+                $('.dataTables_scrollHead').css("background", state.headerColor);
+            //$('.dataTables_scrollHead th.sorting_desc').css("background-color", state.headerSortingColor);          
+
         }
     });
 
+
+    // Responsive Configuration
+    // $(".addbtn").on('click',function(){
+    //     var data = table.row(0).data();
+    //     data[3] = "<button type='button' class='btn btn-info btn-xs' style='font-size: 9px;'>New BtN</button>";
+    //     table.row(0).data(data);
+    //     table.draw();
+    //   });
     // console.log(getOrderedColumn(table));
 
-    $('#mySearch').on( 'keyup', function() {
-        $('#myTable').DataTable().search( this.value ).draw();
-    } );
+    $('#mySearch').on('keyup', function() {
+        let searcher_var = state.search_column;
+        let count_search_column = searcher_var.length - 1;
+
+        let all = $('#myTable').DataTable().columns()[0]
+
+
+        if (state.search_column == "alle") {
+
+            $('#myTable').DataTable().search(this.value).columns(all).draw();
+        } else if (count_search_column < 1) {
+            $('#myTable').DataTable().columns(transform.tranlsateSortingAlphaToNumber(state.search_column)).search(this.value).draw();
+        } else {
+            $('#myTable').DataTable().search(this.value).draw();
+
+        }
+    });
 
     // Deactivate Search for Grafik PNG Export
     function deactivateSearch() {
-        if (state.layout == "t") {
+        if (!state.searchswitch) {
             $('#mySearch').remove();
         }
     }
-    
-    deactivateSearch()
-    
-    
+
+    deactivateSearch();
+
+
+    // Schriftgrösse anpassen
+
+    function mod_font() {
+        $('.table.dataTable thead th').css("font-size", state.schriftgroesse)
+        $('.table.dataTable thead td').css("font-size", state.schriftgroesse)
+        $('.table.dataTable tbody th').css("font-size", state.schriftgroesse)
+        $('.table.dataTable tbody td ').css("font-size", state.schriftgroesse)
+    }
+
+    window.onload = mod_font();
+
+    // Zeilen
+
+    function zeilen() {
+
+        if (state.zeilenOn == true) {
+            $('#zeilen').css("display", "block");
+            $('#hauptzeile').text(state.hauptzeile);
+            $('#unterzeile').text(state.unterzeile);
+
+            $('#hauptzeile').css("font-size", state.hauptzeilen_font_size);
+            $('#unterzeile').css("font-size", state.unterzeilen_font_size);
+
+            $('#hauptzeile').css("line-height", state.hauptzeilen_height);
+            $('#unterzeile').css("line-height", state.unterzeilen_height);
+
+        } else {
+            $('#zeilen').css("display", "none");
+        }
+
+        let zeilen_height = document.getElementById("zeilen").clientHeight;
+        return zeilen_height;
+    }
+
+    zeilen();
+
+    // Quelle
+
+    function quelle() {
+        if (state.quelle) {
+            $('#quelle').text(state.quelle);
+        }
+
+    }
+
+
+    quelle();
+
+    // Reloading Problem
+
     $("iframe[name='preview']").each(function() {
         this.sandbox += ' allow-modals';
     });

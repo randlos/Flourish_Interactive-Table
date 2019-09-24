@@ -1,37 +1,55 @@
+var state = {
 
-let state = {
-  
+    // Schriftgroesse
+    schriftgroesse: "1.2rem",
+
+    // Sortierung
+    ordering: true,
+
+    // Zeilen Konfigurator
+
+    zeilenOn: true,
+    hauptzeile: "Hauptzeile",
+    unterzeile: "Unterzeile",
+    hauptzeilen_font_size: "2.625rem",
+    unterzeilen_font_size: "1.25rem",
+    hauptzeilen_height: "2.800rem",
+    unterzeilen_height: "1.850rem",
+
     // Tabellen-Optionen:
-    sortingColumn: "A",
+    sortingColumn: "keine",
     sortingOrder: "asc",
     numberOfEntries: 10,
-  
 
     // Reload
     reload: 1,
 
     // DOM-Layout Tabelle
-    layout: 'pitr',
+    layout: 'pitr', // pitr
 
-   // Scrolling y
-    yscroll: '500px',
+    // Suche ein-/aus
+    searchswitch: true,
 
-   // Color-Change
+    // Scrolling y
+    yscroll: '602px',
+
+    // Color-Change
     headerColor: '#dadada',
+    headerSortingColor: "#000000",
 
     // Haupt-Farben
-    Haupt_Farbe: "rgba(211, 45, 32, 1)",
+    Haupt_Farbe: 'green', //"rgba(211, 45, 32, 1)",
     Green: '#6CBA6C',
     darkGreen: '#45891B',
     Blue: '#42A8CC',
     darkBlue: '#036E93',
-  
+
     // BG-Farben
     Background_Transparent: "transparent",
     Background_Color_Haupt_opacity: "rgba(211, 45, 32, 0.5)",
-  
+
     // Partei-Farben
-  
+
     cdu_csu_farbe: '#143d4b',
     cdu_farbe: '#162129',
     csu_farbe: '#1782d1',
@@ -42,17 +60,33 @@ let state = {
     dielinke_farbe: '#a00163',
     sonstige_parteien_farbe: '#c5cad0',
     nichtwahler_farbe: '#dce1e0',
-    
 
+    // Suche ein/aus + weitere Optionen
 
-   // Images Options
+    suchfeld: 'pitr',
+    search_column: 'alle',
 
-   imgsize: [100, 150],
+    // Quelle
 
-   // Bar-Chart-Feature
-   bar_switch: true,
-   bar_column: "E", //['D','C'],//'D',//
+    quelle: '',
 
-   };
+    // Images Options
+    imgsize_h: 100,
+    imgsize_w: 100,
 
-   export default state;
+    // Bar-Chart-Feature
+    bar_switch: false,
+    bar_column: '', //'C,D'//'D',//
+    color_balken_negative: '#D82217',
+    color_balken_positive: '#6CBA6C',
+
+    // Negative Bars
+
+    negative_bar: true,
+
+    // Nummerformatierung
+    kommastellen: 2
+
+};
+
+export default state;

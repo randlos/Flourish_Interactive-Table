@@ -1,9 +1,10 @@
 id: tabletom
 name: Flourish_Interactive-Table
 description: Interaktive Tabelle
+version: 1.0.18
 author: Mario Stauber
 sdk_version: 3
-setHeight: 705
+setHeight: 700
 build:
   src:
     script: npm run build
@@ -13,103 +14,142 @@ build:
   less:
     script: npm run less
     directory: less
-
-settings: 
+settings:
   - BEI JEDER ÄNDERUNG BESTÄTIGEN UND BROWSER MIT CMD+R NEU LADEN
-
-  - property: headerColor
-    name: Farbe des Headers ändern (Alle Hex-Codes möglich)
-    description: 
+  - property: schriftgroesse
+    name: Schriftgrösse ändern
     type: string
-
+  - property: zeilenOn
+    name: Zeilen ein/aus
+    description: null
+    type: boolean
+    choices:
+    - [Zeilen an, true]
+    - [Zeilen aus, false]
+  - property: hauptzeile
+    name: Hauptzeile
+    description: null
+    type: string
+    show_if: zeilenOn
+  - property: unterzeile
+    name: Unterzeile
+    description: null
+    type: string
+    show_if: zeilenOn
+  - property: hauptzeilen_font_size
+    name: Zeilen-Schriftgröße (rem oder px)
+    type: string
+    show_if: zeilenOn
+  - property: hauptzeilen_height
+    name: Zeilen-Abstand (rem oder px)
+    type: string
+    show_if: zeilenOn
+  - property: unterzeilen_font_size
+    name: Unterzeilen-Schriftgröße (rem oder px)
+    type: string
+    show_if: zeilenOn
+  - property: unterzeilen_height
+    name: Unterzeilen-Abstand (rem oder px)
+    type: string
+    show_if: zeilenOn
+  - property: headerColor
+    name: Header-Farbe (Hex-Codes)
+    description: null
+    type: string
+  - property: ordering
+    name: Sortierung
+    description: Redaktionelle oder spezifische Sortierung?
+    type: boolean
+    choices: 
+      - [neu definieren, true]
+      - [wie in den Daten, false]
   - property: sortingColumn
-    name: Spalte zur initialen Sortierung
+    name: Spalte zur initialen Sortierung (A,B,C,...,keine)
     description: Nach welcher Spalte soll initial sortiert werden
     type: string
-
+    show_if: ordering
   - property: sortingOrder
     name: Sortierungs-Reihenfolge
     description: Wie soll sortiert werden? Ab- oder Aufsteigend?
     type: string
     choices:
-      - 
-        - Aufsteigend
-        - asc
-      -
-        - Absteigend
-        - desc
-
-  - property: imgsize
-    name: Größe der Bilder einstellen - Höhe, Breite
+      - [Aufsteigend (A-Z), asc]
+      - [Absteigend (Z-A), desc]
+    show_if: ordering
+  - property: search_column
+    name: Such-Spalte (A,B,C,...,alle)
     type: string
-    
-  - property: bar_column
-    name: In welcher Spalte sollen Balken-Charts dargestellt werden
+  - property: kommastellen
+    name: Anzahl der Nachkommastellen
+    type: number
+  - property: imgsize_w
+    name: 'Breite Bild (px)'
     type: string
-  
-  - property: bar_switch
-    name: Balken-Charts ein-/ausschalten
+  - property: imgsize_h
+    name: 'Breite Bild (px)'
+    type: string
+  - property: zusatzoptionen
+    name: Zusatz-Optionen
+    type: boolean
+  - property: searchswitch
+    name: Suchmaske en-/ausblenden
     type: boolean
     choices:
-      -
-        - On
-        - true
-      -
-        - Off
-        - false
-
+      - [Suche ein, true]
+      - [Suche aus, false]
+    show_if: zusatzoptionen
   - property: layout
-    name: Layout für Export
+    name: Export
     description: Layout umschalten für Grafik PNG-Export
     type: string
     choices:
-      -
-        - Standart für Intaraktiv
-        - pitr
-      -
-        - Für Grafik-Export PNG
-        - t
+      - [Interaktiv, pitr]
+      - [statisch, t]
+    show_if: zusatzoptionen
   - property: yscroll
-    name: Höhe der Tabelle ändern (Höhe in Pixeln eingeben)
-    description: für Export als png
+    name: Höhe ändern (inkl. Zeile und Quelle)
+    description: Gesamthöhe inkl. Zeile und Quelle
     type: string
     choices:
-      -
-        - Standart 500px
-        - 500px
-      -
-        - Höher 900px
-        - 900px
+      - ['500px > 20 Einträge', 500px]
+      - ['100% < 20 Einträge', 100%]
     choices_other: true
-
-  # - property: layout
-  #   name: Ein uns Ausschalten von Pagination, Zusatzinfos oder Suche
-  #   type: string
-  #   choices:
-  #     -
-  #       - Standart-Layout für Interaktiv
-  #       - pitr
-  #     - 
-  #       - Layout ohne Zusatzinfos
-  #       - ptr
-  #     -
-  #       - Layout für statischen Grafik-Export (nur Tabelle, ohne Suche)
-  #       - tr
   
+  # Quelle
+  
+  - property: quelle
+    name: Quellentext
+    type: string
 
-  # - Tabelle neu laden
-  # - property: reload
-  #   name: Neu laden
-  #   type: number
-  #   choices:
-  #     -
-  #       - Speichern
-  #       - 1
+  # - Balken
+  
+  - property: bar_switch
+    name: +++ Balken-Charts ein-/ausschalten +++
+    type: boolean
+    choices:
+      - ['Ein', true]
+      - ['Aus', false]
+  
+  - property: bar_column
+    name: In welchen Spalten sollen Balken-Charts dargestellt werden?
+    type: string
+    show_if: bar_switch
+
+  - property: color_balken_positive
+    name: Welche Farbe soll der Balken haben?
+    type: string
+    show_if: bar_switch
+
+  - property: color_balken_negative
+    name: Welche Farbe soll der Balken für negative Werte haben?
+    type: string
+    show_if: bar_switch
+
 
 data:
-   - Data
-   - name: Daten
-     dataset: Data
-     key: values
-     type: columns
-     columns: Data::A-F
+  - Data
+  - name: Daten
+    dataset: Data
+    key: values
+    type: columns
+    columns: 'Data::A-D'
