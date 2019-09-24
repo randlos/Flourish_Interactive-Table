@@ -1,4 +1,3 @@
-import update from "../update";
 import state from "../state";
 import * as transform from "../helper/values";
 import * as stats from "../helper/stats";
