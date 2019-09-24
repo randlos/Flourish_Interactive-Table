@@ -1,375 +1,12 @@
 import state from "./state";
 import data from "./data";
-
-import { numconvert } from './numberConversion.js';
+import * as transform from "./helper/values";
+import * as stats from "./helper/stats";
+import * as options from "./helper/options";
+import * as viz from "./helper/viz";
 
 
 function update() {
-
-
-    // ## Test Documentation
-    /*     function sortingOrderTranlsate(order) {
-        if (state.sortingOrder == "Aufsteigend") {
-            state.sortingOrder = "asc";
-            return state.sortingOrder;
-        }
-    
-        else if (state.sortingOrder == "Absteigend"){
-            state.sortingOrder = "desc";
-            return state.sortingOrder;
-        }
-        else {
-            return state.sortingOrder;
-        }
-
-    } */
-
-    function reloadTable(variable) {
-
-        table.ajax.reload();
-        return variable;
-    }
-
-    let database = data.Data;
-
-    function maxValue(column) {
-        let exp_column = column;
-        let scope_data = database;
-        //console.log(scope_data);
-
-        let dataArray = new Array();
-
-        scope_data.forEach(function(item, index, array) {
-
-            // GET THE LAST ITEM (LAST COLUMN CELL) IN A ARRAY
-            //console.log(item.values.slice(-1)[0], index);
-
-            // Get the active column for bar-charts in Characters, convert it to a number and get the max value of that column
-
-            //console.log("Bar Column: " + exp_column);
-
-            let valueToConsider = getjustnumber(item.values.slice(exp_column)[0]);
-            dataArray.push(valueToConsider);
-            //console.log(valueToConsider)
-
-        });
-
-
-        let maxVal = Math.max.apply(Math, dataArray);
-        //console.log("DataArray: " + dataArray);
-        // console.log("InFunction maxValue: " + maxVal);
-        return maxVal;
-    }
-
-    function minValue(column) {
-
-        let exp_column = column;
-        let scope_data = database;
-
-        let dataArray = new Array();
-
-        scope_data.forEach(function(item, index, array) {
-
-            // GET THE LAST ITEM (LAST COLUMN CELL) IN A ARRAY
-            //console.log(item.values.slice(-1)[0], index);
-
-            // Get the active column for bar-charts in Characters, convert it to a number and get the max value of that column
-
-            //console.log("Bar Column: " + exp_column);
-
-            let valueToConsider = getjustnumber(item.values.slice(exp_column)[0]);
-            dataArray.push(valueToConsider);
-            //console.log(valueToConsider)
-
-        });
-
-
-        let minVal = Math.min.apply(Math, dataArray);
-        //console.log("DataArray: " + dataArray);
-
-        return minVal;
-    }
-
-    // let maxVal = maxValue(3);
-    // console.log("MAX Value 4.Column: " + maxVal);
-
-    //console.log("Max Value: " + maxVal);
-
-    //console.log(data.Data.values[tranlsateSortingAlphaToNumber(state.bar_column]));
-
-    // function balken(data) {
-
-    //     // let chart = d3.select("body")//d3.select("td:nth-last-child(1)")
-    //     // .append("svg")
-    //     // .attr("class", "barchart")
-    //     // .attr("width", "100%")
-    //     // .attr("height", "70%");
-
-
-    //     // let bar = chart.select("g")
-    //     // .data(data)    
-    //     // .enter()
-    //     // .append("g");
-
-
-    //     let bar = d3.append("rect")
-    //     .attr("width", function(d) { return 100/d + "%"}) //function(d) { return (d/(d3.sum(data)))*100 + "%"; } )   // function(d) { return d + "%"})
-    //     .attr("x", "0")
-    //     .attr("y", "50%")
-    //     .attr("height", "80%")
-    //     .attr("fill", "#000");
-    // }
-
-    // function getOrderedColumn(table) {
-    //     let order = table.order();
-    //     //console.log(order);
-    //     return order;
-    // }
-
-
-    function tranlsateSortingAlphaToNumber(alpha) {
-        //console.log(alpha);
-
-        let barchart_column;
-        let columnArray = [];
-
-        let alphaList = [{ number: 1, string: 'A' },
-            { number: 2, string: 'B' },
-            { number: 3, string: 'C' },
-            { number: 4, string: 'D' },
-            { number: 5, string: 'E' },
-            { number: 6, string: 'F' },
-            { number: 7, string: 'G' },
-            { number: 8, string: 'H' },
-            { number: 9, string: 'I' },
-            { number: 10, string: 'J' },
-            { number: 11, string: 'K' },
-            { number: 12, string: 'L' },
-            { number: 13, string: 'M' },
-            { number: 14, string: 'N' },
-            { number: 15, string: 'O' },
-            { number: 16, string: 'P' },
-            { number: 17, string: 'Q' },
-            { number: 18, string: 'R' },
-            { number: 19, string: 'S' },
-            { number: 20, string: 'T' },
-            { number: 21, string: 'U' },
-            { number: 22, string: 'V' },
-            { number: 23, string: 'W' },
-            { number: 24, string: 'X' },
-            { number: 25, string: 'Y' },
-            { number: 26, string: 'Z' }
-        ];
-
-        if (isNaN(alpha)) {
-
-            if (alpha.length > 1) {
-                let state_alpha_list = alpha.split(",");
-                let columnlist = [];
-                for (let j = 0; j < state_alpha_list.length; j++) {
-
-                    for (let i = 0; i < alphaList.length; i++) {
-                        //console.log(state_alpha_list[j], alphaList[i].string);
-
-                        if (state_alpha_list[j] == alphaList[i].string) {
-                            //console.log("Output:" + alphaList[i].number);
-                            columnlist.push(alphaList[i].number - 1);
-                        }
-                    }
-
-                }
-                //console.log(columnlist);
-                //console.log("Type Array" + typeof(columnlist));
-                return columnlist;
-            }
-
-            if (typeof alpha == 'object') {
-                //console.log("Alpha Array? " + typeof alpha);
-
-                for (let key in alpha) {
-                    //console.log(alpha[key]);     
-                    let i;
-                    for (i = 0; i < alphaList.length; i++) {
-                        if (alphaList[i].string == alpha[key]) {
-                            //console.log("Output:" + typeof(alphaList[i].number));
-                            columnArray.push(alphaList[i].number - 1);
-                        };
-                    }
-                }
-                //console.log("Column Array: " + "[" + columnArray + "]");
-                return columnArray;
-            } else {
-                let i;
-                //console.log("alpha-Input: " + alpha);
-                for (i = 0; i < alphaList.length; i++) {
-                    if (alphaList[i].string == alpha) {
-                        //console.log("Output:" + alphaList[i].number);
-                        barchart_column = alphaList[i].number - 1;
-                        //console.log(barchart_column);
-                        return barchart_column;
-                    };
-                };
-            }
-        } else {
-            //console.log(alpha);
-            return alpha;
-        }
-
-
-
-    }
-
-
-    function sortingswitch(sortingColumn, sortingOrder) {
-        if (sortingColumn == 'keine') {
-            return new Array();
-        } else {
-            let column = tranlsateSortingAlphaToNumber(sortingColumn);
-            let output = [column, sortingOrder];
-            return output;
-        }
-    }
-
-    //console.log("Spaltenzahl: " + tranlsateSortingAlphaToNumber(state.bar_column));
-
-
-    function c_names() {
-        let column_data = [];
-        for (var i = 0; i < data.Data.column_names.values.length; i++) {
-            column_data.push({ "title": data.Data.column_names.values[i] });
-        };
-        //console.log(column_data);
-        return column_data;
-    }
-
-    function without_bar(number, data) {
-        let value_array = data.Data[0].values;
-        let key_array = new Array();
-        let column_array = new Array();
-
-        for (let index in value_array) {
-            key_array.push(parseInt(index))
-        }
-
-        if (typeof number == 'number') {
-            number = [number];
-            // console.log(typeof number);
-        }
-
-        // console.log("Number: " + number);
-        // console.log("Value_array: " + value_array.keys());
-        // console.log("Keys Array: " + key_array);
-
-        column_array = key_array.filter(val => !number.includes(val))
-            //console.log(column_array);
-        return column_array;
-    }
-
-    function number_format(data) {
-        if (typeof data == 'string') {
-            return String(data);
-        } else if (Math.abs(data) >= 10000 && Math.abs(data) <= 1000000) {
-            //console.log(thousand(data));
-            return thousand(data);
-        } else if (Math.abs(data) >= 1000000) {
-            return mio(data);
-        } else if (data < 0) {
-            let minus = data.substring(0, 1);
-            let hundreds = data.substring(1, );
-            return minus + " " + hundreds;
-        } else {
-            return data;
-        }
-
-        function thousand(data) {
-            if (data < 0 && Math.abs(data) < 100000) {
-                let thousand_number = data.substring(1, 3);
-                let hundred_number = data.substring(3, 6);
-                return "- " + thousand_number + " " + hundred_number;
-            } else if (data < 0 && Math.abs(data) > 100000) {
-                let thousand_number = data.substring(1, 4);
-                let hundred_number = data.substring(4, 7);
-                return "- " + thousand_number + " " + hundred_number;
-            } else if (data > 0 && Math.abs(data) < 100000) {
-                let thousand_number = data.substring(0, 2);
-                let hundred_number = data.substring(2, 5);
-                return thousand_number + " " + hundred_number;
-            } else {
-                let thousand_number = data.substring(0, 3);
-                let hundred_number = data.substring(3, 6);
-                return thousand_number + " " + hundred_number;
-            }
-
-
-        }
-
-        function mio(data) {
-            //let mio = data.toString();
-            if (data < 0) {
-                let mio_number = data.substring(1, 2);
-                let thousand_number = data.substring(2, 5);
-                let hundred_number = data.substring(5, 8);
-                // console.log(mio_number + " " + thousand_number + " " + hundred_number);
-                return "- " + mio_number + " " + thousand_number + " " + hundred_number;
-            } else {
-                let mio_number = data.substring(0, 1);
-                let thousand_number = data.substring(1, 4);
-                let hundred_number = data.substring(4, 7);
-                return mio_number + " " + thousand_number + " " + hundred_number;
-            }
-
-        }
-    }
-
-    function colorMapBalken(data, minVal, maxVal) {
-
-        let color = d3.scaleLinear()
-            .domain([minVal, maxVal])
-            .interpolate(d3.interpolateHsl)
-            .range(["white", "#D82217"]);
-
-        return color(data);
-
-    }
-
-    function getjustnumber(datavalue) {
-
-
-        if (datavalue.includes(",")) {
-            datavalue = datavalue.replace(",", ".")
-        }
-
-        let number = parseFloat(datavalue);
-
-        // Check if datavalue contains only alphabetic-characters to ensure that the search is working for those columns
-        if (datavalue == getjuststring(datavalue)) {
-            //console.log(datavalue);
-            return datavalue;
-
-            if (datavalue == "keine Angabe") {
-                return 0;
-            }
-        }
-
-
-        return number;
-    }
-
-    function getjuststring(datavalue) {
-        var str = datavalue;
-        var patt = /[A-Za-z$€].*/g;
-        var result = str.match(patt);
-        // console.log(str);
-        // console.log("Result: " + result);
-        return result;
-    }
-
-
-
-    // let colortestdata = [2,4,7,8,14,55,66,99];
-    // console.log(colortestdata.length);
-    // console.log(colorMapBalken(colortestdata));
-
 
     function rm_zeile_height(height) {
 
@@ -378,7 +15,6 @@ function update() {
         let search_height = document.getElementById("search").clientHeight;
         let quelle_height = document.getElementById("quelle").clientHeight;
         let table_height = parseInt(height) - zeilen_height - search_height - quelle_height + "px";
-        //console.log(table_height);
         return table_height;
     }
 
@@ -403,7 +39,11 @@ function update() {
             //     realtime: false,
 
         },
+        'infoCallback': function(settings, start, end, max, total, pre) {
 
+            // Callback to change information on top of table -> in this particular example: show the number of all entries in the table
+            return start + " bis " + end + " von " + transform.number_format(max) + " Einträgen";
+        },
 
         // "drawCallback": function( settings ) {
         //     let api = this.api();
@@ -422,6 +62,17 @@ function update() {
         //     // } );
         // },
         "dom": state.layout,
+        // "infoCallback": function(settings, start, end, max, total, pre) {
+        //     var api = this.api();
+        //     var pageInfo = api.page.info();
+        //     var entriesInfo = api;
+        //     console.log(pageInfo);
+        //     console.log(entriesInfo);
+
+
+
+        //     return 'Page ' + (number_format(pageInfo.page + 1)) + ' of ' + number_format(pageInfo.pages);
+        // },
         // buttons: [
         //     {
         //         extend: 'columnsToggle',
@@ -433,126 +84,19 @@ function update() {
                 "targets": 0,
                 "data": 0,
                 "render": function(data, type, row, meta) {
-                    if (data.indexOf("https://") > -1) {
-                        var img_tag = '<img src="' + data + '"height="' + state.imgsize_h + '"width="' + state.imgsize_w + '">';
-                        //console.log("height: " + state.imgsize[0] + ", width: " + state.imgsize[1]);
-                        return img_tag;
-                    } else {
-                        return data;
-                    }
+                    return viz.show_img(data, type, row, meta);
                 },
             },
             {
-                "targets": without_bar(tranlsateSortingAlphaToNumber(state.bar_column), data),
+                "targets": viz.without_bar(transform.tranlsateSortingAlphaToNumber(state.bar_column), data),
                 "render": function(data, type, row, meta) {
-                    if (type == "display") {
-                        return String(number_format(data));
-                    }
-                    //console.log(getjustnumber(data));
-                    return getjustnumber(data);
+                    return viz.without_viz(data, type, row, meta);
                 }
             },
             {
-                "targets": tranlsateSortingAlphaToNumber(state.bar_column),
+                "targets": transform.tranlsateSortingAlphaToNumber(state.bar_column),
                 "render": function(data, type, row, meta) {
-                    //console.log(state.bar_column);
-                    //console.log(tranlsateSortingAlphaToNumber(state.bar_column));
-                    let maxVal = maxValue(meta.col);
-                    let minVal = minValue(meta.col);
-                    //console.log("MinValue: " + minVal);
-                    let rangeMax = maxVal - minVal;
-                    //console.log("rangeMax: " + rangeMax);
-
-                    // Adjust the max to 100% and distribute to min
-                    let maxNormalize = (Math.abs(getjustnumber(data)) / maxVal) * 100;
-                    // ((data - minVal+1)/rangeMax) * 100 --> Get the difference between the actual data-value and the range to map the data from minValue = 1 (+1) to maxValue = 100 (+1)
-                    let minMaxNormalize_plus = ((Math.abs(getjustnumber(data)) - minVal) / rangeMax) * 90;
-                    let minMaxNoralize_minus = ((Math.abs(getjustnumber(data)) - minVal) / rangeMax) * 53;
-
-
-                    // console.log("input: " + Math.abs(getjustnumber(data)));
-                    //console.log("minVal: " + minVal);
-                    //console.log("output: " + (Math.abs(getjustnumber(data)) - Math.abs(minVal)));
-                    // console.log("____");
-                    // console.log("minMaxNormalized: " + minMaxNormalize_plus);
-                    // console.log("rangeMax: " + rangeMax);
-                    // console.log("____");
-
-
-                    // console.log("maxValue: " + maxVal);
-                    // console.log("minValue: " + minVal);
-                    // console.log("minMaxNoralize: " + minMaxNormalize);
-
-                    //let bar_data = Math.abs(getjustnumber(data));
-
-                    //getjuststring(data);
-
-
-                    //console.log("Max Value in function: " + maxVal);
-                    if (type == "display") {
-                        if (state.bar_switch) { //
-                            if (isNaN(getjustnumber(data))) {
-                                //console.log("data is not a number");
-                                return String(data);
-
-                            } else if (state.negative_bar) {
-                                let pre_bar_container = '<div class="barcont">';
-
-                                let lefttd_start = '<div class="leftbar">';
-                                let lefttd_end = '</div>';
-                                let righttd_start = '<div class="rightbar">';
-                                let righttd_end = '</div>';
-
-
-
-                                let left_content = '<p style="text-align:right;margin:0 4px 0 0;">' + number_format(data) + '</p>';
-                                let right_content = '<p style="text-align:left;margin:0 0 0 4px;">' + number_format(data) + '</p>';
-
-                                // 
-
-                                let right_bar = '<div class="bardiv"> <span class="bar" style="height:19px;margin: 3px 0 0 0;width:' + minMaxNoralize_minus + '%; background: ' + state.color_balken_positive + '"></span></div>';
-                                let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;margin:0;height:20px;margin: 3px 1px 0 0;width:' + minMaxNoralize_minus + '%; background:' + state.color_balken_negative + '"></span></div>';
-
-                                let post_bar_container = '</div>';
-
-
-                                let zerovalue = pre_bar_container + '<p style="text-align: center; margin:0;">' + data + '</p>' + post_bar_container;
-                                let positive = pre_bar_container + lefttd_start + left_content + lefttd_end + righttd_start + right_bar + righttd_end + post_bar_container;
-                                let negative = pre_bar_container + lefttd_start + left_bar + lefttd_end + righttd_start + right_content + righttd_end + post_bar_container;
-
-                                if (getjustnumber(data) < 0) {
-                                    //console.log(Math.abs(getjustnumber(data)));  
-                                    return negative;
-                                } else if (getjustnumber(data) == 0) {
-                                    return zerovalue;
-                                } else {
-                                    return positive
-                                }
-
-
-                            } else {
-                                let pre_bar_container = '<div class="barcont">';
-                                let bartext = '<div class="bartext"><p style="color:#000000">' + data + '</p></div>';
-                                // if (getjustnumber(data) < 0) {
-                                //     let bar = '<div class="bardiv"> <span class="bar" style="height:20px;width:' + rangeMax + '%;background: #DD0000"></span></div>';
-                                // }
-                                //console.log("Test minMaxNormalize" + minMaxNormalize);
-
-                                // BARCHART WITH DIV
-                                let bar = '<div class="bardiv"> <span class="bar" style="lheight:20px;width:' + minMaxNormalize_plus + '%; background:' + state.color_balken_positive + '"></span></div>';
-                                // colorMapBalken(data, minVal, maxVal)  / console.log(maxNormalize);
-                                let post_bar_container = '</div>';
-
-                                return pre_bar_container + bar + bartext + post_bar_container;
-                            }
-                        } else {
-                            return number_format(data);
-                        }
-                    }
-
-                    return getjustnumber(data);
-
-
+                    return viz.barchart(data, type, row, meta);
                 }
 
             }
@@ -561,8 +105,8 @@ function update() {
         "scrollY": rm_zeile_height(state.yscroll),
         //"scrollCollapse": true,
         "pageLength": state.numberOfEntries,
-        "order": sortingswitch(state.sortingColumn, state.sortingOrder), //[tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder],
-        columns: c_names(),
+        "order": options.sortingswitch(state.sortingColumn, state.sortingOrder), //[transform.tranlsateSortingAlphaToNumber(state.sortingColumn), state.sortingOrder],
+        columns: options.c_names(),
         "language": {
             "url": "//cdn.datatables.net/plug-ins/1.10.19/i18n/German.json"
         },
@@ -596,7 +140,7 @@ function update() {
 
             $('#myTable').DataTable().search(this.value).columns(all).draw();
         } else if (count_search_column < 1) {
-            $('#myTable').DataTable().columns(tranlsateSortingAlphaToNumber(state.search_column)).search(this.value).draw();
+            $('#myTable').DataTable().columns(transform.tranlsateSortingAlphaToNumber(state.search_column)).search(this.value).draw();
         } else {
             $('#myTable').DataTable().search(this.value).draw();
 
