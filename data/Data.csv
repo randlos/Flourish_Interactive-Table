@@ -1,10 +1,38 @@
-Spalte A,Spalte B,Spalte C,Spalte D
-https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Farben-Testbild.svg/200px-Farben-Testbild.svg.png,-100,1230,10000
-Die erste Spalte,"200,44 euro/qm",435,20000
-2. Spalte,"200.34 euro/qm",keine Angabe,21212
-Testspalte,"200,87 euro/qm",Hallo Welt, 4353
-Eine weitere,39000,-4000,40000
-Wahrscheinlich 4,-9990,66066,40000
-Könnte Spalte 5 oder 6 sein,-3000,99999,4505
-Eine der letzten,-200 Euro,25258,20000
-Die letzte,1,1000,10000
+Name,Hersteller,Kalorien in kcal,Fett in g
+Race,Ludwig Schokolade GmbH und Co. KG,467.0,19.7
+Choco Bits,Ludwig Schokolade GmbH und Co. KG,452.0,16.3
+Coconut Bits,Ludwig Schokolade GmbH und Co. KG,481.0,24.7
+GET'IT,Ludwig Schokolade GmbH und Co. KG,484.0,23.0
+Crispy Bits,Ludwig Schokolade GmbH und Co. KG,485.0,24.0
+Hazelnut Bits,Ludwig Schokolade GmbH und Co. KG,486.0,25.0
+Peanut Bits,Ludwig Schokolade GmbH und Co. KG,499.0,27.9
+Choco & Caramel,Mister Choc,459.0,20.0
+Peanut & Choco,Mister Choc,500.0,28.0
+Smooth Caramel Bites,Choco Fun,450.0,19.0
+Caramel Choco,Choco Bella,484.0,23.0
+Caramel & Biscuts Bites,Choco Fun,498.0,25.0
+Peanuts & Caramel Bites,Choco Fun,498.0,27.0
+Peanut Choco,Choco Bella,500.0,28.0
+Creamy,Ludwig Schokolade GmbH und Co. KG,459.0,20.0
+Peanuts MINIS,Natra Chocolate International S.L.,504.0,28.0
+SIMBA minis,Natra Chocolate International S.L.,512.0,25.0
+Crack 'n' Snack,HG GmbH,530.0,29.0
+Mars,Mars GmbH,449.0,16.6
+MILKYWAY,MARS GmbH,451.0,17.0
+Snickers,Mars GmbH,481.0,23.0
+Lion White,Nestlé,485.0,22.3
+Bounty,Mars GmbH,487.0,26.0
+Twix,Mars GmbH,492.0,24.0
+Nuts,Nestlé,492.0,24.7
+nutella B-ready,Ferrero,521.0,27.0
+KitKat Einzelriegel Classic 4-Finger-Riegel,Nestlé,521.0,27.6
+Knoppers NussRiegel,Storck,535.0,31.8
+Daim Riegel,Mondelez,536.0,31.0
+Hanuta,Ferrero,542.0,31.9
+Milka und Oreo,Mondelez,548.0,33.0
+Knoppers,Storck,551.0,33.2
+Douplo,Ferrero,555.0,33.5
+Kinder Country,Ferrero,561.0,33.8
+Kinder Riegel,Ferrero,566.0,35.0
+Yogurette,Ferrero,571.0,35.6
+Kinder bueno,Ferrero,-572.0,37.3

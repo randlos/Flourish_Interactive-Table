@@ -43,26 +43,6 @@ function barchart(data, type, row, meta) {
     let minMaxNormalize_plus = ((Math.abs(transform.getjustnumber(data)) - minVal) / rangeMax) * 90;
     let minMaxNoralize_minus = ((Math.abs(transform.getjustnumber(data)) - minVal) / rangeMax) * 53;
 
-
-    // console.log("input: " + Math.abs(getjustnumber(data)));
-    //console.log("minVal: " + minVal);
-    //console.log("output: " + (Math.abs(getjustnumber(data)) - Math.abs(minVal)));
-    // console.log("____");
-    // console.log("minMaxNormalized: " + minMaxNormalize_plus);
-    // console.log("rangeMax: " + rangeMax);
-    // console.log("____");
-
-
-    // console.log("maxValue: " + maxVal);
-    // console.log("minValue: " + minVal);
-    // console.log("minMaxNoralize: " + minMaxNormalize);
-
-    //let bar_data = Math.abs(getjustnumber(data));
-
-    //getjuststring(data);
-
-
-    //console.log("Max Value in function: " + maxVal);
     if (type == "display") {
         if (state.bar_switch) { //
             if (isNaN(transform.getjustnumber(data))) {
@@ -84,8 +64,8 @@ function barchart(data, type, row, meta) {
 
                 // 
 
-                let right_bar = '<div class="bardiv"> <span class="bar" style="height:19px;margin: 3px 0 0 0;width:' + minMaxNoralize_minus + '%; background: ' + state.color_balken_positive + '"></span></div>';
-                let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;margin:0;height:20px;margin: 3px 1px 0 0;width:' + minMaxNoralize_minus + '%; background:' + state.color_balken_negative + '"></span></div>';
+                let right_bar = '<div class="bardiv"> <span class="bar" style="height:19px;width:' + minMaxNoralize_minus + '%; background: ' + state.color_balken_positive + '"></span></div>';
+                let left_bar = '<div class="bardiv"> <span class="bar" style="float:right;height:20px;width:' + minMaxNoralize_minus + '%; background:' + state.color_balken_negative + '"></span></div>';
 
                 let post_bar_container = '</div>';
 

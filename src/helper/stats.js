@@ -2,6 +2,7 @@ import data from "../data";
 import * as transform from "./values";
 
 function maxValue(column) {
+
     let exp_column = column;
     let scope_data = data.Data;
     //console.log(scope_data);
@@ -25,6 +26,7 @@ function maxValue(column) {
 
 
     let maxVal = Math.max.apply(Math, dataArray);
+    // console.log(dataArray);
     //console.log("DataArray: " + dataArray);
     // console.log("InFunction maxValue: " + maxVal);
     return maxVal;

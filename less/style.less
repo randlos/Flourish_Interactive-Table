@@ -309,51 +309,28 @@ table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child, 
 }
 
 table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before {
-  // content: '▸' !important;//'▾' !important;
-	// top: 20px !important;
-	// left: 0px !important;
-	// display: inline !important;
-	// position: absolute !important;
-  // color: @red !important;
-  // width: 0px !important;
-  // height: 0px  !important;
-	// border: 0 !important;
-	// border-radius: 0 !important;
-	// box-shadow: 0 0 0 !important; 
-	// padding: 0 5px 0 5px;
-  // text-align: center;
-  // line-height: 0px !important;
-  // background-color: transparent !important;
-  
-  top: 3px !important;
-  left: 0px !important;
-  padding: 10px;
-  color: transparent !important;
-  display: block;
-  position: absolute;
-  color: none !important;
-  border-radius: 0 !important;
-	text-indent: 0 !important;
-  font-family: sans-serif !important;
-  font-size: 1.2rem !important;
-  line-height: 20px !important;
-  box-shadow: none !important;
-  border: none !important;
-
-  background: url(plus.png) no-repeat!important;
-  transform: scale(0.5);
+  content: '▸' !important;//'▾' !important;
+	top: 20px !important;
+	left: 0px !important;
+	display: inline !important;
+	position: absolute !important;
+  color: @basic !important;
+  width: 0px !important;
+  height: 0px  !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+	box-shadow: 0 0 0 !important; 
+	padding: 0 5px 0 5px;
+  text-align: center;
+  line-height: 0px !important;
+  background-color: transparent !important;
 }
 
 table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::before{
   background: transparent !important;
-  content: '-' !important;
+  content: '▾' !important;
   color: dark !important;
-  font-size: 70px !important;
-  padding: 12px 28px 0 0 !important;
-
-  // top: 15px !important;
-  // left: 7px !important;
-  // transform: rotate(90deg);
+  padding: 0 28px 0 0 !important;
 }
 
 div.dt-buttons {
@@ -403,8 +380,7 @@ div.barcont .bartext p {
   position: relative;
   float: left; 
   width: 48%; 
-  border-right: 1px solid lightgray; 
-  padding: 0px 1px 2px 0;
+  border-right: 1px solid @basiclight; 
   margin: 0;
 
 }
